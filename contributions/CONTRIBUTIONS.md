@@ -24,6 +24,7 @@ A machine-readable copy of this log lives in [`log.jsonl`](log.jsonl).
 
 | Reported | Contributor | Area | Suggestion | Outcome |
 | --- | --- | --- | --- | --- |
+| 2026-07-24 | Duck Man | Adeptus Custodes · army rule | Orks/Custodes army rules look like 10e rules | **Applied (Custodes).** Our Martial Ka'tah was the 10e *Index* version; replaced with the current Codex/11e per-unit stance rule (Dacatarai [SUSTAINED HITS 1] / Rendax [LETHAL HITS]), verified vs Wahapedia 11e + the 11e faction pack. **Orks:** no change — WAAAGH! is unchanged 10e→11e and already matches. (`fdfc770`) |
 | 2026-07-24 | anonymous | Adeptus Astartes · Wulfen | Wulfen stat line is entirely missing (M/Sv/OC/etc. blank) | **Applied.** The 11e datasheet had an empty stat block; filled in M 9", T 6, Sv 4+, W 2, Ld 7+, OC 0. Verified against Wahapedia 11e. (`0e2c76a`) |
 | 2026-07-24 | anonymous | Imperial Knights · Canis Rex | Missing the VEHICLE keyword | **Applied.** Added VEHICLE plus the other missing keywords (WALKER, TITANIC, TOWERING, QUESTORIS). Verified against Wahapedia 11e. (`0e2c76a`) |
 | 2026-07-15 | anonymous | Aeldari · Shining Spears | Shining Spears show an *Aspect Shrine Token* ability they should not have | **Applied.** Verified against the 11e Aeldari faction pack and the library source: both list exactly seven Aspect Warrior squads for that ability, and Shining Spears is in neither. Removed. (`a6a5a58`) |
