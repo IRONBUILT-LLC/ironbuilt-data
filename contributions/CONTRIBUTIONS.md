@@ -24,6 +24,8 @@ A machine-readable copy of this log lives in [`log.jsonl`](log.jsonl).
 
 | Reported | Contributor | Area | Suggestion | Outcome |
 | --- | --- | --- | --- | --- |
+| 2026-07-24 | anonymous | Adeptus Astartes · Wulfen | Wulfen stat line is entirely missing (M/Sv/OC/etc. blank) | **Applied.** The 11e datasheet had an empty stat block; filled in M 9", T 6, Sv 4+, W 2, Ld 7+, OC 0. Verified against Wahapedia 11e. (`0e2c76a`) |
+| 2026-07-24 | anonymous | Imperial Knights · Canis Rex | Missing the VEHICLE keyword | **Applied.** Added VEHICLE plus the other missing keywords (WALKER, TITANIC, TOWERING, QUESTORIS). Verified against Wahapedia 11e. (`0e2c76a`) |
 | 2026-07-15 | anonymous | Aeldari · Shining Spears | Shining Spears show an *Aspect Shrine Token* ability they should not have | **Applied.** Verified against the 11e Aeldari faction pack and the library source: both list exactly seven Aspect Warrior squads for that ability, and Shining Spears is in neither. Removed. (`a6a5a58`) |
 | 2026-07-15 | anonymous | Adeptus Mechanicus · Belisarius Cawl | *Canticles of the Omnissiah* is missing its rules text | **Applied.** The 11e clone had kept only the pointer paragraph and dropped the section it points at. Restored all three canticles from source. (`c1add22`) |
 | 2026-07-15 | anonymous | Adeptus Mechanicus · Cybernetica Datasmith | Cannot attach a Datasmith to a Kastelan Robots unit that already has one | **Applied.** Its rule explicitly permits stacking; a missing space in the source text (`havealready`) stopped the clause parsing. Data typo fixed and the parser taught the "one or more other X models" shape. (`a6a5a58`) |
