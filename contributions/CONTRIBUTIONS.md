@@ -24,6 +24,8 @@ A machine-readable copy of this log lives in [`log.jsonl`](log.jsonl).
 
 | Reported | Contributor | Area | Suggestion | Outcome |
 | --- | --- | --- | --- | --- |
+| 2026-07-24 | anonymous | Tyranids · Trygon (Trygon Prime) | Trygon Prime enhancement's WS/Strength buff not shown on the datasheet | **Applied.** The desc had been reworded and dropped 'characteristics', so the stat-mod parser skipped it. Restored the official pack wording; verified +1 S / WS improved by 1 now applies. (`5c4222c`) |
+| 2026-07-24 | anonymous | Tyranids · Harridan | Movement wrong + missing Hover | **Applied.** Move was '20+"' (a dead 10e Aircraft convention); corrected to 14" and added Hover. Verified vs Wahapedia 11e / 40k.app. (`5c4222c`) |
 | 2026-07-24 | Duck Man | Adeptus Custodes · army rule | Orks/Custodes army rules look like 10e rules | **Applied (Custodes).** Our Martial Ka'tah was the 10e *Index* version; replaced with the current Codex/11e per-unit stance rule (Dacatarai [SUSTAINED HITS 1] / Rendax [LETHAL HITS]), verified vs Wahapedia 11e + the 11e faction pack. **Orks:** no change — WAAAGH! is unchanged 10e→11e and already matches. (`fdfc770`) |
 | 2026-07-24 | anonymous | Adeptus Astartes · Wulfen | Wulfen stat line is entirely missing (M/Sv/OC/etc. blank) | **Applied.** The 11e datasheet had an empty stat block; filled in M 9", T 6, Sv 4+, W 2, Ld 7+, OC 0. Verified against Wahapedia 11e. (`0e2c76a`) |
 | 2026-07-24 | anonymous | Imperial Knights · Canis Rex | Missing the VEHICLE keyword | **Applied.** Added VEHICLE plus the other missing keywords (WALKER, TITANIC, TOWERING, QUESTORIS). Verified against Wahapedia 11e. (`0e2c76a`) |
