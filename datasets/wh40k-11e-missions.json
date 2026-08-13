@@ -4,7 +4,7 @@
   "game": "wh40k",
   "edition": "11e",
   "name": "Warhammer 40,000 - 11th Edition - Missions",
-  "version": "2026.07.14-1628-community",
+  "version": "2026.08.13-smoke-counter",
   "provenance": "Community-derived dataset. Warhammer 40,000 primary and secondary mission rules, names, and scoring are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation for personal use — not affiliated with, licensed by, or endorsed by Games Workshop.",
   "primaries": {
     "note": "DIRECTIONAL: matrix[YOURS][OPPONENTS] gives the first side's primary mission. Each cell: {mission, setup?, score:[{when, items:[{vp,text}]}], action?}.",
@@ -483,7 +483,9 @@
                 },
                 {
                   "vp": "+2",
-                  "text": "for each within enemy territory"
+                  "text": "for each within enemy territory",
+                  "counter": true,
+                  "maxFromItem": 0
                 }
               ]
             },
