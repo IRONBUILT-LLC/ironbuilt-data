@@ -30,10 +30,10 @@
                          "name":  "Warhammer 40,000 - 11th Edition - Missions",
                          "game":  "wh40k",
                          "edition":  "11e",
-                         "version":  "2026.08.18-primary-riders",
+                         "version":  "2026.08.18-score-one",
                          "provenance":  "Community-derived dataset. Warhammer 40,000 primary and secondary mission rules, names, and scoring are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation for personal use - not affiliated with, licensed by, or endorsed by Games Workshop.",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@6e68ead61763f9636596f43d012391990940d535/datasets/wh40k-11e-missions.json",
-                         "sha256":  "202c0e89066a28ccd961ed12d9ef3665e36df039b9e77c140343660d9a34fcd9",
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@1df38e903706354a28da4a385d01cf2dc577ddc5/datasets/wh40k-11e-missions.json",
+                         "sha256":  "3d9f1888ed7c653a00f45778f3c09d6d25c91d88da4900ebab8c162349d5041e",
                          "bytes":  39194
                      },
                      {
