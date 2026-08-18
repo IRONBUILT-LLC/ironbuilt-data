@@ -38,7 +38,8 @@
                 },
                 {
                   "vp": "+2",
-                  "text": "per objective (excl. home) if you control your home objective"
+                  "text": "per objective (excl. home) if you control your home objective",
+                  "maxFromItem": 0
                 }
               ]
             }
@@ -97,7 +98,9 @@
                 },
                 {
                   "vp": "+3",
-                  "text": "for each within enemy territory"
+                  "text": "for each within enemy territory",
+                  "counter": true,
+                  "maxFromItem": 0
                 }
               ]
             }
@@ -378,7 +381,9 @@
                 },
                 {
                   "vp": "+3",
-                  "text": "for each that is an objective"
+                  "text": "for each that is an objective",
+                  "counter": true,
+                  "maxFromItem": 0
                 },
                 {
                   "vp": "3",
@@ -910,7 +915,9 @@
                 },
                 {
                   "vp": "+2",
-                  "text": "for each in range of an objective in enemy territory"
+                  "text": "for each in range of an objective in enemy territory",
+                  "counter": true,
+                  "maxFromItem": 0
                 }
               ]
             },
