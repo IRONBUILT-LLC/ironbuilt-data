@@ -299,11 +299,13 @@
               "items": [
                 {
                   "vp": "3",
-                  "text": "1–2 objectives consecrated"
+                  "text": "1–2 objectives consecrated",
+                  "excl": "consecrated"
                 },
                 {
                   "vp": "6",
-                  "text": "3+ consecrated"
+                  "text": "3+ consecrated",
+                  "excl": "consecrated"
                 }
               ]
             },
@@ -562,11 +564,13 @@
               "items": [
                 {
                   "vp": "3",
-                  "text": "3+ units wholly in 3 different table quarters, not within 6\" of centre"
+                  "text": "3+ units wholly in 3 different table quarters, not within 6\" of centre",
+                  "excl": "quarters"
                 },
                 {
                   "vp": "6",
-                  "text": "4+ units in 4 different quarters"
+                  "text": "4+ units in 4 different quarters",
+                  "excl": "quarters"
                 },
                 {
                   "vp": "1",
@@ -602,15 +606,18 @@
               "items": [
                 {
                   "vp": "3",
-                  "text": "1 objective TRIANGULATED"
+                  "text": "1 objective TRIANGULATED",
+                  "excl": "triangulated"
                 },
                 {
                   "vp": "6",
-                  "text": "2 triangulated"
+                  "text": "2 triangulated",
+                  "excl": "triangulated"
                 },
                 {
                   "vp": "10",
-                  "text": "3+ triangulated"
+                  "text": "3+ triangulated",
+                  "excl": "triangulated"
                 }
               ]
             },
