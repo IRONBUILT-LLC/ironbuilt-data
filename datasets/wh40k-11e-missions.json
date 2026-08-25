@@ -4,7 +4,7 @@
   "game": "wh40k",
   "edition": "11e",
   "name": "Warhammer 40,000 - 11th Edition - Missions",
-  "version": "2026.08.13-smoke-counter",
+  "version": "2026.08.25-inescapable-timing",
   "provenance": "Community-derived dataset. Warhammer 40,000 primary and secondary mission rules, names, and scoring are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation for personal use — not affiliated with, licensed by, or endorsed by Games Workshop.",
   "primaries": {
     "note": "DIRECTIONAL: matrix[YOURS][OPPONENTS] gives the first side's primary mission. Each cell: {mission, setup?, score:[{when, items:[{vp,text}]}], action?}.",
@@ -142,7 +142,7 @@
           "mission": "Inescapable Dominion",
           "score": [
             {
-              "when": "Start of your Command phase",
+              "when": "End of your turn",
               "items": [
                 {
                   "vp": "4",
