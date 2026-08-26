@@ -30,10 +30,10 @@
       "name": "Warhammer 40,000 - 11th Edition - Missions",
       "game": "wh40k",
       "edition": "11e",
-      "version": "2026.08.25-inescapable-timing",
+      "version": "2026.08.25-primary-timing-audit",
       "provenance": "Community-derived dataset. Warhammer 40,000 primary and secondary mission rules, names, and scoring are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation for personal use - not affiliated with, licensed by, or endorsed by Games Workshop.",
-      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cfbb386862850d13d888de76ac6991832efd113b/datasets/wh40k-11e-missions.json",
-      "sha256": "93d0ce8033488501e3bd05da54be2a5a972d0d8b5abb3b005a43ad062f23a001",
+      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@276ae4855b4867ec9334dc75f588b46c28c6e35c/datasets/wh40k-11e-missions.json",
+      "sha256": "c4916cdd6e2cb51a95817251e78f640a37888163b4fa75760ca087d9e4baabd9",
       "bytes": 39194
     },
     {
