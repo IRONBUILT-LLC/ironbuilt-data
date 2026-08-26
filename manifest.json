@@ -41,11 +41,11 @@
                          "name":  "Warhammer 40,000 - 11th Edition - Deployment Maps",
                          "game":  "wh40k",
                          "edition":  "11e",
-                         "version":  "2026.07.14-1628-community",
+                         "version":  "2026.08.26-1101-community",
                          "provenance":  "Community-derived dataset. Deployment layouts transcribed from the Warhammer 40,000 Event Companion. All map layouts and imagery are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation for personal use - not affiliated with, licensed by, or endorsed by Games Workshop.",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@d118d9d38ca07a6159225c6848d1fe86258198d6/datasets/wh40k-11e-maps.json",
-                         "sha256":  "35679129ccf70a69ed659256b56c55d56612d8723df92f969502f50383d70d35",
-                         "bytes":  22658
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@d142325efb6813fbf7b647aa6c3a3e25d0544f74/datasets/wh40k-11e-maps.json",
+                         "sha256":  "58527905c9c6ef3bba8fb2e37e9ce8445c9e9665680c3342ff5243e4b591882d",
+                         "bytes":  20836
                      },
                      {
                          "id":  "wh40k-11e",
