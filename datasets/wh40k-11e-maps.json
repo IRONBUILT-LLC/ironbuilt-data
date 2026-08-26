@@ -1,646 +1,646 @@
 ﻿{
-  "schema": 1,
-  "id": "wh40k-11e-maps",
-  "game": "wh40k",
-  "edition": "11e",
-  "name": "Warhammer 40,000 - 11th Edition - Deployment Maps",
-  "version": "2026.07.14-1628-community",
-  "provenance": "Community-derived dataset. Deployment layouts transcribed from the Warhammer 40,000 Event Companion. All map layouts and imagery are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation for personal use — not affiliated with, licensed by, or endorsed by Games Workshop.",
-  "note": "Deployment layouts from the WH40k Event Companion (pp. 9-53): 15 disposition matchups x 3 layouts (A/B/C). Matchups are stored directionally (attacker/defender) but should be matched unordered. `image` URLs are jsDelivr URLs pinned to commit 09d8c2c.",
-  "key": {
-    "file": "_key.jpg",
-    "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/_key.jpg"
+ "schema": 1,
+ "id": "wh40k-11e-maps",
+ "game": "wh40k",
+ "edition": "11e",
+ "name": "Warhammer 40,000 - 11th Edition - Deployment Maps",
+ "version": "2026.08.26-1101-community",
+ "provenance": "Community-derived dataset. Deployment layouts transcribed from the Warhammer 40,000 Event Companion. All map layouts and imagery are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation for personal use — not affiliated with, licensed by, or endorsed by Games Workshop.",
+ "note": "Deployment layouts from the WH40k Event Companion (pp. 9-53): 15 disposition matchups x 3 layouts (A/B/C). Matchups are stored directionally (attacker/defender) but should be matched unordered. `image` is a pinned CDN URL. Re-extracted from the August 2026 Event Companion after the balance update; matchup/mission/layout mapping verified unchanged against the previous edition, artwork replaced wholesale. Images 1280x1811.",
+ "key": {
+  "file": "_key.jpg",
+  "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/_key.jpg"
+ },
+ "layouts": [
+  {
+   "page": 9,
+   "layout": "A",
+   "attacker": {
+    "disposition": "Take and Hold",
+    "mission": "Battlefield Dominance"
+   },
+   "defender": {
+    "disposition": "Take and Hold",
+    "mission": "Battlefield Dominance"
+   },
+   "file": "take-and-hold__take-and-hold__A.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/take-and-hold__take-and-hold__A.jpg"
   },
-  "layouts": [
-    {
-      "page": 9,
-      "layout": "A",
-      "attacker": {
-        "disposition": "Take and Hold",
-        "mission": "Battlefield Dominance"
-      },
-      "defender": {
-        "disposition": "Take and Hold",
-        "mission": "Battlefield Dominance"
-      },
-      "file": "take-and-hold__take-and-hold__A.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/take-and-hold__take-and-hold__A.jpg"
-    },
-    {
-      "page": 10,
-      "layout": "B",
-      "attacker": {
-        "disposition": "Take and Hold",
-        "mission": "Battlefield Dominance"
-      },
-      "defender": {
-        "disposition": "Take and Hold",
-        "mission": "Battlefield Dominance"
-      },
-      "file": "take-and-hold__take-and-hold__B.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/take-and-hold__take-and-hold__B.jpg"
-    },
-    {
-      "page": 11,
-      "layout": "C",
-      "attacker": {
-        "disposition": "Take and Hold",
-        "mission": "Battlefield Dominance"
-      },
-      "defender": {
-        "disposition": "Take and Hold",
-        "mission": "Battlefield Dominance"
-      },
-      "file": "take-and-hold__take-and-hold__C.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/take-and-hold__take-and-hold__C.jpg"
-    },
-    {
-      "page": 12,
-      "layout": "A",
-      "attacker": {
-        "disposition": "Take and Hold",
-        "mission": "Immovable Object"
-      },
-      "defender": {
-        "disposition": "Purge the Foe",
-        "mission": "Unstoppable Force"
-      },
-      "file": "take-and-hold__purge-the-foe__A.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/take-and-hold__purge-the-foe__A.jpg"
-    },
-    {
-      "page": 13,
-      "layout": "B",
-      "attacker": {
-        "disposition": "Take and Hold",
-        "mission": "Immovable Object"
-      },
-      "defender": {
-        "disposition": "Purge the Foe",
-        "mission": "Unstoppable Force"
-      },
-      "file": "take-and-hold__purge-the-foe__B.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/take-and-hold__purge-the-foe__B.jpg"
-    },
-    {
-      "page": 14,
-      "layout": "C",
-      "attacker": {
-        "disposition": "Take and Hold",
-        "mission": "Immovable Object"
-      },
-      "defender": {
-        "disposition": "Purge the Foe",
-        "mission": "Unstoppable Force"
-      },
-      "file": "take-and-hold__purge-the-foe__C.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/take-and-hold__purge-the-foe__C.jpg"
-    },
-    {
-      "page": 15,
-      "layout": "A",
-      "attacker": {
-        "disposition": "Take and Hold",
-        "mission": "Determined Acquisition"
-      },
-      "defender": {
-        "disposition": "Disruption",
-        "mission": "Death Trap"
-      },
-      "file": "take-and-hold__disruption__A.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/take-and-hold__disruption__A.jpg"
-    },
-    {
-      "page": 16,
-      "layout": "B",
-      "attacker": {
-        "disposition": "Take and Hold",
-        "mission": "Determined Acquisition"
-      },
-      "defender": {
-        "disposition": "Disruption",
-        "mission": "Death Trap"
-      },
-      "file": "take-and-hold__disruption__B.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/take-and-hold__disruption__B.jpg"
-    },
-    {
-      "page": 17,
-      "layout": "C",
-      "attacker": {
-        "disposition": "Take and Hold",
-        "mission": "Determined Acquisition"
-      },
-      "defender": {
-        "disposition": "Disruption",
-        "mission": "Death Trap"
-      },
-      "file": "take-and-hold__disruption__C.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/take-and-hold__disruption__C.jpg"
-    },
-    {
-      "page": 18,
-      "layout": "A",
-      "attacker": {
-        "disposition": "Take and Hold",
-        "mission": "Purge and Secure"
-      },
-      "defender": {
-        "disposition": "Reconnaissance",
-        "mission": "Reconnaissance Sweep"
-      },
-      "file": "take-and-hold__reconnaissance__A.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/take-and-hold__reconnaissance__A.jpg"
-    },
-    {
-      "page": 19,
-      "layout": "B",
-      "attacker": {
-        "disposition": "Take and Hold",
-        "mission": "Purge and Secure"
-      },
-      "defender": {
-        "disposition": "Reconnaissance",
-        "mission": "Reconnaissance Sweep"
-      },
-      "file": "take-and-hold__reconnaissance__B.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/take-and-hold__reconnaissance__B.jpg"
-    },
-    {
-      "page": 20,
-      "layout": "C",
-      "attacker": {
-        "disposition": "Take and Hold",
-        "mission": "Purge and Secure"
-      },
-      "defender": {
-        "disposition": "Reconnaissance",
-        "mission": "Reconnaissance Sweep"
-      },
-      "file": "take-and-hold__reconnaissance__C.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/take-and-hold__reconnaissance__C.jpg"
-    },
-    {
-      "page": 21,
-      "layout": "A",
-      "attacker": {
-        "disposition": "Take and Hold",
-        "mission": "Inescapable Dominion"
-      },
-      "defender": {
-        "disposition": "Priority Assets",
-        "mission": "Secure Asset"
-      },
-      "file": "take-and-hold__priority-assets__A.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/take-and-hold__priority-assets__A.jpg"
-    },
-    {
-      "page": 22,
-      "layout": "B",
-      "attacker": {
-        "disposition": "Take and Hold",
-        "mission": "Inescapable Dominion"
-      },
-      "defender": {
-        "disposition": "Priority Assets",
-        "mission": "Secure Asset"
-      },
-      "file": "take-and-hold__priority-assets__B.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/take-and-hold__priority-assets__B.jpg"
-    },
-    {
-      "page": 23,
-      "layout": "C",
-      "attacker": {
-        "disposition": "Take and Hold",
-        "mission": "Inescapable Dominion"
-      },
-      "defender": {
-        "disposition": "Priority Assets",
-        "mission": "Secure Asset"
-      },
-      "file": "take-and-hold__priority-assets__C.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/take-and-hold__priority-assets__C.jpg"
-    },
-    {
-      "page": 24,
-      "layout": "A",
-      "attacker": {
-        "disposition": "Purge the Foe",
-        "mission": "Meatgrinder"
-      },
-      "defender": {
-        "disposition": "Purge the Foe",
-        "mission": "Meatgrinder"
-      },
-      "file": "purge-the-foe__purge-the-foe__A.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/purge-the-foe__purge-the-foe__A.jpg"
-    },
-    {
-      "page": 25,
-      "layout": "B",
-      "attacker": {
-        "disposition": "Purge the Foe",
-        "mission": "Meatgrinder"
-      },
-      "defender": {
-        "disposition": "Purge the Foe",
-        "mission": "Meatgrinder"
-      },
-      "file": "purge-the-foe__purge-the-foe__B.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/purge-the-foe__purge-the-foe__B.jpg"
-    },
-    {
-      "page": 26,
-      "layout": "C",
-      "attacker": {
-        "disposition": "Purge the Foe",
-        "mission": "Meatgrinder"
-      },
-      "defender": {
-        "disposition": "Purge the Foe",
-        "mission": "Meatgrinder"
-      },
-      "file": "purge-the-foe__purge-the-foe__C.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/purge-the-foe__purge-the-foe__C.jpg"
-    },
-    {
-      "page": 27,
-      "layout": "A",
-      "attacker": {
-        "disposition": "Purge the Foe",
-        "mission": "Punishment"
-      },
-      "defender": {
-        "disposition": "Disruption",
-        "mission": "Delaying Action"
-      },
-      "file": "purge-the-foe__disruption__A.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/purge-the-foe__disruption__A.jpg"
-    },
-    {
-      "page": 28,
-      "layout": "B",
-      "attacker": {
-        "disposition": "Purge the Foe",
-        "mission": "Punishment"
-      },
-      "defender": {
-        "disposition": "Disruption",
-        "mission": "Delaying Action"
-      },
-      "file": "purge-the-foe__disruption__B.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/purge-the-foe__disruption__B.jpg"
-    },
-    {
-      "page": 29,
-      "layout": "C",
-      "attacker": {
-        "disposition": "Purge the Foe",
-        "mission": "Punishment"
-      },
-      "defender": {
-        "disposition": "Disruption",
-        "mission": "Delaying Action"
-      },
-      "file": "purge-the-foe__disruption__C.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/purge-the-foe__disruption__C.jpg"
-    },
-    {
-      "page": 30,
-      "layout": "A",
-      "attacker": {
-        "disposition": "Purge the Foe",
-        "mission": "Consecrate"
-      },
-      "defender": {
-        "disposition": "Reconnaissance",
-        "mission": "Triangulation"
-      },
-      "file": "purge-the-foe__reconnaissance__A.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/purge-the-foe__reconnaissance__A.jpg"
-    },
-    {
-      "page": 31,
-      "layout": "B",
-      "attacker": {
-        "disposition": "Purge the Foe",
-        "mission": "Consecrate"
-      },
-      "defender": {
-        "disposition": "Reconnaissance",
-        "mission": "Triangulation"
-      },
-      "file": "purge-the-foe__reconnaissance__B.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/purge-the-foe__reconnaissance__B.jpg"
-    },
-    {
-      "page": 32,
-      "layout": "C",
-      "attacker": {
-        "disposition": "Purge the Foe",
-        "mission": "Consecrate"
-      },
-      "defender": {
-        "disposition": "Reconnaissance",
-        "mission": "Triangulation"
-      },
-      "file": "purge-the-foe__reconnaissance__C.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/purge-the-foe__reconnaissance__C.jpg"
-    },
-    {
-      "page": 33,
-      "layout": "A",
-      "attacker": {
-        "disposition": "Purge the Foe",
-        "mission": "Destroyer’s Wrath"
-      },
-      "defender": {
-        "disposition": "Priority Assets",
-        "mission": "Vital Link"
-      },
-      "file": "purge-the-foe__priority-assets__A.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/purge-the-foe__priority-assets__A.jpg"
-    },
-    {
-      "page": 34,
-      "layout": "B",
-      "attacker": {
-        "disposition": "Purge the Foe",
-        "mission": "Destroyer’s Wrath"
-      },
-      "defender": {
-        "disposition": "Priority Assets",
-        "mission": "Vital Link"
-      },
-      "file": "purge-the-foe__priority-assets__B.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/purge-the-foe__priority-assets__B.jpg"
-    },
-    {
-      "page": 35,
-      "layout": "C",
-      "attacker": {
-        "disposition": "Purge the Foe",
-        "mission": "Destroyer’s Wrath"
-      },
-      "defender": {
-        "disposition": "Priority Assets",
-        "mission": "Vital Link"
-      },
-      "file": "purge-the-foe__priority-assets__C.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/purge-the-foe__priority-assets__C.jpg"
-    },
-    {
-      "page": 36,
-      "layout": "A",
-      "attacker": {
-        "disposition": "Disruption",
-        "mission": "Outmanoeuvre"
-      },
-      "defender": {
-        "disposition": "Disruption",
-        "mission": "Outmanoeuvre"
-      },
-      "file": "disruption__disruption__A.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/disruption__disruption__A.jpg"
-    },
-    {
-      "page": 37,
-      "layout": "B",
-      "attacker": {
-        "disposition": "Disruption",
-        "mission": "Outmanoeuvre"
-      },
-      "defender": {
-        "disposition": "Disruption",
-        "mission": "Outmanoeuvre"
-      },
-      "file": "disruption__disruption__B.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/disruption__disruption__B.jpg"
-    },
-    {
-      "page": 38,
-      "layout": "C",
-      "attacker": {
-        "disposition": "Disruption",
-        "mission": "Outmanoeuvre"
-      },
-      "defender": {
-        "disposition": "Disruption",
-        "mission": "Outmanoeuvre"
-      },
-      "file": "disruption__disruption__C.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/disruption__disruption__C.jpg"
-    },
-    {
-      "page": 39,
-      "layout": "A",
-      "attacker": {
-        "disposition": "Disruption",
-        "mission": "Smoke and Mirrors"
-      },
-      "defender": {
-        "disposition": "Reconnaissance",
-        "mission": "Surveil the Foe"
-      },
-      "file": "disruption__reconnaissance__A.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/disruption__reconnaissance__A.jpg"
-    },
-    {
-      "page": 40,
-      "layout": "B",
-      "attacker": {
-        "disposition": "Disruption",
-        "mission": "Smoke and Mirrors"
-      },
-      "defender": {
-        "disposition": "Reconnaissance",
-        "mission": "Surveil the Foe"
-      },
-      "file": "disruption__reconnaissance__B.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/disruption__reconnaissance__B.jpg"
-    },
-    {
-      "page": 41,
-      "layout": "C",
-      "attacker": {
-        "disposition": "Disruption",
-        "mission": "Smoke and Mirrors"
-      },
-      "defender": {
-        "disposition": "Reconnaissance",
-        "mission": "Surveil the Foe"
-      },
-      "file": "disruption__reconnaissance__C.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/disruption__reconnaissance__C.jpg"
-    },
-    {
-      "page": 42,
-      "layout": "A",
-      "attacker": {
-        "disposition": "Disruption",
-        "mission": "Locate and Deny"
-      },
-      "defender": {
-        "disposition": "Priority Assets",
-        "mission": "Extract Relic"
-      },
-      "file": "disruption__priority-assets__A.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/disruption__priority-assets__A.jpg"
-    },
-    {
-      "page": 43,
-      "layout": "B",
-      "attacker": {
-        "disposition": "Disruption",
-        "mission": "Locate and Deny"
-      },
-      "defender": {
-        "disposition": "Priority Assets",
-        "mission": "Extract Relic"
-      },
-      "file": "disruption__priority-assets__B.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/disruption__priority-assets__B.jpg"
-    },
-    {
-      "page": 44,
-      "layout": "C",
-      "attacker": {
-        "disposition": "Disruption",
-        "mission": "Locate and Deny"
-      },
-      "defender": {
-        "disposition": "Priority Assets",
-        "mission": "Extract Relic"
-      },
-      "file": "disruption__priority-assets__C.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/disruption__priority-assets__C.jpg"
-    },
-    {
-      "page": 45,
-      "layout": "A",
-      "attacker": {
-        "disposition": "Reconnaissance",
-        "mission": "Gather Intel"
-      },
-      "defender": {
-        "disposition": "Reconnaissance",
-        "mission": "Gather Intel"
-      },
-      "file": "reconnaissance__reconnaissance__A.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/reconnaissance__reconnaissance__A.jpg"
-    },
-    {
-      "page": 46,
-      "layout": "B",
-      "attacker": {
-        "disposition": "Reconnaissance",
-        "mission": "Gather Intel"
-      },
-      "defender": {
-        "disposition": "Reconnaissance",
-        "mission": "Gather Intel"
-      },
-      "file": "reconnaissance__reconnaissance__B.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/reconnaissance__reconnaissance__B.jpg"
-    },
-    {
-      "page": 47,
-      "layout": "C",
-      "attacker": {
-        "disposition": "Reconnaissance",
-        "mission": "Gather Intel"
-      },
-      "defender": {
-        "disposition": "Reconnaissance",
-        "mission": "Gather Intel"
-      },
-      "file": "reconnaissance__reconnaissance__C.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/reconnaissance__reconnaissance__C.jpg"
-    },
-    {
-      "page": 48,
-      "layout": "A",
-      "attacker": {
-        "disposition": "Reconnaissance",
-        "mission": "Search and Scour"
-      },
-      "defender": {
-        "disposition": "Priority Assets",
-        "mission": "Vanguard Operation"
-      },
-      "file": "reconnaissance__priority-assets__A.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/reconnaissance__priority-assets__A.jpg"
-    },
-    {
-      "page": 49,
-      "layout": "B",
-      "attacker": {
-        "disposition": "Reconnaissance",
-        "mission": "Search and Scour"
-      },
-      "defender": {
-        "disposition": "Priority Assets",
-        "mission": "Vanguard Operation"
-      },
-      "file": "reconnaissance__priority-assets__B.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/reconnaissance__priority-assets__B.jpg"
-    },
-    {
-      "page": 50,
-      "layout": "C",
-      "attacker": {
-        "disposition": "Reconnaissance",
-        "mission": "Search and Scour"
-      },
-      "defender": {
-        "disposition": "Priority Assets",
-        "mission": "Vanguard Operation"
-      },
-      "file": "reconnaissance__priority-assets__C.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/reconnaissance__priority-assets__C.jpg"
-    },
-    {
-      "page": 51,
-      "layout": "A",
-      "attacker": {
-        "disposition": "Priority Assets",
-        "mission": "Sabotage"
-      },
-      "defender": {
-        "disposition": "Priority Assets",
-        "mission": "Sabotage"
-      },
-      "file": "priority-assets__priority-assets__A.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/priority-assets__priority-assets__A.jpg"
-    },
-    {
-      "page": 52,
-      "layout": "B",
-      "attacker": {
-        "disposition": "Priority Assets",
-        "mission": "Sabotage"
-      },
-      "defender": {
-        "disposition": "Priority Assets",
-        "mission": "Sabotage"
-      },
-      "file": "priority-assets__priority-assets__B.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/priority-assets__priority-assets__B.jpg"
-    },
-    {
-      "page": 53,
-      "layout": "C",
-      "attacker": {
-        "disposition": "Priority Assets",
-        "mission": "Sabotage"
-      },
-      "defender": {
-        "disposition": "Priority Assets",
-        "mission": "Sabotage"
-      },
-      "file": "priority-assets__priority-assets__C.jpg",
-      "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09d8c2c092dfbd17e34b651ebf72e02319645858/maps/wh40k-11e/priority-assets__priority-assets__C.jpg"
-    }
-  ]
+  {
+   "page": 10,
+   "layout": "B",
+   "attacker": {
+    "disposition": "Take and Hold",
+    "mission": "Battlefield Dominance"
+   },
+   "defender": {
+    "disposition": "Take and Hold",
+    "mission": "Battlefield Dominance"
+   },
+   "file": "take-and-hold__take-and-hold__B.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/take-and-hold__take-and-hold__B.jpg"
+  },
+  {
+   "page": 11,
+   "layout": "C",
+   "attacker": {
+    "disposition": "Take and Hold",
+    "mission": "Battlefield Dominance"
+   },
+   "defender": {
+    "disposition": "Take and Hold",
+    "mission": "Battlefield Dominance"
+   },
+   "file": "take-and-hold__take-and-hold__C.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/take-and-hold__take-and-hold__C.jpg"
+  },
+  {
+   "page": 12,
+   "layout": "A",
+   "attacker": {
+    "disposition": "Take and Hold",
+    "mission": "Immovable Object"
+   },
+   "defender": {
+    "disposition": "Purge the Foe",
+    "mission": "Unstoppable Force"
+   },
+   "file": "take-and-hold__purge-the-foe__A.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/take-and-hold__purge-the-foe__A.jpg"
+  },
+  {
+   "page": 13,
+   "layout": "B",
+   "attacker": {
+    "disposition": "Take and Hold",
+    "mission": "Immovable Object"
+   },
+   "defender": {
+    "disposition": "Purge the Foe",
+    "mission": "Unstoppable Force"
+   },
+   "file": "take-and-hold__purge-the-foe__B.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/take-and-hold__purge-the-foe__B.jpg"
+  },
+  {
+   "page": 14,
+   "layout": "C",
+   "attacker": {
+    "disposition": "Take and Hold",
+    "mission": "Immovable Object"
+   },
+   "defender": {
+    "disposition": "Purge the Foe",
+    "mission": "Unstoppable Force"
+   },
+   "file": "take-and-hold__purge-the-foe__C.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/take-and-hold__purge-the-foe__C.jpg"
+  },
+  {
+   "page": 15,
+   "layout": "A",
+   "attacker": {
+    "disposition": "Take and Hold",
+    "mission": "Determined Acquisition"
+   },
+   "defender": {
+    "disposition": "Disruption",
+    "mission": "Death Trap"
+   },
+   "file": "take-and-hold__disruption__A.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/take-and-hold__disruption__A.jpg"
+  },
+  {
+   "page": 16,
+   "layout": "B",
+   "attacker": {
+    "disposition": "Take and Hold",
+    "mission": "Determined Acquisition"
+   },
+   "defender": {
+    "disposition": "Disruption",
+    "mission": "Death Trap"
+   },
+   "file": "take-and-hold__disruption__B.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/take-and-hold__disruption__B.jpg"
+  },
+  {
+   "page": 17,
+   "layout": "C",
+   "attacker": {
+    "disposition": "Take and Hold",
+    "mission": "Determined Acquisition"
+   },
+   "defender": {
+    "disposition": "Disruption",
+    "mission": "Death Trap"
+   },
+   "file": "take-and-hold__disruption__C.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/take-and-hold__disruption__C.jpg"
+  },
+  {
+   "page": 18,
+   "layout": "A",
+   "attacker": {
+    "disposition": "Take and Hold",
+    "mission": "Purge and Secure"
+   },
+   "defender": {
+    "disposition": "Reconnaissance",
+    "mission": "Reconnaissance Sweep"
+   },
+   "file": "take-and-hold__reconnaissance__A.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/take-and-hold__reconnaissance__A.jpg"
+  },
+  {
+   "page": 19,
+   "layout": "B",
+   "attacker": {
+    "disposition": "Take and Hold",
+    "mission": "Purge and Secure"
+   },
+   "defender": {
+    "disposition": "Reconnaissance",
+    "mission": "Reconnaissance Sweep"
+   },
+   "file": "take-and-hold__reconnaissance__B.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/take-and-hold__reconnaissance__B.jpg"
+  },
+  {
+   "page": 20,
+   "layout": "C",
+   "attacker": {
+    "disposition": "Take and Hold",
+    "mission": "Purge and Secure"
+   },
+   "defender": {
+    "disposition": "Reconnaissance",
+    "mission": "Reconnaissance Sweep"
+   },
+   "file": "take-and-hold__reconnaissance__C.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/take-and-hold__reconnaissance__C.jpg"
+  },
+  {
+   "page": 21,
+   "layout": "A",
+   "attacker": {
+    "disposition": "Take and Hold",
+    "mission": "Inescapable Dominion"
+   },
+   "defender": {
+    "disposition": "Priority Assets",
+    "mission": "Secure Asset"
+   },
+   "file": "take-and-hold__priority-assets__A.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/take-and-hold__priority-assets__A.jpg"
+  },
+  {
+   "page": 22,
+   "layout": "B",
+   "attacker": {
+    "disposition": "Take and Hold",
+    "mission": "Inescapable Dominion"
+   },
+   "defender": {
+    "disposition": "Priority Assets",
+    "mission": "Secure Asset"
+   },
+   "file": "take-and-hold__priority-assets__B.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/take-and-hold__priority-assets__B.jpg"
+  },
+  {
+   "page": 23,
+   "layout": "C",
+   "attacker": {
+    "disposition": "Take and Hold",
+    "mission": "Inescapable Dominion"
+   },
+   "defender": {
+    "disposition": "Priority Assets",
+    "mission": "Secure Asset"
+   },
+   "file": "take-and-hold__priority-assets__C.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/take-and-hold__priority-assets__C.jpg"
+  },
+  {
+   "page": 24,
+   "layout": "A",
+   "attacker": {
+    "disposition": "Purge the Foe",
+    "mission": "Meatgrinder"
+   },
+   "defender": {
+    "disposition": "Purge the Foe",
+    "mission": "Meatgrinder"
+   },
+   "file": "purge-the-foe__purge-the-foe__A.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/purge-the-foe__purge-the-foe__A.jpg"
+  },
+  {
+   "page": 25,
+   "layout": "B",
+   "attacker": {
+    "disposition": "Purge the Foe",
+    "mission": "Meatgrinder"
+   },
+   "defender": {
+    "disposition": "Purge the Foe",
+    "mission": "Meatgrinder"
+   },
+   "file": "purge-the-foe__purge-the-foe__B.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/purge-the-foe__purge-the-foe__B.jpg"
+  },
+  {
+   "page": 26,
+   "layout": "C",
+   "attacker": {
+    "disposition": "Purge the Foe",
+    "mission": "Meatgrinder"
+   },
+   "defender": {
+    "disposition": "Purge the Foe",
+    "mission": "Meatgrinder"
+   },
+   "file": "purge-the-foe__purge-the-foe__C.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/purge-the-foe__purge-the-foe__C.jpg"
+  },
+  {
+   "page": 27,
+   "layout": "A",
+   "attacker": {
+    "disposition": "Purge the Foe",
+    "mission": "Punishment"
+   },
+   "defender": {
+    "disposition": "Disruption",
+    "mission": "Delaying Action"
+   },
+   "file": "purge-the-foe__disruption__A.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/purge-the-foe__disruption__A.jpg"
+  },
+  {
+   "page": 28,
+   "layout": "B",
+   "attacker": {
+    "disposition": "Purge the Foe",
+    "mission": "Punishment"
+   },
+   "defender": {
+    "disposition": "Disruption",
+    "mission": "Delaying Action"
+   },
+   "file": "purge-the-foe__disruption__B.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/purge-the-foe__disruption__B.jpg"
+  },
+  {
+   "page": 29,
+   "layout": "C",
+   "attacker": {
+    "disposition": "Purge the Foe",
+    "mission": "Punishment"
+   },
+   "defender": {
+    "disposition": "Disruption",
+    "mission": "Delaying Action"
+   },
+   "file": "purge-the-foe__disruption__C.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/purge-the-foe__disruption__C.jpg"
+  },
+  {
+   "page": 30,
+   "layout": "A",
+   "attacker": {
+    "disposition": "Purge the Foe",
+    "mission": "Consecrate"
+   },
+   "defender": {
+    "disposition": "Reconnaissance",
+    "mission": "Triangulation"
+   },
+   "file": "purge-the-foe__reconnaissance__A.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/purge-the-foe__reconnaissance__A.jpg"
+  },
+  {
+   "page": 31,
+   "layout": "B",
+   "attacker": {
+    "disposition": "Purge the Foe",
+    "mission": "Consecrate"
+   },
+   "defender": {
+    "disposition": "Reconnaissance",
+    "mission": "Triangulation"
+   },
+   "file": "purge-the-foe__reconnaissance__B.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/purge-the-foe__reconnaissance__B.jpg"
+  },
+  {
+   "page": 32,
+   "layout": "C",
+   "attacker": {
+    "disposition": "Purge the Foe",
+    "mission": "Consecrate"
+   },
+   "defender": {
+    "disposition": "Reconnaissance",
+    "mission": "Triangulation"
+   },
+   "file": "purge-the-foe__reconnaissance__C.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/purge-the-foe__reconnaissance__C.jpg"
+  },
+  {
+   "page": 33,
+   "layout": "A",
+   "attacker": {
+    "disposition": "Purge the Foe",
+    "mission": "Destroyer’s Wrath"
+   },
+   "defender": {
+    "disposition": "Priority Assets",
+    "mission": "Vital Link"
+   },
+   "file": "purge-the-foe__priority-assets__A.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/purge-the-foe__priority-assets__A.jpg"
+  },
+  {
+   "page": 34,
+   "layout": "B",
+   "attacker": {
+    "disposition": "Purge the Foe",
+    "mission": "Destroyer’s Wrath"
+   },
+   "defender": {
+    "disposition": "Priority Assets",
+    "mission": "Vital Link"
+   },
+   "file": "purge-the-foe__priority-assets__B.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/purge-the-foe__priority-assets__B.jpg"
+  },
+  {
+   "page": 35,
+   "layout": "C",
+   "attacker": {
+    "disposition": "Purge the Foe",
+    "mission": "Destroyer’s Wrath"
+   },
+   "defender": {
+    "disposition": "Priority Assets",
+    "mission": "Vital Link"
+   },
+   "file": "purge-the-foe__priority-assets__C.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/purge-the-foe__priority-assets__C.jpg"
+  },
+  {
+   "page": 36,
+   "layout": "A",
+   "attacker": {
+    "disposition": "Disruption",
+    "mission": "Outmanoeuvre"
+   },
+   "defender": {
+    "disposition": "Disruption",
+    "mission": "Outmanoeuvre"
+   },
+   "file": "disruption__disruption__A.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/disruption__disruption__A.jpg"
+  },
+  {
+   "page": 37,
+   "layout": "B",
+   "attacker": {
+    "disposition": "Disruption",
+    "mission": "Outmanoeuvre"
+   },
+   "defender": {
+    "disposition": "Disruption",
+    "mission": "Outmanoeuvre"
+   },
+   "file": "disruption__disruption__B.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/disruption__disruption__B.jpg"
+  },
+  {
+   "page": 38,
+   "layout": "C",
+   "attacker": {
+    "disposition": "Disruption",
+    "mission": "Outmanoeuvre"
+   },
+   "defender": {
+    "disposition": "Disruption",
+    "mission": "Outmanoeuvre"
+   },
+   "file": "disruption__disruption__C.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/disruption__disruption__C.jpg"
+  },
+  {
+   "page": 39,
+   "layout": "A",
+   "attacker": {
+    "disposition": "Disruption",
+    "mission": "Smoke and Mirrors"
+   },
+   "defender": {
+    "disposition": "Reconnaissance",
+    "mission": "Surveil the Foe"
+   },
+   "file": "disruption__reconnaissance__A.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/disruption__reconnaissance__A.jpg"
+  },
+  {
+   "page": 40,
+   "layout": "B",
+   "attacker": {
+    "disposition": "Disruption",
+    "mission": "Smoke and Mirrors"
+   },
+   "defender": {
+    "disposition": "Reconnaissance",
+    "mission": "Surveil the Foe"
+   },
+   "file": "disruption__reconnaissance__B.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/disruption__reconnaissance__B.jpg"
+  },
+  {
+   "page": 41,
+   "layout": "C",
+   "attacker": {
+    "disposition": "Disruption",
+    "mission": "Smoke and Mirrors"
+   },
+   "defender": {
+    "disposition": "Reconnaissance",
+    "mission": "Surveil the Foe"
+   },
+   "file": "disruption__reconnaissance__C.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/disruption__reconnaissance__C.jpg"
+  },
+  {
+   "page": 42,
+   "layout": "A",
+   "attacker": {
+    "disposition": "Disruption",
+    "mission": "Locate and Deny"
+   },
+   "defender": {
+    "disposition": "Priority Assets",
+    "mission": "Extract Relic"
+   },
+   "file": "disruption__priority-assets__A.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/disruption__priority-assets__A.jpg"
+  },
+  {
+   "page": 43,
+   "layout": "B",
+   "attacker": {
+    "disposition": "Disruption",
+    "mission": "Locate and Deny"
+   },
+   "defender": {
+    "disposition": "Priority Assets",
+    "mission": "Extract Relic"
+   },
+   "file": "disruption__priority-assets__B.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/disruption__priority-assets__B.jpg"
+  },
+  {
+   "page": 44,
+   "layout": "C",
+   "attacker": {
+    "disposition": "Disruption",
+    "mission": "Locate and Deny"
+   },
+   "defender": {
+    "disposition": "Priority Assets",
+    "mission": "Extract Relic"
+   },
+   "file": "disruption__priority-assets__C.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/disruption__priority-assets__C.jpg"
+  },
+  {
+   "page": 45,
+   "layout": "A",
+   "attacker": {
+    "disposition": "Reconnaissance",
+    "mission": "Gather Intel"
+   },
+   "defender": {
+    "disposition": "Reconnaissance",
+    "mission": "Gather Intel"
+   },
+   "file": "reconnaissance__reconnaissance__A.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/reconnaissance__reconnaissance__A.jpg"
+  },
+  {
+   "page": 46,
+   "layout": "B",
+   "attacker": {
+    "disposition": "Reconnaissance",
+    "mission": "Gather Intel"
+   },
+   "defender": {
+    "disposition": "Reconnaissance",
+    "mission": "Gather Intel"
+   },
+   "file": "reconnaissance__reconnaissance__B.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/reconnaissance__reconnaissance__B.jpg"
+  },
+  {
+   "page": 47,
+   "layout": "C",
+   "attacker": {
+    "disposition": "Reconnaissance",
+    "mission": "Gather Intel"
+   },
+   "defender": {
+    "disposition": "Reconnaissance",
+    "mission": "Gather Intel"
+   },
+   "file": "reconnaissance__reconnaissance__C.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/reconnaissance__reconnaissance__C.jpg"
+  },
+  {
+   "page": 48,
+   "layout": "A",
+   "attacker": {
+    "disposition": "Reconnaissance",
+    "mission": "Search and Scour"
+   },
+   "defender": {
+    "disposition": "Priority Assets",
+    "mission": "Vanguard Operation"
+   },
+   "file": "reconnaissance__priority-assets__A.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/reconnaissance__priority-assets__A.jpg"
+  },
+  {
+   "page": 49,
+   "layout": "B",
+   "attacker": {
+    "disposition": "Reconnaissance",
+    "mission": "Search and Scour"
+   },
+   "defender": {
+    "disposition": "Priority Assets",
+    "mission": "Vanguard Operation"
+   },
+   "file": "reconnaissance__priority-assets__B.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/reconnaissance__priority-assets__B.jpg"
+  },
+  {
+   "page": 50,
+   "layout": "C",
+   "attacker": {
+    "disposition": "Reconnaissance",
+    "mission": "Search and Scour"
+   },
+   "defender": {
+    "disposition": "Priority Assets",
+    "mission": "Vanguard Operation"
+   },
+   "file": "reconnaissance__priority-assets__C.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/reconnaissance__priority-assets__C.jpg"
+  },
+  {
+   "page": 51,
+   "layout": "A",
+   "attacker": {
+    "disposition": "Priority Assets",
+    "mission": "Sabotage"
+   },
+   "defender": {
+    "disposition": "Priority Assets",
+    "mission": "Sabotage"
+   },
+   "file": "priority-assets__priority-assets__A.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/priority-assets__priority-assets__A.jpg"
+  },
+  {
+   "page": 52,
+   "layout": "B",
+   "attacker": {
+    "disposition": "Priority Assets",
+    "mission": "Sabotage"
+   },
+   "defender": {
+    "disposition": "Priority Assets",
+    "mission": "Sabotage"
+   },
+   "file": "priority-assets__priority-assets__B.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/priority-assets__priority-assets__B.jpg"
+  },
+  {
+   "page": 53,
+   "layout": "C",
+   "attacker": {
+    "disposition": "Priority Assets",
+    "mission": "Sabotage"
+   },
+   "defender": {
+    "disposition": "Priority Assets",
+    "mission": "Sabotage"
+   },
+   "file": "priority-assets__priority-assets__C.jpg",
+   "image": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@cda959e1e26e982aa4070aa31e71f716683ab61c/maps/wh40k-11e/priority-assets__priority-assets__C.jpg"
+  }
+ ]
 }
