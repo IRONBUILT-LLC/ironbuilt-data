@@ -4,7 +4,7 @@
   "game": "wh40k",
   "edition": "11e",
   "name": "Warhammer 40,000 - 11th Edition - Missions",
-  "version": "2026.08.25-inescapable-timing",
+  "version": "2026.08.25-primary-timing-audit",
   "provenance": "Community-derived dataset. Warhammer 40,000 primary and secondary mission rules, names, and scoring are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation for personal use — not affiliated with, licensed by, or endorsed by Games Workshop.",
   "primaries": {
     "note": "DIRECTIONAL: matrix[YOURS][OPPONENTS] gives the first side's primary mission. Each cell: {mission, setup?, score:[{when, items:[{vp,text}]}], action?}.",
@@ -49,7 +49,7 @@
           "mission": "Immovable Object",
           "score": [
             {
-              "when": "Start of your Command phase",
+              "when": "End of your turn",
               "items": [
                 {
                   "vp": "3",
@@ -258,7 +258,7 @@
           "setup": "Start of turn: pick 1–3 enemy units in range of objectives and/or that killed a friendly unit last turn (else any) → CONDEMNED until your next turn.",
           "score": [
             {
-              "when": "End of your turn",
+              "when": "End of a turn (either player)",
               "items": [
                 {
                   "vp": "5",
@@ -441,7 +441,7 @@
           "mission": "Outmanoeuvre",
           "score": [
             {
-              "when": "Start of your Command phase",
+              "when": "End of your turn",
               "items": [
                 {
                   "vp": "10",
@@ -720,17 +720,12 @@
           "mission": "Search and Scour",
           "score": [
             {
-              "when": "Start of your Command phase",
+              "when": "End of your turn",
               "items": [
                 {
                   "vp": "3",
                   "text": "control 1+ central objectives"
-                }
-              ]
-            },
-            {
-              "when": "End of your turn",
-              "items": [
+                },
                 {
                   "vp": "2",
                   "text": "enemy that started in a terrain area killed"
@@ -795,7 +790,7 @@
           "mission": "Vital Link",
           "score": [
             {
-              "when": "Start of your Command phase",
+              "when": "End of your turn",
               "items": [
                 {
                   "vp": "2",
