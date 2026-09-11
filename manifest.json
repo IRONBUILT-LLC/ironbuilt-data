@@ -53,11 +53,11 @@
                          "game":  "wh40k",
                          "edition":  "11e",
                          "schema":  1,
-                         "version":  "2026.09.11-1143-c532a8b",
+                         "version":  "2026.09.11-1445-cadian-composition",
                          "provenance":  "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@23783f565a089288626e31340718b32cd9685642/datasets/wh40k-11e.json",
-                         "sha256":  "0d5ff5bcb18c47a1116c10eaf6ea13b6018ade16974b0d238d70438dcaee7c55",
-                         "bytes":  4012521
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@e486dbe30cf908c08e0be9f1578ab4fce62ac858/datasets/wh40k-11e.json",
+                         "sha256":  "a7c100aa1afb9755d9cbcf6d25c1c9fdf4a19426be86c2945d67e31291619cc6",
+                         "bytes":  4012532
                      }
                  ]
 }
