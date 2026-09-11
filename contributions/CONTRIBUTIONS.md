@@ -52,3 +52,9 @@ A machine-readable copy of this log lives in [`log.jsonl`](log.jsonl).
 
 Four of the nine were closed without a change, and two of those still uncovered real defects
 elsewhere. Both outcomes are contributions.
+
+## 2026-09
+
+| Reported | Contributor | Area | Suggestion | Outcome |
+| --- | --- | --- | --- | --- |
+| 2026-09-11 | anonymous | Astra Militarum · Cadian Command Squad | Count should be one Commander and four Veterans; check standard/plasma swap | **Applied.** Mandatory group minimums corrected to 1 and 4. Saved/imported counts repaired in app without changing wargear. Standard-to-plasma option already present. (`e18ebcd`) |
