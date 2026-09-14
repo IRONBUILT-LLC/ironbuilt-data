@@ -53,11 +53,11 @@
                          "game":  "wh40k",
                          "edition":  "11e",
                          "schema":  1,
-                         "version":  "2026.09.14-1523-f788fdb",
+                         "version":  "2026.09.14-1543-2dc9545",
                          "provenance":  "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@32053c82f4afb37510ee331b7e8378c0ad0c533c/datasets/wh40k-11e.json",
-                         "sha256":  "404d0af6e8acec5f4b640c1ab49b514b2a5b76f83ef33bfa04846ba4b90cad35",
-                         "bytes":  4012827
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@07bf51cb59f6f0834b0c0c9f5f5cf0666df99637/datasets/wh40k-11e.json",
+                         "sha256":  "67b14e366e3a4f1d78a036231a9d1770bd479ae152e6f05ef2f3963bf839d882",
+                         "bytes":  4013163
                      }
                  ]
 }
