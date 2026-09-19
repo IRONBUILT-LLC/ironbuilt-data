@@ -41,11 +41,11 @@
                          "name":  "Warhammer 40,000 - 11th Edition - Deployment Maps",
                          "game":  "wh40k",
                          "edition":  "11e",
-                         "version":  "2026.08.26-1101-community",
-                         "provenance":  "Community-derived dataset. Deployment layouts transcribed from the Warhammer 40,000 Event Companion. All map layouts and imagery are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation for personal use - not affiliated with, licensed by, or endorsed by Games Workshop.",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@d142325efb6813fbf7b647aa6c3a3e25d0544f74/datasets/wh40k-11e-maps.json",
-                         "sha256":  "58527905c9c6ef3bba8fb2e37e9ce8445c9e9665680c3342ff5243e4b591882d",
-                         "bytes":  20836
+                         "version":  "2026.09.19-1445-community",
+                         "provenance":  "Community-derived dataset. Deployment layouts per the Warhammer 40,000 Event Companion. All map layouts and imagery are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation for personal use - not affiliated with, licensed by, or endorsed by Games Workshop.",
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@e1339f4aa5a521f69fdac446da51b79a5e8ce019/datasets/wh40k-11e-maps.json",
+                         "sha256":  "74c15397cb44139e55210ec1d1fbcce9d4c74006fad01060dde994d814ad2417",
+                         "bytes":  20823
                      },
                      {
                          "id":  "wh40k-11e",

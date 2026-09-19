@@ -38,7 +38,7 @@ rules against the highest source that covers the claim.
 | --- | --- | --- | --- |
 | **1** | **Munitorum Field Manual (MFM)** | Points values, Detachment Points, force dispositions, detachment **Unique** tags, borrowed/allied costs | The MFM is the live, most-frequently-updated points/balance document. It supersedes points printed anywhere else. |
 | **2** | **Faction Pack** (official GW 11e faction pack PDF) | Detachments, enhancements, stratagems, army-rule and datasheet **errata**, wargear changes | The edition-current rules layer. Overrides the codex where they differ. Note it only prints rules for the detachments/units *it contains* — absence is not evidence. |
-| **3** | **Wahapedia** | Datasheet stats, keywords, abilities, wargear profiles, unit composition | A faithful, complete transcription of the codex + errata. Use for anything the MFM/pack don't cover (most base datasheet data). Confirm it is showing the **current edition**, not a stale one. |
+| **3** | **Wahapedia** | Datasheet stats, keywords, abilities, wargear profiles, unit composition | A complete reference for the codex and errata. Use for anything the MFM/pack don't cover (most base datasheet data). Confirm it is showing the **current edition**, not a stale one. |
 | **4** | **BSData** (`.cat` catalogues) | Structural detail: option groupings, per-model wargear, min/max counts, keyword lists | Community-maintained and structurally precise, but can lag official updates. Use to resolve *how* something is composed once the *what* is settled by a higher source. |
 
 **Edition check first.** 11th edition launched mid-2026 and many pages still show 10th-edition
