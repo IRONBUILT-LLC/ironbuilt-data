@@ -4,8 +4,8 @@
  "game": "wh40k",
  "edition": "11e",
  "name": "Warhammer 40,000 - 11th Edition - Deployment Maps",
- "version": "2026.08.26-1101-community",
- "provenance": "Community-derived dataset. Deployment layouts transcribed from the Warhammer 40,000 Event Companion. All map layouts and imagery are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation for personal use — not affiliated with, licensed by, or endorsed by Games Workshop.",
+ "version": "2026.09.19-1445-community",
+ "provenance": "Community-derived dataset. Deployment layouts per the Warhammer 40,000 Event Companion. All map layouts and imagery are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation for personal use — not affiliated with, licensed by, or endorsed by Games Workshop.",
  "note": "Deployment layouts from the WH40k Event Companion (pp. 9-53): 15 disposition matchups x 3 layouts (A/B/C). Matchups are stored directionally (attacker/defender) but should be matched unordered. `image` is a pinned CDN URL. Re-extracted from the August 2026 Event Companion after the balance update; matchup/mission/layout mapping verified unchanged against the previous edition, artwork replaced wholesale. Images 1280x1811.",
  "key": {
   "file": "_key.jpg",
