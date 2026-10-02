@@ -56,7 +56,7 @@
       "schema": 1,
       "version": "2026.10.02-0913-222de13c",
       "provenance": "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@3e1890265a63efe4fda07ecd5a84652e1cf960bb/datasets/wh40k-11e.json",
+      "url": "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/3e1890265a63efe4fda07ecd5a84652e1cf960bb/datasets/wh40k-11e.json",
       "sha256": "47b0725981287b3765c84c6834bbea722d840b8bedd5a66e082f4c84a76b4d2a",
       "bytes": 33283149
     }
