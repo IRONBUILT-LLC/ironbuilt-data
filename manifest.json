@@ -1,64 +1,64 @@
 {
-  "schema": 1,
-  "name": "IRONBUILT community datasets",
-  "updated": "2026-10-01",
-  "datasets": [
-    {
-      "id": "gdf-2025",
-      "name": "Grimdark Future",
-      "game": "gdf",
-      "edition": "2025",
-      "version": "2026.07.02-1032-452534a",
-      "provenance": "Community-derived dataset built from OPR (onepagerules.com) Grimdark Future public Battlescribe data. One Page Rules retains all IP rights; use for personal/fan purposes only.",
-      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@8945fdacb01f3e72942bf3ba864857882065a1ef/datasets/gdf-2025.json",
-      "sha256": "b9ec4b8c5176a5fdca4e40516b8a2aa0587bd774e2adbe7ad09cc36cac8a5f27",
-      "bytes": 273412
-    },
-    {
-      "id": "wh40k-11e-missions",
-      "name": "Warhammer 40,000 - 11th Edition - Missions",
-      "game": "wh40k",
-      "edition": "11e",
-      "version": "2026.08.25-primary-timing-audit",
-      "provenance": "Community-derived dataset. Warhammer 40,000 primary and secondary mission rules, names, and scoring are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation for personal use - not affiliated with, licensed by, or endorsed by Games Workshop.",
-      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@276ae4855b4867ec9334dc75f588b46c28c6e35c/datasets/wh40k-11e-missions.json",
-      "sha256": "c4916cdd6e2cb51a95817251e78f640a37888163b4fa75760ca087d9e4baabd9",
-      "bytes": 39194
-    },
-    {
-      "id": "wh40k-11e-maps",
-      "name": "Warhammer 40,000 - 11th Edition - Deployment Maps",
-      "game": "wh40k",
-      "edition": "11e",
-      "version": "2026.09.19-1445-community",
-      "provenance": "Community-derived dataset. Deployment layouts per the Warhammer 40,000 Event Companion. All map layouts and imagery are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation for personal use - not affiliated with, licensed by, or endorsed by Games Workshop.",
-      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@e1339f4aa5a521f69fdac446da51b79a5e8ce019/datasets/wh40k-11e-maps.json",
-      "sha256": "74c15397cb44139e55210ec1d1fbcce9d4c74006fad01060dde994d814ad2417",
-      "bytes": 20823
-    },
-    {
-      "id": "wh40k-10e",
-      "name": "Warhammer 40,000 - 10th Edition",
-      "game": "wh40k",
-      "edition": "10e",
-      "schema": 1,
-      "version": "2026.09.23-0927-29414f77",
-      "provenance": "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@92c6202c4a5deeb4ffbe3ca4abba177387ba04a2/datasets/wh40k-10e.json",
-      "sha256": "0e1416424e11b6a95688506d32333d0d11f76f91dcf48ab3641365bd2071ff00",
-      "bytes": 3826265
-    },
-    {
-      "id": "wh40k-11e",
-      "name": "Warhammer 40,000 - 11th Edition",
-      "game": "wh40k",
-      "edition": "11e",
-      "schema": 1,
-      "version": "2026.10.01-1350-ecb9157c",
-      "provenance": "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@695bb09bbfb616c78d0957831493dd20ed61277f/datasets/wh40k-11e.json",
-      "sha256": "415c5f6f1e6965b084b1d77ea39e8bb952a52d9e3d3bd472f3d8fb0cc28f86ee",
-      "bytes": 10105186
-    }
-  ]
+    "schema":  1,
+    "name":  "IRONBUILT community datasets",
+    "updated":  "2026-10-02",
+    "datasets":  [
+                     {
+                         "id":  "gdf-2025",
+                         "name":  "Grimdark Future",
+                         "game":  "gdf",
+                         "edition":  "2025",
+                         "version":  "2026.07.02-1032-452534a",
+                         "provenance":  "Community-derived dataset built from OPR (onepagerules.com) Grimdark Future public Battlescribe data. One Page Rules retains all IP rights; use for personal/fan purposes only.",
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@8945fdacb01f3e72942bf3ba864857882065a1ef/datasets/gdf-2025.json",
+                         "sha256":  "b9ec4b8c5176a5fdca4e40516b8a2aa0587bd774e2adbe7ad09cc36cac8a5f27",
+                         "bytes":  273412
+                     },
+                     {
+                         "id":  "wh40k-11e-missions",
+                         "name":  "Warhammer 40,000 - 11th Edition - Missions",
+                         "game":  "wh40k",
+                         "edition":  "11e",
+                         "version":  "2026.08.25-primary-timing-audit",
+                         "provenance":  "Community-derived dataset. Warhammer 40,000 primary and secondary mission rules, names, and scoring are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation for personal use - not affiliated with, licensed by, or endorsed by Games Workshop.",
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@276ae4855b4867ec9334dc75f588b46c28c6e35c/datasets/wh40k-11e-missions.json",
+                         "sha256":  "c4916cdd6e2cb51a95817251e78f640a37888163b4fa75760ca087d9e4baabd9",
+                         "bytes":  39194
+                     },
+                     {
+                         "id":  "wh40k-11e-maps",
+                         "name":  "Warhammer 40,000 - 11th Edition - Deployment Maps",
+                         "game":  "wh40k",
+                         "edition":  "11e",
+                         "version":  "2026.09.19-1445-community",
+                         "provenance":  "Community-derived dataset. Deployment layouts per the Warhammer 40,000 Event Companion. All map layouts and imagery are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation for personal use - not affiliated with, licensed by, or endorsed by Games Workshop.",
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@e1339f4aa5a521f69fdac446da51b79a5e8ce019/datasets/wh40k-11e-maps.json",
+                         "sha256":  "74c15397cb44139e55210ec1d1fbcce9d4c74006fad01060dde994d814ad2417",
+                         "bytes":  20823
+                     },
+                     {
+                         "id":  "wh40k-10e",
+                         "name":  "Warhammer 40,000 - 10th Edition",
+                         "game":  "wh40k",
+                         "edition":  "10e",
+                         "schema":  1,
+                         "version":  "2026.09.23-0927-29414f77",
+                         "provenance":  "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@92c6202c4a5deeb4ffbe3ca4abba177387ba04a2/datasets/wh40k-10e.json",
+                         "sha256":  "0e1416424e11b6a95688506d32333d0d11f76f91dcf48ab3641365bd2071ff00",
+                         "bytes":  3826265
+                     },
+                     {
+                         "id":  "wh40k-11e",
+                         "name":  "Warhammer 40,000 - 11th Edition",
+                         "game":  "wh40k",
+                         "edition":  "11e",
+                         "schema":  1,
+                         "version":  "2026.10.02-0849-fc80b9f3",
+                         "provenance":  "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@62308ae9bd85bf6ade5c0bf17e898ebf12efc669/datasets/wh40k-11e.json",
+                         "sha256":  "ae4f8869343093a800c53c10ed3c0be0e319081f7a6a07a54732aef23c500f48",
+                         "bytes":  10106604
+                     }
+                 ]
 }
