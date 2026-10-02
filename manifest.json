@@ -19,11 +19,11 @@
                          "name":  "Warhammer 40,000 - 11th Edition - Missions",
                          "game":  "wh40k",
                          "edition":  "11e",
-                         "version":  "2026.08.25-primary-timing-audit",
+                         "version":  "2026.10.02-triangulation-action",
                          "provenance":  "Community-derived dataset. Warhammer 40,000 primary and secondary mission rules, names, and scoring are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation for personal use - not affiliated with, licensed by, or endorsed by Games Workshop.",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@276ae4855b4867ec9334dc75f588b46c28c6e35c/datasets/wh40k-11e-missions.json",
-                         "sha256":  "c4916cdd6e2cb51a95817251e78f640a37888163b4fa75760ca087d9e4baabd9",
-                         "bytes":  39194
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@967d69dcbca7493095ea0b33198589c0599fc3db/datasets/wh40k-11e-missions.json",
+                         "sha256":  "938ece6534d13c50b9eeafe254ce9c489ab458c5481fb727f6c8e36f7355150d",
+                         "bytes":  39922
                      },
                      {
                          "id":  "wh40k-11e-maps",
