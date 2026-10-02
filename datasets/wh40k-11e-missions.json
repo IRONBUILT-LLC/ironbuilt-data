@@ -4,7 +4,7 @@
   "game": "wh40k",
   "edition": "11e",
   "name": "Warhammer 40,000 - 11th Edition - Missions",
-  "version": "2026.08.25-primary-timing-audit",
+  "version": "2026.10.02-triangulation-action",
   "provenance": "Community-derived dataset. Warhammer 40,000 primary and secondary mission rules, names, and scoring are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation for personal use — not affiliated with, licensed by, or endorsed by Games Workshop.",
   "primaries": {
     "note": "DIRECTIONAL: matrix[YOURS][OPPONENTS] gives the first side's primary mission. Each cell: {mission, setup?, score:[{when, items:[{vp,text}]}], action?}.",
@@ -630,7 +630,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "action": "Triangulate — Shooting phase R2+, once per turn: one unit in range of an objective (excl. home) that has none of your markers. Completes at the end of your turn if that unit controls the objective → place one of your markers in range of it. That objective is now TRIANGULATED, and stays so without you holding it."
         },
         "Disruption": {
           "mission": "Surveil the Foe",
