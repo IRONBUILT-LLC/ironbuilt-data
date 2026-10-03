@@ -61,6 +61,30 @@
                          "bytes":  4954105
                      },
                      {
+                         "id":  "wh40k-11e-mfm14",
+                         "name":  "Warhammer 40,000 - 11th Edition · Early Sept MFM",
+                         "game":  "wh40k",
+                         "edition":  "11e",
+                         "schema":  1,
+                         "version":  "2026.09.29-1610-f9ce862a",
+                         "provenance":  "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop. Locked rules: the 11th Edition dataset as it stood on 29 September 2026 (MFM v1.4, the early September update), before the 30 September balance update. For events that locked their rules then. It never updates.",
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@3aae58d86e32a19cdd22762ca85c57a4f49be36d/datasets/wh40k-11e.json",
+                         "sha256":  "93225a6d9620f5a5bcd84406d60ea4bc51a8624c228fb2d555ebd4a27052997d",
+                         "bytes":  4841630
+                     },
+                     {
+                         "id":  "wh40k-11e-mfm13",
+                         "name":  "Warhammer 40,000 - 11th Edition · Aug 26 MFM",
+                         "game":  "wh40k",
+                         "edition":  "11e",
+                         "schema":  1,
+                         "version":  "2026.09.01-1813-103649b",
+                         "provenance":  "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop. Locked rules: the 11th Edition dataset as it stood on 1 September 2026 (MFM v1.3, the 26 August update), before the early September update. For events that locked their rules then. It never updates.",
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@1c8c87c6a30518566a4f0dcce3202e753304ff98/datasets/wh40k-11e.json",
+                         "sha256":  "180d8cfdf3114fc85558335f8824bf7aa81ea8a47c113e9e0bed325965f62a2f",
+                         "bytes":  3958886
+                     },
+                     {
                          "id":  "wh40k-11e",
                          "name":  "Warhammer 40,000 - 11th Edition",
                          "game":  "wh40k",
