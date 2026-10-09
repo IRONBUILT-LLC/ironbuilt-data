@@ -37,18 +37,6 @@
                          "bytes":  20823
                      },
                      {
-                         "id":  "wh40k-10e",
-                         "name":  "Warhammer 40,000 - 10th Edition",
-                         "game":  "wh40k",
-                         "edition":  "10e",
-                         "schema":  1,
-                         "version":  "2026.09.23-0926-6badd692",
-                         "provenance":  "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@d485ff825f9a5c1b5b06327f2e2d67162e8609a8/datasets/wh40k-10e.json",
-                         "sha256":  "62a51f3dc42482f3c7e007578a4c464fbe74280ed2f2036ea11cb9b91f3be78b",
-                         "bytes":  3826265
-                     },
-                     {
                          "id":  "wh40k-11e-mfm15",
                          "name":  "Warhammer 40,000 - 11th Edition · MFM v1.5 (30 Sep 2026)",
                          "game":  "wh40k",
@@ -122,6 +110,18 @@
                          "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@8bea448c75003d028cfe7d2d7d3ea1207ac48fc5/datasets/wh40k-11e-context.json",
                          "sha256":  "b2fadfb25c31e7f94a847d86c728b2404363f764ae1fb5d4b457c5f1c458eea4",
                          "bytes":  293157
+                     },
+                     {
+                         "id":  "wh40k-10e",
+                         "name":  "Warhammer 40,000 - 10th Edition",
+                         "game":  "wh40k",
+                         "edition":  "10e",
+                         "schema":  1,
+                         "version":  "2026.10.09-1249-3d47834a",
+                         "provenance":  "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@6e9d7781ea83111cd67dad9eb2ad4742c416d01f/datasets/wh40k-10e.json",
+                         "sha256":  "d8ba4f92d571fb1a1663222465def840b7c8f24cbe583000b667a46c906146c0",
+                         "bytes":  3828034
                      }
                  ]
 }
