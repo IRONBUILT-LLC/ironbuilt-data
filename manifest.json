@@ -1,7 +1,7 @@
 {
     "schema":  1,
     "name":  "IRONBUILT community datasets",
-    "updated":  "2026-10-10",
+    "updated":  "2026-10-12",
     "datasets":  [
                      {
                          "id":  "gdf-2025",
@@ -103,11 +103,11 @@
                          "game":  "wh40k",
                          "edition":  "11e",
                          "schema":  1,
-                         "version":  "2026.10.10-1725-2b148e8f",
+                         "version":  "2026.10.12-0819-8b5347a4",
                          "provenance":  "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@2414a23863d96d92993c2b2ac3af7f77ccda8517/datasets/wh40k-11e.json",
-                         "sha256":  "01aff67f8ff6a7b879238b278e4cb7ee0142ef2e52a50bf59a0a35fe7f2c685e",
-                         "bytes":  4962983
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@bfc1d3a4fd766af3a449233085f4e2403e9b2a0d/datasets/wh40k-11e.json",
+                         "sha256":  "18611c17d3a5d3da49bcfc68161e3ab3fc6e3ace5f8a31bca8c0c6b30a8a474d",
+                         "bytes":  4963261
                      },
                      {
                          "id":  "wh40k-11e-legends",
@@ -115,13 +115,13 @@
                          "game":  "wh40k",
                          "edition":  "11e",
                          "schema":  1,
-                         "version":  "2026.10.10-1725-2b148e8f",
+                         "version":  "2026.10.12-0819-8b5347a4",
                          "provenance":  "Reviewed Warhammer Legends datasheets for 11th edition and the Crucible of Champions builder graph. Add-on to the 11th Edition dataset.",
                          "extends":  "wh40k-11e",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@2414a23863d96d92993c2b2ac3af7f77ccda8517/datasets/wh40k-11e-legends.json",
-                         "sha256":  "520b5f7378e7d8ea02c212e29e5840d7aa171f6fcc0a261a1233c63ed2dbb998",
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@bfc1d3a4fd766af3a449233085f4e2403e9b2a0d/datasets/wh40k-11e-legends.json",
+                         "sha256":  "a7b7e71b42fce7f39239c9b3e898e550046f6378aeb530ac55a3ee807c660b49",
                          "bytes":  10114981,
-                         "auditUrl":  "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/2414a23863d96d92993c2b2ac3af7f77ccda8517/datasets/wh40k-11e-legends-audit.json"
+                         "auditUrl":  "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/bfc1d3a4fd766af3a449233085f4e2403e9b2a0d/datasets/wh40k-11e-legends-audit.json"
                      }
                  ]
 }
