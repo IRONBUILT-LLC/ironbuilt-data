@@ -92,7 +92,7 @@
       "schema": 1,
       "version": "2026.10.14-0838-465bf73",
       "provenance": "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09f26b500bcd44156516be346aec801c175c434f/datasets/wh40k-11e.json",
+      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@264502bfc84da457bde5a544bafb45b3e890a5ae/datasets/wh40k-11e.json",
       "sha256": "58ae2ad717c7ec3b70289ff1f4230379bd3d79f8237cb0c62496696fa4433688",
       "bytes": 4965150
     },
@@ -105,10 +105,10 @@
       "version": "2026.10.14-0838-465bf73",
       "provenance": "Reviewed Warhammer Legends datasheets for 11th edition and the Crucible of Champions builder graph. Add-on to the 11th Edition dataset.",
       "extends": "wh40k-11e",
-      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09f26b500bcd44156516be346aec801c175c434f/datasets/wh40k-11e-legends.json",
+      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@264502bfc84da457bde5a544bafb45b3e890a5ae/datasets/wh40k-11e-legends.json",
       "sha256": "2f22231ba82c8a9a240a6c5bb1ab24e71594140b12ede999371b28a5c8b36f96",
       "bytes": 10114980,
-      "auditUrl": "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/09f26b500bcd44156516be346aec801c175c434f/datasets/wh40k-11e-legends-audit.json"
+      "auditUrl": "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/264502bfc84da457bde5a544bafb45b3e890a5ae/datasets/wh40k-11e-legends-audit.json"
     },
     {
       "id": "wh40k-11e-context",
@@ -119,7 +119,7 @@
       "provenance": "Mathhammer context table for IronTable: the detachment rules, army rules, auras, stratagem and enhancement effects IRONBUILT Mathhammer offers, as data. Not a game dataset; IRONBUILT does not offer or install it. Rules names and text are the intellectual property of Games Workshop; unofficial and not endorsed by Games Workshop.",
       "hidden": true,
       "extends": "wh40k-11e",
-      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@09f26b500bcd44156516be346aec801c175c434f/datasets/wh40k-11e-context.json",
+      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@264502bfc84da457bde5a544bafb45b3e890a5ae/datasets/wh40k-11e-context.json",
       "sha256": "859f5d2e867153d42dadf7ecf52243142cc2aec7dae6f2986dd17ea1d7c6e850",
       "bytes": 293640
     }
