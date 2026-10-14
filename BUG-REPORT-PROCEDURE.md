@@ -22,6 +22,12 @@ Every report is worked in this order:
    disagrees.
 3. **Fix** — only if it checks out. Edit the dataset source, rebuild, and republish the bundle.
    If the claim does not hold up, make no change.
+   **Publish from an up-to-date checkout.** Run `git pull --ff-only` in this repo before the build. If the
+   push is refused because the branch moved, never rebase or merge the publish commits: reset to
+   `origin/<branch>`, pull, and run the build again. The manifest pins its download URLs to the bundle
+   commit's sha, so a rebased publish points every download at a commit GitHub never received and the
+   feed 404s (2026-10-14, the dev feed). The publish script now refuses a stale checkout and checks the
+   pushed URLs itself; if it prints `PUBLISH BROKEN`, fix it before anything else.
 4. **Report back to the user** — tell them what was found and what was done: the corrected value,
    the source it was validated against, or the reason it was refused / needs no change.
 5. **Log the contribution** — every validated report (applied *or* not) is appended to the
