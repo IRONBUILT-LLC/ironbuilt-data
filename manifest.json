@@ -90,11 +90,11 @@
                          "game":  "wh40k",
                          "edition":  "11e",
                          "schema":  1,
-                         "version":  "2026.10.15-1410-3e9fd302",
+                         "version":  "2026.10.15-2115-edae6a4f",
                          "provenance":  "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@d3031a48546a417a960ff4941cc37a08c7b385c1/datasets/wh40k-11e.json",
-                         "sha256":  "4cc265524979526e886d6cc9a37852be499cbaec585a6a1e605fffbea1bbd61a",
-                         "bytes":  4965348
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@761b11bd05c8317db87d9c66b59596b5ae7af705/datasets/wh40k-11e.json",
+                         "sha256":  "11a3900512f749d62af793512e1d733a3240ce79af65d2426b43f41360db60c9",
+                         "bytes":  4965761
                      },
                      {
                          "id":  "wh40k-11e-legends",
@@ -102,25 +102,25 @@
                          "game":  "wh40k",
                          "edition":  "11e",
                          "schema":  1,
-                         "version":  "2026.10.15-1410-3e9fd302",
+                         "version":  "2026.10.15-2115-edae6a4f",
                          "provenance":  "Reviewed Warhammer Legends datasheets for 11th edition and the Crucible of Champions builder graph. Add-on to the 11th Edition dataset.",
                          "extends":  "wh40k-11e",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@d3031a48546a417a960ff4941cc37a08c7b385c1/datasets/wh40k-11e-legends.json",
-                         "sha256":  "f01faf3de84a755e3488775e6cb9d6b060b5785057a169958e0d89d48c071a5a",
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@761b11bd05c8317db87d9c66b59596b5ae7af705/datasets/wh40k-11e-legends.json",
+                         "sha256":  "3796aa6eebca1d55d1e808e6c5facc863af01f97f0920d1638c76c52a7919552",
                          "bytes":  10114981,
-                         "auditUrl":  "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/d3031a48546a417a960ff4941cc37a08c7b385c1/datasets/wh40k-11e-legends-audit.json"
+                         "auditUrl":  "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/761b11bd05c8317db87d9c66b59596b5ae7af705/datasets/wh40k-11e-legends-audit.json"
                      },
                      {
                          "id":  "wh40k-11e-context",
                          "name":  "Warhammer 40,000 - 11th Edition - Mathhammer context",
                          "game":  "wh40k",
                          "edition":  "11e",
-                         "version":  "2026.10.15-1410-3e9fd302",
+                         "version":  "2026.10.15-2115-edae6a4f",
                          "provenance":  "Mathhammer context table for IronTable: the detachment rules, army rules, auras, stratagem and enhancement effects IRONBUILT Mathhammer offers, as data. Not a game dataset; IRONBUILT does not offer or install it. Rules names and text are the intellectual property of Games Workshop; unofficial and not endorsed by Games Workshop.",
                          "hidden":  true,
                          "extends":  "wh40k-11e",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@d3031a48546a417a960ff4941cc37a08c7b385c1/datasets/wh40k-11e-context.json",
-                         "sha256":  "8f19ebde5597159ea6c64e4df851cea67ed8807be34fa14642c324f197ab6086",
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@761b11bd05c8317db87d9c66b59596b5ae7af705/datasets/wh40k-11e-context.json",
+                         "sha256":  "ed729724f195670fe113125948cdd39e5d42dd46698ef91194d8c601245dd395",
                          "bytes":  294347
                      }
                  ]
