@@ -103,11 +103,11 @@
                          "game":  "wh40k",
                          "edition":  "11e",
                          "schema":  1,
-                         "version":  "2026.10.17-1018-c349a0bb",
+                         "version":  "2026.10.17-1154-32a05a37",
                          "provenance":  "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@1279795a0e5ec71cbdd07b684238c5178d51d270/datasets/wh40k-11e.json",
-                         "sha256":  "fe7e9d4134fd16f07252cefdbac035a04b99f77aad905d9da6c904f960f6c7c7",
-                         "bytes":  4966304
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@b2da2d818771b75fb38095065bb8d7ac4764c01b/datasets/wh40k-11e.json",
+                         "sha256":  "fc2a49082f0fd032d89668d16b97d766102a09dde8225570ddda31edefdf93fa",
+                         "bytes":  4965914
                      },
                      {
                          "id":  "wh40k-11e-legends",
@@ -115,13 +115,13 @@
                          "game":  "wh40k",
                          "edition":  "11e",
                          "schema":  1,
-                         "version":  "2026.10.17-1018-c349a0bb",
+                         "version":  "2026.10.17-1154-32a05a37",
                          "provenance":  "Reviewed Warhammer Legends datasheets for 11th edition and the Crucible of Champions builder graph. Add-on to the 11th Edition dataset.",
                          "extends":  "wh40k-11e",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@1279795a0e5ec71cbdd07b684238c5178d51d270/datasets/wh40k-11e-legends.json",
-                         "sha256":  "91d5c8f9e7e3d992b80f2a7f36779e6c68291a3f9609eee3d5524160f6beb30d",
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@b2da2d818771b75fb38095065bb8d7ac4764c01b/datasets/wh40k-11e-legends.json",
+                         "sha256":  "fdc81bec7e73eb2d0d0fcb92bf9377b8845585cd9d3d004b431006e42567bc71",
                          "bytes":  10114981,
-                         "auditUrl":  "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/1279795a0e5ec71cbdd07b684238c5178d51d270/datasets/wh40k-11e-legends-audit.json"
+                         "auditUrl":  "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/b2da2d818771b75fb38095065bb8d7ac4764c01b/datasets/wh40k-11e-legends-audit.json"
                      }
                  ]
 }
