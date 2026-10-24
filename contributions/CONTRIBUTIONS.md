@@ -52,3 +52,9 @@ A machine-readable copy of this log lives in [`log.jsonl`](log.jsonl).
 
 Four of the nine were closed without a change, and two of those still uncovered real defects
 elsewhere. Both outcomes are contributions.
+
+## 2026-10
+
+| Reported | Contributor | Area | Suggestion | Outcome |
+| --- | --- | --- | --- | --- |
+| 2026-10-24 | anonymous | Chaos Knights · Titanic Duel | Mathhammer offers Titanic Duel against infantry | **Applied.** The stratagem's target filter (MONSTER or VEHICLE) was missing; added, with the same fix for the Imperial Knights version. (`4245a1f`) |
