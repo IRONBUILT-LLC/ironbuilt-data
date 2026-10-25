@@ -1,7 +1,7 @@
 {
     "schema":  1,
     "name":  "IRONBUILT community datasets",
-    "updated":  "2026-10-24",
+    "updated":  "2026-10-25",
     "datasets":  [
                      {
                          "id":  "gdf-2025",
@@ -103,11 +103,11 @@
                          "game":  "wh40k",
                          "edition":  "11e",
                          "schema":  1,
-                         "version":  "2026.10.24-2201-45a6d154",
+                         "version":  "2026.10.25-0956-20ce7204",
                          "provenance":  "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@c482e5812dabac0bad12e775bed6d06dd48dc9a7/datasets/wh40k-11e.json",
-                         "sha256":  "8e8a08d41719257bb020d5d2d7b9746a09240b903b41439db8d8e66f01baf77c",
-                         "bytes":  4961374
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@f6b62b6d8ada0017ee3a4a7e1dad69c651c31e2a/datasets/wh40k-11e.json",
+                         "sha256":  "a966725688743f3d3a3c222cf56915bf016941b37fc333f5d84b621587294da0",
+                         "bytes":  4961362
                      },
                      {
                          "id":  "wh40k-11e-legends",
@@ -115,13 +115,13 @@
                          "game":  "wh40k",
                          "edition":  "11e",
                          "schema":  1,
-                         "version":  "2026.10.24-2201-45a6d154",
+                         "version":  "2026.10.25-0956-20ce7204",
                          "provenance":  "Reviewed Warhammer Legends datasheets for 11th edition and the Crucible of Champions builder graph. Add-on to the 11th Edition dataset.",
                          "extends":  "wh40k-11e",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@c482e5812dabac0bad12e775bed6d06dd48dc9a7/datasets/wh40k-11e-legends.json",
-                         "sha256":  "ab93a08888bbb6402ef763137ff5a66d84a902a9ebedbd988979da1ef8042a4a",
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@f6b62b6d8ada0017ee3a4a7e1dad69c651c31e2a/datasets/wh40k-11e-legends.json",
+                         "sha256":  "4ed1396081aa29fe559c3300e711e5ba7037a1d710da2f32650822cab9712650",
                          "bytes":  10118275,
-                         "auditUrl":  "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/c482e5812dabac0bad12e775bed6d06dd48dc9a7/datasets/wh40k-11e-legends-audit.json"
+                         "auditUrl":  "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/f6b62b6d8ada0017ee3a4a7e1dad69c651c31e2a/datasets/wh40k-11e-legends-audit.json"
                      },
                      {
                          "id":  "wh40k-11e-titans",
@@ -129,11 +129,11 @@
                          "game":  "wh40k",
                          "edition":  "11e",
                          "schema":  1,
-                         "version":  "2026.10.24-2201-45a6d154",
+                         "version":  "2026.10.25-0956-20ce7204",
                          "provenance":  "Titan datasheets for 11th edition (Adeptus Titanicus and Titanicus Traitoris). Add-on to the 11th Edition dataset, loaded only when Titans are switched on in Settings.",
                          "extends":  "wh40k-11e",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@c482e5812dabac0bad12e775bed6d06dd48dc9a7/datasets/wh40k-11e-titans.json",
-                         "sha256":  "874b39519936443e2e5a3966e25a94d6fa49aa267c34459b3fe36ec7e4abfc11",
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@f6b62b6d8ada0017ee3a4a7e1dad69c651c31e2a/datasets/wh40k-11e-titans.json",
+                         "sha256":  "6adf993b2080ba4d9539b72976903fd7217ca327c411387e9961489dde3051d0",
                          "bytes":  55534
                      }
                  ]
