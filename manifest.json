@@ -1,7 +1,7 @@
 {
     "schema":  1,
     "name":  "IRONBUILT community datasets",
-    "updated":  "2026-10-24",
+    "updated":  "2026-10-25",
     "datasets":  [
                      {
                          "id":  "gdf-2025",
@@ -90,11 +90,11 @@
                          "game":  "wh40k",
                          "edition":  "11e",
                          "schema":  1,
-                         "version":  "2026.10.24-2208-c75e8d10",
+                         "version":  "2026.10.25-1028-f4b84373",
                          "provenance":  "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@2cd8a97988129053a246b0012580d6ed9c112a31/datasets/wh40k-11e.json",
-                         "sha256":  "25ba70cac27a63b8fa2be01c00e61228b0124a488db03d3201227c837f6077fa",
-                         "bytes":  4961374
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@e1ce32b575fec0ebec6ab42c86246c45a68c5f75/datasets/wh40k-11e.json",
+                         "sha256":  "ffedf173941b18518d7d77491116c40b5afe2d2bf62775b28e4cbad31339baf6",
+                         "bytes":  4961362
                      },
                      {
                          "id":  "wh40k-11e-legends",
@@ -102,13 +102,13 @@
                          "game":  "wh40k",
                          "edition":  "11e",
                          "schema":  1,
-                         "version":  "2026.10.24-2208-c75e8d10",
+                         "version":  "2026.10.25-1028-f4b84373",
                          "provenance":  "Reviewed Warhammer Legends datasheets for 11th edition and the Crucible of Champions builder graph. Add-on to the 11th Edition dataset.",
                          "extends":  "wh40k-11e",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@2cd8a97988129053a246b0012580d6ed9c112a31/datasets/wh40k-11e-legends.json",
-                         "sha256":  "be74c8f98e6aa157ee3c79aa1f69262c36b0989d3e026b18514c84f7c129bd03",
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@e1ce32b575fec0ebec6ab42c86246c45a68c5f75/datasets/wh40k-11e-legends.json",
+                         "sha256":  "e304d66891a4851ce49bd9d5372e03ea290248da8c0fb2eea4257b4e8ada210c",
                          "bytes":  10118275,
-                         "auditUrl":  "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/2cd8a97988129053a246b0012580d6ed9c112a31/datasets/wh40k-11e-legends-audit.json"
+                         "auditUrl":  "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/e1ce32b575fec0ebec6ab42c86246c45a68c5f75/datasets/wh40k-11e-legends-audit.json"
                      },
                      {
                          "id":  "wh40k-11e-titans",
@@ -116,11 +116,11 @@
                          "game":  "wh40k",
                          "edition":  "11e",
                          "schema":  1,
-                         "version":  "2026.10.24-2208-c75e8d10",
+                         "version":  "2026.10.25-1028-f4b84373",
                          "provenance":  "Titan datasheets for 11th edition (Adeptus Titanicus and Titanicus Traitoris). Add-on to the 11th Edition dataset, loaded only when Titans are switched on in Settings.",
                          "extends":  "wh40k-11e",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@2cd8a97988129053a246b0012580d6ed9c112a31/datasets/wh40k-11e-titans.json",
-                         "sha256":  "8c45ba8dff9929a09bd6245c4fb102c7ef77a31cb9abfa874136aeca0ab184ec",
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@e1ce32b575fec0ebec6ab42c86246c45a68c5f75/datasets/wh40k-11e-titans.json",
+                         "sha256":  "dbb875f48182419c28c8668e9cba033b35b9079a9e02cdb80f4b41995de08cfe",
                          "bytes":  55534
                      },
                      {
@@ -128,12 +128,12 @@
                          "name":  "Warhammer 40,000 - 11th Edition - Mathhammer context",
                          "game":  "wh40k",
                          "edition":  "11e",
-                         "version":  "2026.10.24-2208-c75e8d10",
+                         "version":  "2026.10.25-1028-f4b84373",
                          "provenance":  "Mathhammer context table for IronTable: the detachment rules, army rules, auras, stratagem and enhancement effects IRONBUILT Mathhammer offers, as data. Not a game dataset; IRONBUILT does not offer or install it. Rules names and text are the intellectual property of Games Workshop; unofficial and not endorsed by Games Workshop.",
                          "hidden":  true,
                          "extends":  "wh40k-11e",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@2cd8a97988129053a246b0012580d6ed9c112a31/datasets/wh40k-11e-context.json",
-                         "sha256":  "b6cd5d747bc104185d2faf093206ad50e7dbfb7e852d4b5c794380a56557fccf",
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@e1ce32b575fec0ebec6ab42c86246c45a68c5f75/datasets/wh40k-11e-context.json",
+                         "sha256":  "b2d8787e19f045dd33b603e4fca49008ae2be938ad0c4fcdac002843187aa4e2",
                          "bytes":  298178
                      }
                  ]
