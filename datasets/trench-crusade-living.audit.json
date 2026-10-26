@@ -1,0 +1,18 @@
+{
+  "id": "trench-crusade-living",
+  "version": "2026.10.25-57a329bb",
+  "sourceRevision": "57a329bb2f5c2b579608c95252aa1f6c7f9ab069",
+  "factions": [
+    "Black Grail",
+    "Court of the Seven-Headed Serpent",
+    "Heretic Legion",
+    "Heretic Naval Raiders",
+    "Iron Sultanate",
+    "New Antioch",
+    "Procession of the Sacred Affliction",
+    "Trench Pilgrims"
+  ],
+  "files": 14,
+  "bytes": 4857056,
+  "sha256": "c13c8a42c1a508f84bf4d172d071255c86204579b78f8f7ad4bbfd691d773807"
+}
