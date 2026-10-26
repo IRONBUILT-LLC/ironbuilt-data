@@ -98,16 +98,30 @@
                          "bytes":  293640
                      },
                      {
+                         "id":  "trench-crusade-living",
+                         "version":  "2026.10.25-57a329bb",
+                         "bytes":  4857056,
+                         "sha256":  "c13c8a42c1a508f84bf4d172d071255c86204579b78f8f7ad4bbfd691d773807",
+                         "name":  "Trench Crusade",
+                         "game":  "trench-crusade",
+                         "edition":  "living-rules",
+                         "schema":  1,
+                         "kind":  "catalogue-system",
+                         "devOnly":  true,
+                         "provenance":  "Unofficial community-derived Trench Crusade data. Eight warbands, shared weapons, battlekits and mercenaries. One-off warband builder; campaign play is not supported.",
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@459b07c813423b03c599fccca06778769d151256/datasets/trench-crusade-living.json"
+                     },
+                     {
                          "id":  "wh40k-11e",
                          "name":  "Warhammer 40,000 - 11th Edition",
                          "game":  "wh40k",
                          "edition":  "11e",
                          "schema":  1,
-                         "version":  "2026.10.25-0956-20ce7204",
+                         "version":  "2026.10.25-1944-648b41ab",
                          "provenance":  "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@f6b62b6d8ada0017ee3a4a7e1dad69c651c31e2a/datasets/wh40k-11e.json",
-                         "sha256":  "a966725688743f3d3a3c222cf56915bf016941b37fc333f5d84b621587294da0",
-                         "bytes":  4961362
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@32d9d41a2d9fbc867a1fcc09859747d26153a514/datasets/wh40k-11e.json",
+                         "sha256":  "87c4e71fddcf0e244e2de0ce48a838409560d6082846aaefa423d7ea592c2c9e",
+                         "bytes":  4961580
                      },
                      {
                          "id":  "wh40k-11e-legends",
@@ -115,13 +129,13 @@
                          "game":  "wh40k",
                          "edition":  "11e",
                          "schema":  1,
-                         "version":  "2026.10.25-0956-20ce7204",
+                         "version":  "2026.10.25-1944-648b41ab",
                          "provenance":  "Reviewed Warhammer Legends datasheets for 11th edition and the Crucible of Champions builder graph. Add-on to the 11th Edition dataset.",
                          "extends":  "wh40k-11e",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@f6b62b6d8ada0017ee3a4a7e1dad69c651c31e2a/datasets/wh40k-11e-legends.json",
-                         "sha256":  "4ed1396081aa29fe559c3300e711e5ba7037a1d710da2f32650822cab9712650",
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@32d9d41a2d9fbc867a1fcc09859747d26153a514/datasets/wh40k-11e-legends.json",
+                         "sha256":  "2331eeb9c7c9bdb4c3262e7f807885014ae0f72f1fd049e5f55d8e6f4e97be47",
                          "bytes":  10118275,
-                         "auditUrl":  "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/f6b62b6d8ada0017ee3a4a7e1dad69c651c31e2a/datasets/wh40k-11e-legends-audit.json"
+                         "auditUrl":  "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/32d9d41a2d9fbc867a1fcc09859747d26153a514/datasets/wh40k-11e-legends-audit.json"
                      },
                      {
                          "id":  "wh40k-11e-titans",
@@ -129,26 +143,12 @@
                          "game":  "wh40k",
                          "edition":  "11e",
                          "schema":  1,
-                         "version":  "2026.10.25-0956-20ce7204",
+                         "version":  "2026.10.25-1944-648b41ab",
                          "provenance":  "Titan datasheets for 11th edition (Adeptus Titanicus and Titanicus Traitoris). Add-on to the 11th Edition dataset, loaded only when Titans are switched on in Settings.",
                          "extends":  "wh40k-11e",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@f6b62b6d8ada0017ee3a4a7e1dad69c651c31e2a/datasets/wh40k-11e-titans.json",
-                         "sha256":  "6adf993b2080ba4d9539b72976903fd7217ca327c411387e9961489dde3051d0",
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@32d9d41a2d9fbc867a1fcc09859747d26153a514/datasets/wh40k-11e-titans.json",
+                         "sha256":  "d9ae65a6498099d23d669d4c2b320467fee490dabba7667bb72f82f4615eacc3",
                          "bytes":  55534
-                     },
-{
-  "id": "trench-crusade-living",
-  "version": "2026.10.25-57a329bb",
-  "bytes": 4857056,
-  "sha256": "c13c8a42c1a508f84bf4d172d071255c86204579b78f8f7ad4bbfd691d773807",
-  "name": "Trench Crusade",
-  "game": "trench-crusade",
-  "edition": "living-rules",
-  "schema": 1,
-  "kind": "catalogue-system",
-  "devOnly": true,
-  "provenance": "Unofficial community-derived Trench Crusade data. Eight warbands, shared weapons, battlekits and mercenaries. One-off warband builder; campaign play is not supported.",
-  "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@459b07c813423b03c599fccca06778769d151256/datasets/trench-crusade-living.json"
-}
-]
+                     }
+                 ]
 }
