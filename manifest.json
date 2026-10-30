@@ -117,11 +117,11 @@
                          "game":  "wh40k",
                          "edition":  "11e",
                          "schema":  1,
-                         "version":  "2026.10.30-0952-814b8d27",
+                         "version":  "2026.10.30-1348-286f23f3",
                          "provenance":  "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@07cfc3b85db4e33d874c1d558c84aebe8a9cdf99/datasets/wh40k-11e.json",
-                         "sha256":  "3f2a0a2c5b71f31c51f2ec411062c25a6ef2e24445e4be11970e420498ab37b5",
-                         "bytes":  4962725
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@3a789098e72ff8552af9b5407b63f25c8e63bac4/datasets/wh40k-11e.json",
+                         "sha256":  "bef8b430df09e019d007867c721258f268ac81df788db58753517d569bb1b715",
+                         "bytes":  4962937
                      },
                      {
                          "id":  "wh40k-11e-legends",
@@ -129,13 +129,13 @@
                          "game":  "wh40k",
                          "edition":  "11e",
                          "schema":  1,
-                         "version":  "2026.10.30-0952-814b8d27",
+                         "version":  "2026.10.30-1348-286f23f3",
                          "provenance":  "Reviewed Warhammer Legends datasheets for 11th edition and the Crucible of Champions builder graph. Add-on to the 11th Edition dataset.",
                          "extends":  "wh40k-11e",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@07cfc3b85db4e33d874c1d558c84aebe8a9cdf99/datasets/wh40k-11e-legends.json",
-                         "sha256":  "a34e946b3a35262fcc45ae13ad04df06e812fe944fb323ae1b7c996c220684d9",
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@3a789098e72ff8552af9b5407b63f25c8e63bac4/datasets/wh40k-11e-legends.json",
+                         "sha256":  "b11c41c30b712b2742fa345bbc54af9eeff35d28aa36ba80b7693e1d33cbfa94",
                          "bytes":  11812931,
-                         "auditUrl":  "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/07cfc3b85db4e33d874c1d558c84aebe8a9cdf99/datasets/wh40k-11e-legends-audit.json"
+                         "auditUrl":  "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/3a789098e72ff8552af9b5407b63f25c8e63bac4/datasets/wh40k-11e-legends-audit.json"
                      },
                      {
                          "id":  "wh40k-11e-titans",
@@ -143,11 +143,11 @@
                          "game":  "wh40k",
                          "edition":  "11e",
                          "schema":  1,
-                         "version":  "2026.10.30-0952-814b8d27",
+                         "version":  "2026.10.30-1348-286f23f3",
                          "provenance":  "Titan datasheets for 11th edition (Adeptus Titanicus and Titanicus Traitoris). Add-on to the 11th Edition dataset, loaded only when Titans are switched on in Settings.",
                          "extends":  "wh40k-11e",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@07cfc3b85db4e33d874c1d558c84aebe8a9cdf99/datasets/wh40k-11e-titans.json",
-                         "sha256":  "2ee663aad64b5583f42be44a12344ff24577efa6c20459cff303bf3f2ead8499",
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@3a789098e72ff8552af9b5407b63f25c8e63bac4/datasets/wh40k-11e-titans.json",
+                         "sha256":  "196351de573686b1e067a08dfe2304973c57240993aaf12e85b9d5fc69b7e2a5",
                          "bytes":  55534
                      }
                  ]
