@@ -90,11 +90,11 @@
                          "game":  "wh40k",
                          "edition":  "11e",
                          "schema":  1,
-                         "version":  "2026.10.31-1022-e3276849",
+                         "version":  "2026.10.31-artemis-prod-d4060f60",
                          "provenance":  "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@1ea32e5509b0fc27e689aeafad1404d898ae90fd/datasets/wh40k-11e.json",
-                         "sha256":  "e75088892d9f213ffee1dc742644d9445056038eec95e9d1118040dd2c9a971f",
-                         "bytes":  4962937
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@400d59ae11a79132554fc4f173de527d4db442f5/datasets/wh40k-11e.json",
+                         "sha256":  "6b96376f066961bd4e491a4bd6cca3e5c8cc433715a774bb267d584bba47b8fb",
+                         "bytes":  4962800
                      },
                      {
                          "id":  "wh40k-11e-legends",
