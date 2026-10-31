@@ -58,3 +58,7 @@ elsewhere. Both outcomes are contributions.
 | Reported | Contributor | Area | Suggestion | Outcome |
 | --- | --- | --- | --- | --- |
 | 2026-09-11 | anonymous | Astra Militarum · Cadian Command Squad | Count should be one Commander and four Veterans; check standard/plasma swap | **Applied.** Mandatory group minimums corrected to 1 and 4. Saved/imported counts repaired in app without changing wargear. Standard-to-plasma option already present. (`e18ebcd`) |
+
+## 2026-10-31 — Imperial Agents Artemis current profile
+
+Anonymous community report verified against the supplied current datasheet screenshot and the explicitly titled 11e Imperial Agents reference. Corrected T5, melee S6, Hellfire A3, 75 points, Sustained Hits 1 and the three-wound return. Only this Agents entry changed; current Daily scoring and other variants remain fixed. App source: [d4060f60](https://github.com/IRONBUILT-LLC/ironbuilt/commit/d4060f60). Reference: https://wahapedia.ru/wh40k11ed/factions/imperial-agents/Watch-Captain-Artemis.
