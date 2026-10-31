@@ -52,3 +52,7 @@ A machine-readable copy of this log lives in [`log.jsonl`](log.jsonl).
 
 Four of the nine were closed without a change, and two of those still uncovered real defects
 elsewhere. Both outcomes are contributions.
+
+## 2026-10-31 — Imperial Agents: Watch Captain Artemis (dev feed)
+
+Anonymous community report: Iron Daily displayed the older melee Strength 5 profile. The supplied current datasheet screenshot and the 11th-edition Imperial Agents reference agree on T5, melee S6, Hellfire A3, 75 points, Sustained Hits 1 and a three-wound return. Corrected those fields only; retained the Agents identity and all other units. Source correction: [354fb0f5](https://github.com/IRONBUILT-LLC/ironbuilt/commit/354fb0f5). Reference: https://wahapedia.ru/wh40k11ed/factions/imperial-agents/Watch-Captain-Artemis. No change to played Daily rounds.
