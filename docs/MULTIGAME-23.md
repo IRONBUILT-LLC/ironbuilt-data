@@ -1,8 +1,11 @@
 # Age of Sigmar and Kill Team: 2.3 foundation
 
-Status: developer tooling, 2026-11-02. No playable dataset has been published.
-The public manifest and every existing 40K bundle are unchanged. Test values are
-invented, visibly synthetic and kept under tests/fixtures, outside datasets/.
+Status: two real partial dev reference pilots plus developer tooling, 2026-11-02.
+See `docs/pilots/README.md` and `pilots/manifest.dev.json` for current coverage.
+The public manifest and every existing 40K bundle are unchanged. Synthetic test
+fixtures remain separately labelled; they are not counted as real coverage.
+Rules-use permission is recorded from the user's explicit statement. Original
+ability wording follows the existing 40K policy; artwork and raw rules are excluded.
 
 ## Verified source options
 
@@ -88,6 +91,14 @@ node tools/multigame.cjs tests/fixtures/aos-synthetic.json $hash
 ```
 
 ## Staged implementation
+
+Current checkpoint: `tools/real-pilot.cjs` and `pilots/*.json` now implement the
+bounded real unit/operative reference phase, with typed weapons, original ability
+summaries, selection checks, an isolated dev index and host/hash/version isolation.
+The earlier `multigame.cjs` contract remains the synthetic broader-roster prototype.
+Draft context includes `datasetVersion` as well as upstream `sourceRevision`; bump
+the pilot version for changed curated mechanics even if the upstream commit is unchanged.
+The remaining stages below concern expanded mechanics and app integration.
 
 1. Done: architecture/source audit, pinned pilot dependency reports, normalized import
    contract, integrity/rights gates and synthetic import-to-draft validation tests.

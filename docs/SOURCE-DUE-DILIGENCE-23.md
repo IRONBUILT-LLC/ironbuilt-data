@@ -8,11 +8,13 @@ distinguishes methods/systems from creative expression describing them. That doe
 not alone resolve fictional stat tables, copied compilations or source contracts.
 No blanket legal conclusion is made here.
 
-Follow-up official verification and the exact express restrictions encountered are
-recorded in `pilots/README.md` and `pilots/minimal-review.json`. Captain candidate
-values match official PDF text; current Liberators baseline verification remains
-open. Official-download extraction/publication stopped for the specific terms
-described there, while original adapter and validation work continued.
+Current authorization and verification are recorded in `pilots/README.md` and
+`pilots/minimal-review.json`. The user expressly states rules use is permitted and
+directs original synonymous ability wording following 40K, with BSData as another
+reference. Work proceeds on that stated basis; no independent legal assurance or
+artwork permission is claimed. The earlier source-specific pause is superseded for
+the bounded pilots. Captain basic/weapon/ability values are visually verified;
+Liberators current points/models are verified, with their battletome baseline open.
 
 ## Exact candidates
 
@@ -64,13 +66,12 @@ Onboarding `_build/audit-combat-patrol-source.py` pins
 separating GW IP. It covers Combat Patrol, not AoS/current KT. Its inventory-only,
 not-publishable review pattern applies here.
 
-## Minimal pilot and exact remaining decision
+## Bounded real pilot and remaining verification
 
-Recommended first real scope: one **Liberators** basic stat line and one **Space
-Marine Captain** basic stat line within Angels of Death, each limited to four
-numeric fields, a source ID and reference links. Exclude prose, artwork, weapons,
-full tables and roster-legality claims. Later expand to the smallest independently
-verified roster selection with explicitly encoded constraints.
+The real packs now include **Liberators** and **Space Marine Captain** within
+Angels of Death: basic stats, typed weapons, original ability summaries, mechanical
+evidence, source IDs/links and bounded configuration checks. Artwork, raw source
+sentences, whole tables and roster-legality claims remain excluded.
 
 Implemented `tools/numeric-profile.cjs` maps the distinct Unit/Operative profiles,
 drops unrecognized/prose fields, rejects unsupported numeric expressions and
@@ -79,14 +80,13 @@ says `auditOnly:true`, `publishable:false`, `status:unverified`. Synthetic tests
 not game coverage. Local unpublished runs on the two real profiles exercise the
 mapping but do not establish currentness, external modifier scope or clearance.
 
-Before any real data publication, decide whether to adopt that limited,
-independently represented numerical scope after reviewing applicable source terms
-and compilation/database rights, or obtain a documented grant to reuse the source
-compilation. Protected prose/artwork needs a separate applicable basis. A blanket
-demand for a licence to every number is not the decision.
+The user's stated permission is recorded in each real pack; changing synonyms is
+not itself the permission basis. No explicit conflicting BSData compilation licence
+was found in the inspected trees. Keep limited reviewed records and attribution;
+do not infer a general grant to redistribute the full upstream compilation.
 
-Next: verify selected values against current official references, record exact
-field locations/effective dates, settle this limited publication scope, then test
-the pilot adapter's production exclusion. The full preview importer still accepts
-synthetic/permission-recorded packs only; numeric audit evidence is a separate,
-unpublished contract. That gate does not block schema/adapter/validation work.
+Next: independently verify the Liberators battletome baseline and its embedded
+source condition group, expand a regiment/team selection, then wire the portable
+adapters to the isolated app preview. Real pilot imports already test production
+host exclusion and exact byte integrity. Numeric audit evidence remains distinct
+from a playable dataset, and synthetic fixtures remain distinct from real coverage.

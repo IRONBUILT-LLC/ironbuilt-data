@@ -1,53 +1,74 @@
-# Minimal numerical pilot review
+# Real AoS and Kill Team dev pilots
 
-`minimal-review.json` is a developer review artifact, not a dataset. It deliberately
-contains no numerical stat lines and cannot enter the public dataset manifest.
-Candidate numerical evidence remains local and unpublished. There is no player UI.
+Two real, deliberately partial reference packs now live under `pilots/`, indexed
+only by `pilots/manifest.dev.json`. They do not appear in the public dataset feed.
+`minimal-review.json` records verification metadata separately from the stat payloads.
 
-The current official Angels of Death PDF text agrees with all four candidate Captain
-values; its stat card is on PDF page 1 and changes are logged on page 10. The official
-download index dates the document 2026-08-26. The 2026-10-28 update article identifies
-shared terrain changes and other teams' changes, without announcing a Captain stat
-change. Text extraction places APL separately, so visual verification is still open.
-This is a text comparison, not a claim that every conditional mechanic is verified.
+Rules-use basis: the user states they have permission and directs the same original
+ability-wording approach as IRONBUILT 40K. This is recorded in each pack, with source
+attribution, rather than claimed as independent legal clearance. Artwork and raw
+rules text are excluded. The earlier official-source pause is superseded for this
+bounded work by that explicit statement. BSData's missing general compilation
+licence remains documented; no conflicting explicit licence was found, and no whole
+catalogue or full faction compilation is copied.
 
-Liberators remain unverified against a current official baseline. The publicly
-accessible launch warscroll and preview article are historical. The October update
-not announcing a Stormcast change cannot prove the current battletome baseline.
-No paid battletome or entitled app access was bypassed.
+## Actual coverage
 
-## Exact source restriction encountered
+| Pilot | Included | Verification |
+| --- | --- | --- |
+| Stormcast Eternals: Liberators | Four basic stats, two weapon profiles, original Stalwart Defenders and Champion summaries, 5/10-model configuration, 90/180 points, champion and grandhammer limits | October 2026 official Battle Profiles page 22 checked visually; Stormcast Rules Updates pages 73-74 checked. Basic stats/weapons/ability baseline uses pinned BSData and is not independently verified against the current battletome |
+| Angels of Death: Space Marine Captain | Four basic stats, both plasma pistol modes, Captain-specific Power fist, original Heroic Leader and Iron Halo summaries, fixed loadout and singleton limit | Current official team PDF page 1 and selection page 12 checked visually. Captain Power fist Hit resolves to 3+, rather than the shared source default of 4+ |
 
-The [official website terms](https://www.warhammer-community.com/en-gb/terms-of-use/),
-Downloadable Material Licence paragraphs 1-2, limit the grant to personal storage
-and access. Paragraph 3 extends its restriction to parts of downloaded material.
-Clause 3.5 specifically addresses use
-"commercially or in relation to any business or business activities".
-The inspected [June 2026 Battle Profiles](https://assets.warhammer-community.com/eng_aos_battle_profiles-2wsrrn6poc-wb3lenb8nn.pdf),
-PDF page 2 footer, separately limits personal use and expressly restricts
-"text and data mining activities". It is an inspected terms example, not current
-authority for the pilot's values.
+Every ability has structured mechanical evidence alongside original prose, plus
+source IDs. These are reference summaries, not executed effects. Heroic Leader
+retains one shared use per turning point, all three alternatives, normal Combat
+Doctrine CP cost, Command Re-roll exception, activation timing and killzone/control
+range restrictions. Iron Halo applies to Normal Dmg from one die, once per battle.
+Liberators' control bonus affects the unit control score at an objective wholly
+inside friendly territory. A Regiment/Regimental Leader condition group embedded
+in the source characteristic is retained but not evaluated.
 
-Consequently automated extraction and publication **from these official downloads**
-stopped. This is source-specific; it is not a declaration that every game number is
-copyrightable or that no factual-value pilot can ever be published. An alternative
-applicable source-use basis or permission would need to address these express terms.
-Code, synthetic tests and verification metadata continue independently.
+## Import and validation
 
-## Concrete next coverage milestones
+`tools/real-pilot.cjs` validates real pack structure, recorded authorization,
+provenance, namespaced references and game-specific weapon/selection fields.
+`importPilot(body, sha256, env, host)` checks exact bytes and restricts import to
+explicit dev/local hosts, rejecting production even when `env` is accidentally dev.
+This is a portable data adapter; it is not connected to the app UI or legacy loader.
 
-1. Establish a source route permitting the intended limited use; do not treat a
-   third-party software MIT licence as overriding the official download terms.
-2. Obtain a current accessible/entitled official Liberators baseline and finish the
-   Captain visual comparison. Record exact source locations and effective dates.
-3. Add typed per-game weapon profiles, then one independently encoded selection
-   constraint at a time, with source evidence and unsupported-condition reporting.
-4. Complete a small Stormcast regiment and a complete Angels of Death selection
-   pilot. Test counts, eligibility, exclusions, source revisions and partial coverage.
-5. Only then wire the isolated dev/local app preview, with explicit production
-   exclusion and no claims of complete faction/team support.
+`validateSelection(pack, draft)` checks only the supported unit/operative
+configuration. Valid selections always return `unverified`, with missing coverage.
+AoS checks model/point scaling, grandhammers per five models, one champion, and the
+champion/grandhammer exclusion. KT checks one Captain and the fixed equipment.
+A complete six-operative team, legal regiment/army or combat result is never inferred.
 
-Validation: `node --test tests/*.test.cjs` plus
-`./tests/audit-catalogue.test.ps1`. The numeric adapter validates its serialized
-output, provenance, game-specific fields and permanent audit-only status; it rejects
-added artwork/prose fields, gameplay claims and cross-game corruption.
+Reproduce from the data repository:
+
+```powershell
+node tools/package-real-pilots.cjs
+node --test tests/*.test.cjs
+./tests/audit-catalogue.test.ps1
+```
+
+The packager validates both curated inputs and writes their exact hashes/sizes to
+the isolated dev index. It never writes `manifest.json` or existing datasets.
+Curated values are reviewed deliberately rather than blindly flattening all source
+constraints. The existing 40K policy in
+`docs/orks-codex-src/codex_paraphrase.py` guided wording: preserve numeric values,
+units, keywords, targets, timing and exceptions, while writing original explanations.
+Permission comes from the user's statement, not from changing synonyms.
+
+## Next coverage milestones
+
+1. Independently verify the Liberators battletome baseline and resolve the source
+   characteristic condition group before interpreting it automatically.
+2. Add one Stormcast regiment leader and verified eligibility; add the remaining
+   Angels of Death operative choices and shared selection exclusions.
+3. Add typed keyword definitions, faction abilities, Chapter tactics and ploys with
+   original summaries and independent mechanical fingerprints. Keep unsupported
+   effects explicit; expand validation alongside each entity.
+4. Wire the portable adapters to the existing isolated app preview behind a dev/local
+   gate, then browser-test source details, selection controls and saved identity.
+
+No full faction/team support, gameplay simulation, account sync, production deploy,
+production manifest change or app-size guard change is claimed.

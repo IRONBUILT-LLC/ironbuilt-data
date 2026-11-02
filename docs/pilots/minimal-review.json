@@ -12,16 +12,20 @@
       "entityName": "Liberators",
       "sourceRevision": "6909c1401ee52c63b5187a7c2d00fb34190479bd",
       "sourceProfileId": "3e33-7b80-46c2-4f10",
-      "requestedFields": ["Move", "Health", "Save", "Control"],
-      "currentValueStatus": "not-currently-verified-from-official-source",
+      "requestedFields": [
+        "Move",
+        "Health",
+        "Save",
+        "Control"
+      ],
+      "currentValueStatus": "official-october-points-models-verified-basic-weapons-abilities-bsdata-only",
       "latestOfficialUpdate": "2026-10-28",
       "latestUpdateReference": "https://www.warhammer-community.com/en-gb/articles/iix3g22a/warhammer-age-of-sigmar-october-update/",
       "historicalReference": "https://www.warhammer-community.com/en-gb/articles/ehzyEtBS/the-anatomy-of-a-warscroll-in-the-new-edition-of-warhammer-age-of-sigmar/",
       "limitations": [
-        "Launch-era warscroll material is not proof of the current battletome stat line.",
-        "The October article does not announce a Stormcast change, but that alone does not verify the baseline.",
-        "Current battletome or entitled official-app comparison remains necessary; no access restrictions bypassed.",
-        "External modifiers, reinforcement, points, weapons, abilities and roster construction are unverified."
+        "Basic stats, weapons and Stalwart Defenders use pinned BSData; the current battletome baseline is not independently verified.",
+        "October 2026 Battle Profiles page 22 confirms models and points; Rules Updates pages 73-74 inspected.",
+        "Regiment eligibility and source characteristic condition groups remain unevaluated."
       ]
     },
     {
@@ -31,33 +35,50 @@
       "teamName": "Angels of Death",
       "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
       "sourceProfileId": "1442-6f07-4e87-3b7a",
-      "requestedFields": ["APL", "Move", "Save", "Wounds"],
-      "currentValueStatus": "candidate-matches-current-official-pdf-text",
+      "requestedFields": [
+        "APL",
+        "Move",
+        "Save",
+        "Wounds"
+      ],
+      "currentValueStatus": "basic-weapons-abilities-visually-verified-official-card",
       "officialDocumentUpdated": "2026-08-26",
       "officialReference": "https://assets.warhammer-community.com/eng_26-08_killteam_angels_of_death_online_rules-1rwlnicmkz-qjtykwlybg.pdf",
       "officialLocation": "PDF page 1, Space Marine Captain operative card, APL/Move/Save/Wounds; page 10 change log",
-      "visualVerificationComplete": false,
+      "visualVerificationComplete": true,
       "latestOfficialUpdate": "2026-10-28",
       "latestUpdateReference": "https://www.warhammer-community.com/en-gb/articles/k04goqrk/kill-team-october-update/",
       "limitations": [
-        "Text order separates APL from the other three values; visual page verification remains outstanding.",
-        "The October article lists shared terrain changes but no Angels of Death team-specific change.",
-        "Chapter tactics, shared modifiers, weapons, actions, abilities and team selection remain unimplemented.",
-        "Matching basic values does not establish playable team support."
+        "Only Captain is imported; this does not form a complete team.",
+        "Shared modifiers, Chapter tactics, ploys and keyword effects are not executed."
       ]
     }
   ],
   "officialDownloadUse": {
-    "status": "publication-and-automated-extraction-from-this-route-stopped",
+    "status": "proceeding-under-user-stated-rules-permission",
     "termsUrl": "https://www.warhammer-community.com/en-gb/terms-of-use/",
-    "clauses": ["Downloadable Material Licence 1-2", "Downloadable Material Licence 3 and 3.5"],
+    "clauses": [
+      "Downloadable Material Licence 1-2",
+      "Downloadable Material Licence 3 and 3.5"
+    ],
     "inspectedPdfRestriction": {
       "url": "https://assets.warhammer-community.com/eng_aos_battle_profiles-2wsrrn6poc-wb3lenb8nn.pdf",
       "document": "Battle Profiles, June 2026 (historical, not the current pilot authority)",
       "location": "PDF page 2 copyright/footer",
       "scope": "Personal download/print use; express restriction on text and data mining."
     },
-    "reason": "Explicit official-source use restrictions, not absence of a community repository licence.",
-    "unaffectedWork": ["Original schema and adapters", "Synthetic tests", "Source-link and verification metadata", "Unpublished existing candidate evidence"]
-  }
+    "reason": "User explicitly confirms intended rules use is permitted. No independent legal assurance or artwork permission is claimed.",
+    "unaffectedWork": [
+      "Original schema and adapters",
+      "Synthetic tests",
+      "Source-link and verification metadata",
+      "Unpublished existing candidate evidence"
+    ]
+  },
+  "authorization": {
+    "basis": "user-stated-rules-permission",
+    "date": "2026-11-02",
+    "scope": "Rules with original synonymous ability wording, following IRONBUILT 40K; BSData as a reference source; no artwork."
+  },
+  "realPilotIndex": "../../pilots/manifest.dev.json"
 }

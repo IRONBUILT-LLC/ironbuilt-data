@@ -1,0 +1,250 @@
+{
+  "schema": "ironbuilt-real-pilot/1",
+  "releaseChannel": "dev",
+  "synthetic": false,
+  "context": {
+    "systemId": "killteam",
+    "editionId": "2024",
+    "formatId": "operative-configuration",
+    "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
+    "rulesetId": "2026-10-reference-pilot",
+    "datasetVersion": "2026.11.02-pilot.1"
+  },
+  "checkedAt": "2026-11-02",
+  "authorization": {
+    "basis": "user-stated-rules-permission",
+    "date": "2026-11-02",
+    "originalAbilityWording": true,
+    "note": "User confirms rules use is permitted, following the existing 40K approach with original synonymous ability wording. This record is not an independent legal clearance; no artwork permission is assumed."
+  },
+  "coverage": {
+    "complete": false,
+    "playableRoster": false,
+    "fullValidation": false,
+    "combat": false
+  },
+  "attribution": {
+    "publisher": "Games Workshop",
+    "structuredReference": "BSData community maintainers",
+    "unofficial": true,
+    "compilationLicense": "No explicit general repository licence verified; no conflicting explicit licence identified in inspected trees. Limited reviewed records only."
+  },
+  "sources": [
+    {
+      "url": "https://github.com/BSData/wh40k-killteam/blob/30c48ce2bdcabc0cb6516f813283086cc2d78fab/2024%20-%20Angels%20of%20Death.cat",
+      "sha256": "2882d3107b9f853e10e5d0ded1aade098ce6a095cc9a742ce68e268aff8faee5",
+      "location": "2024 - Angels of Death.cat",
+      "revision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab"
+    },
+    {
+      "url": "https://assets.warhammer-community.com/eng_26-08_killteam_angels_of_death_online_rules-1rwlnicmkz-qjtykwlybg.pdf",
+      "sha256": "2accbc12dd174a170173ecff0022234a42611a6cf20b8f11e31e65239a25d9c5",
+      "location": "PDF page 1, Captain card; page 10 change log; page 12 selection",
+      "updated": "2026-08-26"
+    }
+  ],
+  "entity": {
+    "id": "killteam:angels-captain",
+    "name": "Space Marine Captain",
+    "sourceId": "1e8f-a57f-d418-402d",
+    "sourceRefs": [
+      0,
+      1
+    ],
+    "basic": {
+      "schema": "ironbuilt-numeric-evidence/1",
+      "context": {
+        "systemId": "killteam",
+        "editionId": "2024",
+        "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab"
+      },
+      "id": "killteam:1442-6f07-4e87-3b7a",
+      "sourceId": "1442-6f07-4e87-3b7a",
+      "provenance": {
+        "path": "2024 - Angels of Death.cat",
+        "sha256": "2882d3107b9f853e10e5d0ded1aade098ce6a095cc9a742ce68e268aff8faee5",
+        "url": "https://github.com/BSData/wh40k-killteam/blob/30c48ce2bdcabc0cb6516f813283086cc2d78fab/2024%20-%20Angels%20of%20Death.cat"
+      },
+      "auditOnly": true,
+      "publishable": false,
+      "status": "unverified",
+      "stats": {
+        "actionPointLimit": 3,
+        "moveInches": 6,
+        "saveThreshold": 3,
+        "wounds": 15
+      },
+      "pending": [
+        "Source terms, current-value verification, weapons, abilities and roster legality are outside this evidence record."
+      ]
+    },
+    "weaponRefs": [
+      "killteam:plasma-standard",
+      "killteam:plasma-supercharge",
+      "killteam:captain-power-fist"
+    ],
+    "abilityRefs": [
+      "killteam:heroic-leader",
+      "killteam:iron-halo"
+    ]
+  },
+  "weapons": [
+    {
+      "id": "killteam:plasma-standard",
+      "name": "Plasma pistol (standard)",
+      "sourceId": "ee9a-41e7-13fe-5b0c",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "kind": "ranged",
+      "modeGroup": "plasma-pistol",
+      "attacks": 4,
+      "hit": 3,
+      "damageNormal": 3,
+      "damageCritical": 5,
+      "rangeInches": 8,
+      "keywords": [
+        "Piercing 1"
+      ]
+    },
+    {
+      "id": "killteam:plasma-supercharge",
+      "name": "Plasma pistol (supercharge)",
+      "sourceId": "7888-dfdf-ecc2-9032",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "kind": "ranged",
+      "modeGroup": "plasma-pistol",
+      "attacks": 4,
+      "hit": 3,
+      "damageNormal": 4,
+      "damageCritical": 5,
+      "rangeInches": 8,
+      "keywords": [
+        "Hot",
+        "Lethal 5+",
+        "Piercing 1"
+      ]
+    },
+    {
+      "id": "killteam:captain-power-fist",
+      "name": "Power fist",
+      "sourceId": "fe27-204c-ff2d-ce83",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "kind": "melee",
+      "attacks": 5,
+      "hit": 3,
+      "damageNormal": 5,
+      "damageCritical": 7,
+      "keywords": [
+        "Brutal"
+      ],
+      "resolvedModifier": {
+        "sourceBaseHit": 4,
+        "selectedOperativeSourceId": "1e8f-a57f-d418-402d",
+        "resultHit": 3,
+        "reason": "Captain ancestor condition; visually confirmed on official Captain card"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "id": "killteam:heroic-leader",
+      "name": "Heroic Leader",
+      "sourceId": "f6ac-319a-f15c-ffae",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "wording": "original",
+      "automated": false,
+      "summary": "Once each turning point, choose one benefit: a firefight ploy costs 0CP when this Captain is its specified ANGEL OF DEATH operative, except Command Re-roll; or, when a friendly ANGEL OF DEATH activates, use Combat Doctrine at its usual CP cost if the Captain is in the killzone and outside enemy control range, provided that ploy has not already been used this turning point; or use Adjust Doctrine for 0CP while the Captain is in the killzone and outside enemy control range.",
+      "mechanics": {
+        "limit": {
+          "uses": 1,
+          "period": "turning point",
+          "sharedAcrossOptions": true
+        },
+        "options": [
+          {
+            "ployType": "firefight",
+            "costCP": 0,
+            "target": "this Captain as specified ANGEL OF DEATH operative",
+            "exceptions": [
+              "Command Re-roll"
+            ]
+          },
+          {
+            "ploy": "Combat Doctrine",
+            "trigger": "friendly ANGEL OF DEATH activation",
+            "cost": "normal",
+            "conditions": [
+              "Captain in killzone",
+              "Captain outside enemy control range",
+              "Combat Doctrine not already used this turning point"
+            ]
+          },
+          {
+            "ploy": "Adjust Doctrine",
+            "costCP": 0,
+            "conditions": [
+              "Captain in killzone",
+              "Captain outside enemy control range"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "killteam:iron-halo",
+      "name": "Iron Halo",
+      "sourceId": "4386-9eb8-143a-3776",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "wording": "original",
+      "automated": false,
+      "summary": "Once in the battle, the Captain may disregard the Normal Dmg inflicted on him by one attack die when that damage is inflicted.",
+      "mechanics": {
+        "limit": {
+          "uses": 1,
+          "period": "battle"
+        },
+        "trigger": "one attack die inflicts Normal Dmg on this operative",
+        "effect": "ignore that die's inflicted damage",
+        "excludes": [
+          "Critical Dmg"
+        ],
+        "optional": true
+      }
+    }
+  ],
+  "selection": {
+    "maximumCaptain": 1,
+    "fixedLoadout": "plasma-pistol-and-power-fist",
+    "choosePlasmaModePerShootAction": true,
+    "teamLeaderCount": 1,
+    "otherOperativesRequired": 5,
+    "sourceRefs": [
+      0,
+      1
+    ]
+  },
+  "verification": {
+    "basicWeaponsAbilities": "visually verified official PDF page 1 on 2026-11-02",
+    "selection": "official selection page 12 plus pinned fixed entryLinks",
+    "latestUpdate": "2026-10-28 official update article contains no Angels-specific change; shared terrain changes remain outside pilot"
+  },
+  "pending": [
+    "Only the Captain is present; other leader options and the five other operatives are not imported.",
+    "Chapter tactics, faction rules, ploys, weapon keyword effects and shared conditional modifiers are not executed.",
+    "No team legality certification, combat simulation, equipment selection or full action catalogue."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "ironbuilt-pilot-index/1",
+  "releaseChannel": "dev",
+  "complete": false,
+  "playableRosterSupport": false,
+  "entries": [
+    {
+      "id": "aos:liberators",
+      "systemId": "aos",
+      "editionId": "4e",
+      "version": "2026.11.02-pilot.1",
+      "sourceRevision": "6909c1401ee52c63b5187a7c2d00fb34190479bd",
+      "file": "aos-liberators.json",
+      "bytes": 8176,
+      "sha256": "b0fcb668577be742e5a1781a69eb71b0ddd369cb2a989df8a5e0e2f8918d33e0"
+    },
+    {
+      "id": "killteam:angels-captain",
+      "systemId": "killteam",
+      "editionId": "2024",
+      "version": "2026.11.02-pilot.1",
+      "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
+      "file": "killteam-angels-captain.json",
+      "bytes": 8057,
+      "sha256": "ae76b2dd3df6d91988dc7c8fc5771169a7b33b731bdaf0f04d2c8237de6a123a"
+    }
+  ]
+}
