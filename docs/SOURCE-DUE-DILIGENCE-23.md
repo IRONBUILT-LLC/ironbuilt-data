@@ -73,6 +73,11 @@ Angels of Death: basic stats, typed weapons, original ability summaries, mechani
 evidence, source IDs/links and bounded configuration checks. Artwork, raw source
 sentences, whole tables and roster-legality claims remain excluded.
 
+The next bounded milestone now adds all nine Angels of Death operative types and
+their reviewed loadouts/weapons, with explicit official-source corrections to stale
+BSData Sergeant abilities. Stormcast expands only as a source inventory and army
+structure schema. See `pilots/TEAM-MILESTONE.md`; neither expansion claims a gameplay UI.
+
 Implemented `tools/numeric-profile.cjs` maps the distinct Unit/Operative profiles,
 drops unrecognized/prose fields, rejects unsupported numeric expressions and
 duplicates, and withholds conditional/unknown-modifier profiles. Evidence always

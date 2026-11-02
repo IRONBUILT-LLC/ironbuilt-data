@@ -1,7 +1,8 @@
 # Age of Sigmar and Kill Team: 2.3 foundation
 
-Status: two real partial dev reference pilots plus developer tooling, 2026-11-02.
-See `docs/pilots/README.md` and `pilots/manifest.dev.json` for current coverage.
+Status: real dev reference packs, complete Angels of Death operative/loadout
+selection data, and unverified Stormcast source inventory, 2026-11-02.
+See `docs/pilots/TEAM-MILESTONE.md` and `pilots/manifest.dev.json` for current coverage.
 The public manifest and every existing 40K bundle are unchanged. Synthetic test
 fixtures remain separately labelled; they are not counted as real coverage.
 Rules-use permission is recorded from the user's explicit statement. Original

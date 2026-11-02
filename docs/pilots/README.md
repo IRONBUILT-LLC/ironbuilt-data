@@ -1,8 +1,16 @@
 # Real AoS and Kill Team dev pilots
 
-Two real, deliberately partial reference packs now live under `pilots/`, indexed
-only by `pilots/manifest.dev.json`. They do not appear in the public dataset feed.
-`minimal-review.json` records verification metadata separately from the stat payloads.
+Four dev artifacts now live under `pilots/`, indexed only by `pilots/manifest.dev.json`:
+two retained individual reference packs, the complete Angels of Death operative/
+loadout selection pack, and the unverified Stormcast source inventory. They do not
+appear in the public dataset feed. `minimal-review.json` records the initial pilot
+verification separately from the payloads; `TEAM-MILESTONE.md` describes current coverage.
+
+The selected-team pack has nine operative types, 35 loadouts, 27 contextual weapon
+profiles and composition validation with 21 valid/invalid fixtures. This is data
+and validation, not a gameplay UI or complete rules engine. The Stormcast inventory
+has 96 catalogue entries referring to 91 source units; it does not claim current
+profiles, regiment eligibility or current army pricing.
 
 Rules-use basis: the user states they have permission and directs the same original
 ability-wording approach as IRONBUILT 40K. This is recorded in each pack, with source
@@ -12,7 +20,7 @@ bounded work by that explicit statement. BSData's missing general compilation
 licence remains documented; no conflicting explicit licence was found, and no whole
 catalogue or full faction compilation is copied.
 
-## Actual coverage
+## Retained individual reference packs
 
 | Pilot | Included | Verification |
 | --- | --- | --- |

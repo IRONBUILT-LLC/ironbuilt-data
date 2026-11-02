@@ -4,7 +4,7 @@ const fs=require('node:fs'),path=require('node:path');
 const {validatePilot,importPilot,validateSelection,devAvailable}=require('../tools/real-pilot.cjs');
 const root=path.join(__dirname,'../pilots');
 const index=JSON.parse(fs.readFileSync(path.join(root,'manifest.dev.json'),'utf8'));
-const packs=index.entries.map(entry=>({entry,body:fs.readFileSync(path.join(root,entry.file),'utf8')}));
+const packs=index.entries.filter(entry=>entry.kind==='unit-reference').map(entry=>({entry,body:fs.readFileSync(path.join(root,entry.file),'utf8')}));
 const [a,k]=packs.map(x=>validatePilot(JSON.parse(x.body)));
 const army=()=>({context:{...a.context},reinforcements:0,champions:1,grandhammers:1,championHasGrandhammer:false,models:5});
 const captain=()=>({context:{...k.context},captains:1,loadout:'plasma-pistol-and-power-fist'});

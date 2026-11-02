@@ -6,6 +6,7 @@
   "entries": [
     {
       "id": "aos:liberators",
+      "kind": "unit-reference",
       "systemId": "aos",
       "editionId": "4e",
       "version": "2026.11.02-pilot.1",
@@ -16,6 +17,7 @@
     },
     {
       "id": "killteam:angels-captain",
+      "kind": "unit-reference",
       "systemId": "killteam",
       "editionId": "2024",
       "version": "2026.11.02-pilot.1",
@@ -23,6 +25,28 @@
       "file": "killteam-angels-captain.json",
       "bytes": 8057,
       "sha256": "ae76b2dd3df6d91988dc7c8fc5771169a7b33b731bdaf0f04d2c8237de6a123a"
+    },
+    {
+      "id": "killteam:angels-of-death",
+      "kind": "selected-team",
+      "systemId": "killteam",
+      "editionId": "2024",
+      "version": "2026.11.02-pilot.2",
+      "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
+      "file": "killteam-angels-team.json",
+      "bytes": 70290,
+      "sha256": "b823e35c0b57c571cdd297ae62289389595060a5989d654d9af36bc8a2a1b1be"
+    },
+    {
+      "id": "aos:stormcast-inventory",
+      "kind": "source-inventory",
+      "systemId": "aos",
+      "editionId": "4e",
+      "version": "2026.11.02-inventory.1",
+      "sourceRevision": "6909c1401ee52c63b5187a7c2d00fb34190479bd",
+      "file": "aos-stormcast-inventory.json",
+      "bytes": 129101,
+      "sha256": "ce0b289cc990f9b219ccc57ef63c6bbb29aa3de12eef68c427c2b1975161e4f1"
     }
   ]
 }

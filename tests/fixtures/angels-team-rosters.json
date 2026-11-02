@@ -1,0 +1,1122 @@
+{
+  "schema": "ironbuilt-composition-fixtures/1",
+  "scope": "Selected-team composition only; passing is not full gameplay legality.",
+  "cases": [
+    {
+      "name": "Captain and five Intercessor Warriors",
+      "expectedCompositionValid": true,
+      "expectedErrors": [],
+      "roster": {
+        "context": {
+          "systemId": "killteam",
+          "editionId": "2024",
+          "formatId": "selected-team",
+          "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
+          "rulesetId": "2026-10-angels-of-death",
+          "datasetVersion": "2026.11.02-pilot.2"
+        },
+        "chapterTactics": {
+          "primaryId": "killteam:tactic:aggressive",
+          "secondaryId": "killteam:tactic:dueller"
+        },
+        "lines": [
+          {
+            "instanceId": "operative-0",
+            "operativeId": "killteam:space-marine-captain",
+            "loadoutId": "killteam:space-marine-captain:loadout:187a-3d95-c7db-7496.5262-3a19-0a9b-5632"
+          },
+          {
+            "instanceId": "operative-1",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-2",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-3",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-4",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-5",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Assault Sergeant with legal weapon pair",
+      "expectedCompositionValid": true,
+      "expectedErrors": [],
+      "roster": {
+        "context": {
+          "systemId": "killteam",
+          "editionId": "2024",
+          "formatId": "selected-team",
+          "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
+          "rulesetId": "2026-10-angels-of-death",
+          "datasetVersion": "2026.11.02-pilot.2"
+        },
+        "chapterTactics": {
+          "primaryId": "killteam:tactic:aggressive",
+          "secondaryId": "killteam:tactic:dueller"
+        },
+        "lines": [
+          {
+            "instanceId": "operative-0",
+            "operativeId": "killteam:assault-intercessor-sergeant",
+            "loadoutId": "killteam:assault-intercessor-sergeant:loadout:b015-6af3-3bea-7be8.c81d-2f29-2203-ce5b",
+            "additionalTacticId": "killteam:tactic:resolute"
+          },
+          {
+            "instanceId": "operative-1",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-2",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-3",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-4",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-5",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Intercessor Sergeant with extra tactic",
+      "expectedCompositionValid": true,
+      "expectedErrors": [],
+      "roster": {
+        "context": {
+          "systemId": "killteam",
+          "editionId": "2024",
+          "formatId": "selected-team",
+          "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
+          "rulesetId": "2026-10-angels-of-death",
+          "datasetVersion": "2026.11.02-pilot.2"
+        },
+        "chapterTactics": {
+          "primaryId": "killteam:tactic:aggressive",
+          "secondaryId": "killteam:tactic:dueller"
+        },
+        "lines": [
+          {
+            "instanceId": "operative-0",
+            "operativeId": "killteam:intercessor-sergeant",
+            "loadoutId": "killteam:intercessor-sergeant:loadout:6fba-f8c3-3999-284b.c81d-2f29-2203-ce5b",
+            "additionalTacticId": "killteam:tactic:resolute"
+          },
+          {
+            "instanceId": "operative-1",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-2",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-3",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-4",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-5",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sniper and Heavy Gunner are allowed together",
+      "expectedCompositionValid": true,
+      "expectedErrors": [],
+      "roster": {
+        "context": {
+          "systemId": "killteam",
+          "editionId": "2024",
+          "formatId": "selected-team",
+          "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
+          "rulesetId": "2026-10-angels-of-death",
+          "datasetVersion": "2026.11.02-pilot.2"
+        },
+        "chapterTactics": {
+          "primaryId": "killteam:tactic:aggressive",
+          "secondaryId": "killteam:tactic:dueller"
+        },
+        "lines": [
+          {
+            "instanceId": "operative-0",
+            "operativeId": "killteam:space-marine-captain",
+            "loadoutId": "killteam:space-marine-captain:loadout:187a-3d95-c7db-7496.5262-3a19-0a9b-5632"
+          },
+          {
+            "instanceId": "operative-1",
+            "operativeId": "killteam:eliminator-sniper",
+            "loadoutId": "killteam:eliminator-sniper:loadout:5be0-7dc0-1359-1803.9978-a207-ea52-2f88.f99f-5908-3fbc-6226"
+          },
+          {
+            "instanceId": "operative-2",
+            "operativeId": "killteam:heavy-intercessor-gunner",
+            "loadoutId": "killteam:heavy-intercessor-gunner:loadout:8ad6-5ec4-0c2e-9a34.9978-a207-ea52-2f88.c7eb-02b0-ee93-7afc"
+          },
+          {
+            "instanceId": "operative-3",
+            "operativeId": "killteam:intercessor-gunner",
+            "loadoutId": "killteam:intercessor-gunner:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88.31c4-eebf-2d11-ed8e"
+          },
+          {
+            "instanceId": "operative-4",
+            "operativeId": "killteam:assault-intercessor-grenadier",
+            "loadoutId": "killteam:assault-intercessor-grenadier:loadout:71a7-b048-40fe-bf6d.c81d-2f29-2203-ce5b"
+          },
+          {
+            "instanceId": "operative-5",
+            "operativeId": "killteam:assault-intercessor-warrior",
+            "loadoutId": "killteam:assault-intercessor-warrior:loadout:71a7-b048-40fe-bf6d.c81d-2f29-2203-ce5b"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Repeated tactic is allowed but does not stack",
+      "expectedCompositionValid": true,
+      "expectedErrors": [],
+      "roster": {
+        "context": {
+          "systemId": "killteam",
+          "editionId": "2024",
+          "formatId": "selected-team",
+          "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
+          "rulesetId": "2026-10-angels-of-death",
+          "datasetVersion": "2026.11.02-pilot.2"
+        },
+        "chapterTactics": {
+          "primaryId": "killteam:tactic:aggressive",
+          "secondaryId": "killteam:tactic:aggressive"
+        },
+        "lines": [
+          {
+            "instanceId": "operative-0",
+            "operativeId": "killteam:space-marine-captain",
+            "loadoutId": "killteam:space-marine-captain:loadout:187a-3d95-c7db-7496.5262-3a19-0a9b-5632"
+          },
+          {
+            "instanceId": "operative-1",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-2",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-3",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-4",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-5",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Campaign tactic choices match lock",
+      "expectedCompositionValid": true,
+      "expectedErrors": [],
+      "roster": {
+        "context": {
+          "systemId": "killteam",
+          "editionId": "2024",
+          "formatId": "selected-team",
+          "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
+          "rulesetId": "2026-10-angels-of-death",
+          "datasetVersion": "2026.11.02-pilot.2"
+        },
+        "chapterTactics": {
+          "primaryId": "killteam:tactic:aggressive",
+          "secondaryId": "killteam:tactic:dueller"
+        },
+        "lines": [
+          {
+            "instanceId": "operative-0",
+            "operativeId": "killteam:space-marine-captain",
+            "loadoutId": "killteam:space-marine-captain:loadout:187a-3d95-c7db-7496.5262-3a19-0a9b-5632"
+          },
+          {
+            "instanceId": "operative-1",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-2",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-3",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-4",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-5",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          }
+        ],
+        "campaignLock": {
+          "primaryId": "killteam:tactic:aggressive",
+          "secondaryId": "killteam:tactic:dueller"
+        }
+      }
+    },
+    {
+      "name": "Five operatives is too few",
+      "expectedCompositionValid": false,
+      "expectedErrors": [
+        "operative-count",
+        "other-operative-count"
+      ],
+      "roster": {
+        "context": {
+          "systemId": "killteam",
+          "editionId": "2024",
+          "formatId": "selected-team",
+          "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
+          "rulesetId": "2026-10-angels-of-death",
+          "datasetVersion": "2026.11.02-pilot.2"
+        },
+        "chapterTactics": {
+          "primaryId": "killteam:tactic:aggressive",
+          "secondaryId": "killteam:tactic:dueller"
+        },
+        "lines": [
+          {
+            "instanceId": "operative-0",
+            "operativeId": "killteam:space-marine-captain",
+            "loadoutId": "killteam:space-marine-captain:loadout:187a-3d95-c7db-7496.5262-3a19-0a9b-5632"
+          },
+          {
+            "instanceId": "operative-1",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-2",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-3",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-4",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Seven operatives is too many",
+      "expectedCompositionValid": false,
+      "expectedErrors": [
+        "operative-count"
+      ],
+      "roster": {
+        "context": {
+          "systemId": "killteam",
+          "editionId": "2024",
+          "formatId": "selected-team",
+          "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
+          "rulesetId": "2026-10-angels-of-death",
+          "datasetVersion": "2026.11.02-pilot.2"
+        },
+        "chapterTactics": {
+          "primaryId": "killteam:tactic:aggressive",
+          "secondaryId": "killteam:tactic:dueller"
+        },
+        "lines": [
+          {
+            "instanceId": "operative-0",
+            "operativeId": "killteam:space-marine-captain",
+            "loadoutId": "killteam:space-marine-captain:loadout:187a-3d95-c7db-7496.5262-3a19-0a9b-5632"
+          },
+          {
+            "instanceId": "operative-1",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-2",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-3",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-4",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-5",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-6",
+            "operativeId": "killteam:assault-intercessor-warrior",
+            "loadoutId": "killteam:assault-intercessor-warrior:loadout:71a7-b048-40fe-bf6d.c81d-2f29-2203-ce5b"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Two leaders is invalid",
+      "expectedCompositionValid": false,
+      "expectedErrors": [
+        "leader-count"
+      ],
+      "roster": {
+        "context": {
+          "systemId": "killteam",
+          "editionId": "2024",
+          "formatId": "selected-team",
+          "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
+          "rulesetId": "2026-10-angels-of-death",
+          "datasetVersion": "2026.11.02-pilot.2"
+        },
+        "chapterTactics": {
+          "primaryId": "killteam:tactic:aggressive",
+          "secondaryId": "killteam:tactic:dueller"
+        },
+        "lines": [
+          {
+            "instanceId": "operative-0",
+            "operativeId": "killteam:space-marine-captain",
+            "loadoutId": "killteam:space-marine-captain:loadout:187a-3d95-c7db-7496.5262-3a19-0a9b-5632"
+          },
+          {
+            "instanceId": "operative-1",
+            "operativeId": "killteam:intercessor-sergeant",
+            "loadoutId": "killteam:intercessor-sergeant:loadout:6fba-f8c3-3999-284b.c81d-2f29-2203-ce5b",
+            "additionalTacticId": "killteam:tactic:resolute"
+          },
+          {
+            "instanceId": "operative-2",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-3",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-4",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-5",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          }
+        ]
+      }
+    },
+    {
+      "name": "No leader is invalid",
+      "expectedCompositionValid": false,
+      "expectedErrors": [
+        "leader-count"
+      ],
+      "roster": {
+        "context": {
+          "systemId": "killteam",
+          "editionId": "2024",
+          "formatId": "selected-team",
+          "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
+          "rulesetId": "2026-10-angels-of-death",
+          "datasetVersion": "2026.11.02-pilot.2"
+        },
+        "chapterTactics": {
+          "primaryId": "killteam:tactic:aggressive",
+          "secondaryId": "killteam:tactic:dueller"
+        },
+        "lines": [
+          {
+            "instanceId": "operative-0",
+            "operativeId": "killteam:assault-intercessor-warrior",
+            "loadoutId": "killteam:assault-intercessor-warrior:loadout:71a7-b048-40fe-bf6d.c81d-2f29-2203-ce5b"
+          },
+          {
+            "instanceId": "operative-1",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-2",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-3",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-4",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-5",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Duplicate non-warrior is invalid",
+      "expectedCompositionValid": false,
+      "expectedErrors": [
+        "unique-operative"
+      ],
+      "roster": {
+        "context": {
+          "systemId": "killteam",
+          "editionId": "2024",
+          "formatId": "selected-team",
+          "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
+          "rulesetId": "2026-10-angels-of-death",
+          "datasetVersion": "2026.11.02-pilot.2"
+        },
+        "chapterTactics": {
+          "primaryId": "killteam:tactic:aggressive",
+          "secondaryId": "killteam:tactic:dueller"
+        },
+        "lines": [
+          {
+            "instanceId": "operative-0",
+            "operativeId": "killteam:space-marine-captain",
+            "loadoutId": "killteam:space-marine-captain:loadout:187a-3d95-c7db-7496.5262-3a19-0a9b-5632"
+          },
+          {
+            "instanceId": "operative-1",
+            "operativeId": "killteam:eliminator-sniper",
+            "loadoutId": "killteam:eliminator-sniper:loadout:5be0-7dc0-1359-1803.9978-a207-ea52-2f88.f99f-5908-3fbc-6226"
+          },
+          {
+            "instanceId": "operative-2",
+            "operativeId": "killteam:eliminator-sniper",
+            "loadoutId": "killteam:eliminator-sniper:loadout:5be0-7dc0-1359-1803.9978-a207-ea52-2f88.f99f-5908-3fbc-6226"
+          },
+          {
+            "instanceId": "operative-3",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-4",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-5",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Assault Sergeant plasma plus power fist is forbidden",
+      "expectedCompositionValid": false,
+      "expectedErrors": [
+        "invalid-loadout"
+      ],
+      "roster": {
+        "context": {
+          "systemId": "killteam",
+          "editionId": "2024",
+          "formatId": "selected-team",
+          "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
+          "rulesetId": "2026-10-angels-of-death",
+          "datasetVersion": "2026.11.02-pilot.2"
+        },
+        "chapterTactics": {
+          "primaryId": "killteam:tactic:aggressive",
+          "secondaryId": "killteam:tactic:dueller"
+        },
+        "lines": [
+          {
+            "instanceId": "operative-0",
+            "operativeId": "killteam:assault-intercessor-sergeant",
+            "loadoutId": "killteam:assault-intercessor-sergeant:loadout:187a-3d95-c7db-7496.5262-3a19-0a9b-5632",
+            "additionalTacticId": "killteam:tactic:resolute"
+          },
+          {
+            "instanceId": "operative-1",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-2",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-3",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-4",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-5",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sergeant additional tactic is missing",
+      "expectedCompositionValid": false,
+      "expectedErrors": [
+        "missing-additional-tactic"
+      ],
+      "roster": {
+        "context": {
+          "systemId": "killteam",
+          "editionId": "2024",
+          "formatId": "selected-team",
+          "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
+          "rulesetId": "2026-10-angels-of-death",
+          "datasetVersion": "2026.11.02-pilot.2"
+        },
+        "chapterTactics": {
+          "primaryId": "killteam:tactic:aggressive",
+          "secondaryId": "killteam:tactic:dueller"
+        },
+        "lines": [
+          {
+            "instanceId": "operative-0",
+            "operativeId": "killteam:assault-intercessor-sergeant",
+            "loadoutId": "killteam:assault-intercessor-sergeant:loadout:b015-6af3-3bea-7be8.c81d-2f29-2203-ce5b"
+          },
+          {
+            "instanceId": "operative-1",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-2",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-3",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-4",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-5",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Warrior cannot select Chapter Veteran extra tactic",
+      "expectedCompositionValid": false,
+      "expectedErrors": [
+        "unexpected-additional-tactic"
+      ],
+      "roster": {
+        "context": {
+          "systemId": "killteam",
+          "editionId": "2024",
+          "formatId": "selected-team",
+          "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
+          "rulesetId": "2026-10-angels-of-death",
+          "datasetVersion": "2026.11.02-pilot.2"
+        },
+        "chapterTactics": {
+          "primaryId": "killteam:tactic:aggressive",
+          "secondaryId": "killteam:tactic:dueller"
+        },
+        "lines": [
+          {
+            "instanceId": "operative-0",
+            "operativeId": "killteam:space-marine-captain",
+            "loadoutId": "killteam:space-marine-captain:loadout:187a-3d95-c7db-7496.5262-3a19-0a9b-5632"
+          },
+          {
+            "instanceId": "operative-1",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88",
+            "additionalTacticId": "killteam:tactic:aggressive"
+          },
+          {
+            "instanceId": "operative-2",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-3",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-4",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-5",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Foreign operative loadout is invalid",
+      "expectedCompositionValid": false,
+      "expectedErrors": [
+        "invalid-loadout"
+      ],
+      "roster": {
+        "context": {
+          "systemId": "killteam",
+          "editionId": "2024",
+          "formatId": "selected-team",
+          "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
+          "rulesetId": "2026-10-angels-of-death",
+          "datasetVersion": "2026.11.02-pilot.2"
+        },
+        "chapterTactics": {
+          "primaryId": "killteam:tactic:aggressive",
+          "secondaryId": "killteam:tactic:dueller"
+        },
+        "lines": [
+          {
+            "instanceId": "operative-0",
+            "operativeId": "killteam:space-marine-captain",
+            "loadoutId": "killteam:space-marine-captain:loadout:187a-3d95-c7db-7496.5262-3a19-0a9b-5632"
+          },
+          {
+            "instanceId": "operative-1",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:space-marine-captain:loadout:187a-3d95-c7db-7496.5262-3a19-0a9b-5632"
+          },
+          {
+            "instanceId": "operative-2",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-3",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-4",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-5",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Repeated instance identity is invalid",
+      "expectedCompositionValid": false,
+      "expectedErrors": [
+        "duplicate-instance"
+      ],
+      "roster": {
+        "context": {
+          "systemId": "killteam",
+          "editionId": "2024",
+          "formatId": "selected-team",
+          "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
+          "rulesetId": "2026-10-angels-of-death",
+          "datasetVersion": "2026.11.02-pilot.2"
+        },
+        "chapterTactics": {
+          "primaryId": "killteam:tactic:aggressive",
+          "secondaryId": "killteam:tactic:dueller"
+        },
+        "lines": [
+          {
+            "instanceId": "operative-0",
+            "operativeId": "killteam:space-marine-captain",
+            "loadoutId": "killteam:space-marine-captain:loadout:187a-3d95-c7db-7496.5262-3a19-0a9b-5632"
+          },
+          {
+            "instanceId": "operative-1",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-1",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-3",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-4",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-5",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cross-game operative is invalid",
+      "expectedCompositionValid": false,
+      "expectedErrors": [
+        "unknown-operative"
+      ],
+      "roster": {
+        "context": {
+          "systemId": "killteam",
+          "editionId": "2024",
+          "formatId": "selected-team",
+          "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
+          "rulesetId": "2026-10-angels-of-death",
+          "datasetVersion": "2026.11.02-pilot.2"
+        },
+        "chapterTactics": {
+          "primaryId": "killteam:tactic:aggressive",
+          "secondaryId": "killteam:tactic:dueller"
+        },
+        "lines": [
+          {
+            "instanceId": "operative-0",
+            "operativeId": "killteam:space-marine-captain",
+            "loadoutId": "killteam:space-marine-captain:loadout:187a-3d95-c7db-7496.5262-3a19-0a9b-5632"
+          },
+          {
+            "instanceId": "operative-1",
+            "operativeId": "aos:liberators",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-2",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-3",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-4",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-5",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Unknown tactic is invalid",
+      "expectedCompositionValid": false,
+      "expectedErrors": [
+        "invalid-chapter-tactic"
+      ],
+      "roster": {
+        "context": {
+          "systemId": "killteam",
+          "editionId": "2024",
+          "formatId": "selected-team",
+          "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
+          "rulesetId": "2026-10-angels-of-death",
+          "datasetVersion": "2026.11.02-pilot.2"
+        },
+        "chapterTactics": {
+          "primaryId": "killteam:tactic:invented",
+          "secondaryId": "killteam:tactic:dueller"
+        },
+        "lines": [
+          {
+            "instanceId": "operative-0",
+            "operativeId": "killteam:space-marine-captain",
+            "loadoutId": "killteam:space-marine-captain:loadout:187a-3d95-c7db-7496.5262-3a19-0a9b-5632"
+          },
+          {
+            "instanceId": "operative-1",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-2",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-3",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-4",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-5",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Older curated dataset version is rejected",
+      "expectedCompositionValid": false,
+      "expectedErrors": [
+        "invalid-context"
+      ],
+      "roster": {
+        "context": {
+          "systemId": "killteam",
+          "editionId": "2024",
+          "formatId": "selected-team",
+          "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
+          "rulesetId": "2026-10-angels-of-death",
+          "datasetVersion": "2026.11.02-pilot.1"
+        },
+        "chapterTactics": {
+          "primaryId": "killteam:tactic:aggressive",
+          "secondaryId": "killteam:tactic:dueller"
+        },
+        "lines": [
+          {
+            "instanceId": "operative-0",
+            "operativeId": "killteam:space-marine-captain",
+            "loadoutId": "killteam:space-marine-captain:loadout:187a-3d95-c7db-7496.5262-3a19-0a9b-5632"
+          },
+          {
+            "instanceId": "operative-1",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-2",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-3",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-4",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-5",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Changed initial campaign tactic is invalid",
+      "expectedCompositionValid": false,
+      "expectedErrors": [
+        "campaign-tactic-mismatch"
+      ],
+      "roster": {
+        "context": {
+          "systemId": "killteam",
+          "editionId": "2024",
+          "formatId": "selected-team",
+          "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
+          "rulesetId": "2026-10-angels-of-death",
+          "datasetVersion": "2026.11.02-pilot.2"
+        },
+        "chapterTactics": {
+          "primaryId": "killteam:tactic:aggressive",
+          "secondaryId": "killteam:tactic:dueller"
+        },
+        "lines": [
+          {
+            "instanceId": "operative-0",
+            "operativeId": "killteam:space-marine-captain",
+            "loadoutId": "killteam:space-marine-captain:loadout:187a-3d95-c7db-7496.5262-3a19-0a9b-5632"
+          },
+          {
+            "instanceId": "operative-1",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-2",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-3",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-4",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-5",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          }
+        ],
+        "campaignLock": {
+          "primaryId": "killteam:tactic:siege-specialist",
+          "secondaryId": "killteam:tactic:dueller"
+        }
+      }
+    },
+    {
+      "name": "Quantity shortcut cannot bypass individual selections",
+      "expectedCompositionValid": false,
+      "expectedErrors": [
+        "invalid-line"
+      ],
+      "roster": {
+        "context": {
+          "systemId": "killteam",
+          "editionId": "2024",
+          "formatId": "selected-team",
+          "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
+          "rulesetId": "2026-10-angels-of-death",
+          "datasetVersion": "2026.11.02-pilot.2"
+        },
+        "chapterTactics": {
+          "primaryId": "killteam:tactic:aggressive",
+          "secondaryId": "killteam:tactic:dueller"
+        },
+        "lines": [
+          {
+            "instanceId": "operative-0",
+            "operativeId": "killteam:space-marine-captain",
+            "loadoutId": "killteam:space-marine-captain:loadout:187a-3d95-c7db-7496.5262-3a19-0a9b-5632"
+          },
+          {
+            "instanceId": "operative-1",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88",
+            "quantity": 5
+          },
+          {
+            "instanceId": "operative-2",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-3",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-4",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          },
+          {
+            "instanceId": "operative-5",
+            "operativeId": "killteam:intercessor-warrior",
+            "loadoutId": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88"
+          }
+        ]
+      }
+    }
+  ]
+}

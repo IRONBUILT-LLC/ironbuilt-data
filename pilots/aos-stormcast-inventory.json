@@ -1,0 +1,4187 @@
+{
+  "schema": "ironbuilt-stormcast-inventory/1",
+  "id": "aos:stormcast-inventory",
+  "releaseChannel": "dev",
+  "checkedAt": "2026-11-02",
+  "context": {
+    "systemId": "aos",
+    "editionId": "4e",
+    "formatId": "army-structure",
+    "rulesetId": "stormcast-source-inventory",
+    "sourceRevision": "6909c1401ee52c63b5187a7c2d00fb34190479bd",
+    "datasetVersion": "2026.11.02-inventory.1"
+  },
+  "authorization": {
+    "basis": "user-stated-rules-permission",
+    "date": "2026-11-02",
+    "originalAbilityWording": true,
+    "note": "User confirms rules use is permitted, following the existing 40K approach with original synonymous ability wording. This record is not an independent legal clearance; no artwork permission is assumed."
+  },
+  "attribution": {
+    "publisher": "Games Workshop",
+    "structuredReference": "BSData community maintainers",
+    "unofficial": true,
+    "compilationLicense": "No explicit general repository licence verified; no conflicting explicit licence identified in inspected trees. Limited reviewed records only."
+  },
+  "coverage": {
+    "sourceInventoryOnly": true,
+    "currentProfilesVerified": false,
+    "regimentEligibilityVerified": false,
+    "fullValidation": false,
+    "gameplay": false
+  },
+  "sources": [
+    {
+      "url": "https://github.com/BSData/age-of-sigmar-4th/blob/6909c1401ee52c63b5187a7c2d00fb34190479bd/Stormcast%20Eternals%20-%20Library.cat",
+      "sha256": "e22af76d945c8d066aca6331d969247dfec8b876ba5f9cc84374ed039508a6d0",
+      "location": "Stormcast Eternals - Library.cat",
+      "revision": "6909c1401ee52c63b5187a7c2d00fb34190479bd"
+    },
+    {
+      "url": "https://github.com/BSData/age-of-sigmar-4th/blob/6909c1401ee52c63b5187a7c2d00fb34190479bd/Stormcast%20Eternals.cat",
+      "sha256": "4b8fa2ca67e6ecb6cde2853793156702de9606e81b07d724f888613a466b82cc",
+      "location": "Stormcast Eternals.cat",
+      "revision": "6909c1401ee52c63b5187a7c2d00fb34190479bd"
+    },
+    {
+      "url": "https://github.com/BSData/age-of-sigmar-4th/blob/6909c1401ee52c63b5187a7c2d00fb34190479bd/Age%20of%20Sigmar%204.0.gst",
+      "sha256": "9a83c516b27a937d15308e4a875219779870ae85d24bef5a2a5ea408dd191e36",
+      "location": "Age of Sigmar 4.0.gst",
+      "revision": "6909c1401ee52c63b5187a7c2d00fb34190479bd"
+    }
+  ],
+  "entries": [
+    {
+      "id": "aos:catalogue:9950-73bd-365e-e450",
+      "name": "Neave Blacktalon",
+      "sourceId": "8931-32bb-58ba-820a",
+      "sourceLinkId": "9950-73bd-365e-e450",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "UNIQUE",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "INFANTRY",
+        "VANGUARD CHAMBER",
+        "THE BLACKTALONS"
+      ],
+      "sourcePoints": 280,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "920e-12a6-89-93d6",
+          "sourceName": "Neave Blacktalon",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 8,
+      "sourceModifierCount": 5,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Neave Blacktalon warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:7a96-997a-6a56-eed6",
+      "name": "Lorai, Child of the Abyss",
+      "sourceId": "fc54-7cb5-cc46-7aeb",
+      "sourceLinkId": "7a96-997a-6a56-eed6",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "UNIQUE",
+        "ORDER",
+        "INFANTRY",
+        "THE BLACKTALONS",
+        "WIZARD (1)",
+        "WARD (5+)",
+        "IDONETH DEEPKIN"
+      ],
+      "sourcePoints": null,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "2d80-5749-64a9-d480",
+          "sourceName": "Lorai, Child of the Abyss",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 6,
+      "sourceModifierCount": 2,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Lorai, Child of the Abyss warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:bca3-d729-f621-945c",
+      "name": "Yndrasta, the Celestial Spear",
+      "sourceId": "b665-fc99-6937-e5e5",
+      "sourceLinkId": "bca3-d729-f621-945c",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "WARD (5+)",
+        "UNIQUE",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "INFANTRY",
+        "WARMASTER",
+        "FLY"
+      ],
+      "sourcePoints": 270,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "696d-c795-1eb9-883",
+          "sourceName": "Yndrasta, the Celestial Spear",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 9,
+      "sourceModifierCount": 4,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Yndrasta, the Celestial Spear warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:d2ae-ccc9-5e5d-c72b",
+      "name": "Astreia Solbright",
+      "sourceId": "9fa1-9540-6069-3c75",
+      "sourceLinkId": "d2ae-ccc9-5e5d-c72b",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "UNIQUE",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "SACROSANCT CHAMBER",
+        "CAVALRY",
+        "WIZARD (1)",
+        "Legends"
+      ],
+      "sourcePoints": 220,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "2d58-235a-59ef-6c8e",
+          "sourceName": "Astreia Solbright",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 7,
+      "sourceModifierCount": 4,
+      "requiredBaseline": {
+        "publication": "Battletome Supplement: Stormcast Eternals",
+        "section": "Astreia Solbright warscroll",
+        "sourcePublicationId": "87c-f122-a891-630e",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:73b9-10fc-9e0a-e99b",
+      "name": "Aventis Firestrike, Magister of Hammerhal",
+      "sourceId": "a169-16d2-44ab-4c13",
+      "sourceLinkId": "73b9-10fc-9e0a-e99b",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "FLY",
+        "UNIQUE",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "MONSTER",
+        "WIZARD (2)",
+        "SACROSANCT CHAMBER",
+        "Legends"
+      ],
+      "sourcePoints": 310,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "e6dd-bdbf-29a2-3c28",
+          "sourceName": "Aventis Firestrike, Magister of Hammerhal",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 7,
+      "sourceModifierCount": 4,
+      "requiredBaseline": {
+        "publication": "Battletome Supplement: Stormcast Eternals",
+        "section": "Aventis Firestrike, Magister of Hammerhal warscroll",
+        "sourcePublicationId": "87c-f122-a891-630e",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:0014-ab3b-f147-1395",
+      "name": "Celestant-Prime, Hammer of Sigmar",
+      "sourceId": "ed87-8b4f-7c45-42a5",
+      "sourceLinkId": "0014-ab3b-f147-1395",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "FLY",
+        "WARD (5+)",
+        "WARMASTER",
+        "UNIQUE",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "INFANTRY"
+      ],
+      "sourcePoints": 240,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "d283-b828-1fdf-ccc7",
+          "sourceName": "Celestant-Prime, Hammer of Sigmar",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 7,
+      "sourceModifierCount": 4,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Celestant-Prime, Hammer of Sigmar warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:05b8-0178-acd4-8b0f",
+      "name": "Drakesworn Templar",
+      "sourceId": "2def-8a05-fe6-e8ca",
+      "sourceLinkId": "05b8-0178-acd4-8b0f",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "MONSTER",
+        "FLY",
+        "EXTREMIS CHAMBER"
+      ],
+      "sourcePoints": 390,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "980e-819e-e47f-62f4",
+          "sourceName": "Drakesworn Templar",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 10,
+      "sourceModifierCount": 5,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Drakesworn Templar warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:7bdd-c75c-52bc-69c7",
+      "name": "Gardus Steel Soul",
+      "sourceId": "227e-824c-67f-e51f",
+      "sourceLinkId": "7bdd-c75c-52bc-69c7",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "WARD (5+)",
+        "UNIQUE",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "INFANTRY",
+        "WARRIOR CHAMBER"
+      ],
+      "sourcePoints": 160,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "fbcc-d95f-abc-f5d1",
+          "sourceName": "Gardus Steel Soul",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 5,
+      "sourceModifierCount": 6,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Gardus Steel Soul warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:c0ee-ce36-f45f-914a",
+      "name": "Gavriel Sureheart",
+      "sourceId": "f701-73e7-fd98-6d54",
+      "sourceLinkId": "c0ee-ce36-f45f-914a",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "INFANTRY",
+        "WARRIOR CHAMBER",
+        "UNIQUE",
+        "Legends"
+      ],
+      "sourcePoints": 120,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "dfbe-1209-5533-a897",
+          "sourceName": "Gavriel Sureheart",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 5,
+      "sourceModifierCount": 6,
+      "requiredBaseline": {
+        "publication": "Battletome Supplement: Stormcast Eternals",
+        "section": "Gavriel Sureheart warscroll",
+        "sourcePublicationId": "87c-f122-a891-630e",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:3aff-9913-2e5b-b3d2",
+      "name": "Ionus Cryptborn, Warden of Lost Souls",
+      "sourceId": "f96a-5448-b667-1ed5",
+      "sourceLinkId": "3aff-9913-2e5b-b3d2",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "FLY",
+        "WARMASTER",
+        "UNIQUE",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "MONSTER",
+        "PRIEST (2)",
+        "RUINATION CHAMBER"
+      ],
+      "sourcePoints": 340,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "d86-3bcd-56f7-c48e",
+          "sourceName": "Ionus Cryptborn, Warden of Lost Souls",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 9,
+      "sourceModifierCount": 4,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Ionus Cryptborn, Warden of Lost Souls warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:5bfb-040c-0265-ed6d",
+      "name": "Karazai the Scarred",
+      "sourceId": "c6c-d912-2899-5073",
+      "sourceLinkId": "5bfb-040c-0265-ed6d",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "UNIQUE",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "WARMASTER",
+        "MONSTER",
+        "FLY"
+      ],
+      "sourcePoints": 420,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "32f0-4be4-b9e1-482d",
+          "sourceName": "Karazai the Scarred",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 9,
+      "sourceModifierCount": 4,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Karazai the Scarred warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:c930-004a-138a-e455",
+      "name": "Knight-Arcanum",
+      "sourceId": "3335-9e70-ec3d-f966",
+      "sourceLinkId": "c930-004a-138a-e455",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "INFANTRY",
+        "WARRIOR CHAMBER",
+        "WIZARD (1)"
+      ],
+      "sourcePoints": 110,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "eb86-f5be-f346-d4f0",
+          "sourceName": "Knight-Arcanum",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 4,
+      "sourceModifierCount": 5,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Knight-Arcanum warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:bb4b-15dc-7f74-7139",
+      "name": "Knight-Draconis",
+      "sourceId": "1b67-5ed1-5c9d-388f",
+      "sourceLinkId": "bb4b-15dc-7f74-7139",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "MONSTER",
+        "FLY",
+        "EXTREMIS CHAMBER"
+      ],
+      "sourcePoints": 200,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "6e2a-1c10-9eef-e115",
+          "sourceName": "Knight-Draconis",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 8,
+      "sourceModifierCount": 3,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Knight-Draconis warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:b43e-dc6b-5afa-8bb5",
+      "name": "Knight-Heraldor",
+      "sourceId": "a36f-a410-048c-e018",
+      "sourceLinkId": "b43e-dc6b-5afa-8bb5",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "INFANTRY",
+        "WARRIOR CHAMBER",
+        "Legends"
+      ],
+      "sourcePoints": 110,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "aee7-61ce-40e2-a5e9",
+          "sourceName": "Knight-Heraldor",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 4,
+      "sourceModifierCount": 6,
+      "requiredBaseline": {
+        "publication": "Battletome Supplement: Stormcast Eternals",
+        "section": "Knight-Heraldor warscroll",
+        "sourcePublicationId": "87c-f122-a891-630e",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:6b8c-3e9f-1b2b-cff6",
+      "name": "Knight-Incantor",
+      "sourceId": "c029-12b6-9c8d-d1ef",
+      "sourceLinkId": "6b8c-3e9f-1b2b-cff6",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "SACROSANCT CHAMBER",
+        "WIZARD (1)",
+        "INFANTRY",
+        "Legends"
+      ],
+      "sourcePoints": 140,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "92ed-0617-737f-bec5",
+          "sourceName": "Knight-Incantor",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 4,
+      "sourceModifierCount": 6,
+      "requiredBaseline": {
+        "publication": "Battletome Supplement: Stormcast Eternals",
+        "section": "Knight-Incantor warscroll",
+        "sourcePublicationId": "87c-f122-a891-630e",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:5557-6394-d80b-f81c",
+      "name": "Knight-Judicator with Gryph-hounds",
+      "sourceId": "8934-66a7-47ba-727d",
+      "sourceLinkId": "5557-6394-d80b-f81c",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "INFANTRY",
+        "WARRIOR CHAMBER"
+      ],
+      "sourcePoints": 130,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "e20c-d725-267b-f7fb",
+          "sourceName": "Knight-Judicator with Gryph-hounds",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 6,
+      "sourceModifierCount": 5,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Knight-Judicator with Gryph-hounds warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:220e-e676-2f2e-bec4",
+      "name": "Knight-Questor",
+      "sourceId": "9f39-a639-e695-6de3",
+      "sourceLinkId": "220e-e676-2f2e-bec4",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "INFANTRY",
+        "WARRIOR CHAMBER"
+      ],
+      "sourcePoints": 100,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "7391-fce2-d82c-7584",
+          "sourceName": "Knight-Questor",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 4,
+      "sourceModifierCount": 6,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Knight-Questor warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:14c4-7f80-9663-b6ab",
+      "name": "Knight-Relictor",
+      "sourceId": "f858-254e-aaeb-4d19",
+      "sourceLinkId": "14c4-7f80-9663-b6ab",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "INFANTRY",
+        "WARRIOR CHAMBER",
+        "PRIEST (1)"
+      ],
+      "sourcePoints": 120,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "2cd8-5196-46c7-6b89",
+          "sourceName": "Knight-Relictor",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 4,
+      "sourceModifierCount": 5,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Knight-Relictor warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:2ef2-cfd9-85de-a282",
+      "name": "Knight-Venator",
+      "sourceId": "d5aa-f736-3c06-d6ad",
+      "sourceLinkId": "2ef2-cfd9-85de-a282",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "INFANTRY",
+        "WARRIOR CHAMBER",
+        "FLY",
+        "Legends"
+      ],
+      "sourcePoints": 170,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "c678-723b-fbcc-f161",
+          "sourceName": "Knight-Venator",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 8,
+      "sourceModifierCount": 6,
+      "requiredBaseline": {
+        "publication": "Battletome Supplement: Stormcast Eternals",
+        "section": "Knight-Venator warscroll",
+        "sourcePublicationId": "87c-f122-a891-630e",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:fb4a-c253-5d82-d0aa",
+      "name": "Knight-Vexillor",
+      "sourceId": "276b-7c3d-995e-f24d",
+      "sourceLinkId": "fb4a-c253-5d82-d0aa",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "INFANTRY",
+        "WARRIOR CHAMBER"
+      ],
+      "sourcePoints": 100,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "74fa-5e-6040-5f66",
+          "sourceName": "Knight-Vexillor",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 4,
+      "sourceModifierCount": 5,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Knight-Vexillor warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:a7c5-4587-7ce3-bcc7",
+      "name": "Knight-Zephyros",
+      "sourceId": "f0d9-5cb2-345b-565e",
+      "sourceLinkId": "a7c5-4587-7ce3-bcc7",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "INFANTRY",
+        "VANGUARD CHAMBER"
+      ],
+      "sourcePoints": 130,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "dea1-2368-db49-4ba8",
+          "sourceName": "Knight-Zephyros",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 6,
+      "sourceModifierCount": 6,
+      "requiredBaseline": {
+        "publication": "Battletome Supplement: Stormcast Eternals",
+        "section": "Knight-Zephyros warscroll",
+        "sourcePublicationId": "87c-f122-a891-630e",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:793b-0fff-26f8-7337",
+      "name": "Krondys, Son of Dracothion",
+      "sourceId": "9c0f-13c7-e2c1-55a",
+      "sourceLinkId": "793b-0fff-26f8-7337",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "UNIQUE",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "WARMASTER",
+        "MONSTER",
+        "FLY",
+        "WIZARD (2)"
+      ],
+      "sourcePoints": 480,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "c5f8-a21f-3ab5-d04c",
+          "sourceName": "Krondys, Son of Dracothion",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 9,
+      "sourceModifierCount": 4,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Krondys, Son of Dracothion warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:8afd-2c02-944a-0f2d",
+      "name": "Lord-Aquilor",
+      "sourceId": "feec-61cb-ca0-7d3c",
+      "sourceLinkId": "8afd-2c02-944a-0f2d",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "CAVALRY",
+        "VANGUARD CHAMBER"
+      ],
+      "sourcePoints": 140,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "7ddd-6429-a7df-6601",
+          "sourceName": "Lord-Aquilor",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 8,
+      "sourceModifierCount": 5,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Lord-Aquilor warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:e4ea-bc8b-9be8-b5cb",
+      "name": "Lord-Arcanum",
+      "sourceId": "e9fb-8478-b0ff-8911",
+      "sourceLinkId": "e4ea-bc8b-9be8-b5cb",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "SACROSANCT CHAMBER",
+        "WIZARD (1)",
+        "INFANTRY",
+        "Legends"
+      ],
+      "sourcePoints": 140,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "dc93-6edf-8d39-b069",
+          "sourceName": "Lord-Arcanum",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 4,
+      "sourceModifierCount": 5,
+      "requiredBaseline": {
+        "publication": "Battletome Supplement: Stormcast Eternals",
+        "section": "Lord-Arcanum warscroll",
+        "sourcePublicationId": "87c-f122-a891-630e",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:c91d-6b1a-95d4-17ee",
+      "name": "Lord-Arcanum on Celestial Dracoline",
+      "sourceId": "626a-2ffc-5960-b847",
+      "sourceLinkId": "c91d-6b1a-95d4-17ee",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "SACROSANCT CHAMBER",
+        "CAVALRY",
+        "WIZARD (1)",
+        "Legends"
+      ],
+      "sourcePoints": 210,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "f46a-e412-bcb1-e89a",
+          "sourceName": "Lord-Arcanum on Celestial Dracoline",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 6,
+      "sourceModifierCount": 4,
+      "requiredBaseline": {
+        "publication": "Battletome Supplement: Stormcast Eternals",
+        "section": "Lord-Arcanum on Celestial Dracoline warscroll",
+        "sourcePublicationId": "87c-f122-a891-630e",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:3af7-227a-8bf4-29c3",
+      "name": "Lord-Arcanum on Gryph-charger",
+      "sourceId": "2b9b-4a5f-d565-6afe",
+      "sourceLinkId": "3af7-227a-8bf4-29c3",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "SACROSANCT CHAMBER",
+        "CAVALRY",
+        "WIZARD (1)",
+        "Legends"
+      ],
+      "sourcePoints": 220,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "e6f5-5123-8aa5-d430",
+          "sourceName": "Lord-Arcanum on Gryph-charger",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 6,
+      "sourceModifierCount": 4,
+      "requiredBaseline": {
+        "publication": "Battletome Supplement: Stormcast Eternals",
+        "section": "Lord-Arcanum on Gryph-charger warscroll",
+        "sourcePublicationId": "87c-f122-a891-630e",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:6f9b-5634-85c1-efda",
+      "name": "Lord-Arcanum on Tauralon",
+      "sourceId": "249a-c939-3927-f0d2",
+      "sourceLinkId": "6f9b-5634-85c1-efda",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "FLY",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "MONSTER",
+        "SACROSANCT CHAMBER",
+        "WIZARD (1)",
+        "Legends"
+      ],
+      "sourcePoints": 280,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "290d-205f-655a-4ce6",
+          "sourceName": "Lord-Arcanum on Tauralon",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 6,
+      "sourceModifierCount": 4,
+      "requiredBaseline": {
+        "publication": "Battletome Supplement: Stormcast Eternals",
+        "section": "Lord-Arcanum on Tauralon warscroll",
+        "sourcePublicationId": "87c-f122-a891-630e",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:dcf3-47c1-a9bc-06ea",
+      "name": "Lord-Castellant",
+      "sourceId": "d062-d345-97db-e895",
+      "sourceLinkId": "dcf3-47c1-a9bc-06ea",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "INFANTRY",
+        "WARRIOR CHAMBER",
+        "Legends"
+      ],
+      "sourcePoints": 150,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "e262-135d-e877-3438",
+          "sourceName": "Lord-Castellant",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 6,
+      "sourceModifierCount": 5,
+      "requiredBaseline": {
+        "publication": "Battletome Supplement: Stormcast Eternals",
+        "section": "Lord-Castellant warscroll",
+        "sourcePublicationId": "87c-f122-a891-630e",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:ef68-a21a-719c-8384",
+      "name": "Lord-Celestant",
+      "sourceId": "89a1-7e05-4334-25f5",
+      "sourceLinkId": "ef68-a21a-719c-8384",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "INFANTRY",
+        "WARRIOR CHAMBER"
+      ],
+      "sourcePoints": 100,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "437-4bd-ec6a-836",
+          "sourceName": "Lord-Celestant",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 4,
+      "sourceModifierCount": 6,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Lord-Celestant warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:2e41-831b-04ea-7a00",
+      "name": "Lord-Celestant on Dracoth",
+      "sourceId": "8d96-c4c8-97a0-7201",
+      "sourceLinkId": "2e41-831b-04ea-7a00",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "CAVALRY",
+        "EXTREMIS CHAMBER"
+      ],
+      "sourcePoints": 150,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "b936-23d4-7ec2-581f",
+          "sourceName": "Lord-Celestant on Dracoth",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 8,
+      "sourceModifierCount": 5,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Lord-Celestant on Dracoth warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:d28f-2706-64d7-9fc9",
+      "name": "Lord-Celestant on Stardrake",
+      "sourceId": "4543-eb5a-9476-4fdb",
+      "sourceLinkId": "d28f-2706-64d7-9fc9",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "MONSTER",
+        "FLY",
+        "EXTREMIS CHAMBER"
+      ],
+      "sourcePoints": 490,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "3a9-823b-db7b-65a1",
+          "sourceName": "Lord-Celestant on Stardrake",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 8,
+      "sourceModifierCount": 4,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Lord-Celestant on Stardrake warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:9b58-03c4-3a42-fc2b",
+      "name": "Lord-Commander Bastian Carthalos",
+      "sourceId": "27bd-f462-4fbb-5998",
+      "sourceLinkId": "9b58-03c4-3a42-fc2b",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "UNIQUE",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "INFANTRY",
+        "WARD (5+)"
+      ],
+      "sourcePoints": 190,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "ef38-22f2-ba5b-6983",
+          "sourceName": "Lord-Commander Bastian Carthalos",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 7,
+      "sourceModifierCount": 4,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Lord-Commander Bastian Carthalos warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:c9db-3d1e-e60e-a00e",
+      "name": "Lord-Exorcist",
+      "sourceId": "6f35-d6c8-c31b-0406",
+      "sourceLinkId": "c9db-3d1e-e60e-a00e",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "SACROSANCT CHAMBER",
+        "WIZARD (1)",
+        "INFANTRY",
+        "Legends"
+      ],
+      "sourcePoints": 150,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "b117-d427-2686-bca1",
+          "sourceName": "Lord-Exorcist",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 4,
+      "sourceModifierCount": 5,
+      "requiredBaseline": {
+        "publication": "Battletome Supplement: Stormcast Eternals",
+        "section": "Lord-Exorcist warscroll",
+        "sourcePublicationId": "87c-f122-a891-630e",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:24de-d180-4a59-0c74",
+      "name": "Lord-Imperatant",
+      "sourceId": "c1b5-c776-1613-a463",
+      "sourceLinkId": "24de-d180-4a59-0c74",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "INFANTRY",
+        "WARRIOR CHAMBER"
+      ],
+      "sourcePoints": 110,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "d330-6204-86ec-c3c3",
+          "sourceName": "Lord-Imperatant",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 4,
+      "sourceModifierCount": 6,
+      "requiredBaseline": {
+        "publication": "Unresolved upstream publication ID",
+        "section": "Lord-Imperatant warscroll",
+        "sourcePublicationId": "daf8-1c23-a61e-b132",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:7b47-c821-f2c5-e6a8",
+      "name": "Lord-Ordinator",
+      "sourceId": "3a7d-1a9b-8191-070a",
+      "sourceLinkId": "7b47-c821-f2c5-e6a8",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "INFANTRY",
+        "SACROSANCT CHAMBER",
+        "Legends"
+      ],
+      "sourcePoints": 100,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "4c08-3e41-8a4a-52b1",
+          "sourceName": "Lord-Ordinator",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 4,
+      "sourceModifierCount": 6,
+      "requiredBaseline": {
+        "publication": "Battletome Supplement: Stormcast Eternals",
+        "section": "Lord-Ordinator warscroll",
+        "sourcePublicationId": "87c-f122-a891-630e",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:ac7c-201a-7b27-e5af",
+      "name": "Lord-Terminos",
+      "sourceId": "678a-136a-c7ce-fe8c",
+      "sourceLinkId": "ac7c-201a-7b27-e5af",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "INFANTRY",
+        "RUINATION CHAMBER"
+      ],
+      "sourcePoints": 140,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "5b51-8d4d-ceda-709",
+          "sourceName": "Lord-Terminos",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 4,
+      "sourceModifierCount": 7,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Lord-Terminos warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:774e-81c7-2b59-bff0",
+      "name": "Lord-Veritant",
+      "sourceId": "1197-3ca0-f8b0-9c67",
+      "sourceLinkId": "774e-81c7-2b59-bff0",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "INFANTRY",
+        "RUINATION CHAMBER",
+        "PRIEST (1)"
+      ],
+      "sourcePoints": 110,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "fbc4-4916-5111-82d",
+          "sourceName": "Lord-Veritant",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 6,
+      "sourceModifierCount": 7,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Lord-Veritant warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:92ca-4357-e167-2c50",
+      "name": "Lord-Vigilant on Gryph-stalker",
+      "sourceId": "57cb-3869-2834-3019",
+      "sourceLinkId": "92ca-4357-e167-2c50",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "RUINATION CHAMBER",
+        "CAVALRY"
+      ],
+      "sourcePoints": 120,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "fdf6-f748-8051-4d9f",
+          "sourceName": "Lord-Vigilant on Gryph-stalker",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 6,
+      "sourceModifierCount": 6,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Lord-Vigilant on Gryph-stalker warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:b9e9-9c67-27c1-d616",
+      "name": "Vandus Hammerhand",
+      "sourceId": "cd2e-e2d-7ad-f065",
+      "sourceLinkId": "b9e9-9c67-27c1-d616",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "UNIQUE",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "WARRIOR CHAMBER",
+        "CAVALRY"
+      ],
+      "sourcePoints": 160,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "de33-362c-6031-b0f9",
+          "sourceName": "Vandus Hammerhand",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 9,
+      "sourceModifierCount": 5,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Vandus Hammerhand warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:7eb2-af8f-55ef-4dc0",
+      "name": "Aetherwings",
+      "sourceId": "c6fc-b74d-ee51-d3d0",
+      "sourceLinkId": "7eb2-af8f-55ef-4dc0",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "VANGUARD CHAMBER",
+        "BEAST",
+        "FLY"
+      ],
+      "sourcePoints": 80,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "529f-42f3-52f8-1a2e",
+          "sourceName": "Aetherwings",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 4,
+      "sourceModifierCount": 4,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Aetherwings warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:9c9f-d595-deeb-d195",
+      "name": "Dracothian Guard Desolators",
+      "sourceId": "bd45-af2b-6ae7-7636",
+      "sourceLinkId": "9c9f-d595-deeb-d195",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "EXTREMIS CHAMBER",
+        "CAVALRY"
+      ],
+      "sourcePoints": 170,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "c535-8db8-c290-8de2",
+          "sourceName": "Dracothian Guard Desolators",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 8,
+      "sourceModifierCount": 7,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Dracothian Guard Desolators warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:65e1-c840-fe1e-60ff",
+      "name": "Dracothian Guard Concussors",
+      "sourceId": "1b86-303a-7b34-526b",
+      "sourceLinkId": "65e1-c840-fe1e-60ff",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "EXTREMIS CHAMBER",
+        "CAVALRY"
+      ],
+      "sourcePoints": 200,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "af6c-bbe5-2c7f-35c2",
+          "sourceName": "Dracothian Guard Concussors",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 8,
+      "sourceModifierCount": 7,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Dracothian Guard Concussors warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:8252-9f59-4da2-a55b",
+      "name": "Dracothian Guard Concussors",
+      "sourceId": "1b86-303a-7b34-526b",
+      "sourceLinkId": "8252-9f59-4da2-a55b",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "EXTREMIS CHAMBER",
+        "CAVALRY"
+      ],
+      "sourcePoints": 120,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "af6c-bbe5-2c7f-35c2",
+          "sourceName": "Dracothian Guard Concussors",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 9,
+      "sourceModifierCount": 8,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Dracothian Guard Concussors warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:f61d-7a27-965e-a6b4",
+      "name": "Annihilators with Meteoric Grandhammers",
+      "sourceId": "ab5c-802f-f55c-2c2a",
+      "sourceLinkId": "f61d-7a27-965e-a6b4",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "WARRIOR CHAMBER"
+      ],
+      "sourcePoints": 180,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "c80c-f74b-8395-76a",
+          "sourceName": "Annihilators with Meteoric Grandhammers",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 8,
+      "sourceModifierCount": 7,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Annihilators with Meteoric Grandhammers warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:58f1-f11a-2b60-3759",
+      "name": "Decimators",
+      "sourceId": "0c95-4d05-6cbb-210d",
+      "sourceLinkId": "58f1-f11a-2b60-3759",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "CHAMPION",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "INFANTRY",
+        "WARRIOR CHAMBER",
+        "Legends"
+      ],
+      "sourcePoints": 240,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "f458-7081-e918-e40f",
+          "sourceName": "Decimators",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 10,
+      "sourceModifierCount": 12,
+      "requiredBaseline": {
+        "publication": "Battletome Supplement: Stormcast Eternals",
+        "section": "Decimators warscroll",
+        "sourcePublicationId": "87c-f122-a891-630e",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:8ce6-2f0f-5f04-053b",
+      "name": "Annihilators",
+      "sourceId": "abd7-bf0a-b2f9-8cc2",
+      "sourceLinkId": "8ce6-2f0f-5f04-053b",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "WARRIOR CHAMBER"
+      ],
+      "sourcePoints": 130,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "6f11-6f17-518-7c99",
+          "sourceName": "Annihilators",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 8,
+      "sourceModifierCount": 7,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Annihilators warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:f962-52c4-38a9-47ab",
+      "name": "Celestar Ballista",
+      "sourceId": "8824-e8f0-d061-b64d",
+      "sourceLinkId": "f962-52c4-38a9-47ab",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "SACROSANCT CHAMBER",
+        "WAR MACHINE",
+        "Legends"
+      ],
+      "sourcePoints": 120,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "7833-40c7-f7cb-7abd",
+          "sourceName": "Celestar Ballista",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 6,
+      "sourceModifierCount": 2,
+      "requiredBaseline": {
+        "publication": "Battletome Supplement: Stormcast Eternals",
+        "section": "Celestar Ballista warscroll",
+        "sourcePublicationId": "87c-f122-a891-630e",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:644e-e0af-6ae9-e226",
+      "name": "Castigators",
+      "sourceId": "976f-374d-480c-0ee0",
+      "sourceLinkId": "644e-e0af-6ae9-e226",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "CHAMPION",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "SACROSANCT CHAMBER",
+        "INFANTRY",
+        "Legends"
+      ],
+      "sourcePoints": 110,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "34cf-8a6b-08d3-c759",
+          "sourceName": "Castigators",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 9,
+      "sourceModifierCount": 5,
+      "requiredBaseline": {
+        "publication": "Battletome Supplement: Stormcast Eternals",
+        "section": "Castigators warscroll",
+        "sourcePublicationId": "87c-f122-a891-630e",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:0064-1c46-397d-18b3",
+      "name": "Dracothian Guard Tempestors",
+      "sourceId": "ac89-7f77-6744-c172",
+      "sourceLinkId": "0064-1c46-397d-18b3",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "EXTREMIS CHAMBER",
+        "CAVALRY"
+      ],
+      "sourcePoints": 170,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "9a75-8314-66a8-f7ae",
+          "sourceName": "Dracothian Guard Tempestors",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 10,
+      "sourceModifierCount": 7,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Dracothian Guard Tempestors warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:c2e6-533f-2341-9ca0",
+      "name": "Dracothian Guard Desolators",
+      "sourceId": "bd45-af2b-6ae7-7636",
+      "sourceLinkId": "c2e6-533f-2341-9ca0",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "EXTREMIS CHAMBER",
+        "CAVALRY"
+      ],
+      "sourcePoints": 100,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "c535-8db8-c290-8de2",
+          "sourceName": "Dracothian Guard Desolators",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 9,
+      "sourceModifierCount": 8,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Dracothian Guard Desolators warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:d241-d355-2b9f-7281",
+      "name": "Dracothian Guard Fulminators",
+      "sourceId": "7d69-482-91aa-e846",
+      "sourceLinkId": "d241-d355-2b9f-7281",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "EXTREMIS CHAMBER",
+        "CAVALRY"
+      ],
+      "sourcePoints": 190,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "a86-c669-2cc1-b24c",
+          "sourceName": "Dracothian Guard Fulminators",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 8,
+      "sourceModifierCount": 7,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Dracothian Guard Fulminators warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:27e4-433c-386f-8323",
+      "name": "Dracothian Guard Fulminators",
+      "sourceId": "7d69-482-91aa-e846",
+      "sourceLinkId": "27e4-433c-386f-8323",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "EXTREMIS CHAMBER",
+        "CAVALRY"
+      ],
+      "sourcePoints": 100,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "a86-c669-2cc1-b24c",
+          "sourceName": "Dracothian Guard Fulminators",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 9,
+      "sourceModifierCount": 8,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Dracothian Guard Fulminators warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:218d-f230-5cf7-c3cd",
+      "name": "Gryph-hounds",
+      "sourceId": "1e20-a039-6cc2-fc6c",
+      "sourceLinkId": "218d-f230-5cf7-c3cd",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "BEAST",
+        "CHAMPION"
+      ],
+      "sourcePoints": 80,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "6935-c707-4928-c296",
+          "sourceName": "Gryph-hound",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 5,
+      "sourceModifierCount": 5,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Gryph-hounds warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:ef11-b549-e224-8a47",
+      "name": "Dracothian Guard Tempestors",
+      "sourceId": "ac89-7f77-6744-c172",
+      "sourceLinkId": "ef11-b549-e224-8a47",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "EXTREMIS CHAMBER",
+        "CAVALRY"
+      ],
+      "sourcePoints": 90,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "9a75-8314-66a8-f7ae",
+          "sourceName": "Dracothian Guard Tempestors",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 11,
+      "sourceModifierCount": 8,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Dracothian Guard Tempestors warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:40cd-c4b1-d42b-86fb",
+      "name": "Evocators",
+      "sourceId": "2a70-505f-0d78-6f3e",
+      "sourceLinkId": "40cd-c4b1-d42b-86fb",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "CHAMPION",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "SACROSANCT CHAMBER",
+        "INFANTRY",
+        "Legends"
+      ],
+      "sourcePoints": 180,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "ecd6-cf1b-acd4-9543",
+          "sourceName": "Evocators",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 7,
+      "sourceModifierCount": 5,
+      "requiredBaseline": {
+        "publication": "Battletome Supplement: Stormcast Eternals",
+        "section": "Evocators warscroll",
+        "sourcePublicationId": "87c-f122-a891-630e",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:28fe-e6de-8e8c-b972",
+      "name": "Evocators on Celestial Dracolines",
+      "sourceId": "b47e-39f4-710b-042a",
+      "sourceLinkId": "28fe-e6de-8e8c-b972",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "CHAMPION",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "SACROSANCT CHAMBER",
+        "CAVALRY",
+        "Legends"
+      ],
+      "sourcePoints": 240,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "a4f5-9d20-6bb1-8a10",
+          "sourceName": "Evocators on Celestial Dracolines",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 9,
+      "sourceModifierCount": 5,
+      "requiredBaseline": {
+        "publication": "Battletome Supplement: Stormcast Eternals",
+        "section": "Evocators on Celestial Dracolines warscroll",
+        "sourcePublicationId": "87c-f122-a891-630e",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:56ea-d358-74e0-3ee3",
+      "name": "Praetors",
+      "sourceId": "e845-969a-b1fd-4b49",
+      "sourceLinkId": "56ea-d358-74e0-3ee3",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "WARRIOR CHAMBER"
+      ],
+      "sourcePoints": 120,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "d205-b71d-341e-1260",
+          "sourceName": "Praetors",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 8,
+      "sourceModifierCount": 7,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Praetors warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:1ba8-de76-c3e2-f18b",
+      "name": "Judicators with Skybolt Bows",
+      "sourceId": "57c8-4a7e-b7f6-cf5b",
+      "sourceLinkId": "1ba8-de76-c3e2-f18b",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "CHAMPION",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "INFANTRY",
+        "WARRIOR CHAMBER",
+        "Legends"
+      ],
+      "sourcePoints": 140,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "46be-8708-f25b-c88a",
+          "sourceName": "Judicators with Skybolt Bows",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 12,
+      "sourceModifierCount": 12,
+      "requiredBaseline": {
+        "publication": "Battletome Supplement: Stormcast Eternals",
+        "section": "Judicators with Skybolt Bows warscroll",
+        "sourcePublicationId": "87c-f122-a891-630e",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:bc2a-f0e7-7f19-5c12",
+      "name": "Questor Soulsworn",
+      "sourceId": "59c-6be3-dbf8-3fe3",
+      "sourceLinkId": "bc2a-f0e7-7f19-5c12",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "INFANTRY",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "WARRIOR CHAMBER",
+        "CHAMPION (1/6)"
+      ],
+      "sourcePoints": 210,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "2012-e230-95c7-7bdf",
+          "sourceName": "Questor Soulsworn",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 8,
+      "sourceModifierCount": 5,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Questor Soulsworn warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:769f-d944-eaff-50c8",
+      "name": "Judicators with Boltstorm Crossbows",
+      "sourceId": "87d2-4c1a-cbde-a9f9",
+      "sourceLinkId": "769f-d944-eaff-50c8",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "CHAMPION",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "INFANTRY",
+        "WARRIOR CHAMBER",
+        "Legends"
+      ],
+      "sourcePoints": 160,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "2567-f3de-243e-5b9d",
+          "sourceName": "Judicators with Boltstorm Crossbows",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 12,
+      "sourceModifierCount": 12,
+      "requiredBaseline": {
+        "publication": "Battletome Supplement: Stormcast Eternals",
+        "section": "Judicators with Boltstorm Crossbows warscroll",
+        "sourcePublicationId": "87c-f122-a891-630e",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:9e2b-99cf-8387-d835",
+      "name": "Liberators",
+      "sourceId": "e914-877f-21fe-8db9",
+      "sourceLinkId": "9e2b-99cf-8387-d835",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "CHAMPION",
+        "INFANTRY",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "WARRIOR CHAMBER"
+      ],
+      "sourcePoints": 90,
+      "pointsStatus": "Liberators pilot separately verified against October 2026 Battle Profiles page 22",
+      "basicProfileReferences": [
+        {
+          "sourceId": "3e33-7b80-46c2-4f10",
+          "sourceName": "Liberators",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 10,
+      "sourceModifierCount": 12,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Liberators warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:0d72-2242-47d1-8f72",
+      "name": "Neave's Companions",
+      "sourceId": "a7a2-ab90-9072-b50b",
+      "sourceLinkId": "0d72-2242-47d1-8f72",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "INFANTRY",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "UNIQUE",
+        "THE BLACKTALONS"
+      ],
+      "sourcePoints": null,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "b973-87ae-4afa-7efe",
+          "sourceName": "Neave's Companions",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 16,
+      "sourceModifierCount": 2,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Neave's Companions warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:4034-1a2e-f652-9909",
+      "name": "Prosecutors",
+      "sourceId": "8f36-3029-450b-62a",
+      "sourceLinkId": "4034-1a2e-f652-9909",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "FLY",
+        "RUINATION CHAMBER"
+      ],
+      "sourcePoints": 150,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "dc-d88a-1fa9-2946",
+          "sourceName": "Prosecutors",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 9,
+      "sourceModifierCount": 4,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Prosecutors warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:88d2-fb72-38ed-1196",
+      "name": "Reclusians",
+      "sourceId": "74e2-3cca-35ec-6e59",
+      "sourceLinkId": "88d2-fb72-38ed-1196",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "RUINATION CHAMBER"
+      ],
+      "sourcePoints": 140,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "3edd-9cf4-685c-9875",
+          "sourceName": "Reclusians",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 7,
+      "sourceModifierCount": 4,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Reclusians warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:be0a-46c3-52d6-f98d",
+      "name": "Retributors",
+      "sourceId": "fac7-bade-414e-667f",
+      "sourceLinkId": "be0a-46c3-52d6-f98d",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "CHAMPION",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "INFANTRY",
+        "WARRIOR CHAMBER",
+        "Legends"
+      ],
+      "sourcePoints": 170,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "41b1-4be0-6192-4eb2",
+          "sourceName": "Retributors",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 10,
+      "sourceModifierCount": 12,
+      "requiredBaseline": {
+        "publication": "Battletome Supplement: Stormcast Eternals",
+        "section": "Retributors warscroll",
+        "sourcePublicationId": "87c-f122-a891-630e",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:8b15-be91-b68d-553c",
+      "name": "Sequitors",
+      "sourceId": "de73-4b2d-e8b7-106f",
+      "sourceLinkId": "8b15-be91-b68d-553c",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "CHAMPION",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "SACROSANCT CHAMBER",
+        "INFANTRY",
+        "Legends"
+      ],
+      "sourcePoints": 120,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "36a1-dc7d-2175-2a5a",
+          "sourceName": "Sequitors",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 9,
+      "sourceModifierCount": 9,
+      "requiredBaseline": {
+        "publication": "Battletome Supplement: Stormcast Eternals",
+        "section": "Sequitors warscroll",
+        "sourcePublicationId": "87c-f122-a891-630e",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:33e3-dae2-fe70-22a7",
+      "name": "Stormdrake Guard",
+      "sourceId": "4fcf-b770-62ff-9013",
+      "sourceLinkId": "33e3-dae2-fe70-22a7",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "CHAMPION",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "FLY",
+        "MONSTER",
+        "EXTREMIS CHAMBER"
+      ],
+      "sourcePoints": 290,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "5a55-b436-dcb6-59f5",
+          "sourceName": "Stormdrake Guard",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 13,
+      "sourceModifierCount": 7,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Stormdrake Guard warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:2ec3-5b38-8e3c-c9b4",
+      "name": "Stormdrake Guard",
+      "sourceId": "4fcf-b770-62ff-9013",
+      "sourceLinkId": "2ec3-5b38-8e3c-c9b4",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "CHAMPION",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "FLY",
+        "MONSTER",
+        "EXTREMIS CHAMBER"
+      ],
+      "sourcePoints": 150,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "5a55-b436-dcb6-59f5",
+          "sourceName": "Stormdrake Guard",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 14,
+      "sourceModifierCount": 8,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Stormdrake Guard warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:06dc-0524-9216-13fd",
+      "name": "Vanguard-Palladors with Shock Handaxes",
+      "sourceId": "2d01-fd48-55af-dc1c",
+      "sourceLinkId": "06dc-0524-9216-13fd",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "CAVALRY",
+        "CHAMPION",
+        "VANGUARD CHAMBER",
+        "VANGUARD-PALLADORS"
+      ],
+      "sourcePoints": 240,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "2cc8-501c-dc43-185c",
+          "sourceName": "Vanguard-Palladors with Shock Handaxes",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 11,
+      "sourceModifierCount": 4,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Vanguard-Palladors with Shock Handaxes warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:30ef-fd3e-96d5-5c2c",
+      "name": "Stormstrike Chariot",
+      "sourceId": "1440-8ecb-6ecb-f4a2",
+      "sourceLinkId": "30ef-fd3e-96d5-5c2c",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "WAR MACHINE",
+        "WARRIOR CHAMBER"
+      ],
+      "sourcePoints": 110,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "db33-121a-2733-cd0d",
+          "sourceName": "Stormstrike Chariot",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 11,
+      "sourceModifierCount": 4,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Stormstrike Chariot warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:5568-fa3b-86fa-df75",
+      "name": "Vanguard-Hunters",
+      "sourceId": "2a10-8a5d-a743-9706",
+      "sourceLinkId": "5568-fa3b-86fa-df75",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "STANDARD BEARER (1/5)",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "VANGUARD CHAMBER"
+      ],
+      "sourcePoints": 110,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "5316-8fdb-5754-2139",
+          "sourceName": "Vanguard-Hunters",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 9,
+      "sourceModifierCount": 4,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Vanguard-Hunters warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:19b1-93ac-19e0-6d9c",
+      "name": "Vanguard-Raptors with Hurricane Crossbows",
+      "sourceId": "7a78-2d6e-558f-9e39",
+      "sourceLinkId": "19b1-93ac-19e0-6d9c",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "VANGUARD CHAMBER"
+      ],
+      "sourcePoints": 110,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "10e4-a527-200-bcf9",
+          "sourceName": "Vanguard-Raptors with Hurricane Crossbows",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 9,
+      "sourceModifierCount": 4,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Vanguard-Raptors with Hurricane Crossbows warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:ef00-5717-bea2-5b8c",
+      "name": "Vanguard-Raptors with Longstrike Crossbows",
+      "sourceId": "b72e-3e0e-b86f-699a",
+      "sourceLinkId": "ef00-5717-bea2-5b8c",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "VANGUARD CHAMBER"
+      ],
+      "sourcePoints": 200,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "1197-7283-4b47-3c2c",
+          "sourceName": "Vanguard-Raptors with Longstrike Crossbows",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 9,
+      "sourceModifierCount": 4,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Vanguard-Raptors with Longstrike Crossbows warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:4a04-ef3f-35d1-f30d",
+      "name": "Vindictors",
+      "sourceId": "3c28-bdd-f7eb-4ac4",
+      "sourceLinkId": "4a04-ef3f-35d1-f30d",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "STANDARD BEARER (1/5)",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "WARRIOR CHAMBER"
+      ],
+      "sourcePoints": 90,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "a25c-1276-c6f9-acaf",
+          "sourceName": "Vindictors",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 10,
+      "sourceModifierCount": 8,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Vindictors warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:c088-0141-f857-6112",
+      "name": "Vanguard-Palladors with Starstrike Javelins",
+      "sourceId": "b8b2-de1c-526b-523",
+      "sourceLinkId": "c088-0141-f857-6112",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "CAVALRY",
+        "CHAMPION",
+        "VANGUARD CHAMBER",
+        "VANGUARD-PALLADORS"
+      ],
+      "sourcePoints": 260,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "6ef8-77c9-f8f7-7924",
+          "sourceName": "Vanguard-Palladors with Starstrike Javelins",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 13,
+      "sourceModifierCount": 4,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Vanguard-Palladors with Starstrike Javelins warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:9197-b007-501e-bdae",
+      "name": "Vanquishers",
+      "sourceId": "7b61-e507-bb97-cfe2",
+      "sourceLinkId": "9197-b007-501e-bdae",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "MUSICIAN (1/5)",
+        "STANDARD BEARER (1/5)",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "WARRIOR CHAMBER"
+      ],
+      "sourcePoints": 90,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "948e-5d8a-ba38-1746",
+          "sourceName": "Vanquishers",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 12,
+      "sourceModifierCount": 9,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Vanquishers warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:ad23-c736-7ee7-62b1",
+      "name": "Vigilors",
+      "sourceId": "a050-164b-681b-eb5c",
+      "sourceLinkId": "ad23-c736-7ee7-62b1",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "INFANTRY",
+        "CHAMPION",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "WARRIOR CHAMBER"
+      ],
+      "sourcePoints": 140,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "87b9-9499-49b5-7e73",
+          "sourceName": "Vigilors",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 10,
+      "sourceModifierCount": 7,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Vigilors warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:aec2-0100-edd6-bfea",
+      "name": "Lord-Relictor",
+      "sourceId": "8ec0-257f-7432-f7b9",
+      "sourceLinkId": "aec2-0100-edd6-bfea",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "INFANTRY",
+        "PRIEST (1)",
+        "WARRIOR CHAMBER"
+      ],
+      "sourcePoints": 120,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "8954-2a7e-da03-2a52",
+          "sourceName": "Lord-Relictor",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 4,
+      "sourceModifierCount": 6,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Lord-Relictor warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:4dbc-8677-49df-3a3f",
+      "name": "Domitan's Stormcoven",
+      "sourceId": "784c-e453-6a6b-05fe",
+      "sourceLinkId": "4dbc-8677-49df-3a3f",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "ORDER",
+        "INFANTRY",
+        "UNIQUE",
+        "Legends",
+        "STORMCAST ETERNALS",
+        "WIZARD (1)",
+        "WARRIOR CHAMBER"
+      ],
+      "sourcePoints": 210,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "03a4-00cd-3ed4-58ac",
+          "sourceName": "Domitan's Stormcoven",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 19,
+      "sourceModifierCount": 6,
+      "requiredBaseline": {
+        "publication": "Warhammer Legends",
+        "section": "Domitan's Stormcoven warscroll",
+        "sourcePublicationId": "9dee-a6b2-4b42-bfee",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:9a8b-684a-f003-4b75",
+      "name": "Steelheart's Champions",
+      "sourceId": "40fc-df39-8972-4e16",
+      "sourceLinkId": "9a8b-684a-f003-4b75",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "ORDER",
+        "INFANTRY",
+        "UNIQUE",
+        "Legends",
+        "STORMCAST ETERNALS",
+        "WARRIOR CHAMBER",
+        "CHAMPION"
+      ],
+      "sourcePoints": 110,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "a6f5-1efc-8dba-fe6d",
+          "sourceName": "Steelheart's Champions",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 17,
+      "sourceModifierCount": 6,
+      "requiredBaseline": {
+        "publication": "Warhammer Legends",
+        "section": "Steelheart's Champions warscroll",
+        "sourcePublicationId": "9dee-a6b2-4b42-bfee",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:b754-e9c0-cd02-340e",
+      "name": "Xandire's Truthseekers",
+      "sourceId": "5e27-4012-c3cb-938e",
+      "sourceLinkId": "b754-e9c0-cd02-340e",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "ORDER",
+        "INFANTRY",
+        "UNIQUE",
+        "Legends",
+        "STORMCAST ETERNALS",
+        "WARRIOR CHAMBER",
+        "CHAMPION"
+      ],
+      "sourcePoints": 130,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "e456-b262-7ba2-8e35",
+          "sourceName": "Xandire's Truthseekers",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 19,
+      "sourceModifierCount": 6,
+      "requiredBaseline": {
+        "publication": "Warhammer Legends",
+        "section": "Xandire's Truthseekers warscroll",
+        "sourcePublicationId": "9dee-a6b2-4b42-bfee",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:3932-511b-f53a-863e",
+      "name": "The Farstriders",
+      "sourceId": "f140-de7f-1bc7-3c62",
+      "sourceLinkId": "3932-511b-f53a-863e",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "ORDER",
+        "INFANTRY",
+        "UNIQUE",
+        "Legends",
+        "STORMCAST ETERNALS",
+        "CHAMPION",
+        "VANGUARD CHAMBER"
+      ],
+      "sourcePoints": 100,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "ea3c-7659-b009-2f8a",
+          "sourceName": "The Farstriders",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 22,
+      "sourceModifierCount": 3,
+      "requiredBaseline": {
+        "publication": "Warhammer Legends",
+        "section": "The Farstriders warscroll",
+        "sourcePublicationId": "9dee-a6b2-4b42-bfee",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:e4c6-1bd7-77ef-a312",
+      "name": "Stormsire's Cursebreakers",
+      "sourceId": "fc52-c5fb-55f9-c25a",
+      "sourceLinkId": "e4c6-1bd7-77ef-a312",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "ORDER",
+        "INFANTRY",
+        "UNIQUE",
+        "Legends",
+        "STORMCAST ETERNALS",
+        "SACROSANCT CHAMBER",
+        "CHAMPION"
+      ],
+      "sourcePoints": 130,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "9aea-85a1-56af-387a",
+          "sourceName": "Stormsire's Cursebreakers",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 15,
+      "sourceModifierCount": 3,
+      "requiredBaseline": {
+        "publication": "Warhammer Legends",
+        "section": "Stormsire's Cursebreakers warscroll",
+        "sourcePublicationId": "9dee-a6b2-4b42-bfee",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:0a48-97c0-85a2-08fa",
+      "name": "Protectors",
+      "sourceId": "3b76-254c-2c33-327d",
+      "sourceLinkId": "0a48-97c0-85a2-08fa",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "CHAMPION",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "INFANTRY",
+        "WARRIOR CHAMBER",
+        "Legends"
+      ],
+      "sourcePoints": 220,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "4575-18f4-e5d6-f2cd",
+          "sourceName": "Protectors",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 10,
+      "sourceModifierCount": 12,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Protectors warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:f2f2-b78f-fc79-05a9",
+      "name": "Knight-Azyros",
+      "sourceId": "7099-e138-068d-e37a",
+      "sourceLinkId": "f2f2-b78f-fc79-05a9",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "RUINATION CHAMBER",
+        "FLY",
+        "INFANTRY"
+      ],
+      "sourcePoints": 100,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "6ec8-4660-fc75-e3f3",
+          "sourceName": "Knight-Azyros",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 4,
+      "sourceModifierCount": 5,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Knight-Azyros warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:dc95-c9e7-baf1-d6d1",
+      "name": "Lord-Vigilant on Morrgryph",
+      "sourceId": "a86d-34b5-ebc7-76ed",
+      "sourceLinkId": "dc95-c9e7-baf1-d6d1",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "RUINATION CHAMBER",
+        "MONSTER",
+        "FLY"
+      ],
+      "sourcePoints": 160,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "892f-d2fc-fda0-ef8a",
+          "sourceName": "Lord-Vigilant on Morrgryph",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 6,
+      "sourceModifierCount": 4,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Lord-Vigilant on Morrgryph warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:1781-b3fc-9002-b3de",
+      "name": "Iridan the Witness",
+      "sourceId": "278f-91b3-fedc-1b1a",
+      "sourceLinkId": "1781-b3fc-9002-b3de",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "FLY",
+        "UNIQUE",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "MONSTER",
+        "PRIEST (1)",
+        "RUINATION CHAMBER"
+      ],
+      "sourcePoints": 260,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "f87f-792b-ba41-44f8",
+          "sourceName": "Iridan the Witness",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 7,
+      "sourceModifierCount": 4,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Iridan the Witness warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:74ac-b5df-2d42-eadb",
+      "name": "Tornus the Redeemed",
+      "sourceId": "b1c3-3db3-fe6b-289b",
+      "sourceLinkId": "74ac-b5df-2d42-eadb",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "FLY",
+        "UNIQUE",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "RUINATION CHAMBER",
+        "INFANTRY"
+      ],
+      "sourcePoints": 140,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "59f4-4148-71aa-35c9",
+          "sourceName": "Tornus the Redeemed",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 5,
+      "sourceModifierCount": 4,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Tornus the Redeemed warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:17e1-db6f-5485-1537",
+      "name": "Stormcoven",
+      "sourceId": "4322-2d6c-e46f-4165",
+      "sourceLinkId": "17e1-db6f-5485-1537",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "ORDER",
+        "INFANTRY",
+        "STORMCAST ETERNALS",
+        "WIZARD (1)",
+        "WARRIOR CHAMBER"
+      ],
+      "sourcePoints": 210,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "4010-2a17-1dee-b66f",
+          "sourceName": "Stormcoven",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 7,
+      "sourceModifierCount": 5,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Stormcoven warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:f3c9-26a7-fedf-1c76",
+      "name": "Stormstrike Palladors",
+      "sourceId": "75e5-05cd-3163-7335",
+      "sourceLinkId": "f3c9-26a7-fedf-1c76",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "CAVALRY",
+        "CHAMPION",
+        "WARRIOR CHAMBER",
+        "MUSICIAN (1/3)",
+        "STANDARD BEARER (1/3)"
+      ],
+      "sourcePoints": 180,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "b535-800b-47c9-07fc",
+          "sourceName": "Stormstrike Palladors",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 14,
+      "sourceModifierCount": 9,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Stormstrike Palladors warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:48ea-6740-3a30-ebdf",
+      "name": "Stormreach Portal",
+      "sourceId": "8c5f-f4d2-f160-89ec",
+      "sourceLinkId": "48ea-6740-3a30-ebdf",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "FACTION TERRAIN",
+        "ORDER",
+        "STORMCAST ETERNALS"
+      ],
+      "sourcePoints": 20,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "cf56-0453-a1f5-b32f",
+          "sourceName": "Stormreach Portal",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 0,
+      "sourceModifierCount": 1,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Stormreach Portal warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:920f-b46b-ecfd-3eb1",
+      "name": "The Emberwatch",
+      "sourceId": "f4d2-3807-a8d3-4c83",
+      "sourceLinkId": "920f-b46b-ecfd-3eb1",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "ORDER",
+        "INFANTRY",
+        "UNIQUE",
+        "Legends",
+        "STORMCAST ETERNALS",
+        "CHAMPION",
+        "VANGUARD CHAMBER"
+      ],
+      "sourcePoints": 140,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "8197-70e0-877f-41c7",
+          "sourceName": "The Emberwatch",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 22,
+      "sourceModifierCount": 2,
+      "requiredBaseline": {
+        "publication": "Warhammer Legends",
+        "section": "The Emberwatch warscroll",
+        "sourcePublicationId": "9dee-a6b2-4b42-bfee",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:7e2e-fb8c-a676-31b8",
+      "name": "Anvil of Apotheosis: Stormcast Eternals Hero",
+      "sourceId": "64df-1a09-e8fb-10da",
+      "sourceLinkId": "7e2e-fb8c-a676-31b8",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "INFANTRY",
+        "ORDER",
+        "STORMCAST ETERNALS"
+      ],
+      "sourcePoints": null,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "57fd-c21d-7fe4-daa3",
+          "sourceName": "Anvil of Apotheosis: Stormcast Eternals Hero",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 51,
+      "sourceModifierCount": 93,
+      "requiredBaseline": {
+        "publication": "Battletome: Stormcast Eternals",
+        "section": "Anvil of Apotheosis: Stormcast Eternals Hero warscroll",
+        "sourcePublicationId": "43cd-e9ef-5d4d-87c4",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:a2eb-b2aa-b255-d3e4",
+      "name": "Iridan the Witness (Scourge of Ghyran)",
+      "sourceId": "f7f2-e419-ecf3-0610",
+      "sourceLinkId": "a2eb-b2aa-b255-d3e4",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "FLY",
+        "UNIQUE",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "MONSTER",
+        "PRIEST (1)",
+        "RUINATION CHAMBER",
+        "WARD (6+)"
+      ],
+      "sourcePoints": 320,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "b162-a209-4552-a726",
+          "sourceName": "Iridan the Witness",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 7,
+      "sourceModifierCount": 6,
+      "requiredBaseline": {
+        "publication": "Scourge of Ghyran",
+        "section": "Iridan the Witness (Scourge of Ghyran) warscroll",
+        "sourcePublicationId": "f894-7929-f79a-a269",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:82e7-7644-be6c-da9f",
+      "name": "Stormstrike Palladors (Scourge of Aqshy)",
+      "sourceId": "222e-fa67-b4c0-cf61",
+      "sourceLinkId": "82e7-7644-be6c-da9f",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "unit",
+      "sourceKeywords": [
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "CAVALRY",
+        "CHAMPION",
+        "WARRIOR CHAMBER",
+        "MUSICIAN (1/3)",
+        "STANDARD BEARER (1/3)"
+      ],
+      "sourcePoints": 210,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "001b-0343-29f3-4c55",
+          "sourceName": "Stormstrike Palladors",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 14,
+      "sourceModifierCount": 11,
+      "requiredBaseline": {
+        "publication": "Scourge of Aqshy",
+        "section": "Stormstrike Palladors (Scourge of Aqshy) warscroll",
+        "sourcePublicationId": "9e18-bb03-7b60-d4ff",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    },
+    {
+      "id": "aos:catalogue:2a25-d108-808c-1f3a",
+      "name": "Iridan the Witness (Scourge of Aqshy)",
+      "sourceId": "1673-6b9f-6ebd-c367",
+      "sourceLinkId": "2a25-d108-808c-1f3a",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "roleCandidate": "hero",
+      "sourceKeywords": [
+        "HERO",
+        "FLY",
+        "UNIQUE",
+        "ORDER",
+        "STORMCAST ETERNALS",
+        "MONSTER",
+        "PRIEST (1)",
+        "RUINATION CHAMBER",
+        "WARD (6+)"
+      ],
+      "sourcePoints": 320,
+      "pointsStatus": "upstream snapshot only; current points not verified",
+      "basicProfileReferences": [
+        {
+          "sourceId": "8a9a-5826-d282-d535",
+          "sourceName": "Iridan the Witness",
+          "currentVerified": false
+        }
+      ],
+      "currentProfilesVerified": false,
+      "regimentEligibility": "unverified",
+      "reinforcementEligibility": "unverified",
+      "sourceConstraintCount": 7,
+      "sourceModifierCount": 6,
+      "requiredBaseline": {
+        "publication": "Scourge of Aqshy",
+        "section": "Iridan the Witness (Scourge of Aqshy) warscroll",
+        "sourcePublicationId": "9e18-bb03-7b60-d4ff",
+        "sourceRefs": [
+          2
+        ],
+        "printedPage": null,
+        "reason": "Use exact upstream references where supplied; do not invent missing printed page numbers."
+      }
+    }
+  ],
+  "pending": [
+    "Inventory identifies upstream entries, not supported current warscrolls.",
+    "Current battletome baselines and eligible regiment leaders/units remain independently unverified.",
+    "Structure validation does not price armies or certify legal army construction.",
+    "Named variants, narrative restrictions, reinforcement permissions and universal army requirements need individual review."
+  ]
+}

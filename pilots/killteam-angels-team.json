@@ -1,0 +1,2216 @@
+{
+  "schema": "ironbuilt-team-preview/1",
+  "id": "killteam:angels-of-death",
+  "releaseChannel": "dev",
+  "synthetic": false,
+  "name": "Angels of Death",
+  "checkedAt": "2026-11-02",
+  "context": {
+    "systemId": "killteam",
+    "editionId": "2024",
+    "formatId": "selected-team",
+    "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
+    "rulesetId": "2026-10-angels-of-death",
+    "datasetVersion": "2026.11.02-pilot.2"
+  },
+  "authorization": {
+    "basis": "user-stated-rules-permission",
+    "date": "2026-11-02",
+    "originalAbilityWording": true,
+    "note": "User confirms rules use is permitted, following the existing 40K approach with original synonymous ability wording. This record is not an independent legal clearance; no artwork permission is assumed."
+  },
+  "attribution": {
+    "publisher": "Games Workshop",
+    "structuredReference": "BSData community maintainers",
+    "unofficial": true,
+    "compilationLicense": "No explicit general repository licence verified; no conflicting explicit licence identified in inspected trees. Limited reviewed records only."
+  },
+  "sources": [
+    {
+      "url": "https://github.com/BSData/wh40k-killteam/blob/30c48ce2bdcabc0cb6516f813283086cc2d78fab/2024%20-%20Angels%20of%20Death.cat",
+      "sha256": "2882d3107b9f853e10e5d0ded1aade098ce6a095cc9a742ce68e268aff8faee5",
+      "location": "2024 - Angels of Death.cat",
+      "revision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab"
+    },
+    {
+      "url": "https://assets.warhammer-community.com/eng_26-08_killteam_angels_of_death_online_rules-1rwlnicmkz-qjtykwlybg.pdf",
+      "sha256": "2accbc12dd174a170173ecff0022234a42611a6cf20b8f11e31e65239a25d9c5",
+      "location": "PDF page 1, Captain card; page 10 change log; page 12 selection",
+      "updated": "2026-08-26"
+    }
+  ],
+  "coverage": {
+    "operativeOptionsComplete": true,
+    "weaponOptionsComplete": true,
+    "weaponScope": "Operative-card weapons; universal equipment excluded",
+    "compositionChecks": true,
+    "fullRules": false,
+    "fullValidation": false,
+    "combat": false,
+    "appUI": false
+  },
+  "operatives": [
+    {
+      "id": "killteam:space-marine-captain",
+      "name": "Space Marine Captain",
+      "sourceId": "1e8f-a57f-d418-402d",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 1",
+      "verification": "official-card-visually-reviewed",
+      "basicSourceId": "1442-6f07-4e87-3b7a",
+      "basic": {
+        "actionPointLimit": 3,
+        "moveInches": 6,
+        "saveThreshold": 3,
+        "wounds": 15
+      },
+      "leader": true,
+      "warrior": false,
+      "baseMillimetres": 40,
+      "weaponRefs": [
+        "killteam:weapon:ee9a-41e7-13fe-5b0c:a4h3",
+        "killteam:weapon:7888-dfdf-ecc2-9032:a4h3",
+        "killteam:weapon:fe27-204c-ff2d-ce83:a5h3"
+      ],
+      "abilityRefs": [
+        "killteam:rule:f6ac-319a-f15c-ffae",
+        "killteam:rule:4386-9eb8-143a-3776"
+      ],
+      "actionRefs": [],
+      "loadouts": [
+        {
+          "id": "killteam:space-marine-captain:loadout:187a-3d95-c7db-7496.5262-3a19-0a9b-5632",
+          "name": "Plasma pistol + Power fist",
+          "sourceEntryIds": [
+            "187a-3d95-c7db-7496",
+            "5262-3a19-0a9b-5632"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:ee9a-41e7-13fe-5b0c:a4h3",
+            "killteam:weapon:7888-dfdf-ecc2-9032:a4h3",
+            "killteam:weapon:fe27-204c-ff2d-ce83:a5h3"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Space Marine Captain selection"
+        }
+      ]
+    },
+    {
+      "id": "killteam:assault-intercessor-sergeant",
+      "name": "Assault Intercessor Sergeant",
+      "sourceId": "c809-3374-c7f7-facd",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 1",
+      "verification": "official-card-visually-reviewed",
+      "basicSourceId": "b5ce-d628-e9ef-208a",
+      "basic": {
+        "actionPointLimit": 3,
+        "moveInches": 6,
+        "saveThreshold": 3,
+        "wounds": 15
+      },
+      "leader": true,
+      "warrior": false,
+      "baseMillimetres": 32,
+      "weaponRefs": [
+        "killteam:weapon:ee9a-41e7-13fe-5b0c:a4h3",
+        "killteam:weapon:7888-dfdf-ecc2-9032:a4h3",
+        "killteam:weapon:fe27-204c-ff2d-ce83:a5h4",
+        "killteam:weapon:9c21-5611-9d14-2c03:a4h3",
+        "killteam:weapon:e45a-6bf2-b623-438e:a4h2",
+        "killteam:weapon:4fb3-6463-34dc-5435:a5h3",
+        "killteam:weapon:a7f3-9998-964a-4eae:a5h3",
+        "killteam:weapon:5636-6697-6274-8d78:a5h4"
+      ],
+      "abilityRefs": [
+        "killteam:rule:42bd-e2a7-e8f2-1d75",
+        "killteam:rule:6c1f-395e-178c-f074"
+      ],
+      "actionRefs": [],
+      "loadouts": [
+        {
+          "id": "killteam:assault-intercessor-sergeant:loadout:b015-6af3-3bea-7be8.c81d-2f29-2203-ce5b",
+          "name": "Hand Flamer + Chainsword",
+          "sourceEntryIds": [
+            "b015-6af3-3bea-7be8",
+            "c81d-2f29-2203-ce5b"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:e45a-6bf2-b623-438e:a4h2",
+            "killteam:weapon:4fb3-6463-34dc-5435:a5h3"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Assault Intercessor Sergeant selection"
+        },
+        {
+          "id": "killteam:assault-intercessor-sergeant:loadout:b015-6af3-3bea-7be8.5262-3a19-0a9b-5632",
+          "name": "Hand Flamer + Power fist",
+          "sourceEntryIds": [
+            "b015-6af3-3bea-7be8",
+            "5262-3a19-0a9b-5632"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:e45a-6bf2-b623-438e:a4h2",
+            "killteam:weapon:fe27-204c-ff2d-ce83:a5h4"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Assault Intercessor Sergeant selection"
+        },
+        {
+          "id": "killteam:assault-intercessor-sergeant:loadout:b015-6af3-3bea-7be8.f5d5-d08e-c46a-0cb0",
+          "name": "Hand Flamer + Power weapon",
+          "sourceEntryIds": [
+            "b015-6af3-3bea-7be8",
+            "f5d5-d08e-c46a-0cb0"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:e45a-6bf2-b623-438e:a4h2",
+            "killteam:weapon:a7f3-9998-964a-4eae:a5h3"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Assault Intercessor Sergeant selection"
+        },
+        {
+          "id": "killteam:assault-intercessor-sergeant:loadout:b015-6af3-3bea-7be8.fa5e-b9ee-fb03-feac",
+          "name": "Hand Flamer + Thunder hammer",
+          "sourceEntryIds": [
+            "b015-6af3-3bea-7be8",
+            "fa5e-b9ee-fb03-feac"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:e45a-6bf2-b623-438e:a4h2",
+            "killteam:weapon:5636-6697-6274-8d78:a5h4"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Assault Intercessor Sergeant selection"
+        },
+        {
+          "id": "killteam:assault-intercessor-sergeant:loadout:71a7-b048-40fe-bf6d.c81d-2f29-2203-ce5b",
+          "name": "Heavy bolt pistol + Chainsword",
+          "sourceEntryIds": [
+            "71a7-b048-40fe-bf6d",
+            "c81d-2f29-2203-ce5b"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:9c21-5611-9d14-2c03:a4h3",
+            "killteam:weapon:4fb3-6463-34dc-5435:a5h3"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Assault Intercessor Sergeant selection"
+        },
+        {
+          "id": "killteam:assault-intercessor-sergeant:loadout:71a7-b048-40fe-bf6d.5262-3a19-0a9b-5632",
+          "name": "Heavy bolt pistol + Power fist",
+          "sourceEntryIds": [
+            "71a7-b048-40fe-bf6d",
+            "5262-3a19-0a9b-5632"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:9c21-5611-9d14-2c03:a4h3",
+            "killteam:weapon:fe27-204c-ff2d-ce83:a5h4"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Assault Intercessor Sergeant selection"
+        },
+        {
+          "id": "killteam:assault-intercessor-sergeant:loadout:71a7-b048-40fe-bf6d.f5d5-d08e-c46a-0cb0",
+          "name": "Heavy bolt pistol + Power weapon",
+          "sourceEntryIds": [
+            "71a7-b048-40fe-bf6d",
+            "f5d5-d08e-c46a-0cb0"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:9c21-5611-9d14-2c03:a4h3",
+            "killteam:weapon:a7f3-9998-964a-4eae:a5h3"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Assault Intercessor Sergeant selection"
+        },
+        {
+          "id": "killteam:assault-intercessor-sergeant:loadout:71a7-b048-40fe-bf6d.fa5e-b9ee-fb03-feac",
+          "name": "Heavy bolt pistol + Thunder hammer",
+          "sourceEntryIds": [
+            "71a7-b048-40fe-bf6d",
+            "fa5e-b9ee-fb03-feac"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:9c21-5611-9d14-2c03:a4h3",
+            "killteam:weapon:5636-6697-6274-8d78:a5h4"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Assault Intercessor Sergeant selection"
+        },
+        {
+          "id": "killteam:assault-intercessor-sergeant:loadout:187a-3d95-c7db-7496.c81d-2f29-2203-ce5b",
+          "name": "Plasma pistol + Chainsword",
+          "sourceEntryIds": [
+            "187a-3d95-c7db-7496",
+            "c81d-2f29-2203-ce5b"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:ee9a-41e7-13fe-5b0c:a4h3",
+            "killteam:weapon:7888-dfdf-ecc2-9032:a4h3",
+            "killteam:weapon:4fb3-6463-34dc-5435:a5h3"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Assault Intercessor Sergeant selection"
+        }
+      ],
+      "additionalChapterTactics": 1
+    },
+    {
+      "id": "killteam:intercessor-sergeant",
+      "name": "Intercessor Sergeant",
+      "sourceId": "3b04-997f-5370-c1f2",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 1, 2",
+      "verification": "official-card-visually-reviewed",
+      "basicSourceId": "c7d0-7c89-8f63-c4c3",
+      "basic": {
+        "actionPointLimit": 3,
+        "moveInches": 6,
+        "saveThreshold": 3,
+        "wounds": 15
+      },
+      "leader": true,
+      "warrior": false,
+      "baseMillimetres": 32,
+      "weaponRefs": [
+        "killteam:weapon:fe27-204c-ff2d-ce83:a4h4",
+        "killteam:weapon:c5ac-f862-a87d-7262:a4h3",
+        "killteam:weapon:cc3e-be03-2ab2-4bf4:a4h3",
+        "killteam:weapon:4fb3-6463-34dc-5435:a4h3",
+        "killteam:weapon:03b3-a89e-f806-c0bf:a4h3",
+        "killteam:weapon:c4b4-410e-1af2-f48c:a4h3",
+        "killteam:weapon:68e3-a6f2-0b08-177f:a4h3",
+        "killteam:weapon:a7f3-9998-964a-4eae:a4h3",
+        "killteam:weapon:5636-6697-6274-8d78:a4h4"
+      ],
+      "abilityRefs": [
+        "killteam:rule:b32f-5a76-356e-68cb",
+        "killteam:rule:8a42-b55e-dea7-6baf"
+      ],
+      "actionRefs": [],
+      "loadouts": [
+        {
+          "id": "killteam:intercessor-sergeant:loadout:6fba-f8c3-3999-284b.c81d-2f29-2203-ce5b",
+          "name": "Auto bolt rifle + Chainsword",
+          "sourceEntryIds": [
+            "6fba-f8c3-3999-284b",
+            "c81d-2f29-2203-ce5b"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:c5ac-f862-a87d-7262:a4h3",
+            "killteam:weapon:4fb3-6463-34dc-5435:a4h3"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Intercessor Sergeant selection"
+        },
+        {
+          "id": "killteam:intercessor-sergeant:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88",
+          "name": "Auto bolt rifle + Fists",
+          "sourceEntryIds": [
+            "6fba-f8c3-3999-284b",
+            "9978-a207-ea52-2f88"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:c5ac-f862-a87d-7262:a4h3",
+            "killteam:weapon:cc3e-be03-2ab2-4bf4:a4h3"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Intercessor Sergeant selection"
+        },
+        {
+          "id": "killteam:intercessor-sergeant:loadout:6fba-f8c3-3999-284b.5262-3a19-0a9b-5632",
+          "name": "Auto bolt rifle + Power fist",
+          "sourceEntryIds": [
+            "6fba-f8c3-3999-284b",
+            "5262-3a19-0a9b-5632"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:c5ac-f862-a87d-7262:a4h3",
+            "killteam:weapon:fe27-204c-ff2d-ce83:a4h4"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Intercessor Sergeant selection"
+        },
+        {
+          "id": "killteam:intercessor-sergeant:loadout:6fba-f8c3-3999-284b.f5d5-d08e-c46a-0cb0",
+          "name": "Auto bolt rifle + Power weapon",
+          "sourceEntryIds": [
+            "6fba-f8c3-3999-284b",
+            "f5d5-d08e-c46a-0cb0"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:c5ac-f862-a87d-7262:a4h3",
+            "killteam:weapon:a7f3-9998-964a-4eae:a4h3"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Intercessor Sergeant selection"
+        },
+        {
+          "id": "killteam:intercessor-sergeant:loadout:6fba-f8c3-3999-284b.fa5e-b9ee-fb03-feac",
+          "name": "Auto bolt rifle + Thunder hammer",
+          "sourceEntryIds": [
+            "6fba-f8c3-3999-284b",
+            "fa5e-b9ee-fb03-feac"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:c5ac-f862-a87d-7262:a4h3",
+            "killteam:weapon:5636-6697-6274-8d78:a4h4"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Intercessor Sergeant selection"
+        },
+        {
+          "id": "killteam:intercessor-sergeant:loadout:d60d-1f8c-2519-f78e.c81d-2f29-2203-ce5b",
+          "name": "Bolt rifle + Chainsword",
+          "sourceEntryIds": [
+            "d60d-1f8c-2519-f78e",
+            "c81d-2f29-2203-ce5b"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:03b3-a89e-f806-c0bf:a4h3",
+            "killteam:weapon:4fb3-6463-34dc-5435:a4h3"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Intercessor Sergeant selection"
+        },
+        {
+          "id": "killteam:intercessor-sergeant:loadout:d60d-1f8c-2519-f78e.9978-a207-ea52-2f88",
+          "name": "Bolt rifle + Fists",
+          "sourceEntryIds": [
+            "d60d-1f8c-2519-f78e",
+            "9978-a207-ea52-2f88"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:03b3-a89e-f806-c0bf:a4h3",
+            "killteam:weapon:cc3e-be03-2ab2-4bf4:a4h3"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Intercessor Sergeant selection"
+        },
+        {
+          "id": "killteam:intercessor-sergeant:loadout:d60d-1f8c-2519-f78e.5262-3a19-0a9b-5632",
+          "name": "Bolt rifle + Power fist",
+          "sourceEntryIds": [
+            "d60d-1f8c-2519-f78e",
+            "5262-3a19-0a9b-5632"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:03b3-a89e-f806-c0bf:a4h3",
+            "killteam:weapon:fe27-204c-ff2d-ce83:a4h4"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Intercessor Sergeant selection"
+        },
+        {
+          "id": "killteam:intercessor-sergeant:loadout:d60d-1f8c-2519-f78e.f5d5-d08e-c46a-0cb0",
+          "name": "Bolt rifle + Power weapon",
+          "sourceEntryIds": [
+            "d60d-1f8c-2519-f78e",
+            "f5d5-d08e-c46a-0cb0"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:03b3-a89e-f806-c0bf:a4h3",
+            "killteam:weapon:a7f3-9998-964a-4eae:a4h3"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Intercessor Sergeant selection"
+        },
+        {
+          "id": "killteam:intercessor-sergeant:loadout:d60d-1f8c-2519-f78e.fa5e-b9ee-fb03-feac",
+          "name": "Bolt rifle + Thunder hammer",
+          "sourceEntryIds": [
+            "d60d-1f8c-2519-f78e",
+            "fa5e-b9ee-fb03-feac"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:03b3-a89e-f806-c0bf:a4h3",
+            "killteam:weapon:5636-6697-6274-8d78:a4h4"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Intercessor Sergeant selection"
+        },
+        {
+          "id": "killteam:intercessor-sergeant:loadout:e583-f949-effe-fc87.c81d-2f29-2203-ce5b",
+          "name": "Stalker bolt rifle + Chainsword",
+          "sourceEntryIds": [
+            "e583-f949-effe-fc87",
+            "c81d-2f29-2203-ce5b"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:c4b4-410e-1af2-f48c:a4h3",
+            "killteam:weapon:68e3-a6f2-0b08-177f:a4h3",
+            "killteam:weapon:4fb3-6463-34dc-5435:a4h3"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Intercessor Sergeant selection"
+        },
+        {
+          "id": "killteam:intercessor-sergeant:loadout:e583-f949-effe-fc87.9978-a207-ea52-2f88",
+          "name": "Stalker bolt rifle + Fists",
+          "sourceEntryIds": [
+            "e583-f949-effe-fc87",
+            "9978-a207-ea52-2f88"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:c4b4-410e-1af2-f48c:a4h3",
+            "killteam:weapon:68e3-a6f2-0b08-177f:a4h3",
+            "killteam:weapon:cc3e-be03-2ab2-4bf4:a4h3"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Intercessor Sergeant selection"
+        },
+        {
+          "id": "killteam:intercessor-sergeant:loadout:e583-f949-effe-fc87.5262-3a19-0a9b-5632",
+          "name": "Stalker bolt rifle + Power fist",
+          "sourceEntryIds": [
+            "e583-f949-effe-fc87",
+            "5262-3a19-0a9b-5632"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:c4b4-410e-1af2-f48c:a4h3",
+            "killteam:weapon:68e3-a6f2-0b08-177f:a4h3",
+            "killteam:weapon:fe27-204c-ff2d-ce83:a4h4"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Intercessor Sergeant selection"
+        },
+        {
+          "id": "killteam:intercessor-sergeant:loadout:e583-f949-effe-fc87.f5d5-d08e-c46a-0cb0",
+          "name": "Stalker bolt rifle + Power weapon",
+          "sourceEntryIds": [
+            "e583-f949-effe-fc87",
+            "f5d5-d08e-c46a-0cb0"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:c4b4-410e-1af2-f48c:a4h3",
+            "killteam:weapon:68e3-a6f2-0b08-177f:a4h3",
+            "killteam:weapon:a7f3-9998-964a-4eae:a4h3"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Intercessor Sergeant selection"
+        },
+        {
+          "id": "killteam:intercessor-sergeant:loadout:e583-f949-effe-fc87.fa5e-b9ee-fb03-feac",
+          "name": "Stalker bolt rifle + Thunder hammer",
+          "sourceEntryIds": [
+            "e583-f949-effe-fc87",
+            "fa5e-b9ee-fb03-feac"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:c4b4-410e-1af2-f48c:a4h3",
+            "killteam:weapon:68e3-a6f2-0b08-177f:a4h3",
+            "killteam:weapon:5636-6697-6274-8d78:a4h4"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Intercessor Sergeant selection"
+        }
+      ],
+      "additionalChapterTactics": 1
+    },
+    {
+      "id": "killteam:assault-intercessor-grenadier",
+      "name": "Assault Intercessor Grenadier",
+      "sourceId": "51c4-b5bd-2b17-b3d8",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 2",
+      "verification": "official-card-visually-reviewed",
+      "basicSourceId": "5151-994f-cffe-e35d",
+      "basic": {
+        "actionPointLimit": 3,
+        "moveInches": 6,
+        "saveThreshold": 3,
+        "wounds": 14
+      },
+      "leader": false,
+      "warrior": false,
+      "baseMillimetres": 32,
+      "weaponRefs": [
+        "killteam:weapon:9c21-5611-9d14-2c03:a4h3",
+        "killteam:weapon:4fb3-6463-34dc-5435:a5h3"
+      ],
+      "abilityRefs": [
+        "killteam:rule:a86f-e1cc-1044-d60c"
+      ],
+      "actionRefs": [],
+      "loadouts": [
+        {
+          "id": "killteam:assault-intercessor-grenadier:loadout:71a7-b048-40fe-bf6d.c81d-2f29-2203-ce5b",
+          "name": "Heavy bolt pistol + Chainsword",
+          "sourceEntryIds": [
+            "71a7-b048-40fe-bf6d",
+            "c81d-2f29-2203-ce5b"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:9c21-5611-9d14-2c03:a4h3",
+            "killteam:weapon:4fb3-6463-34dc-5435:a5h3"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Assault Intercessor Grenadier selection"
+        }
+      ]
+    },
+    {
+      "id": "killteam:assault-intercessor-warrior",
+      "name": "Assault Intercessor Warrior",
+      "sourceId": "b38c-5705-740e-ecf1",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 2",
+      "verification": "official-card-visually-reviewed",
+      "basicSourceId": "0652-1670-afdf-6d96",
+      "basic": {
+        "actionPointLimit": 3,
+        "moveInches": 6,
+        "saveThreshold": 3,
+        "wounds": 14
+      },
+      "leader": false,
+      "warrior": true,
+      "baseMillimetres": 32,
+      "weaponRefs": [
+        "killteam:weapon:9c21-5611-9d14-2c03:a4h3",
+        "killteam:weapon:4fb3-6463-34dc-5435:a5h3"
+      ],
+      "abilityRefs": [],
+      "actionRefs": [],
+      "loadouts": [
+        {
+          "id": "killteam:assault-intercessor-warrior:loadout:71a7-b048-40fe-bf6d.c81d-2f29-2203-ce5b",
+          "name": "Heavy bolt pistol + Chainsword",
+          "sourceEntryIds": [
+            "71a7-b048-40fe-bf6d",
+            "c81d-2f29-2203-ce5b"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:9c21-5611-9d14-2c03:a4h3",
+            "killteam:weapon:4fb3-6463-34dc-5435:a5h3"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Assault Intercessor Warrior selection"
+        }
+      ]
+    },
+    {
+      "id": "killteam:eliminator-sniper",
+      "name": "Eliminator Sniper",
+      "sourceId": "cdfb-b861-3871-5e22",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 3",
+      "verification": "official-card-visually-reviewed",
+      "basicSourceId": "7d60-cfb0-1deb-1bdf",
+      "basic": {
+        "actionPointLimit": 3,
+        "moveInches": 7,
+        "saveThreshold": 3,
+        "wounds": 12
+      },
+      "leader": false,
+      "warrior": false,
+      "baseMillimetres": 40,
+      "weaponRefs": [
+        "killteam:weapon:ca05-d910-c889-f639:a4h3",
+        "killteam:weapon:cc3e-be03-2ab2-4bf4:a4h3",
+        "killteam:weapon:b367-7dc9-8aac-5d6c:a4h2",
+        "killteam:weapon:bdf5-9c75-c074-63f5:a4h2",
+        "killteam:weapon:b073-3838-8b34-f138:a4h2"
+      ],
+      "abilityRefs": [
+        "killteam:rule:743d-93f2-ab4d-f4fc"
+      ],
+      "actionRefs": [
+        "killteam:rule:ddfc-ca67-0311-6a6a"
+      ],
+      "loadouts": [
+        {
+          "id": "killteam:eliminator-sniper:loadout:5be0-7dc0-1359-1803.9978-a207-ea52-2f88.f99f-5908-3fbc-6226",
+          "name": "Bolt pistol + Fists + Bolt sniper rifle",
+          "sourceEntryIds": [
+            "5be0-7dc0-1359-1803",
+            "9978-a207-ea52-2f88",
+            "f99f-5908-3fbc-6226"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:ca05-d910-c889-f639:a4h3",
+            "killteam:weapon:cc3e-be03-2ab2-4bf4:a4h3",
+            "killteam:weapon:b367-7dc9-8aac-5d6c:a4h2",
+            "killteam:weapon:bdf5-9c75-c074-63f5:a4h2",
+            "killteam:weapon:b073-3838-8b34-f138:a4h2"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Eliminator Sniper selection"
+        }
+      ]
+    },
+    {
+      "id": "killteam:heavy-intercessor-gunner",
+      "name": "Heavy Intercessor Gunner",
+      "sourceId": "7b15-0824-ac8d-8144",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 2",
+      "verification": "official-card-visually-reviewed",
+      "basicSourceId": "f0e6-6648-0433-66a7",
+      "basic": {
+        "actionPointLimit": 3,
+        "moveInches": 5,
+        "saveThreshold": 3,
+        "wounds": 18
+      },
+      "leader": false,
+      "warrior": false,
+      "baseMillimetres": 40,
+      "weaponRefs": [
+        "killteam:weapon:7c1d-793e-dd64-7821:a5h3",
+        "killteam:weapon:71d2-7463-55b8-7c95:a4h3",
+        "killteam:weapon:cc3e-be03-2ab2-4bf4:a4h3",
+        "killteam:weapon:f1a8-836b-9821-d580:a4h3"
+      ],
+      "abilityRefs": [],
+      "actionRefs": [],
+      "loadouts": [
+        {
+          "id": "killteam:heavy-intercessor-gunner:loadout:8ad6-5ec4-0c2e-9a34.9978-a207-ea52-2f88.c7eb-02b0-ee93-7afc",
+          "name": "Heavy bolter + Fists + Bolt pistol",
+          "sourceEntryIds": [
+            "8ad6-5ec4-0c2e-9a34",
+            "9978-a207-ea52-2f88",
+            "c7eb-02b0-ee93-7afc"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:7c1d-793e-dd64-7821:a5h3",
+            "killteam:weapon:71d2-7463-55b8-7c95:a4h3",
+            "killteam:weapon:cc3e-be03-2ab2-4bf4:a4h3",
+            "killteam:weapon:f1a8-836b-9821-d580:a4h3"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Heavy Intercessor Gunner selection"
+        }
+      ]
+    },
+    {
+      "id": "killteam:intercessor-gunner",
+      "name": "Intercessor Gunner",
+      "sourceId": "d2f1-a009-e449-14e0",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 3",
+      "verification": "official-card-visually-reviewed",
+      "basicSourceId": "8106-79c7-cb32-6338",
+      "basic": {
+        "actionPointLimit": 3,
+        "moveInches": 6,
+        "saveThreshold": 3,
+        "wounds": 14
+      },
+      "leader": false,
+      "warrior": false,
+      "baseMillimetres": 32,
+      "weaponRefs": [
+        "killteam:weapon:2dcd-56c8-a27e-a84f:a4h3",
+        "killteam:weapon:b5f1-b73c-4b8f-f99d:a4h3",
+        "killteam:weapon:c5ac-f862-a87d-7262:a4h3",
+        "killteam:weapon:cc3e-be03-2ab2-4bf4:a4h3",
+        "killteam:weapon:03b3-a89e-f806-c0bf:a4h3",
+        "killteam:weapon:c4b4-410e-1af2-f48c:a4h3",
+        "killteam:weapon:68e3-a6f2-0b08-177f:a4h3"
+      ],
+      "abilityRefs": [],
+      "actionRefs": [],
+      "loadouts": [
+        {
+          "id": "killteam:intercessor-gunner:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88.31c4-eebf-2d11-ed8e",
+          "name": "Auto bolt rifle + Fists + Auxiliary grenade launcher",
+          "sourceEntryIds": [
+            "6fba-f8c3-3999-284b",
+            "9978-a207-ea52-2f88",
+            "31c4-eebf-2d11-ed8e"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:c5ac-f862-a87d-7262:a4h3",
+            "killteam:weapon:cc3e-be03-2ab2-4bf4:a4h3",
+            "killteam:weapon:2dcd-56c8-a27e-a84f:a4h3",
+            "killteam:weapon:b5f1-b73c-4b8f-f99d:a4h3"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Intercessor Gunner selection"
+        },
+        {
+          "id": "killteam:intercessor-gunner:loadout:d60d-1f8c-2519-f78e.9978-a207-ea52-2f88.31c4-eebf-2d11-ed8e",
+          "name": "Bolt rifle + Fists + Auxiliary grenade launcher",
+          "sourceEntryIds": [
+            "d60d-1f8c-2519-f78e",
+            "9978-a207-ea52-2f88",
+            "31c4-eebf-2d11-ed8e"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:03b3-a89e-f806-c0bf:a4h3",
+            "killteam:weapon:cc3e-be03-2ab2-4bf4:a4h3",
+            "killteam:weapon:2dcd-56c8-a27e-a84f:a4h3",
+            "killteam:weapon:b5f1-b73c-4b8f-f99d:a4h3"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Intercessor Gunner selection"
+        },
+        {
+          "id": "killteam:intercessor-gunner:loadout:e583-f949-effe-fc87.9978-a207-ea52-2f88.31c4-eebf-2d11-ed8e",
+          "name": "Stalker bolt rifle + Fists + Auxiliary grenade launcher",
+          "sourceEntryIds": [
+            "e583-f949-effe-fc87",
+            "9978-a207-ea52-2f88",
+            "31c4-eebf-2d11-ed8e"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:c4b4-410e-1af2-f48c:a4h3",
+            "killteam:weapon:68e3-a6f2-0b08-177f:a4h3",
+            "killteam:weapon:cc3e-be03-2ab2-4bf4:a4h3",
+            "killteam:weapon:2dcd-56c8-a27e-a84f:a4h3",
+            "killteam:weapon:b5f1-b73c-4b8f-f99d:a4h3"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Intercessor Gunner selection"
+        }
+      ]
+    },
+    {
+      "id": "killteam:intercessor-warrior",
+      "name": "Intercessor Warrior",
+      "sourceId": "c52b-22b8-1452-3b9f",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 3",
+      "verification": "official-card-visually-reviewed",
+      "basicSourceId": "6b29-977a-4fc1-79a0",
+      "basic": {
+        "actionPointLimit": 3,
+        "moveInches": 6,
+        "saveThreshold": 3,
+        "wounds": 14
+      },
+      "leader": false,
+      "warrior": true,
+      "baseMillimetres": 32,
+      "weaponRefs": [
+        "killteam:weapon:c5ac-f862-a87d-7262:a4h3",
+        "killteam:weapon:cc3e-be03-2ab2-4bf4:a4h3",
+        "killteam:weapon:03b3-a89e-f806-c0bf:a4h3",
+        "killteam:weapon:c4b4-410e-1af2-f48c:a4h3",
+        "killteam:weapon:68e3-a6f2-0b08-177f:a4h3"
+      ],
+      "abilityRefs": [],
+      "actionRefs": [],
+      "loadouts": [
+        {
+          "id": "killteam:intercessor-warrior:loadout:6fba-f8c3-3999-284b.9978-a207-ea52-2f88",
+          "name": "Auto bolt rifle + Fists",
+          "sourceEntryIds": [
+            "6fba-f8c3-3999-284b",
+            "9978-a207-ea52-2f88"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:c5ac-f862-a87d-7262:a4h3",
+            "killteam:weapon:cc3e-be03-2ab2-4bf4:a4h3"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Intercessor Warrior selection"
+        },
+        {
+          "id": "killteam:intercessor-warrior:loadout:d60d-1f8c-2519-f78e.9978-a207-ea52-2f88",
+          "name": "Bolt rifle + Fists",
+          "sourceEntryIds": [
+            "d60d-1f8c-2519-f78e",
+            "9978-a207-ea52-2f88"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:03b3-a89e-f806-c0bf:a4h3",
+            "killteam:weapon:cc3e-be03-2ab2-4bf4:a4h3"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Intercessor Warrior selection"
+        },
+        {
+          "id": "killteam:intercessor-warrior:loadout:e583-f949-effe-fc87.9978-a207-ea52-2f88",
+          "name": "Stalker bolt rifle + Fists",
+          "sourceEntryIds": [
+            "e583-f949-effe-fc87",
+            "9978-a207-ea52-2f88"
+          ],
+          "weaponRefs": [
+            "killteam:weapon:c4b4-410e-1af2-f48c:a4h3",
+            "killteam:weapon:68e3-a6f2-0b08-177f:a4h3",
+            "killteam:weapon:cc3e-be03-2ab2-4bf4:a4h3"
+          ],
+          "sourceRefs": [
+            0,
+            1
+          ],
+          "officialLocation": "Angels of Death PDF page 12, Intercessor Warrior selection"
+        }
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "id": "killteam:weapon:ee9a-41e7-13fe-5b0c:a4h3",
+      "name": "Plasma pistol (standard)",
+      "kind": "ranged",
+      "attacks": 4,
+      "hit": 3,
+      "damageNormal": 3,
+      "damageCritical": 5,
+      "rangeInches": 8,
+      "keywords": [
+        "Piercing 1"
+      ],
+      "sourceId": "ee9a-41e7-13fe-5b0c",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 1; Angels of Death PDF page(s) 1",
+      "verification": "official-card-visually-reviewed",
+      "sourceEntryId": "187a-3d95-c7db-7496",
+      "contextOperativeSourceIds": [
+        "1e8f-a57f-d418-402d",
+        "c809-3374-c7f7-facd"
+      ],
+      "appliedModifiers": []
+    },
+    {
+      "id": "killteam:weapon:7888-dfdf-ecc2-9032:a4h3",
+      "name": "Plasma pistol (supercharge)",
+      "kind": "ranged",
+      "attacks": 4,
+      "hit": 3,
+      "damageNormal": 4,
+      "damageCritical": 5,
+      "rangeInches": 8,
+      "keywords": [
+        "Hot",
+        "Lethal 5+",
+        "Piercing 1"
+      ],
+      "sourceId": "7888-dfdf-ecc2-9032",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 1; Angels of Death PDF page(s) 1",
+      "verification": "official-card-visually-reviewed",
+      "sourceEntryId": "187a-3d95-c7db-7496",
+      "contextOperativeSourceIds": [
+        "1e8f-a57f-d418-402d",
+        "c809-3374-c7f7-facd"
+      ],
+      "appliedModifiers": []
+    },
+    {
+      "id": "killteam:weapon:fe27-204c-ff2d-ce83:a5h3",
+      "name": "Power fist",
+      "kind": "melee",
+      "attacks": 5,
+      "hit": 3,
+      "damageNormal": 5,
+      "damageCritical": 7,
+      "rangeInches": null,
+      "keywords": [
+        "Brutal"
+      ],
+      "sourceId": "fe27-204c-ff2d-ce83",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 1",
+      "verification": "official-card-visually-reviewed",
+      "sourceEntryId": "5262-3a19-0a9b-5632",
+      "contextOperativeSourceIds": [
+        "1e8f-a57f-d418-402d"
+      ],
+      "appliedModifiers": [
+        {
+          "field": "HIT",
+          "base": "4+",
+          "effective": "3+",
+          "operativeSourceId": "1e8f-a57f-d418-402d"
+        }
+      ]
+    },
+    {
+      "id": "killteam:weapon:fe27-204c-ff2d-ce83:a5h4",
+      "name": "Power fist",
+      "kind": "melee",
+      "attacks": 5,
+      "hit": 4,
+      "damageNormal": 5,
+      "damageCritical": 7,
+      "rangeInches": null,
+      "keywords": [
+        "Brutal"
+      ],
+      "sourceId": "fe27-204c-ff2d-ce83",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 1",
+      "verification": "official-card-visually-reviewed",
+      "sourceEntryId": "5262-3a19-0a9b-5632",
+      "contextOperativeSourceIds": [
+        "c809-3374-c7f7-facd"
+      ],
+      "appliedModifiers": []
+    },
+    {
+      "id": "killteam:weapon:9c21-5611-9d14-2c03:a4h3",
+      "name": "Heavy bolt pistol",
+      "kind": "ranged",
+      "attacks": 4,
+      "hit": 3,
+      "damageNormal": 3,
+      "damageCritical": 4,
+      "rangeInches": 8,
+      "keywords": [
+        "Piercing Crits 1"
+      ],
+      "sourceId": "9c21-5611-9d14-2c03",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 1; Angels of Death PDF page(s) 2; Angels of Death PDF page(s) 2",
+      "verification": "official-card-visually-reviewed",
+      "sourceEntryId": "71a7-b048-40fe-bf6d",
+      "contextOperativeSourceIds": [
+        "c809-3374-c7f7-facd",
+        "51c4-b5bd-2b17-b3d8",
+        "b38c-5705-740e-ecf1"
+      ],
+      "appliedModifiers": []
+    },
+    {
+      "id": "killteam:weapon:e45a-6bf2-b623-438e:a4h2",
+      "name": "Hand Flamer",
+      "kind": "ranged",
+      "attacks": 4,
+      "hit": 2,
+      "damageNormal": 3,
+      "damageCritical": 3,
+      "rangeInches": 6,
+      "keywords": [
+        "Saturate",
+        "Torrent 1\""
+      ],
+      "sourceId": "e45a-6bf2-b623-438e",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 1",
+      "verification": "official-card-visually-reviewed",
+      "sourceEntryId": "b015-6af3-3bea-7be8",
+      "contextOperativeSourceIds": [
+        "c809-3374-c7f7-facd"
+      ],
+      "appliedModifiers": []
+    },
+    {
+      "id": "killteam:weapon:4fb3-6463-34dc-5435:a5h3",
+      "name": "Chainsword",
+      "kind": "melee",
+      "attacks": 5,
+      "hit": 3,
+      "damageNormal": 4,
+      "damageCritical": 5,
+      "rangeInches": null,
+      "keywords": [],
+      "sourceId": "4fb3-6463-34dc-5435",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 1; Angels of Death PDF page(s) 2; Angels of Death PDF page(s) 2",
+      "verification": "official-card-visually-reviewed",
+      "sourceEntryId": "c81d-2f29-2203-ce5b",
+      "contextOperativeSourceIds": [
+        "c809-3374-c7f7-facd",
+        "51c4-b5bd-2b17-b3d8",
+        "b38c-5705-740e-ecf1"
+      ],
+      "appliedModifiers": []
+    },
+    {
+      "id": "killteam:weapon:a7f3-9998-964a-4eae:a5h3",
+      "name": "Power weapon",
+      "kind": "melee",
+      "attacks": 5,
+      "hit": 3,
+      "damageNormal": 4,
+      "damageCritical": 6,
+      "rangeInches": null,
+      "keywords": [
+        "Lethal 5+"
+      ],
+      "sourceId": "a7f3-9998-964a-4eae",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 1",
+      "verification": "official-card-visually-reviewed",
+      "sourceEntryId": "f5d5-d08e-c46a-0cb0",
+      "contextOperativeSourceIds": [
+        "c809-3374-c7f7-facd"
+      ],
+      "appliedModifiers": []
+    },
+    {
+      "id": "killteam:weapon:5636-6697-6274-8d78:a5h4",
+      "name": "Thunder hammer",
+      "kind": "melee",
+      "attacks": 5,
+      "hit": 4,
+      "damageNormal": 5,
+      "damageCritical": 6,
+      "rangeInches": null,
+      "keywords": [
+        "Shock",
+        "Stun"
+      ],
+      "sourceId": "5636-6697-6274-8d78",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 1",
+      "verification": "official-card-visually-reviewed",
+      "sourceEntryId": "fa5e-b9ee-fb03-feac",
+      "contextOperativeSourceIds": [
+        "c809-3374-c7f7-facd"
+      ],
+      "appliedModifiers": []
+    },
+    {
+      "id": "killteam:weapon:fe27-204c-ff2d-ce83:a4h4",
+      "name": "Power fist",
+      "kind": "melee",
+      "attacks": 4,
+      "hit": 4,
+      "damageNormal": 5,
+      "damageCritical": 7,
+      "rangeInches": null,
+      "keywords": [
+        "Brutal"
+      ],
+      "sourceId": "fe27-204c-ff2d-ce83",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 1, 2",
+      "verification": "official-card-visually-reviewed",
+      "sourceEntryId": "5262-3a19-0a9b-5632",
+      "contextOperativeSourceIds": [
+        "3b04-997f-5370-c1f2"
+      ],
+      "appliedModifiers": [
+        {
+          "field": "ATK",
+          "base": "5",
+          "effective": "4",
+          "operativeSourceId": "3b04-997f-5370-c1f2"
+        }
+      ]
+    },
+    {
+      "id": "killteam:weapon:c5ac-f862-a87d-7262:a4h3",
+      "name": "Auto bolt rifle",
+      "kind": "ranged",
+      "attacks": 4,
+      "hit": 3,
+      "damageNormal": 3,
+      "damageCritical": 4,
+      "rangeInches": null,
+      "keywords": [
+        "Torrent 1\""
+      ],
+      "sourceId": "c5ac-f862-a87d-7262",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 1, 2; Angels of Death PDF page(s) 3; Angels of Death PDF page(s) 3",
+      "verification": "official-card-visually-reviewed",
+      "sourceEntryId": "6fba-f8c3-3999-284b",
+      "contextOperativeSourceIds": [
+        "3b04-997f-5370-c1f2",
+        "d2f1-a009-e449-14e0",
+        "c52b-22b8-1452-3b9f"
+      ],
+      "appliedModifiers": []
+    },
+    {
+      "id": "killteam:weapon:cc3e-be03-2ab2-4bf4:a4h3",
+      "name": "Fists",
+      "kind": "melee",
+      "attacks": 4,
+      "hit": 3,
+      "damageNormal": 3,
+      "damageCritical": 4,
+      "rangeInches": null,
+      "keywords": [],
+      "sourceId": "cc3e-be03-2ab2-4bf4",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 1, 2; Angels of Death PDF page(s) 3; Angels of Death PDF page(s) 2; Angels of Death PDF page(s) 3; Angels of Death PDF page(s) 3",
+      "verification": "official-card-visually-reviewed",
+      "sourceEntryId": "9978-a207-ea52-2f88",
+      "contextOperativeSourceIds": [
+        "3b04-997f-5370-c1f2",
+        "cdfb-b861-3871-5e22",
+        "7b15-0824-ac8d-8144",
+        "d2f1-a009-e449-14e0",
+        "c52b-22b8-1452-3b9f"
+      ],
+      "appliedModifiers": []
+    },
+    {
+      "id": "killteam:weapon:4fb3-6463-34dc-5435:a4h3",
+      "name": "Chainsword",
+      "kind": "melee",
+      "attacks": 4,
+      "hit": 3,
+      "damageNormal": 4,
+      "damageCritical": 5,
+      "rangeInches": null,
+      "keywords": [],
+      "sourceId": "4fb3-6463-34dc-5435",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 1, 2",
+      "verification": "official-card-visually-reviewed",
+      "sourceEntryId": "c81d-2f29-2203-ce5b",
+      "contextOperativeSourceIds": [
+        "3b04-997f-5370-c1f2"
+      ],
+      "appliedModifiers": [
+        {
+          "field": "ATK",
+          "base": "5",
+          "effective": "4",
+          "operativeSourceId": "3b04-997f-5370-c1f2"
+        }
+      ]
+    },
+    {
+      "id": "killteam:weapon:03b3-a89e-f806-c0bf:a4h3",
+      "name": "Bolt rifle",
+      "kind": "ranged",
+      "attacks": 4,
+      "hit": 3,
+      "damageNormal": 3,
+      "damageCritical": 4,
+      "rangeInches": null,
+      "keywords": [
+        "Piercing Crits 1"
+      ],
+      "sourceId": "03b3-a89e-f806-c0bf",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 1, 2; Angels of Death PDF page(s) 3; Angels of Death PDF page(s) 3",
+      "verification": "official-card-visually-reviewed",
+      "sourceEntryId": "d60d-1f8c-2519-f78e",
+      "contextOperativeSourceIds": [
+        "3b04-997f-5370-c1f2",
+        "d2f1-a009-e449-14e0",
+        "c52b-22b8-1452-3b9f"
+      ],
+      "appliedModifiers": []
+    },
+    {
+      "id": "killteam:weapon:c4b4-410e-1af2-f48c:a4h3",
+      "name": "Stalker bolt rifle (heavy)",
+      "kind": "ranged",
+      "attacks": 4,
+      "hit": 3,
+      "damageNormal": 3,
+      "damageCritical": 5,
+      "rangeInches": null,
+      "keywords": [
+        "Heavy (Dash only)",
+        "Lethal 5+",
+        "Piercing Crits 1"
+      ],
+      "sourceId": "c4b4-410e-1af2-f48c",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 1, 2; Angels of Death PDF page(s) 3; Angels of Death PDF page(s) 3",
+      "verification": "official-card-visually-reviewed",
+      "sourceEntryId": "e583-f949-effe-fc87",
+      "contextOperativeSourceIds": [
+        "3b04-997f-5370-c1f2",
+        "d2f1-a009-e449-14e0",
+        "c52b-22b8-1452-3b9f"
+      ],
+      "appliedModifiers": []
+    },
+    {
+      "id": "killteam:weapon:68e3-a6f2-0b08-177f:a4h3",
+      "name": "Stalker bolt rifle (mobile)",
+      "kind": "ranged",
+      "attacks": 4,
+      "hit": 3,
+      "damageNormal": 3,
+      "damageCritical": 4,
+      "rangeInches": null,
+      "keywords": [],
+      "sourceId": "68e3-a6f2-0b08-177f",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 1, 2; Angels of Death PDF page(s) 3; Angels of Death PDF page(s) 3",
+      "verification": "official-card-visually-reviewed",
+      "sourceEntryId": "e583-f949-effe-fc87",
+      "contextOperativeSourceIds": [
+        "3b04-997f-5370-c1f2",
+        "d2f1-a009-e449-14e0",
+        "c52b-22b8-1452-3b9f"
+      ],
+      "appliedModifiers": []
+    },
+    {
+      "id": "killteam:weapon:a7f3-9998-964a-4eae:a4h3",
+      "name": "Power weapon",
+      "kind": "melee",
+      "attacks": 4,
+      "hit": 3,
+      "damageNormal": 4,
+      "damageCritical": 6,
+      "rangeInches": null,
+      "keywords": [
+        "Lethal 5+"
+      ],
+      "sourceId": "a7f3-9998-964a-4eae",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 1, 2",
+      "verification": "official-card-visually-reviewed",
+      "sourceEntryId": "f5d5-d08e-c46a-0cb0",
+      "contextOperativeSourceIds": [
+        "3b04-997f-5370-c1f2"
+      ],
+      "appliedModifiers": [
+        {
+          "field": "ATK",
+          "base": "5",
+          "effective": "4",
+          "operativeSourceId": "3b04-997f-5370-c1f2"
+        }
+      ]
+    },
+    {
+      "id": "killteam:weapon:5636-6697-6274-8d78:a4h4",
+      "name": "Thunder hammer",
+      "kind": "melee",
+      "attacks": 4,
+      "hit": 4,
+      "damageNormal": 5,
+      "damageCritical": 6,
+      "rangeInches": null,
+      "keywords": [
+        "Shock",
+        "Stun"
+      ],
+      "sourceId": "5636-6697-6274-8d78",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 1, 2",
+      "verification": "official-card-visually-reviewed",
+      "sourceEntryId": "fa5e-b9ee-fb03-feac",
+      "contextOperativeSourceIds": [
+        "3b04-997f-5370-c1f2"
+      ],
+      "appliedModifiers": [
+        {
+          "field": "ATK",
+          "base": "5",
+          "effective": "4",
+          "operativeSourceId": "3b04-997f-5370-c1f2"
+        }
+      ]
+    },
+    {
+      "id": "killteam:weapon:ca05-d910-c889-f639:a4h3",
+      "name": "Bolt pistol",
+      "kind": "ranged",
+      "attacks": 4,
+      "hit": 3,
+      "damageNormal": 3,
+      "damageCritical": 4,
+      "rangeInches": 8,
+      "keywords": [],
+      "sourceId": "ca05-d910-c889-f639",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 3",
+      "verification": "official-card-visually-reviewed",
+      "sourceEntryId": "5be0-7dc0-1359-1803",
+      "contextOperativeSourceIds": [
+        "cdfb-b861-3871-5e22"
+      ],
+      "appliedModifiers": []
+    },
+    {
+      "id": "killteam:weapon:b367-7dc9-8aac-5d6c:a4h2",
+      "name": "Bolt sniper rifle (hyperfrag)",
+      "kind": "ranged",
+      "attacks": 4,
+      "hit": 2,
+      "damageNormal": 2,
+      "damageCritical": 4,
+      "rangeInches": null,
+      "keywords": [
+        "Blast 1\"",
+        "Heavy (Dash only)",
+        "Silent"
+      ],
+      "sourceId": "b367-7dc9-8aac-5d6c",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 3",
+      "verification": "official-card-visually-reviewed",
+      "sourceEntryId": "f99f-5908-3fbc-6226",
+      "contextOperativeSourceIds": [
+        "cdfb-b861-3871-5e22"
+      ],
+      "appliedModifiers": []
+    },
+    {
+      "id": "killteam:weapon:bdf5-9c75-c074-63f5:a4h2",
+      "name": "Bolt sniper rifle (executioner)",
+      "kind": "ranged",
+      "attacks": 4,
+      "hit": 2,
+      "damageNormal": 3,
+      "damageCritical": 4,
+      "rangeInches": null,
+      "keywords": [
+        "Heavy (Dash only)",
+        "Saturate",
+        "Seek Light",
+        "Silent"
+      ],
+      "sourceId": "bdf5-9c75-c074-63f5",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 3",
+      "verification": "official-card-visually-reviewed",
+      "sourceEntryId": "f99f-5908-3fbc-6226",
+      "contextOperativeSourceIds": [
+        "cdfb-b861-3871-5e22"
+      ],
+      "appliedModifiers": []
+    },
+    {
+      "id": "killteam:weapon:b073-3838-8b34-f138:a4h2",
+      "name": "Bolt sniper rifle (mortis)",
+      "kind": "ranged",
+      "attacks": 4,
+      "hit": 2,
+      "damageNormal": 3,
+      "damageCritical": 3,
+      "rangeInches": null,
+      "keywords": [
+        "Devastating 3",
+        "Heavy (Dash only)",
+        "Piercing 1",
+        "Silent"
+      ],
+      "sourceId": "b073-3838-8b34-f138",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 3",
+      "verification": "official-card-visually-reviewed",
+      "sourceEntryId": "f99f-5908-3fbc-6226",
+      "contextOperativeSourceIds": [
+        "cdfb-b861-3871-5e22"
+      ],
+      "appliedModifiers": []
+    },
+    {
+      "id": "killteam:weapon:7c1d-793e-dd64-7821:a5h3",
+      "name": "Heavy bolter (focused)",
+      "kind": "ranged",
+      "attacks": 5,
+      "hit": 3,
+      "damageNormal": 4,
+      "damageCritical": 5,
+      "rangeInches": null,
+      "keywords": [
+        "Piercing Crits 1"
+      ],
+      "sourceId": "7c1d-793e-dd64-7821",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 2",
+      "verification": "official-card-visually-reviewed",
+      "sourceEntryId": "8ad6-5ec4-0c2e-9a34",
+      "contextOperativeSourceIds": [
+        "7b15-0824-ac8d-8144"
+      ],
+      "appliedModifiers": []
+    },
+    {
+      "id": "killteam:weapon:71d2-7463-55b8-7c95:a4h3",
+      "name": "Heavy bolter (sweeping)",
+      "kind": "ranged",
+      "attacks": 4,
+      "hit": 3,
+      "damageNormal": 4,
+      "damageCritical": 5,
+      "rangeInches": null,
+      "keywords": [
+        "Piercing Crits 1",
+        "Torrent 1\""
+      ],
+      "sourceId": "71d2-7463-55b8-7c95",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 2",
+      "verification": "official-card-visually-reviewed",
+      "sourceEntryId": "8ad6-5ec4-0c2e-9a34",
+      "contextOperativeSourceIds": [
+        "7b15-0824-ac8d-8144"
+      ],
+      "appliedModifiers": []
+    },
+    {
+      "id": "killteam:weapon:f1a8-836b-9821-d580:a4h3",
+      "name": "Bolt pistol",
+      "kind": "ranged",
+      "attacks": 4,
+      "hit": 3,
+      "damageNormal": 3,
+      "damageCritical": 4,
+      "rangeInches": 8,
+      "keywords": [],
+      "sourceId": "f1a8-836b-9821-d580",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 2",
+      "verification": "official-card-visually-reviewed",
+      "sourceEntryId": "c7eb-02b0-ee93-7afc",
+      "contextOperativeSourceIds": [
+        "7b15-0824-ac8d-8144"
+      ],
+      "appliedModifiers": []
+    },
+    {
+      "id": "killteam:weapon:2dcd-56c8-a27e-a84f:a4h3",
+      "name": "Auxiliary grenade launcher (frag)",
+      "kind": "ranged",
+      "attacks": 4,
+      "hit": 3,
+      "damageNormal": 2,
+      "damageCritical": 4,
+      "rangeInches": null,
+      "keywords": [
+        "Blast 2\""
+      ],
+      "sourceId": "2dcd-56c8-a27e-a84f",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 3",
+      "verification": "official-card-visually-reviewed",
+      "sourceEntryId": "31c4-eebf-2d11-ed8e",
+      "contextOperativeSourceIds": [
+        "d2f1-a009-e449-14e0"
+      ],
+      "appliedModifiers": []
+    },
+    {
+      "id": "killteam:weapon:b5f1-b73c-4b8f-f99d:a4h3",
+      "name": "Auxiliary grenade launcher (krak)",
+      "kind": "ranged",
+      "attacks": 4,
+      "hit": 3,
+      "damageNormal": 4,
+      "damageCritical": 5,
+      "rangeInches": null,
+      "keywords": [
+        "Piercing 1"
+      ],
+      "sourceId": "b5f1-b73c-4b8f-f99d",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 3",
+      "verification": "official-card-visually-reviewed",
+      "sourceEntryId": "31c4-eebf-2d11-ed8e",
+      "contextOperativeSourceIds": [
+        "d2f1-a009-e449-14e0"
+      ],
+      "appliedModifiers": []
+    }
+  ],
+  "abilities": [
+    {
+      "id": "killteam:rule:f6ac-319a-f15c-ffae",
+      "name": "Heroic Leader",
+      "sourceId": "f6ac-319a-f15c-ffae",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 1",
+      "verification": "official-card-visually-reviewed",
+      "wording": "original",
+      "automated": false,
+      "summary": "Once each turning point, choose one benefit: a firefight ploy costs 0CP when this Captain is its specified ANGEL OF DEATH operative, except Command Re-roll; or, when a friendly ANGEL OF DEATH activates, use Combat Doctrine at its usual CP cost if the Captain is in the killzone and outside enemy control range, provided that ploy has not already been used this turning point; or use Adjust Doctrine for 0CP while the Captain is in the killzone and outside enemy control range.",
+      "mechanics": {
+        "limit": {
+          "uses": 1,
+          "period": "turning point",
+          "sharedAcrossOptions": true
+        },
+        "options": [
+          {
+            "ployType": "firefight",
+            "costCP": 0,
+            "target": "this Captain as specified ANGEL OF DEATH operative",
+            "exceptions": [
+              "Command Re-roll"
+            ]
+          },
+          {
+            "ploy": "Combat Doctrine",
+            "trigger": "friendly ANGEL OF DEATH activation",
+            "cost": "normal",
+            "conditions": [
+              "Captain in killzone",
+              "Captain outside enemy control range",
+              "Combat Doctrine not already used this turning point"
+            ]
+          },
+          {
+            "ploy": "Adjust Doctrine",
+            "costCP": 0,
+            "conditions": [
+              "Captain in killzone",
+              "Captain outside enemy control range"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "killteam:rule:4386-9eb8-143a-3776",
+      "name": "Iron Halo",
+      "sourceId": "4386-9eb8-143a-3776",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 1",
+      "verification": "official-card-visually-reviewed",
+      "wording": "original",
+      "automated": false,
+      "summary": "Once in the battle, the Captain may disregard the Normal Dmg inflicted on him by one attack die when that damage is inflicted.",
+      "mechanics": {
+        "limit": {
+          "uses": 1,
+          "period": "battle"
+        },
+        "trigger": "one attack die inflicts Normal Dmg on this operative",
+        "effect": "ignore that die's inflicted damage",
+        "excludes": [
+          "Critical Dmg"
+        ],
+        "optional": true
+      }
+    },
+    {
+      "id": "killteam:rule:42bd-e2a7-e8f2-1d75",
+      "name": "Doctrine Warfare",
+      "sourceId": "42bd-e2a7-e8f2-1d75",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 1",
+      "verification": "official-card-visually-reviewed",
+      "wording": "original",
+      "automated": false,
+      "summary": "While this operative is in the killzone, Combat Doctrine costs 0CP when choosing Assault or Tactical. Each of those choices has its own once-per-battle use.",
+      "mechanics": {
+        "trigger": "use Combat Doctrine and choose a listed doctrine",
+        "condition": "this operative in killzone",
+        "costCP": 0,
+        "choices": [
+          "Assault",
+          "Tactical"
+        ],
+        "usesPerChoice": 1,
+        "period": "battle",
+        "sharedBetweenChoices": false
+      }
+    },
+    {
+      "id": "killteam:rule:6c1f-395e-178c-f074",
+      "name": "Chapter Veteran",
+      "sourceId": "6c1f-395e-178c-f074",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 1",
+      "verification": "official-card-visually-reviewed",
+      "wording": "original",
+      "automated": false,
+      "summary": "At the end of Select Operatives, a Sergeant chosen for deployment gains one additional CHAPTER TACTIC for this battle. That extra choice may change between games of a campaign or tournament.",
+      "mechanics": {
+        "trigger": "end of Select Operatives",
+        "condition": "selected for deployment",
+        "target": "this operative",
+        "additionalChapterTactics": 1,
+        "duration": "battle",
+        "extraChoiceLockedAcrossSeries": false
+      }
+    },
+    {
+      "id": "killteam:rule:b32f-5a76-356e-68cb",
+      "name": "Doctrine Warfare",
+      "sourceId": "b32f-5a76-356e-68cb",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 1, 2",
+      "verification": "official-card-visually-reviewed",
+      "wording": "original",
+      "automated": false,
+      "summary": "While this operative is in the killzone, Combat Doctrine costs 0CP when choosing Devastator or Tactical. Each of those choices has its own once-per-battle use.",
+      "mechanics": {
+        "trigger": "use Combat Doctrine and choose a listed doctrine",
+        "condition": "this operative in killzone",
+        "costCP": 0,
+        "choices": [
+          "Devastator",
+          "Tactical"
+        ],
+        "usesPerChoice": 1,
+        "period": "battle",
+        "sharedBetweenChoices": false
+      }
+    },
+    {
+      "id": "killteam:rule:8a42-b55e-dea7-6baf",
+      "name": "Chapter Veteran",
+      "sourceId": "8a42-b55e-dea7-6baf",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 1, 2",
+      "verification": "official-card-visually-reviewed",
+      "wording": "original",
+      "automated": false,
+      "summary": "At the end of Select Operatives, a Sergeant chosen for deployment gains one additional CHAPTER TACTIC for this battle. That extra choice may change between games of a campaign or tournament.",
+      "mechanics": {
+        "trigger": "end of Select Operatives",
+        "condition": "selected for deployment",
+        "target": "this operative",
+        "additionalChapterTactics": 1,
+        "duration": "battle",
+        "extraChoiceLockedAcrossSeries": false
+      }
+    },
+    {
+      "id": "killteam:rule:a86f-e1cc-1044-d60c",
+      "name": "Grenadier",
+      "sourceId": "a86f-e1cc-1044-d60c",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 2",
+      "verification": "official-card-visually-reviewed",
+      "wording": "original",
+      "automated": false,
+      "summary": "This operative may use frag and krak grenades without consuming the limited uses available to other operatives through universal equipment. Improve the grenade weapon's Hit stat by 1 whenever this operative uses it.",
+      "mechanics": {
+        "target": "this operative using frag or krak grenades",
+        "doesNotConsumeSharedEquipmentUses": true,
+        "hitImprovement": 1,
+        "grenadeProfilesIncluded": false
+      }
+    },
+    {
+      "id": "killteam:rule:743d-93f2-ab4d-f4fc",
+      "name": "Camo Cloak",
+      "sourceId": "743d-93f2-ab4d-f4fc",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 3",
+      "verification": "official-card-visually-reviewed",
+      "wording": "original",
+      "automated": false,
+      "summary": "Ignore Saturate when this operative is shot. It already has Stealthy; if Stealthy was also selected for the team, it may combine both cover options, retaining one normal and one critical cover save.",
+      "mechanics": {
+        "trigger": "enemy operative shoots this operative",
+        "ignoreWeaponRules": [
+          "Saturate"
+        ],
+        "inherentChapterTactic": "Stealthy",
+        "ifTeamSelectedStealthy": {
+          "combineOptions": true,
+          "coverNormal": 1,
+          "coverCritical": 1
+        }
+      }
+    }
+  ],
+  "actions": [
+    {
+      "id": "killteam:rule:ddfc-ca67-0311-6a6a",
+      "name": "Optics (1AP)",
+      "sourceId": "ddfc-ca67-0311-6a6a",
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 3",
+      "verification": "official-card-visually-reviewed",
+      "wording": "original",
+      "automated": false,
+      "summary": "Optics costs 1AP. Until this operative's next activation starts, its shooting ignores enemy obscured status. It cannot use this action within an enemy operative's control range.",
+      "mechanics": {
+        "actionCostAP": 1,
+        "expires": "start of this operative next activation",
+        "effect": "enemy operatives cannot be obscured when this operative shoots",
+        "prohibitedWhen": "within enemy operative control range"
+      }
+    }
+  ],
+  "tactics": [
+    {
+      "id": "killteam:tactic:aggressive",
+      "name": "Aggressive",
+      "sourceId": "be68-a409-dba3-c4a3",
+      "summary": "Give this operative's melee weapons Rending.",
+      "mechanics": {
+        "target": "this operative melee weapons",
+        "grants": [
+          "Rending"
+        ]
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 4, 5",
+      "verification": "official-card-visually-reviewed"
+    },
+    {
+      "id": "killteam:tactic:dueller",
+      "name": "Dueller",
+      "sourceId": "4e8a-40d6-cd41-a8cf",
+      "summary": "During a fight or retaliation, each normal success may block one unresolved enemy critical success. This option is unavailable against an enemy weapon with Brutal.",
+      "mechanics": {
+        "trigger": [
+          "fighting",
+          "retaliating"
+        ],
+        "normalSuccessBlocksCritical": 1,
+        "exception": "enemy weapon has Brutal"
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 4, 5",
+      "verification": "official-card-visually-reviewed"
+    },
+    {
+      "id": "killteam:tactic:resolute",
+      "name": "Resolute",
+      "sourceId": "0bf5-117e-df33-17d0",
+      "summary": "This operative may disregard APL changes, and enemy Shock does not affect it.",
+      "mechanics": {
+        "ignoreAPLChanges": true,
+        "ignoreEnemyWeaponRules": [
+          "Shock"
+        ]
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 4, 5",
+      "verification": "official-card-visually-reviewed"
+    },
+    {
+      "id": "killteam:tactic:stealthy",
+      "name": "Stealthy",
+      "sourceId": "dcf1-ebee-6e54-f64f",
+      "summary": "When shot, if any cover saves can be retained, either retain one extra cover save or retain one cover save as a critical success. Do not combine this with improved cover saves from Vantage.",
+      "mechanics": {
+        "trigger": "being shot",
+        "condition": "can retain at least one cover save",
+        "options": [
+          "one additional cover save",
+          "one cover save becomes critical"
+        ],
+        "notCumulativeWith": "Vantage improved cover saves"
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 4, 5",
+      "verification": "official-card-visually-reviewed"
+    },
+    {
+      "id": "killteam:tactic:mobile",
+      "name": "Mobile",
+      "sourceId": "1b4e-2f28-9c65-62dd",
+      "summary": "Reduce Fall Back's AP cost by 1. This operative may Charge while in enemy control range and leave that range to do so; the rest of the move must meet normal Charge requirements.",
+      "mechanics": {
+        "fallBackAPReduction": 1,
+        "chargeFromEnemyControlRange": true,
+        "canLeaveThatControlRange": true,
+        "remainingNormalChargeRequirementsApply": true
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 4, 5",
+      "verification": "official-card-visually-reviewed"
+    },
+    {
+      "id": "killteam:tactic:hardy",
+      "name": "Hardy",
+      "sourceId": "653b-59d7-4cc5-21ac",
+      "summary": "When this operative is shot, defence dice showing 5+ are critical successes.",
+      "mechanics": {
+        "trigger": "being shot",
+        "defenceCriticalThreshold": 5
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 4, 5",
+      "verification": "official-card-visually-reviewed"
+    },
+    {
+      "id": "killteam:tactic:sharpshooter",
+      "name": "Sharpshooter",
+      "sourceId": "2dcf-673c-7ca5-2e22",
+      "summary": "If this operative has not yet Charged, Fallen Back or Repositioned in its current activation, its bolt weapons gain Accurate 1 and Severe while shooting.",
+      "mechanics": {
+        "trigger": "shooting during activation",
+        "condition": "no Charge, Fall Back or Reposition performed in that activation",
+        "target": "this operative bolt weapons",
+        "grants": [
+          "Accurate 1",
+          "Severe"
+        ]
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 4, 5",
+      "verification": "official-card-visually-reviewed"
+    },
+    {
+      "id": "killteam:tactic:siege-specialist",
+      "name": "Siege Specialist",
+      "sourceId": "7a52-f018-db34-63b1",
+      "summary": "Give this operative's ranged weapons Saturate. Enemy operatives cannot assist when this operative fights or retaliates.",
+      "mechanics": {
+        "target": "this operative ranged weapons",
+        "grants": [
+          "Saturate"
+        ],
+        "enemyAssistanceProhibitedDuring": [
+          "fighting",
+          "retaliating"
+        ]
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page(s) 4, 5",
+      "verification": "official-card-visually-reviewed"
+    }
+  ],
+  "teamRules": [
+    {
+      "id": "killteam:astartes",
+      "name": "Astartes",
+      "sourceRefs": [
+        1
+      ],
+      "officialLocation": "Angels of Death PDF page 5",
+      "verification": "official-card-visually-reviewed",
+      "summary": "In each friendly ANGEL OF DEATH activation, it may take either two Shoot actions or two Fight actions. For two Shoots, at least one must use a bolt weapon; if both use its bolt sniper rifle or heavy bolter, the second costs +1AP. Friendly ANGEL OF DEATH operatives may counteract with either order.",
+      "mechanics": {
+        "target": "friendly ANGEL OF DEATH operatives",
+        "perActivationOptions": [
+          "two Shoot actions",
+          "two Fight actions"
+        ],
+        "twoShootRequirement": "at least one bolt weapon",
+        "secondShootExtraAP": {
+          "value": 1,
+          "condition": "both actions use the bolt sniper rifle or both use the heavy bolter"
+        },
+        "counteractRegardlessOfOrder": true
+      },
+      "wording": "original",
+      "automated": false
+    }
+  ],
+  "sourceDiscrepancies": [
+    {
+      "sourceId": "b367-7dc9-8aac-5d6c",
+      "field": "weapon rule distance unit",
+      "sourceValue": "Blast 1",
+      "effectiveValue": "Blast 1 inch",
+      "authority": "Official PDF page 3"
+    },
+    {
+      "sourceId": "42bd-e2a7-e8f2-1d75",
+      "field": "Doctrine Warfare choices",
+      "sourceValue": [
+        "Devastator",
+        "Tactical"
+      ],
+      "effectiveValue": [
+        "Assault",
+        "Tactical"
+      ],
+      "authority": "Official PDF page 1"
+    },
+    {
+      "sourceId": "b32f-5a76-356e-68cb",
+      "field": "Doctrine Warfare use limits",
+      "sourceValue": "No once-per-battle use limit in source profile text",
+      "effectiveValue": "Each listed doctrine once per battle",
+      "authority": "Official PDF page 2"
+    }
+  ],
+  "pending": [
+    "Ploys, faction/universal equipment and grenade profiles are not included.",
+    "Weapon keyword effects, Chapter tactics and operative abilities are reference descriptions, not executed gameplay.",
+    "Mission restrictions, event roster locks and in-game ploy changes are outside composition validation."
+  ],
+  "selection": {
+    "totalOperatives": 6,
+    "leaders": 1,
+    "otherOperatives": 5,
+    "nonWarriorMaximum": 1,
+    "warriorMaximum": 5,
+    "weaponProfileModesGroupedBy": "sourceEntryId",
+    "chapterTactics": {
+      "primary": 1,
+      "secondary": 1,
+      "options": [
+        "killteam:tactic:aggressive",
+        "killteam:tactic:dueller",
+        "killteam:tactic:resolute",
+        "killteam:tactic:stealthy",
+        "killteam:tactic:mobile",
+        "killteam:tactic:hardy",
+        "killteam:tactic:sharpshooter",
+        "killteam:tactic:siege-specialist"
+      ],
+      "duplicatesDoNotStack": true,
+      "seriesChoicesLocked": true,
+      "secondaryCanChangeInGameVia": "Adaptive Tactics"
+    },
+    "sourceRefs": [
+      1
+    ],
+    "officialLocation": "PDF pages 4-5 and 12"
+  }
+}
