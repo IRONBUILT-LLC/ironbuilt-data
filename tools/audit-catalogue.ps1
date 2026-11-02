@@ -31,8 +31,23 @@ while ($queue.Count) {
   if ([IO.Path]::GetFileName($relative) -ne $relative) { throw 'Only repository root catalogue filenames are supported' }
   $seen[$relative] = $true
   $path = Join-Path $root $relative
-  $reader = [System.Xml.XmlReader]::Create($path, $settings)
-  try { $doc = [System.Xml.XmlDocument]::new(); $doc.XmlResolver = $null; $doc.Load($reader) } finally { $reader.Dispose() }
+  # Hash canonical git blob bytes, not Windows CRLF checkout bytes.
+  $info = [Diagnostics.ProcessStartInfo]::new('git')
+  $info.UseShellExecute = $false
+  $info.RedirectStandardOutput = $true
+  $info.RedirectStandardError = $true
+  foreach ($arg in @('-C', $root, 'cat-file', 'blob', "${revision}:$relative")) { $info.ArgumentList.Add($arg) }
+  $process = [Diagnostics.Process]::Start($info)
+  $stream = [IO.MemoryStream]::new()
+  try {
+    $process.StandardOutput.BaseStream.CopyTo($stream)
+    $process.WaitForExit()
+    if ($process.ExitCode -ne 0) { throw "Source file is absent from pinned commit: $relative" }
+    $bytes = $stream.ToArray()
+  } finally { $process.Dispose(); $stream.Dispose() }
+  $inputStream = [IO.MemoryStream]::new($bytes, $false)
+  $reader = [System.Xml.XmlReader]::Create($inputStream, $settings)
+  try { $doc = [System.Xml.XmlDocument]::new(); $doc.XmlResolver = $null; $doc.Load($reader) } finally { $reader.Dispose(); $inputStream.Dispose() }
   $targetIds = @($doc.SelectNodes('//*[local-name()="catalogueLink"]') | ForEach-Object { $_.GetAttribute('targetId') })
   if ($doc.DocumentElement.LocalName -eq 'catalogue') { $targetIds += $doc.DocumentElement.GetAttribute('gameSystemId') }
   $links = @($targetIds | ForEach-Object {
@@ -42,8 +57,8 @@ while ($queue.Count) {
   foreach ($link in $links) { $queue.Enqueue($link) }
   $files.Add([ordered]@{
     path = $relative
-    sha256 = (Get-FileHash -LiteralPath $path -Algorithm SHA256).Hash.ToLowerInvariant()
-    bytes = (Get-Item -LiteralPath $path).Length
+    sha256 = [Convert]::ToHexString([Security.Cryptography.SHA256]::HashData($bytes)).ToLowerInvariant()
+    bytes = $bytes.Length
     revision = $doc.DocumentElement.GetAttribute('revision')
     selectionEntries = $doc.SelectNodes('//*[local-name()="selectionEntry"]').Count
     entryLinks = $doc.SelectNodes('//*[local-name()="entryLink"]').Count

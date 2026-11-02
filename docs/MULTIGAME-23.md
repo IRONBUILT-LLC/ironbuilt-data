@@ -39,16 +39,17 @@ directly inserting AoS or KT. No new entries are added to that feed.
 
 The real source audit shows why flattening is unsafe:
 
-* Stormcast catalogue dependency closure: 33 source files, 17,044,876 bytes,
+* Stormcast catalogue dependency closure: 33 source files, 16,809,542 bytes,
   6,459 modifiers and 11,426 constraints. This includes linked libraries and narrative
   catalogues, not 33 supported factions or 17 MB needed for a matched-play pilot.
-* Angels of Death: two source files, 109,048 bytes, 11 modifiers and 83 constraints.
+* Angels of Death: two source files, 107,566 bytes, 11 modifiers and 83 constraints.
   The repository also contains older Kill Team editions: select the 2024 system ID,
   not a filename or team name alone.
 
 Exact per-file hashes, source revisions, profile types, dependency edges and counts
 are in `sources/*-audit.json`. Dependency resolution uses IDs: display names can
 contain prefixes absent from filenames. Reports contain metadata only.
+Hashes and byte sizes describe canonical Git blobs, independent of checkout line endings.
 
 ## Implemented contract and importer
 

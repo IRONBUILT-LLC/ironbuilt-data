@@ -8,6 +8,8 @@ try {
   '<gameSystem id="system" revision="1"/>' | Set-Content (Join-Path $temp 'system.gst')
   '<catalogue id="library" gameSystemId="system" revision="2"/>' | Set-Content (Join-Path $temp 'Actual Library.cat')
   '<catalogue id="pilot" gameSystemId="system"><catalogueLinks><catalogueLink name="Display name differs" targetId="library"/></catalogueLinks><sharedProfiles><profile><description>Must not be copied</description></profile></sharedProfiles></catalogue>' | Set-Content (Join-Path $temp 'pilot.cat')
+  & git -C $temp add .
+  & git -C $temp -c user.name=Test -c user.email=test@example.invalid commit --quiet -m sources
   $audit = & "$PSScriptRoot/../tools/audit-catalogue.ps1" -Repository $temp -Catalogue 'pilot.cat'
   $data = ($audit -join "`n") | ConvertFrom-Json
   if ($data.files.Count -ne 3 -or ($audit -join '').Contains('Must not be copied')) { throw 'Dependency closure or prose exclusion failed' }

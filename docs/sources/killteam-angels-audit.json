@@ -7,8 +7,8 @@
   "files": [
     {
       "path": "2024 - Angels of Death.cat",
-      "sha256": "bda35a8cf01e48616cce82b4439a25d937c7cecbb6b38f4889c09b3f475b7f00",
-      "bytes": 75705,
+      "sha256": "2882d3107b9f853e10e5d0ded1aade098ce6a095cc9a742ce68e268aff8faee5",
+      "bytes": 74649,
       "revision": "9",
       "selectionEntries": 38,
       "entryLinks": 34,
@@ -23,8 +23,8 @@
     },
     {
       "path": "2024 - Kill Team.gst",
-      "sha256": "2104b89f49e82ec508c69e4a768ac37a27d0679e0731d99c848a3be84c92b29f",
-      "bytes": 33343,
+      "sha256": "4d045717f1d6d82a58fca65d472cda3036f2fd176c99c1d06c46db81b537641b",
+      "bytes": 32917,
       "revision": "9",
       "selectionEntries": 17,
       "entryLinks": 1,
