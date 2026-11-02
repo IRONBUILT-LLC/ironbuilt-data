@@ -1,7 +1,7 @@
 {
     "schema":  1,
     "name":  "IRONBUILT community datasets",
-    "updated":  "2026-10-31",
+    "updated":  "2026-11-02",
     "datasets":  [
                      {
                          "id":  "gdf-2025",
@@ -90,11 +90,11 @@
                          "game":  "wh40k",
                          "edition":  "11e",
                          "schema":  1,
-                         "version":  "2026.10.31-artemis-prod-d4060f60",
+                         "version":  "2026.11.02-agents-prod-6a99b0c5",
                          "provenance":  "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@400d59ae11a79132554fc4f173de527d4db442f5/datasets/wh40k-11e.json",
-                         "sha256":  "6b96376f066961bd4e491a4bd6cca3e5c8cc433715a774bb267d584bba47b8fb",
-                         "bytes":  4962800
+                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@3039138d731e7750022d9b49d60eaedd6fcfc879/datasets/wh40k-11e.json",
+                         "sha256":  "e74957496cc9e86cbd00496f268a8f2aa8f422111d72f96e99070ce34ef7b1a1",
+                         "bytes":  4963165
                      },
                      {
                          "id":  "wh40k-11e-legends",
