@@ -8,6 +8,12 @@ distinguishes methods/systems from creative expression describing them. That doe
 not alone resolve fictional stat tables, copied compilations or source contracts.
 No blanket legal conclusion is made here.
 
+Follow-up official verification and the exact express restrictions encountered are
+recorded in `pilots/README.md` and `pilots/minimal-review.json`. Captain candidate
+values match official PDF text; current Liberators baseline verification remains
+open. Official-download extraction/publication stopped for the specific terms
+described there, while original adapter and validation work continued.
+
 ## Exact candidates
 
 | Source | Snapshot inspected | Explicit permission/limits | Fit |

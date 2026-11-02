@@ -1,0 +1,63 @@
+{
+  "schema": "ironbuilt-pilot-review/1",
+  "releaseChannel": "dev",
+  "checkedAt": "2026-11-02",
+  "publishableDataset": false,
+  "playableRosterSupport": false,
+  "numericValuesIncluded": false,
+  "pilots": [
+    {
+      "systemId": "aos",
+      "editionId": "4e",
+      "entityName": "Liberators",
+      "sourceRevision": "6909c1401ee52c63b5187a7c2d00fb34190479bd",
+      "sourceProfileId": "3e33-7b80-46c2-4f10",
+      "requestedFields": ["Move", "Health", "Save", "Control"],
+      "currentValueStatus": "not-currently-verified-from-official-source",
+      "latestOfficialUpdate": "2026-10-28",
+      "latestUpdateReference": "https://www.warhammer-community.com/en-gb/articles/iix3g22a/warhammer-age-of-sigmar-october-update/",
+      "historicalReference": "https://www.warhammer-community.com/en-gb/articles/ehzyEtBS/the-anatomy-of-a-warscroll-in-the-new-edition-of-warhammer-age-of-sigmar/",
+      "limitations": [
+        "Launch-era warscroll material is not proof of the current battletome stat line.",
+        "The October article does not announce a Stormcast change, but that alone does not verify the baseline.",
+        "Current battletome or entitled official-app comparison remains necessary; no access restrictions bypassed.",
+        "External modifiers, reinforcement, points, weapons, abilities and roster construction are unverified."
+      ]
+    },
+    {
+      "systemId": "killteam",
+      "editionId": "2024",
+      "entityName": "Space Marine Captain",
+      "teamName": "Angels of Death",
+      "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
+      "sourceProfileId": "1442-6f07-4e87-3b7a",
+      "requestedFields": ["APL", "Move", "Save", "Wounds"],
+      "currentValueStatus": "candidate-matches-current-official-pdf-text",
+      "officialDocumentUpdated": "2026-08-26",
+      "officialReference": "https://assets.warhammer-community.com/eng_26-08_killteam_angels_of_death_online_rules-1rwlnicmkz-qjtykwlybg.pdf",
+      "officialLocation": "PDF page 1, Space Marine Captain operative card, APL/Move/Save/Wounds; page 10 change log",
+      "visualVerificationComplete": false,
+      "latestOfficialUpdate": "2026-10-28",
+      "latestUpdateReference": "https://www.warhammer-community.com/en-gb/articles/k04goqrk/kill-team-october-update/",
+      "limitations": [
+        "Text order separates APL from the other three values; visual page verification remains outstanding.",
+        "The October article lists shared terrain changes but no Angels of Death team-specific change.",
+        "Chapter tactics, shared modifiers, weapons, actions, abilities and team selection remain unimplemented.",
+        "Matching basic values does not establish playable team support."
+      ]
+    }
+  ],
+  "officialDownloadUse": {
+    "status": "publication-and-automated-extraction-from-this-route-stopped",
+    "termsUrl": "https://www.warhammer-community.com/en-gb/terms-of-use/",
+    "clauses": ["Downloadable Material Licence 1-2", "Downloadable Material Licence 3 and 3.5"],
+    "inspectedPdfRestriction": {
+      "url": "https://assets.warhammer-community.com/eng_aos_battle_profiles-2wsrrn6poc-wb3lenb8nn.pdf",
+      "document": "Battle Profiles, June 2026 (historical, not the current pilot authority)",
+      "location": "PDF page 2 copyright/footer",
+      "scope": "Personal download/print use; express restriction on text and data mining."
+    },
+    "reason": "Explicit official-source use restrictions, not absence of a community repository licence.",
+    "unaffectedWork": ["Original schema and adapters", "Synthetic tests", "Source-link and verification metadata", "Unpublished existing candidate evidence"]
+  }
+}
