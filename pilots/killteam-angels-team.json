@@ -11,7 +11,7 @@
     "formatId": "selected-team",
     "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
     "rulesetId": "2026-10-angels-of-death",
-    "datasetVersion": "2026.11.02-pilot.2"
+    "datasetVersion": "2026.11.02-pilot.3"
   },
   "authorization": {
     "basis": "user-stated-rules-permission",
@@ -37,17 +37,46 @@
       "sha256": "2accbc12dd174a170173ecff0022234a42611a6cf20b8f11e31e65239a25d9c5",
       "location": "PDF page 1, Captain card; page 10 change log; page 12 selection",
       "updated": "2026-08-26"
+    },
+    {
+      "url": "https://assets.warhammer-community.com/eng_28-10_kill_team_key_downloads_universal_equipment-oz2irjwu3t-dj0aczxjeo.pdf",
+      "sha256": "b6130c6a52585c11f23065816addee321d035fb9329f33c836ef7a5c4dd5f204",
+      "location": "Universal Equipment October 2026, PDF pages 1-7",
+      "updated": "2026-10-28"
+    },
+    {
+      "url": "https://github.com/BSData/wh40k-killteam/blob/30c48ce2bdcabc0cb6516f813283086cc2d78fab/2024%20-%20Kill%20Team.gst",
+      "sha256": "4d045717f1d6d82a58fca65d472cda3036f2fd176c99c1d06c46db81b537641b",
+      "location": "2024 - Kill Team.gst sharedRules and universal equipment",
+      "revision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab"
+    },
+    {
+      "url": "https://assets.warhammer-community.com/eng_jul25_kt_lite_rules-jmjv4hdamy-qlsqxdf83p.pdf",
+      "sha256": "368eaa5e555550d64542f475b2696ef19f77712b48ab153db23256ac46ab2db1",
+      "location": "Lite Rules PDF page 1, ploy costs and repeat limits",
+      "updated": "2025-07-23"
+    },
+    {
+      "url": "https://www.warhammer-community.com/en-gb/articles/ujdaRY04/soar-above-the-killzone-and-blow-it-all-up-with-new-universal-equipment/",
+      "sha256": "b7088dfecae99b4c974f664b6bce0bf607ff24dc1cf4ceeb72cdf3dc8f36df6a",
+      "location": "Official equipment explanation, up to four options",
+      "hashScope": "UTF-8 captured HTML snapshot, 2026-11-02"
     }
   ],
   "coverage": {
     "operativeOptionsComplete": true,
     "weaponOptionsComplete": true,
-    "weaponScope": "Operative-card weapons; universal equipment excluded",
+    "weaponScope": "Operative cards and frag/krak universal grenade profiles",
     "compositionChecks": true,
     "fullRules": false,
     "fullValidation": false,
     "combat": false,
-    "appUI": false
+    "appUI": false,
+    "factionEquipmentComplete": true,
+    "universalEquipmentReferenceComplete": true,
+    "factionPloysComplete": true,
+    "keywordDefinitionsComplete": true,
+    "keywordVerification": "Core weapon keywords use pinned BSData; terrain keywords match current equipment. An independent current full core-rule comparison remains pending"
   },
   "operatives": [
     {
@@ -640,6 +669,10 @@
           ],
           "officialLocation": "Angels of Death PDF page 12, Assault Intercessor Grenadier selection"
         }
+      ],
+      "grantedEquipmentWeaponRefs": [
+        "killteam:universal:frag-grenade",
+        "killteam:universal:krak-grenade"
       ]
     },
     {
@@ -1001,7 +1034,11 @@
         "1e8f-a57f-d418-402d",
         "c809-3374-c7f7-facd"
       ],
-      "appliedModifiers": []
+      "appliedModifiers": [],
+      "keywordRefs": [
+        "killteam:keyword:piercing-x"
+      ],
+      "rangeRuleRef": "killteam:keyword:range-x"
     },
     {
       "id": "killteam:weapon:7888-dfdf-ecc2-9032:a4h3",
@@ -1029,7 +1066,13 @@
         "1e8f-a57f-d418-402d",
         "c809-3374-c7f7-facd"
       ],
-      "appliedModifiers": []
+      "appliedModifiers": [],
+      "keywordRefs": [
+        "killteam:keyword:hot",
+        "killteam:keyword:lethal-x",
+        "killteam:keyword:piercing-x"
+      ],
+      "rangeRuleRef": "killteam:keyword:range-x"
     },
     {
       "id": "killteam:weapon:fe27-204c-ff2d-ce83:a5h3",
@@ -1061,6 +1104,9 @@
           "effective": "3+",
           "operativeSourceId": "1e8f-a57f-d418-402d"
         }
+      ],
+      "keywordRefs": [
+        "killteam:keyword:brutal"
       ]
     },
     {
@@ -1086,7 +1132,10 @@
       "contextOperativeSourceIds": [
         "c809-3374-c7f7-facd"
       ],
-      "appliedModifiers": []
+      "appliedModifiers": [],
+      "keywordRefs": [
+        "killteam:keyword:brutal"
+      ]
     },
     {
       "id": "killteam:weapon:9c21-5611-9d14-2c03:a4h3",
@@ -1113,7 +1162,11 @@
         "51c4-b5bd-2b17-b3d8",
         "b38c-5705-740e-ecf1"
       ],
-      "appliedModifiers": []
+      "appliedModifiers": [],
+      "keywordRefs": [
+        "killteam:keyword:piercing-x"
+      ],
+      "rangeRuleRef": "killteam:keyword:range-x"
     },
     {
       "id": "killteam:weapon:e45a-6bf2-b623-438e:a4h2",
@@ -1139,7 +1192,12 @@
       "contextOperativeSourceIds": [
         "c809-3374-c7f7-facd"
       ],
-      "appliedModifiers": []
+      "appliedModifiers": [],
+      "keywordRefs": [
+        "killteam:keyword:saturate",
+        "killteam:keyword:torrent-x"
+      ],
+      "rangeRuleRef": "killteam:keyword:range-x"
     },
     {
       "id": "killteam:weapon:4fb3-6463-34dc-5435:a5h3",
@@ -1164,7 +1222,8 @@
         "51c4-b5bd-2b17-b3d8",
         "b38c-5705-740e-ecf1"
       ],
-      "appliedModifiers": []
+      "appliedModifiers": [],
+      "keywordRefs": []
     },
     {
       "id": "killteam:weapon:a7f3-9998-964a-4eae:a5h3",
@@ -1189,7 +1248,10 @@
       "contextOperativeSourceIds": [
         "c809-3374-c7f7-facd"
       ],
-      "appliedModifiers": []
+      "appliedModifiers": [],
+      "keywordRefs": [
+        "killteam:keyword:lethal-x"
+      ]
     },
     {
       "id": "killteam:weapon:5636-6697-6274-8d78:a5h4",
@@ -1215,7 +1277,11 @@
       "contextOperativeSourceIds": [
         "c809-3374-c7f7-facd"
       ],
-      "appliedModifiers": []
+      "appliedModifiers": [],
+      "keywordRefs": [
+        "killteam:keyword:shock",
+        "killteam:keyword:stun"
+      ]
     },
     {
       "id": "killteam:weapon:fe27-204c-ff2d-ce83:a4h4",
@@ -1247,6 +1313,9 @@
           "effective": "4",
           "operativeSourceId": "3b04-997f-5370-c1f2"
         }
+      ],
+      "keywordRefs": [
+        "killteam:keyword:brutal"
       ]
     },
     {
@@ -1274,7 +1343,10 @@
         "d2f1-a009-e449-14e0",
         "c52b-22b8-1452-3b9f"
       ],
-      "appliedModifiers": []
+      "appliedModifiers": [],
+      "keywordRefs": [
+        "killteam:keyword:torrent-x"
+      ]
     },
     {
       "id": "killteam:weapon:cc3e-be03-2ab2-4bf4:a4h3",
@@ -1301,7 +1373,8 @@
         "d2f1-a009-e449-14e0",
         "c52b-22b8-1452-3b9f"
       ],
-      "appliedModifiers": []
+      "appliedModifiers": [],
+      "keywordRefs": []
     },
     {
       "id": "killteam:weapon:4fb3-6463-34dc-5435:a4h3",
@@ -1331,7 +1404,8 @@
           "effective": "4",
           "operativeSourceId": "3b04-997f-5370-c1f2"
         }
-      ]
+      ],
+      "keywordRefs": []
     },
     {
       "id": "killteam:weapon:03b3-a89e-f806-c0bf:a4h3",
@@ -1358,7 +1432,10 @@
         "d2f1-a009-e449-14e0",
         "c52b-22b8-1452-3b9f"
       ],
-      "appliedModifiers": []
+      "appliedModifiers": [],
+      "keywordRefs": [
+        "killteam:keyword:piercing-x"
+      ]
     },
     {
       "id": "killteam:weapon:c4b4-410e-1af2-f48c:a4h3",
@@ -1387,7 +1464,12 @@
         "d2f1-a009-e449-14e0",
         "c52b-22b8-1452-3b9f"
       ],
-      "appliedModifiers": []
+      "appliedModifiers": [],
+      "keywordRefs": [
+        "killteam:keyword:heavy",
+        "killteam:keyword:lethal-x",
+        "killteam:keyword:piercing-x"
+      ]
     },
     {
       "id": "killteam:weapon:68e3-a6f2-0b08-177f:a4h3",
@@ -1412,7 +1494,8 @@
         "d2f1-a009-e449-14e0",
         "c52b-22b8-1452-3b9f"
       ],
-      "appliedModifiers": []
+      "appliedModifiers": [],
+      "keywordRefs": []
     },
     {
       "id": "killteam:weapon:a7f3-9998-964a-4eae:a4h3",
@@ -1444,6 +1527,9 @@
           "effective": "4",
           "operativeSourceId": "3b04-997f-5370-c1f2"
         }
+      ],
+      "keywordRefs": [
+        "killteam:keyword:lethal-x"
       ]
     },
     {
@@ -1477,6 +1563,10 @@
           "effective": "4",
           "operativeSourceId": "3b04-997f-5370-c1f2"
         }
+      ],
+      "keywordRefs": [
+        "killteam:keyword:shock",
+        "killteam:keyword:stun"
       ]
     },
     {
@@ -1500,7 +1590,9 @@
       "contextOperativeSourceIds": [
         "cdfb-b861-3871-5e22"
       ],
-      "appliedModifiers": []
+      "appliedModifiers": [],
+      "keywordRefs": [],
+      "rangeRuleRef": "killteam:keyword:range-x"
     },
     {
       "id": "killteam:weapon:b367-7dc9-8aac-5d6c:a4h2",
@@ -1527,7 +1619,12 @@
       "contextOperativeSourceIds": [
         "cdfb-b861-3871-5e22"
       ],
-      "appliedModifiers": []
+      "appliedModifiers": [],
+      "keywordRefs": [
+        "killteam:keyword:blast-x",
+        "killteam:keyword:heavy",
+        "killteam:keyword:silent"
+      ]
     },
     {
       "id": "killteam:weapon:bdf5-9c75-c074-63f5:a4h2",
@@ -1555,7 +1652,13 @@
       "contextOperativeSourceIds": [
         "cdfb-b861-3871-5e22"
       ],
-      "appliedModifiers": []
+      "appliedModifiers": [],
+      "keywordRefs": [
+        "killteam:keyword:heavy",
+        "killteam:keyword:saturate",
+        "killteam:keyword:seek",
+        "killteam:keyword:silent"
+      ]
     },
     {
       "id": "killteam:weapon:b073-3838-8b34-f138:a4h2",
@@ -1583,7 +1686,13 @@
       "contextOperativeSourceIds": [
         "cdfb-b861-3871-5e22"
       ],
-      "appliedModifiers": []
+      "appliedModifiers": [],
+      "keywordRefs": [
+        "killteam:keyword:devastating-x",
+        "killteam:keyword:heavy",
+        "killteam:keyword:piercing-x",
+        "killteam:keyword:silent"
+      ]
     },
     {
       "id": "killteam:weapon:7c1d-793e-dd64-7821:a5h3",
@@ -1608,7 +1717,10 @@
       "contextOperativeSourceIds": [
         "7b15-0824-ac8d-8144"
       ],
-      "appliedModifiers": []
+      "appliedModifiers": [],
+      "keywordRefs": [
+        "killteam:keyword:piercing-x"
+      ]
     },
     {
       "id": "killteam:weapon:71d2-7463-55b8-7c95:a4h3",
@@ -1634,7 +1746,11 @@
       "contextOperativeSourceIds": [
         "7b15-0824-ac8d-8144"
       ],
-      "appliedModifiers": []
+      "appliedModifiers": [],
+      "keywordRefs": [
+        "killteam:keyword:piercing-x",
+        "killteam:keyword:torrent-x"
+      ]
     },
     {
       "id": "killteam:weapon:f1a8-836b-9821-d580:a4h3",
@@ -1657,7 +1773,9 @@
       "contextOperativeSourceIds": [
         "7b15-0824-ac8d-8144"
       ],
-      "appliedModifiers": []
+      "appliedModifiers": [],
+      "keywordRefs": [],
+      "rangeRuleRef": "killteam:keyword:range-x"
     },
     {
       "id": "killteam:weapon:2dcd-56c8-a27e-a84f:a4h3",
@@ -1682,7 +1800,10 @@
       "contextOperativeSourceIds": [
         "d2f1-a009-e449-14e0"
       ],
-      "appliedModifiers": []
+      "appliedModifiers": [],
+      "keywordRefs": [
+        "killteam:keyword:blast-x"
+      ]
     },
     {
       "id": "killteam:weapon:b5f1-b73c-4b8f-f99d:a4h3",
@@ -1707,7 +1828,68 @@
       "contextOperativeSourceIds": [
         "d2f1-a009-e449-14e0"
       ],
-      "appliedModifiers": []
+      "appliedModifiers": [],
+      "keywordRefs": [
+        "killteam:keyword:piercing-x"
+      ]
+    },
+    {
+      "id": "killteam:universal:frag-grenade",
+      "name": "Frag grenade",
+      "scope": "universal-equipment",
+      "kind": "ranged",
+      "attacks": 4,
+      "hit": 4,
+      "damageNormal": 2,
+      "damageCritical": 4,
+      "rangeInches": 6,
+      "keywords": [
+        "Blast 2\"",
+        "Saturate"
+      ],
+      "sourceId": "official:universal-equipment:page2:Frag grenade",
+      "sourceEntryId": "official:explosive-grenades:Frag grenade",
+      "sourceRefs": [
+        2
+      ],
+      "officialLocation": "Universal Equipment PDF page 2",
+      "verification": "official profile reviewed",
+      "contextOperativeSourceIds": [],
+      "appliedModifiers": [],
+      "keywordRefs": [
+        "killteam:keyword:blast-x",
+        "killteam:keyword:saturate"
+      ],
+      "rangeRuleRef": "killteam:keyword:range-x"
+    },
+    {
+      "id": "killteam:universal:krak-grenade",
+      "name": "Krak grenade",
+      "scope": "universal-equipment",
+      "kind": "ranged",
+      "attacks": 4,
+      "hit": 4,
+      "damageNormal": 4,
+      "damageCritical": 5,
+      "rangeInches": 6,
+      "keywords": [
+        "Piercing 1",
+        "Saturate"
+      ],
+      "sourceId": "official:universal-equipment:page2:Krak grenade",
+      "sourceEntryId": "official:explosive-grenades:Krak grenade",
+      "sourceRefs": [
+        2
+      ],
+      "officialLocation": "Universal Equipment PDF page 2",
+      "verification": "official profile reviewed",
+      "contextOperativeSourceIds": [],
+      "appliedModifiers": [],
+      "keywordRefs": [
+        "killteam:keyword:piercing-x",
+        "killteam:keyword:saturate"
+      ],
+      "rangeRuleRef": "killteam:keyword:range-x"
     }
   ],
   "abilities": [
@@ -1899,7 +2081,7 @@
         "target": "this operative using frag or krak grenades",
         "doesNotConsumeSharedEquipmentUses": true,
         "hitImprovement": 1,
-        "grenadeProfilesIncluded": false
+        "grenadeProfilesIncluded": true
       }
     },
     {
@@ -1949,6 +2131,120 @@
         "effect": "enemy operatives cannot be obscured when this operative shoots",
         "prohibitedWhen": "within enemy operative control range"
       }
+    },
+    {
+      "id": "killteam:action:ammo-resupply",
+      "name": "Ammo Resupply",
+      "summary": "Before battle, place one own marker wholly in friendly territory. A friendly operative controlling the unused marker may use Ammo Resupply for 0AP unless in enemy control range. Mark that cache used for this turning point; until the next turning point starts, that operative may re-roll one attack die whenever shooting a datacard weapon.",
+      "mechanics": {
+        "pieces": 1,
+        "setup": "wholly within friendly territory",
+        "actionCostAP": 0,
+        "requires": [
+          "control own marker",
+          "marker unused this turning point",
+          "outside enemy control range"
+        ],
+        "cacheUsesPerTurningPoint": 1,
+        "effect": "re-roll one attack die when shooting a datacard weapon",
+        "expires": "start of next turning point"
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        2
+      ],
+      "officialLocation": "Universal Equipment PDF page 1",
+      "verification": "official source reviewed"
+    },
+    {
+      "id": "killteam:action:stun-grenade",
+      "name": "Stun Grenade",
+      "summary": "For 1AP, choose a visible enemy within 6\". It and every other operative within 1\" take separate D6 tests; on 3+, reduce that operative's APL by 1 until its next activation ends. Cannot be used in enemy control range or with its team pool exhausted.",
+      "mechanics": {
+        "actionCostAP": 1,
+        "primary": "visible enemy within 6 inches",
+        "secondary": "every other operative within 1 inch of primary",
+        "test": "D6 separately per operative",
+        "threshold": 3,
+        "APLChange": -1,
+        "expires": "end of affected operative next activation",
+        "prohibited": [
+          "enemy control range",
+          "team pool exhausted"
+        ]
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        2
+      ],
+      "officialLocation": "Universal Equipment PDF page 2",
+      "verification": "official source reviewed"
+    },
+    {
+      "id": "killteam:action:smoke-grenade",
+      "name": "Smoke Grenade",
+      "summary": "For 1AP, place a marker within 6\", visible to the operative or on Vantage terrain of a visible feature. Smoke extends 1\" horizontally and infinitely upwards, not below the marker. A wholly enclosed operative and others more than 2\" from it are mutually obscured. Shooting at a wholly enclosed enemy changes Piercing 2/Crits 2 to the matching 1 version, unless within 2\". At the next Strategy Ready step, roll D3; remove smoke after that many completed activations or the turning point ends, whichever is first. Cannot be used in enemy control range or with its pool exhausted.",
+      "mechanics": {
+        "actionCostAP": 1,
+        "placementRangeInches": 6,
+        "placementVisibility": "visible marker OR Vantage terrain of visible feature",
+        "radiusInches": 1,
+        "vertical": "infinite upwards, not below marker",
+        "obscuringCondition": "operative wholly within smoke; other operative more than 2 inches away",
+        "piercingChanges": {
+          "Piercing 2": "Piercing 1",
+          "Piercing Crits 2": "Piercing Crits 1"
+        },
+        "piercingException": "within 2 inches of each other",
+        "expiryRoll": "D3 in next Strategy Ready step",
+        "expiry": "after rolled number of completed activations or end of turning point, whichever first",
+        "prohibited": [
+          "enemy control range",
+          "team pool exhausted"
+        ]
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        2
+      ],
+      "officialLocation": "Universal Equipment PDF pages 3-4",
+      "verification": "official source reviewed"
+    },
+    {
+      "id": "killteam:action:move-with-barricade",
+      "name": "Move With Barricade",
+      "summary": "For 1AP, Reposition up to Move minus 2\" with no climb, drop, jump or remove-and-redeploy rules. Remove the connected barricade before moving, then reconnect it afterwards, more than 2\" from other equipment terrain, access points and Accessible terrain; if placement is impossible, leave it removed. Counts as Reposition. Requires connection to the inside, no enemy control range, and no Fall Back/Charge in the same activation.",
+      "mechanics": {
+        "actionCostAP": 1,
+        "countsAs": "Reposition",
+        "maximumDistance": "Move minus 2 inches",
+        "prohibitedMoves": [
+          "climb",
+          "drop",
+          "jump",
+          "remove and set up again rules"
+        ],
+        "removeBeforeMove": true,
+        "reconnectAfterMove": true,
+        "placement": "more than 2 inches from other equipment terrain, access points and Accessible terrain",
+        "failedPlacement": "not set up again",
+        "requires": "connected to inside",
+        "prohibited": [
+          "enemy control range",
+          "Fall Back in same activation",
+          "Charge in same activation"
+        ]
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        2
+      ],
+      "officialLocation": "Universal Equipment PDF page 3",
+      "verification": "official source reviewed"
     }
   ],
   "tactics": [
@@ -1970,7 +2266,10 @@
         1
       ],
       "officialLocation": "Angels of Death PDF page(s) 4, 5",
-      "verification": "official-card-visually-reviewed"
+      "verification": "official-card-visually-reviewed",
+      "keywordRefs": [
+        "killteam:keyword:rending"
+      ]
     },
     {
       "id": "killteam:tactic:dueller",
@@ -1992,7 +2291,8 @@
         1
       ],
       "officialLocation": "Angels of Death PDF page(s) 4, 5",
-      "verification": "official-card-visually-reviewed"
+      "verification": "official-card-visually-reviewed",
+      "keywordRefs": []
     },
     {
       "id": "killteam:tactic:resolute",
@@ -2012,7 +2312,8 @@
         1
       ],
       "officialLocation": "Angels of Death PDF page(s) 4, 5",
-      "verification": "official-card-visually-reviewed"
+      "verification": "official-card-visually-reviewed",
+      "keywordRefs": []
     },
     {
       "id": "killteam:tactic:stealthy",
@@ -2035,7 +2336,8 @@
         1
       ],
       "officialLocation": "Angels of Death PDF page(s) 4, 5",
-      "verification": "official-card-visually-reviewed"
+      "verification": "official-card-visually-reviewed",
+      "keywordRefs": []
     },
     {
       "id": "killteam:tactic:mobile",
@@ -2055,7 +2357,8 @@
         1
       ],
       "officialLocation": "Angels of Death PDF page(s) 4, 5",
-      "verification": "official-card-visually-reviewed"
+      "verification": "official-card-visually-reviewed",
+      "keywordRefs": []
     },
     {
       "id": "killteam:tactic:hardy",
@@ -2073,7 +2376,8 @@
         1
       ],
       "officialLocation": "Angels of Death PDF page(s) 4, 5",
-      "verification": "official-card-visually-reviewed"
+      "verification": "official-card-visually-reviewed",
+      "keywordRefs": []
     },
     {
       "id": "killteam:tactic:sharpshooter",
@@ -2096,7 +2400,11 @@
         1
       ],
       "officialLocation": "Angels of Death PDF page(s) 4, 5",
-      "verification": "official-card-visually-reviewed"
+      "verification": "official-card-visually-reviewed",
+      "keywordRefs": [
+        "killteam:keyword:accurate-x",
+        "killteam:keyword:severe"
+      ]
     },
     {
       "id": "killteam:tactic:siege-specialist",
@@ -2120,7 +2428,10 @@
         1
       ],
       "officialLocation": "Angels of Death PDF page(s) 4, 5",
-      "verification": "official-card-visually-reviewed"
+      "verification": "official-card-visually-reviewed",
+      "keywordRefs": [
+        "killteam:keyword:saturate"
+      ]
     }
   ],
   "teamRules": [
@@ -2180,9 +2491,9 @@
     }
   ],
   "pending": [
-    "Ploys, faction/universal equipment and grenade profiles are not included.",
-    "Weapon keyword effects, Chapter tactics and operative abilities are reference descriptions, not executed gameplay.",
-    "Mission restrictions, event roster locks and in-game ploy changes are outside composition validation."
+    "Core keyword definitions are original summaries of pinned BSData; independent current full core-rule baseline verification remains open.",
+    "Rules, ploys, terrain and equipment are reference descriptions, not executed gameplay effects.",
+    "Mission/event overrides, terrain placement and in-game state legality are not checked."
   ],
   "selection": {
     "totalOperatives": 6,
@@ -2211,6 +2522,1120 @@
     "sourceRefs": [
       1
     ],
-    "officialLocation": "PDF pages 4-5 and 12"
-  }
+    "officialLocation": "PDF pages 4-5 and 12",
+    "equipment": {
+      "maximumOptions": 4,
+      "eachOptionMaximum": 1,
+      "missionOverridesVerified": false,
+      "sourceRefs": [
+        5
+      ]
+    }
+  },
+  "ploys": [
+    {
+      "id": "killteam:ploy:combat-doctrine",
+      "name": "Combat Doctrine",
+      "summary": "Choose one doctrine. Friendly ANGEL OF DEATH weapons gain Balanced while shooting a target more than 6\" away for Devastator, shooting a target within 6\" for Tactical, or fighting/retaliating for Assault.",
+      "mechanics": {
+        "useTiming": "Strategy phase strategic gambit",
+        "duration": "turning point",
+        "choices": {
+          "Devastator": {
+            "action": "shoot",
+            "targetDistance": "more than 6 inches"
+          },
+          "Tactical": {
+            "action": "shoot",
+            "targetDistance": "within 6 inches"
+          },
+          "Assault": {
+            "actions": [
+              "fight",
+              "retaliate"
+            ]
+          }
+        },
+        "target": "friendly ANGEL OF DEATH weapons",
+        "grants": "Balanced"
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        1,
+        4
+      ],
+      "officialLocation": "Team PDF page 5; Lite Rules page 1",
+      "verification": "official source reviewed",
+      "type": "strategy",
+      "baseCostCP": 1,
+      "usesPerTurningPoint": 1,
+      "keywordRefs": [
+        "killteam:keyword:balanced"
+      ]
+    },
+    {
+      "id": "killteam:ploy:and-they-shall-know-no-fear",
+      "name": "And They Shall Know No Fear",
+      "summary": "Disregard injury-related stat changes for friendly ANGEL OF DEATH operatives, including their weapon stats.",
+      "mechanics": {
+        "useTiming": "Strategy phase strategic gambit",
+        "duration": "turning point",
+        "target": "friendly ANGEL OF DEATH operatives and weapons",
+        "ignore": "stat changes caused by being injured"
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        1,
+        4
+      ],
+      "officialLocation": "Team PDF page 6; Lite Rules page 1",
+      "verification": "official source reviewed",
+      "type": "strategy",
+      "baseCostCP": 1,
+      "usesPerTurningPoint": 1,
+      "keywordRefs": []
+    },
+    {
+      "id": "killteam:ploy:adaptive-tactics",
+      "name": "Adaptive Tactics",
+      "summary": "Replace the secondary CHAPTER TACTIC for this turning point. Restore the original secondary tactic when the turning point ends.",
+      "mechanics": {
+        "useTiming": "Strategy phase strategic gambit",
+        "duration": "until end of turning point",
+        "target": "secondary CHAPTER TACTIC",
+        "restoreOriginal": true
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        1,
+        4
+      ],
+      "officialLocation": "Team PDF page 6; Lite Rules page 1",
+      "verification": "official source reviewed",
+      "type": "strategy",
+      "baseCostCP": 1,
+      "usesPerTurningPoint": 1,
+      "keywordRefs": []
+    },
+    {
+      "id": "killteam:ploy:indomitus",
+      "name": "Indomitus",
+      "summary": "When a friendly ANGEL OF DEATH operative is shot, rolling at least two failed defence dice lets you discard one fail and retain another as a normal success.",
+      "mechanics": {
+        "useTiming": "Strategy phase strategic gambit",
+        "duration": "turning point",
+        "trigger": "friendly ANGEL OF DEATH being shot",
+        "minimumFailedDefenceDice": 2,
+        "discardFails": 1,
+        "convertOtherFailsToNormal": 1
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        1,
+        4
+      ],
+      "officialLocation": "Team PDF page 6; Lite Rules page 1",
+      "verification": "official source reviewed",
+      "type": "strategy",
+      "baseCostCP": 1,
+      "usesPerTurningPoint": 1,
+      "keywordRefs": []
+    },
+    {
+      "id": "killteam:ploy:adjust-doctrine",
+      "name": "Adjust Doctrine",
+      "summary": "During a friendly ANGEL OF DEATH activation, before or after an action, change the selected Combat Doctrine if that strategy ploy was used during this turning point.",
+      "mechanics": {
+        "timing": "before or after an action during friendly ANGEL OF DEATH activation",
+        "condition": "Combat Doctrine used this turning point",
+        "effect": "change chosen doctrine"
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        1,
+        4
+      ],
+      "officialLocation": "Team PDF page 6; Lite Rules page 1",
+      "verification": "official source reviewed",
+      "type": "firefight",
+      "baseCostCP": 1,
+      "usesPerTurningPoint": 1,
+      "keywordRefs": []
+    },
+    {
+      "id": "killteam:ploy:transhuman-physiology",
+      "name": "Transhuman Physiology",
+      "summary": "In Roll Defence Dice when a friendly ANGEL OF DEATH operative is shot, retain one normal defence success as a critical success instead.",
+      "mechanics": {
+        "timing": "Roll Defence Dice",
+        "condition": "friendly ANGEL OF DEATH being shot",
+        "normalSuccessesConvertedToCritical": 1
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        1,
+        4
+      ],
+      "officialLocation": "Team PDF page 7; Lite Rules page 1",
+      "verification": "official source reviewed",
+      "type": "firefight",
+      "baseCostCP": 1,
+      "usesPerTurningPoint": 1,
+      "keywordRefs": []
+    },
+    {
+      "id": "killteam:ploy:shock-assault",
+      "name": "Shock Assault",
+      "summary": "At the start of Resolve Attack Dice in a friendly ANGEL OF DEATH Fight action, if it Charged during this activation, give its melee weapons Shock for that action. Its first strike in that sequence deals +1 damage, capped at 7.",
+      "mechanics": {
+        "timing": "start of Resolve Attack Dice in Fight",
+        "condition": "friendly ANGEL OF DEATH Charged during this activation",
+        "duration": "that Fight action",
+        "grants": "Shock",
+        "firstStrikeDamageBonus": 1,
+        "damageMaximum": 7
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        1,
+        4
+      ],
+      "officialLocation": "Team PDF page 7; Lite Rules page 1",
+      "verification": "official source reviewed",
+      "type": "firefight",
+      "baseCostCP": 1,
+      "usesPerTurningPoint": 1,
+      "keywordRefs": [
+        "killteam:keyword:shock"
+      ]
+    },
+    {
+      "id": "killteam:ploy:wrath-of-vengeance",
+      "name": "Wrath of Vengeance",
+      "summary": "When a friendly ANGEL OF DEATH operative counteracts, it may perform an extra 1AP action for free. The two counteraction actions must be different.",
+      "mechanics": {
+        "timing": "friendly ANGEL OF DEATH counteraction",
+        "additionalActions": 1,
+        "actionCostAP": 1,
+        "additionalActionFree": true,
+        "actionsMustDiffer": true
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        1,
+        4
+      ],
+      "officialLocation": "Team PDF page 7; Lite Rules page 1",
+      "verification": "official source reviewed",
+      "type": "firefight",
+      "baseCostCP": 1,
+      "usesPerTurningPoint": 1,
+      "keywordRefs": []
+    },
+    {
+      "id": "killteam:ploy:command-re-roll",
+      "name": "Command Re-roll",
+      "summary": "After rolling attack or defence dice, re-roll one of those dice.",
+      "mechanics": {
+        "timing": "after rolling attack or defence dice",
+        "diceRerolled": 1
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        4
+      ],
+      "officialLocation": "Lite Rules PDF page 1",
+      "verification": "official source reviewed",
+      "type": "firefight",
+      "scope": "core",
+      "baseCostCP": 1,
+      "usesPerTurningPoint": null,
+      "keywordRefs": []
+    }
+  ],
+  "equipment": [
+    {
+      "id": "killteam:equipment:purity-seals",
+      "name": "Purity Seals",
+      "summary": "Once each turning point, when a friendly ANGEL OF DEATH shoots, fights or retaliates and rolls at least two fails, discard one fail to retain another as a normal success.",
+      "mechanics": {
+        "uses": 1,
+        "period": "turning point",
+        "actions": [
+          "shoot",
+          "fight",
+          "retaliate"
+        ],
+        "minimumFails": 2,
+        "discardFails": 1,
+        "convertOtherFailsToNormal": 1
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Team PDF page 7",
+      "verification": "official source reviewed",
+      "scope": "faction",
+      "maximumSelections": 1,
+      "sourceId": "873b-6422-1d59-0447"
+    },
+    {
+      "id": "killteam:equipment:chapter-reliquaries",
+      "name": "Chapter Reliquaries",
+      "summary": "Wrath of Vengeance costs 0CP when its specified friendly operative has an Engage order.",
+      "mechanics": {
+        "ploy": "Wrath of Vengeance",
+        "costCP": 0,
+        "condition": "specified friendly operative has Engage order"
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Team PDF page 8",
+      "verification": "official source reviewed",
+      "scope": "faction",
+      "maximumSelections": 1,
+      "sourceId": "8553-c762-a6ae-cd0d"
+    },
+    {
+      "id": "killteam:equipment:tilting-shields",
+      "name": "Tilting Shields",
+      "summary": "Once each turning point, while a friendly ANGEL OF DEATH fights or retaliates, use this after the opponent rolls attack dice but before re-rolls. During that sequence, the opponent cannot retain a result below 6 as a critical success, including through Lethal, Rending or Severe.",
+      "mechanics": {
+        "uses": 1,
+        "period": "turning point",
+        "actions": [
+          "fight",
+          "retaliate"
+        ],
+        "timing": "after opponent attack roll, before re-rolls",
+        "duration": "that sequence",
+        "enemyCriticalMinimumRolledResult": 6,
+        "examples": [
+          "Lethal",
+          "Rending",
+          "Severe"
+        ]
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Team PDF page 8",
+      "verification": "official source reviewed",
+      "scope": "faction",
+      "maximumSelections": 1,
+      "sourceId": "8d00-4709-7207-ff6b"
+    },
+    {
+      "id": "killteam:equipment:auspex",
+      "name": "Auspex",
+      "summary": "Once each turning point, when choosing a valid target for a friendly ANGEL OF DEATH Shoot action, use this to prevent enemy operatives within 8\" of that friendly operative from being obscured until the activation or counteraction ends.",
+      "mechanics": {
+        "uses": 1,
+        "period": "turning point",
+        "timing": "selecting valid target during friendly ANGEL OF DEATH Shoot",
+        "enemyDistanceInches": 8,
+        "effect": "cannot be obscured",
+        "expires": "end of activation or counteraction"
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        0,
+        1
+      ],
+      "officialLocation": "Team PDF page 8",
+      "verification": "official source reviewed",
+      "scope": "faction",
+      "maximumSelections": 1,
+      "sourceId": "45e4-ca6f-8f6f-92fc"
+    },
+    {
+      "id": "killteam:equipment:comms-device",
+      "name": "Comms Device",
+      "summary": "Before battle, place one own marker wholly in friendly territory. While a friendly operative controls it, extend the distances in its SUPPORT rules referring to friendly operatives by 3\". Enemy Comms Device markers provide no benefit.",
+      "mechanics": {
+        "pieces": 1,
+        "setup": "wholly within friendly territory",
+        "condition": "friendly operative controls own marker",
+        "supportFriendlyDistanceBonusInches": 3,
+        "opponentMarkersBenefit": false
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        2
+      ],
+      "officialLocation": "Universal Equipment PDF page 1",
+      "verification": "official source reviewed",
+      "scope": "universal",
+      "maximumSelections": 1
+    },
+    {
+      "id": "killteam:equipment:mines",
+      "name": "Mines",
+      "summary": "Place one own marker wholly in friendly territory before battle, more than 2\" from other markers, access points and Accessible terrain. When any operative first enters its control range, remove the marker and deal D3+3 damage to that operative.",
+      "mechanics": {
+        "pieces": 1,
+        "setup": "wholly within friendly territory",
+        "moreThanInches": 2,
+        "separatedFrom": [
+          "other markers",
+          "access points",
+          "Accessible terrain"
+        ],
+        "trigger": "first control-range contact by any operative",
+        "removeMarker": true,
+        "damage": "D3+3"
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        2
+      ],
+      "officialLocation": "Universal Equipment PDF page 1",
+      "verification": "official source reviewed",
+      "scope": "universal",
+      "maximumSelections": 1
+    },
+    {
+      "id": "killteam:equipment:ammo-cache",
+      "name": "Ammo Cache",
+      "summary": "Before battle, place one own marker wholly in friendly territory. A friendly operative controlling the unused marker may use Ammo Resupply for 0AP unless in enemy control range. Mark that cache used for this turning point; until the next turning point starts, that operative may re-roll one attack die whenever shooting a datacard weapon.",
+      "mechanics": {
+        "pieces": 1,
+        "setup": "wholly within friendly territory",
+        "actionCostAP": 0,
+        "requires": [
+          "control own marker",
+          "marker unused this turning point",
+          "outside enemy control range"
+        ],
+        "cacheUsesPerTurningPoint": 1,
+        "effect": "re-roll one attack die when shooting a datacard weapon",
+        "expires": "start of next turning point"
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        2
+      ],
+      "officialLocation": "Universal Equipment PDF page 1",
+      "verification": "official source reviewed",
+      "scope": "universal",
+      "maximumSelections": 1,
+      "actionRefs": [
+        "killteam:action:ammo-resupply"
+      ]
+    },
+    {
+      "id": "killteam:equipment:razor-wire",
+      "name": "Razor Wire",
+      "summary": "This is Exposed and Obstructing terrain. Before battle, set it wholly in friendly territory on the killzone floor, more than 2\" from other equipment terrain, access points and Accessible terrain. Crossing it within 1\" adds 1\" to the distance travelled.",
+      "mechanics": {
+        "pieces": 1,
+        "terrain": [
+          "Exposed",
+          "Obstructing"
+        ],
+        "setup": [
+          "wholly within friendly territory",
+          "killzone floor",
+          "more than 2 inches from other equipment terrain, access points and Accessible terrain"
+        ],
+        "crossingWithinInches": 1,
+        "additionalMoveDistanceInches": 1
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        2
+      ],
+      "officialLocation": "Universal Equipment PDF page 1",
+      "verification": "official source reviewed",
+      "scope": "universal",
+      "maximumSelections": 1
+    },
+    {
+      "id": "killteam:equipment:utility-grenades",
+      "name": "Utility Grenades",
+      "summary": "Choose two grenades: two smoke, two stun, or one of each. The team may perform each grenade action only as many times in the battle as that type was selected. These 1AP actions cannot be used within enemy control range or after their pool is spent.",
+      "mechanics": {
+        "pieces": 2,
+        "choices": [
+          "smoke",
+          "stun"
+        ],
+        "totalChoices": 2,
+        "usePool": "team-wide per type per battle",
+        "actionCostAP": 1,
+        "prohibited": [
+          "enemy control range",
+          "type pool exhausted"
+        ]
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        2
+      ],
+      "officialLocation": "Universal Equipment PDF page 2, 4",
+      "verification": "official source reviewed",
+      "scope": "universal",
+      "maximumSelections": 1,
+      "configuration": "utility",
+      "actionRefs": [
+        "killteam:action:stun-grenade",
+        "killteam:action:smoke-grenade"
+      ]
+    },
+    {
+      "id": "killteam:equipment:explosive-grenades",
+      "name": "Explosive Grenades",
+      "summary": "Choose two grenades: two frag, two krak, or one of each. Team-wide weapon uses for each type equal how many of that type were chosen. Explicit Grenadier grants do not consume this equipment pool.",
+      "mechanics": {
+        "pieces": 2,
+        "choices": [
+          "frag",
+          "krak"
+        ],
+        "totalChoices": 2,
+        "usePool": "team-wide per type per battle",
+        "explicitGrenadierGrantConsumesPool": false
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        2
+      ],
+      "officialLocation": "Universal Equipment PDF page 2",
+      "verification": "official source reviewed",
+      "scope": "universal",
+      "maximumSelections": 1,
+      "configuration": "explosive",
+      "weaponRefs": [
+        "killteam:universal:frag-grenade",
+        "killteam:universal:krak-grenade"
+      ]
+    },
+    {
+      "id": "killteam:equipment:light-barricades",
+      "name": "Light Barricades",
+      "summary": "Up to two Light barricades may be set before battle, wholly in friendly territory on the killzone floor and more than 2\" from other equipment terrain, access points and Accessible terrain. Their feet are Insignificant and Exposed.",
+      "mechanics": {
+        "pieces": 2,
+        "terrain": [
+          "Light"
+        ],
+        "feet": [
+          "Insignificant",
+          "Exposed"
+        ],
+        "setup": [
+          "wholly within friendly territory",
+          "killzone floor",
+          "more than 2 inches from other equipment terrain, access points and Accessible terrain"
+        ]
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        2
+      ],
+      "officialLocation": "Universal Equipment PDF page 2",
+      "verification": "official source reviewed",
+      "scope": "universal",
+      "maximumSelections": 1
+    },
+    {
+      "id": "killteam:equipment:heavy-barricade",
+      "name": "Heavy Barricade",
+      "summary": "Set one Heavy barricade before battle, wholly within 4\" of the friendly drop zone on the killzone floor, more than 2\" from other equipment terrain, access points and Accessible terrain.",
+      "mechanics": {
+        "pieces": 1,
+        "terrain": [
+          "Heavy"
+        ],
+        "setup": [
+          "wholly within 4 inches of friendly drop zone",
+          "killzone floor",
+          "more than 2 inches from other equipment terrain, access points and Accessible terrain"
+        ]
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        2
+      ],
+      "officialLocation": "Universal Equipment PDF page 2",
+      "verification": "official source reviewed",
+      "scope": "universal",
+      "maximumSelections": 1
+    },
+    {
+      "id": "killteam:equipment:ladders",
+      "name": "Ladders",
+      "summary": "Up to two ladders are Insignificant and Exposed. Set them wholly in friendly territory, upright against terrain at least 2\" tall, more than 2\" from other equipment terrain and more than 1\" from doors/access points. Once per action, treat a climb of the terrain a ladder touches as 1\" vertically only if that ladder stays in control range for the entire climb. Further terrain climbs, including another ladder, use normal distance.",
+      "mechanics": {
+        "pieces": 2,
+        "terrain": [
+          "Insignificant",
+          "Exposed"
+        ],
+        "setup": [
+          "wholly within friendly territory",
+          "upright against terrain at least 2 inches tall",
+          "more than 2 inches from other equipment terrain",
+          "more than 1 inch from doors and access points"
+        ],
+        "discountUsesPerAction": 1,
+        "discountedVerticalInches": 1,
+        "condition": "same ladder within control range during entire climb",
+        "otherClimbsNormal": true
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        2
+      ],
+      "officialLocation": "Universal Equipment PDF page 2, 5",
+      "verification": "official source reviewed",
+      "scope": "universal",
+      "maximumSelections": 1
+    },
+    {
+      "id": "killteam:equipment:portable-barricade",
+      "name": "Portable Barricade",
+      "summary": "One barricade is Light, Protective and Portable; its feet are Insignificant/Exposed. Set it wholly in friendly territory on the floor, more than 2\" from other equipment terrain, access points and Accessible terrain. It gives cover only to connected operatives with the shield intervening, ignoring feet. Cover from it improves Save by 1, capped at 2+. An operative connected to its inside may use Move With Barricade.",
+      "mechanics": {
+        "pieces": 1,
+        "terrain": [
+          "Light",
+          "Protective",
+          "Portable"
+        ],
+        "feet": [
+          "Insignificant",
+          "Exposed"
+        ],
+        "setup": [
+          "wholly within friendly territory",
+          "killzone floor",
+          "more than 2 inches from other equipment terrain, access points and Accessible terrain"
+        ],
+        "coverRequires": [
+          "connected",
+          "shield intervening; ignore feet"
+        ],
+        "saveImprovement": 1,
+        "bestSave": 2,
+        "moveActionRequires": "connected to inside"
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        2
+      ],
+      "officialLocation": "Universal Equipment PDF page 3",
+      "verification": "official source reviewed",
+      "scope": "universal",
+      "maximumSelections": 1,
+      "actionRefs": [
+        "killteam:action:move-with-barricade"
+      ]
+    },
+    {
+      "id": "killteam:equipment:breaching-charge",
+      "name": "Breaching Charge",
+      "summary": "Once per battle, when a friendly operative Breaches, reduce that action's AP cost by 1 to a minimum of 1AP, treating its datacard as having a breach marker.",
+      "mechanics": {
+        "uses": 1,
+        "period": "battle",
+        "trigger": "friendly operative performs Breach",
+        "costReductionAP": 1,
+        "minimumAP": 1,
+        "countsAsBreachMarker": true
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        2
+      ],
+      "officialLocation": "Universal Equipment PDF page 3",
+      "verification": "official source reviewed",
+      "scope": "universal",
+      "maximumSelections": 1
+    }
+  ],
+  "keywords": [
+    {
+      "id": "killteam:keyword:devastating-x",
+      "name": "Devastating x",
+      "summary": "Each retained critical success immediately deals x damage to the target and remains available to resolve later. A prefixed distance also applies that damage to every other operative visible to and within that distance of the target.",
+      "mechanics": {
+        "trigger": "retain critical success",
+        "damage": "x",
+        "successRetained": true,
+        "distanceVariant": "target plus every other operative visible to and within stated distance of target"
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        3
+      ],
+      "officialLocation": "Pinned 2024 Kill Team.gst sharedRules; source rule a8ba-6e3a-76b3-f05c",
+      "verification": "pinned BSData core reference; independent current core baseline pending",
+      "sourceId": "a8ba-6e3a-76b3-f05c"
+    },
+    {
+      "id": "killteam:keyword:piercing-x",
+      "name": "Piercing x",
+      "summary": "The defender takes x fewer defence dice. Piercing Crits x applies that reduction only when at least one critical success is retained.",
+      "mechanics": {
+        "defenceDiceReduction": "x",
+        "critsVariantRequires": "retained critical success"
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        3
+      ],
+      "officialLocation": "Pinned 2024 Kill Team.gst sharedRules; source rule 4c07-2cb3-1417-cbb7",
+      "verification": "pinned BSData core reference; independent current core baseline pending",
+      "sourceId": "4c07-2cb3-1417-cbb7"
+    },
+    {
+      "id": "killteam:keyword:blast-x",
+      "name": "Blast x",
+      "summary": "After shooting the primary target, separately shoot every other operative visible to and within x of that primary target, in your chosen order. These secondary targets are valid even on Conceal and inherit the primary target's cover/obscured status.",
+      "mechanics": {
+        "secondary": "every other operative visible to and within x of primary target",
+        "separateSequences": true,
+        "order": "chosen",
+        "secondaryConcealIgnored": true,
+        "inheritPrimaryCoverAndObscured": true
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        3
+      ],
+      "officialLocation": "Pinned 2024 Kill Team.gst sharedRules; source rule 0d74-0977-b481-bd13",
+      "verification": "pinned BSData core reference; independent current core baseline pending",
+      "sourceId": "0d74-0977-b481-bd13"
+    },
+    {
+      "id": "killteam:keyword:ceaseless",
+      "name": "Ceaseless",
+      "summary": "Choose one rolled number and re-roll any attack dice showing that number.",
+      "mechanics": {
+        "reroll": "any attack dice with one selected result"
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        3
+      ],
+      "officialLocation": "Pinned 2024 Kill Team.gst sharedRules; source rule 752d-ce38-c325-4b8a",
+      "verification": "pinned BSData core reference; independent current core baseline pending",
+      "sourceId": "752d-ce38-c325-4b8a"
+    },
+    {
+      "id": "killteam:keyword:range-x",
+      "name": "Range x",
+      "summary": "A valid target must be within x of the operative using the weapon.",
+      "mechanics": {
+        "validTargetMaximumDistance": "x"
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        3
+      ],
+      "officialLocation": "Pinned 2024 Kill Team.gst sharedRules; source rule a528-829e-8268-c005",
+      "verification": "pinned BSData core reference; independent current core baseline pending",
+      "sourceId": "a528-829e-8268-c005"
+    },
+    {
+      "id": "killteam:keyword:balanced",
+      "name": "Balanced",
+      "summary": "You may re-roll one attack die.",
+      "mechanics": {
+        "attackDiceRerolled": 1
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        3
+      ],
+      "officialLocation": "Pinned 2024 Kill Team.gst sharedRules; source rule 28f7-0d96-d1fc-f75b",
+      "verification": "pinned BSData core reference; independent current core baseline pending",
+      "sourceId": "28f7-0d96-d1fc-f75b"
+    },
+    {
+      "id": "killteam:keyword:saturate",
+      "name": "Saturate",
+      "summary": "The defender cannot retain cover saves.",
+      "mechanics": {
+        "coverSavesRetained": 0
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        3
+      ],
+      "officialLocation": "Pinned 2024 Kill Team.gst sharedRules; source rule 3c10-2d52-d1ac-b0f6",
+      "verification": "pinned BSData core reference; independent current core baseline pending",
+      "sourceId": "3c10-2d52-d1ac-b0f6"
+    },
+    {
+      "id": "killteam:keyword:accurate-x",
+      "name": "Accurate x",
+      "summary": "Before rolling, retain up to x attack dice as normal successes. With multiple instances, you may instead treat them as one Accurate 2, overriding the individual x values.",
+      "mechanics": {
+        "unrolledAttackDiceRetainedNormal": "up to x",
+        "multipleInstances": {
+          "optionalReplacement": 2,
+          "overridesIndividualValues": true
+        }
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        3
+      ],
+      "officialLocation": "Pinned 2024 Kill Team.gst sharedRules; source rule ba48-6452-4bf6-e9fa",
+      "verification": "pinned BSData core reference; independent current core baseline pending",
+      "sourceId": "ba48-6452-4bf6-e9fa"
+    },
+    {
+      "id": "killteam:keyword:brutal",
+      "name": "Brutal",
+      "summary": "The opponent may block only with critical successes.",
+      "mechanics": {
+        "opponentBlockRequires": "critical success"
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        3
+      ],
+      "officialLocation": "Pinned 2024 Kill Team.gst sharedRules; source rule 5151-5449-ca81-70ed",
+      "verification": "pinned BSData core reference; independent current core baseline pending",
+      "sourceId": "5151-5449-ca81-70ed"
+    },
+    {
+      "id": "killteam:keyword:heavy",
+      "name": "Heavy",
+      "summary": "Do not move and use this weapon in the same activation or counteraction. Heavy (x only) permits only the named move action, such as Dash. Heavy does not prevent Guard.",
+      "mechanics": {
+        "moveAndWeaponUseSameActivationOrCounteraction": false,
+        "namedMoveException": true,
+        "preventsGuard": false
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        3
+      ],
+      "officialLocation": "Pinned 2024 Kill Team.gst sharedRules; source rule 816e-44a2-6be4-6a9a",
+      "verification": "pinned BSData core reference; independent current core baseline pending",
+      "sourceId": "816e-44a2-6be4-6a9a"
+    },
+    {
+      "id": "killteam:keyword:hot",
+      "name": "Hot",
+      "summary": "After using the weapon, roll D6. A result below its Hit threshold deals twice that result as damage to the user. Multiple attacks in one action, such as Blast, still cause only one roll.",
+      "mechanics": {
+        "trigger": "after use",
+        "roll": "D6",
+        "condition": "roll less than weapon Hit threshold",
+        "selfDamage": "roll multiplied by 2",
+        "rollsPerAction": 1
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        3
+      ],
+      "officialLocation": "Pinned 2024 Kill Team.gst sharedRules; source rule ec63-40e6-6282-8420",
+      "verification": "pinned BSData core reference; independent current core baseline pending",
+      "sourceId": "ec63-40e6-6282-8420"
+    },
+    {
+      "id": "killteam:keyword:lethal-x",
+      "name": "Lethal x+",
+      "summary": "Successful attack results of x or higher count as critical successes.",
+      "mechanics": {
+        "criticalThreshold": "x+"
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        3
+      ],
+      "officialLocation": "Pinned 2024 Kill Team.gst sharedRules; source rule 8b97-e3e3-2857-817a",
+      "verification": "pinned BSData core reference; independent current core baseline pending",
+      "sourceId": "8b97-e3e3-2857-817a"
+    },
+    {
+      "id": "killteam:keyword:limited-x",
+      "name": "Limited x",
+      "summary": "After x uses in the battle, the operative no longer has this weapon. Multiple attacks within one action count as one use.",
+      "mechanics": {
+        "usesPerBattle": "x",
+        "multipleAttacksInActionCountAs": 1,
+        "afterExhaustion": "weapon no longer held"
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        3
+      ],
+      "officialLocation": "Pinned 2024 Kill Team.gst sharedRules; source rule bf37-3388-40d5-eb72",
+      "verification": "pinned BSData core reference; independent current core baseline pending",
+      "sourceId": "bf37-3388-40d5-eb72"
+    },
+    {
+      "id": "killteam:keyword:punishing",
+      "name": "Punishing",
+      "summary": "If any critical success is retained, retain one fail as a normal success instead of discarding it.",
+      "mechanics": {
+        "condition": "retained critical success",
+        "failsConvertedToNormal": 1
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        3
+      ],
+      "officialLocation": "Pinned 2024 Kill Team.gst sharedRules; source rule 4805-d37d-3ff2-5c9e",
+      "verification": "pinned BSData core reference; independent current core baseline pending",
+      "sourceId": "4805-d37d-3ff2-5c9e"
+    },
+    {
+      "id": "killteam:keyword:relentless",
+      "name": "Relentless",
+      "summary": "You may re-roll any attack dice.",
+      "mechanics": {
+        "reroll": "any attack dice"
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        3
+      ],
+      "officialLocation": "Pinned 2024 Kill Team.gst sharedRules; source rule 1bc8-9f8d-d899-64ed",
+      "verification": "pinned BSData core reference; independent current core baseline pending",
+      "sourceId": "1bc8-9f8d-d899-64ed"
+    },
+    {
+      "id": "killteam:keyword:rending",
+      "name": "Rending",
+      "summary": "If any critical success is retained, promote one normal success to a critical success.",
+      "mechanics": {
+        "condition": "retained critical success",
+        "normalSuccessesConvertedToCritical": 1
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        3
+      ],
+      "officialLocation": "Pinned 2024 Kill Team.gst sharedRules; source rule b903-6f79-129d-4ec9",
+      "verification": "pinned BSData core reference; independent current core baseline pending",
+      "sourceId": "b903-6f79-129d-4ec9"
+    },
+    {
+      "id": "killteam:keyword:seek",
+      "name": "Seek",
+      "summary": "For target selection, terrain cannot provide cover; Seek Light ignores only Light terrain for that purpose. This does not remove an otherwise available cover save.",
+      "mechanics": {
+        "scope": "valid target selection",
+        "ignoreTerrainCover": true,
+        "lightVariant": "Light terrain only",
+        "removeCoverSaves": false
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        3
+      ],
+      "officialLocation": "Pinned 2024 Kill Team.gst sharedRules; source rule a33d-4e90-5794-6e20",
+      "verification": "pinned BSData core reference; independent current core baseline pending",
+      "sourceId": "a33d-4e90-5794-6e20"
+    },
+    {
+      "id": "killteam:keyword:severe",
+      "name": "Severe",
+      "summary": "With no critical successes retained, promote one normal success to critical. Devastating and Piercing Crits still trigger from it; Punishing and Rending do not.",
+      "mechanics": {
+        "condition": "no retained critical success",
+        "normalToCritical": 1,
+        "triggers": [
+          "Devastating",
+          "Piercing Crits"
+        ],
+        "doesNotTrigger": [
+          "Punishing",
+          "Rending"
+        ]
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        3
+      ],
+      "officialLocation": "Pinned 2024 Kill Team.gst sharedRules; source rule 721c-65bf-dfb7-8fa2",
+      "verification": "pinned BSData core reference; independent current core baseline pending",
+      "sourceId": "721c-65bf-dfb7-8fa2"
+    },
+    {
+      "id": "killteam:keyword:shock",
+      "name": "Shock",
+      "summary": "The first critical strike in each sequence also discards one unresolved opposing normal success, or one critical success if no normals remain.",
+      "mechanics": {
+        "trigger": "first critical strike per sequence",
+        "discardOpponentNormal": 1,
+        "fallback": "discard one critical if no unresolved normal successes"
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        3
+      ],
+      "officialLocation": "Pinned 2024 Kill Team.gst sharedRules; source rule c544-8d4c-4109-4eec",
+      "verification": "pinned BSData core reference; independent current core baseline pending",
+      "sourceId": "c544-8d4c-4109-4eec"
+    },
+    {
+      "id": "killteam:keyword:silent",
+      "name": "Silent",
+      "summary": "This weapon may be used for a Shoot action on a Conceal order.",
+      "mechanics": {
+        "shootWhileConcealed": true
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        3
+      ],
+      "officialLocation": "Pinned 2024 Kill Team.gst sharedRules; source rule 1e3c-23c9-c6e2-9f62",
+      "verification": "pinned BSData core reference; independent current core baseline pending",
+      "sourceId": "1e3c-23c9-c6e2-9f62"
+    },
+    {
+      "id": "killteam:keyword:stun",
+      "name": "Stun",
+      "summary": "Retaining any critical success reduces the target's APL by 1 until its next activation ends.",
+      "mechanics": {
+        "trigger": "retained critical success",
+        "APLChange": -1,
+        "expires": "end of target next activation"
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        3
+      ],
+      "officialLocation": "Pinned 2024 Kill Team.gst sharedRules; source rule 5ae2-3f29-8635-fd02",
+      "verification": "pinned BSData core reference; independent current core baseline pending",
+      "sourceId": "5ae2-3f29-8635-fd02"
+    },
+    {
+      "id": "killteam:keyword:torrent-x",
+      "name": "Torrent x",
+      "summary": "Choose a normal valid primary target, then any number of other valid targets within x of it. Shoot each in your chosen order using separate attack sequences.",
+      "mechanics": {
+        "primary": "normal valid target",
+        "secondary": "any other valid targets within x of primary",
+        "order": "chosen",
+        "separateSequences": true
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        3
+      ],
+      "officialLocation": "Pinned 2024 Kill Team.gst sharedRules; source rule ad45-b4bb-1345-e4f9",
+      "verification": "pinned BSData core reference; independent current core baseline pending",
+      "sourceId": "ad45-b4bb-1345-e4f9"
+    },
+    {
+      "id": "killteam:keyword:obstructing-terrain",
+      "name": "Obstructing terrain",
+      "summary": "Crossing this terrain within 1\" adds 1\" to the distance travelled.",
+      "mechanics": {
+        "crossingWithinInches": 1,
+        "additionalDistanceInches": 1
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        3,
+        2
+      ],
+      "officialLocation": "Pinned 2024 Kill Team.gst sharedRules; source rule 2c40-49e9-1e20-f5f8; Universal Equipment PDF page 1",
+      "verification": "Cross-checked against October 2026 universal equipment",
+      "sourceId": "2c40-49e9-1e20-f5f8"
+    },
+    {
+      "id": "killteam:keyword:protective",
+      "name": "Protective",
+      "summary": "Cover from this terrain improves Save by 1, to a best value of 2+.",
+      "mechanics": {
+        "condition": "in cover from this terrain",
+        "saveImprovement": 1,
+        "bestSave": 2
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        3,
+        2
+      ],
+      "officialLocation": "Pinned 2024 Kill Team.gst sharedRules; source rule 2e32-5712-2b3b-bd52; Universal Equipment PDF page 3",
+      "verification": "Cross-checked against October 2026 universal equipment",
+      "sourceId": "2e32-5712-2b3b-bd52"
+    },
+    {
+      "id": "killteam:keyword:portable",
+      "name": "Portable",
+      "summary": "Cover requires connection to the barricade and an intervening shield, ignoring its feet. An operative connected to the inside can use Move With Barricade.",
+      "mechanics": {
+        "coverRequires": [
+          "connected",
+          "shield intervening; feet ignored"
+        ],
+        "moveActionRequires": "connected to inside"
+      },
+      "wording": "original",
+      "automated": false,
+      "sourceRefs": [
+        3,
+        2
+      ],
+      "officialLocation": "Pinned 2024 Kill Team.gst sharedRules; source rule a70e-fbaf-5636-b761; Universal Equipment PDF page 3",
+      "verification": "Cross-checked against October 2026 universal equipment",
+      "sourceId": "a70e-fbaf-5636-b761"
+    }
+  ]
 }

@@ -6,9 +6,13 @@ loadout selection pack, and the unverified Stormcast source inventory. They do n
 appear in the public dataset feed. `minimal-review.json` records the initial pilot
 verification separately from the payloads; `TEAM-MILESTONE.md` describes current coverage.
 
-The selected-team pack has nine operative types, 35 loadouts, 27 contextual weapon
-profiles and composition validation with 21 valid/invalid fixtures. This is data
-and validation, not a gameplay UI or complete rules engine. The Stormcast inventory
+The selected-team pack has nine operative types, 35 loadouts, 27 contextual operative
+weapon profiles plus frag/krak grenades, complete faction/universal equipment and
+ploy references, and 25 keyword definitions. Composition validation has 21 explicit
+roster fixtures plus equipment/rule tests. A gated local developer preview now
+renders these references and selections. It is not the ordinary app or a gameplay
+engine. See `FOUNDATION-HANDOFF.md` for the consolidated initial deliverable.
+The Stormcast inventory
 has 96 catalogue entries referring to 91 source units; it does not claim current
 profiles, regiment eligibility or current army pricing.
 
@@ -66,17 +70,16 @@ constraints. The existing 40K policy in
 units, keywords, targets, timing and exceptions, while writing original explanations.
 Permission comes from the user's statement, not from changing synonyms.
 
-## Next coverage milestones
+## Remaining work after foundation review
 
 1. Independently verify the Liberators battletome baseline and resolve the source
    characteristic condition group before interpreting it automatically.
-2. Add one Stormcast regiment leader and verified eligibility; add the remaining
-   Angels of Death operative choices and shared selection exclusions.
-3. Add typed keyword definitions, faction abilities, Chapter tactics and ploys with
-   original summaries and independent mechanical fingerprints. Keep unsupported
-   effects explicit; expand validation alongside each entity.
-4. Wire the portable adapters to the existing isolated app preview behind a dev/local
-   gate, then browser-test source details, selection controls and saved identity.
+2. Add one Stormcast regiment leader and verified eligibility. Angels of Death
+   operative/loadout options are already present.
+3. Independently verify full-core keyword baselines, then review whether to add
+   effect execution or mission/event validation. Current rules are references only.
+4. Review the gated developer preview before integrating ordinary app selectors,
+   saves or account behavior. No further factions are being expanded automatically.
 
 No full faction/team support, gameplay simulation, account sync, production deploy,
 production manifest change or app-size guard change is claimed.

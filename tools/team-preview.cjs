@@ -11,7 +11,8 @@ function validateTeamPack(p){
   insist(p.coverage&&p.coverage.operativeOptionsComplete===true&&p.coverage.weaponOptionsComplete===true&&p.coverage.fullRules===false&&p.coverage.fullValidation===false&&p.coverage.combat===false&&p.coverage.appUI===false,'Invalid coverage claims');
   insist(Array.isArray(p.sources)&&p.sources.length>=2&&p.sources.every(s=>s&&/^https:\/\//.test(s.url)&&/^[a-f0-9]{64}$/.test(s.sha256)),'Invalid source identity');
   const sourceRefs=e=>Array.isArray(e.sourceRefs)&&e.sourceRefs.length&&e.sourceRefs.every(i=>integer(i,0,p.sources.length-1))&&typeof e.officialLocation==='string';
-  const tables=['operatives','weapons','abilities','actions','tactics','teamRules'],allIds=new Set();
+  const enhanced=Number(c.datasetVersion.split('-pilot.')[1])>=3;
+  const tables=['operatives','weapons','abilities','actions','tactics','teamRules',...(enhanced?['ploys','equipment','keywords']:[])],allIds=new Set();
   for(const table of tables){
     insist(Array.isArray(p[table])&&p[table].length<=200,'Invalid entity table');
     for(const e of p[table]){insist(e&&typeof e.id==='string'&&e.id.startsWith('killteam:')&&!allIds.has(e.id)&&typeof e.name==='string'&&sourceRefs(e),'Invalid namespaced entity/provenance');allIds.add(e.id);}
@@ -28,8 +29,16 @@ function validateTeamPack(p){
     insist(Array.isArray(o.loadouts)&&o.loadouts.length>0&&o.loadouts.length<=30,'Missing explicit loadouts');
     const seen=new Set();for(const l of o.loadouts){insist(typeof l.id==='string'&&l.id.startsWith(o.id+':loadout:')&&!seen.has(l.id)&&sourceRefs(l)&&Array.isArray(l.weaponRefs)&&l.weaponRefs.length&&l.weaponRefs.every(w=>o.weaponRefs.includes(w)),'Invalid loadout');seen.add(l.id);}
   }
-  for(const r of [...p.abilities,...p.actions,...p.tactics,...p.teamRules])insist(r.wording==='original'&&r.automated===false&&typeof r.summary==='string'&&r.summary.length>0&&r.summary.length<2000&&r.mechanics&&typeof r.mechanics==='object','Unreviewed rule summary');
+  for(const r of [...p.abilities,...p.actions,...p.tactics,...p.teamRules,...(enhanced?[...p.ploys,...p.equipment,...p.keywords]:[])])insist(r.wording==='original'&&r.automated===false&&typeof r.summary==='string'&&r.summary.length>0&&r.summary.length<2000&&r.mechanics&&typeof r.mechanics==='object','Unreviewed rule summary');
   const s=p.selection;insist(s&&s.totalOperatives===6&&s.leaders===1&&s.otherOperatives===5&&s.nonWarriorMaximum===1&&s.warriorMaximum===5&&s.chapterTactics.options.length===8&&s.chapterTactics.options.every(id=>p.tactics.some(t=>t.id===id)),'Unsupported composition contract');
+  if(enhanced){
+    insist(p.ploys.length===9&&p.equipment.length===15&&p.keywords.length===25&&p.coverage.factionEquipmentComplete===true&&p.coverage.factionPloysComplete===true&&p.coverage.keywordDefinitionsComplete===true,'Incomplete support-rule reference');
+    const keywordIds=new Set(p.keywords.map(k=>k.id));
+    for(const w of p.weapons)insist(Array.isArray(w.keywordRefs)&&w.keywordRefs.length===w.keywords.length&&w.keywordRefs.every(k=>keywordIds.has(k))&&(w.rangeInches===null||keywordIds.has(w.rangeRuleRef)),'Unresolved weapon keyword');
+    for(const e of p.equipment)insist(e.maximumSelections===1&&(!e.actionRefs||e.actionRefs.every(id=>actions.has(id)))&&(!e.weaponRefs||e.weaponRefs.every(id=>weapons.has(id))),'Unresolved equipment rule');
+    for(const ploy of p.ploys)insist(['strategy','firefight'].includes(ploy.type)&&ploy.baseCostCP===1,'Invalid standard ploy metadata');
+    insist(s.equipment&&s.equipment.maximumOptions===4&&s.equipment.eachOptionMaximum===1&&s.equipment.missionOverridesVerified===false,'Unsupported equipment selection contract');
+  }
   insist(Array.isArray(p.pending)&&p.pending.length>0,'Missing partial-rules disclosure');return p;
 }
 function validateTeamSelection(p,d){
@@ -40,6 +49,19 @@ function validateTeamSelection(p,d){
   const allowed=new Set(p.tactics.map(t=>t.id)),t=d.chapterTactics;
   if(!t||!allowed.has(t.primaryId)||!allowed.has(t.secondaryId))errors.push('invalid-chapter-tactic');
   if(d.campaignLock&&(!t||t.primaryId!==d.campaignLock.primaryId||t.secondaryId!==d.campaignLock.secondaryId))errors.push('campaign-tactic-mismatch');
+  const equipment=d.equipment===undefined?[]:d.equipment;
+  if(!Array.isArray(equipment)||equipment.length>4)errors.push('equipment-limit');
+  if(Array.isArray(equipment)){
+    const selected=new Set();
+    for(const choice of equipment){
+      const e=choice&&p.equipment&&p.equipment.find(e=>e.id===choice.equipmentId);if(!e){errors.push('unknown-equipment');continue;}
+      if(selected.has(e.id))errors.push('duplicate-equipment');selected.add(e.id);
+      if(e.configuration){const names=e.configuration==='utility'?['smoke','stun']:['frag','krak'],cfg=choice.configuration;
+        if(!cfg||Object.keys(cfg).length!==2||!names.every(n=>integer(cfg[n],0,2))||names.reduce((n,k)=>n+(cfg&&cfg[k]||0),0)!==2)errors.push('invalid-grenade-pool');
+      }else if(choice.configuration!==undefined)errors.push('unexpected-equipment-configuration');
+    }
+    totals.equipmentOptions=equipment.length;
+  }
   totals.operatives=d.lines.length;if(totals.operatives!==6)errors.push('operative-count');
   const instances=new Set(),counts=new Map();
   for(const line of d.lines){

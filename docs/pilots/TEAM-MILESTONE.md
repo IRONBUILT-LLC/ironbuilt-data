@@ -1,5 +1,8 @@
 # Angels of Death selected-team milestone
 
+This records the selected-team milestone before support-rule/UI completion.
+For current coverage and the reviewable preview, use `FOUNDATION-HANDOFF.md`.
+
 Developer data only, checked 2026-11-02. The isolated dev index now distinguishes
 `unit-reference`, `selected-team` and `source-inventory` artifacts. Nothing enters
 the public dataset manifest, live app UI or legacy 40K loader.

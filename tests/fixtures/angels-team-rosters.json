@@ -13,7 +13,7 @@
           "formatId": "selected-team",
           "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
           "rulesetId": "2026-10-angels-of-death",
-          "datasetVersion": "2026.11.02-pilot.2"
+          "datasetVersion": "2026.11.02-pilot.3"
         },
         "chapterTactics": {
           "primaryId": "killteam:tactic:aggressive",
@@ -64,7 +64,7 @@
           "formatId": "selected-team",
           "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
           "rulesetId": "2026-10-angels-of-death",
-          "datasetVersion": "2026.11.02-pilot.2"
+          "datasetVersion": "2026.11.02-pilot.3"
         },
         "chapterTactics": {
           "primaryId": "killteam:tactic:aggressive",
@@ -116,7 +116,7 @@
           "formatId": "selected-team",
           "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
           "rulesetId": "2026-10-angels-of-death",
-          "datasetVersion": "2026.11.02-pilot.2"
+          "datasetVersion": "2026.11.02-pilot.3"
         },
         "chapterTactics": {
           "primaryId": "killteam:tactic:aggressive",
@@ -168,7 +168,7 @@
           "formatId": "selected-team",
           "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
           "rulesetId": "2026-10-angels-of-death",
-          "datasetVersion": "2026.11.02-pilot.2"
+          "datasetVersion": "2026.11.02-pilot.3"
         },
         "chapterTactics": {
           "primaryId": "killteam:tactic:aggressive",
@@ -219,7 +219,7 @@
           "formatId": "selected-team",
           "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
           "rulesetId": "2026-10-angels-of-death",
-          "datasetVersion": "2026.11.02-pilot.2"
+          "datasetVersion": "2026.11.02-pilot.3"
         },
         "chapterTactics": {
           "primaryId": "killteam:tactic:aggressive",
@@ -270,7 +270,7 @@
           "formatId": "selected-team",
           "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
           "rulesetId": "2026-10-angels-of-death",
-          "datasetVersion": "2026.11.02-pilot.2"
+          "datasetVersion": "2026.11.02-pilot.3"
         },
         "chapterTactics": {
           "primaryId": "killteam:tactic:aggressive",
@@ -328,7 +328,7 @@
           "formatId": "selected-team",
           "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
           "rulesetId": "2026-10-angels-of-death",
-          "datasetVersion": "2026.11.02-pilot.2"
+          "datasetVersion": "2026.11.02-pilot.3"
         },
         "chapterTactics": {
           "primaryId": "killteam:tactic:aggressive",
@@ -376,7 +376,7 @@
           "formatId": "selected-team",
           "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
           "rulesetId": "2026-10-angels-of-death",
-          "datasetVersion": "2026.11.02-pilot.2"
+          "datasetVersion": "2026.11.02-pilot.3"
         },
         "chapterTactics": {
           "primaryId": "killteam:tactic:aggressive",
@@ -434,7 +434,7 @@
           "formatId": "selected-team",
           "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
           "rulesetId": "2026-10-angels-of-death",
-          "datasetVersion": "2026.11.02-pilot.2"
+          "datasetVersion": "2026.11.02-pilot.3"
         },
         "chapterTactics": {
           "primaryId": "killteam:tactic:aggressive",
@@ -488,7 +488,7 @@
           "formatId": "selected-team",
           "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
           "rulesetId": "2026-10-angels-of-death",
-          "datasetVersion": "2026.11.02-pilot.2"
+          "datasetVersion": "2026.11.02-pilot.3"
         },
         "chapterTactics": {
           "primaryId": "killteam:tactic:aggressive",
@@ -541,7 +541,7 @@
           "formatId": "selected-team",
           "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
           "rulesetId": "2026-10-angels-of-death",
-          "datasetVersion": "2026.11.02-pilot.2"
+          "datasetVersion": "2026.11.02-pilot.3"
         },
         "chapterTactics": {
           "primaryId": "killteam:tactic:aggressive",
@@ -594,7 +594,7 @@
           "formatId": "selected-team",
           "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
           "rulesetId": "2026-10-angels-of-death",
-          "datasetVersion": "2026.11.02-pilot.2"
+          "datasetVersion": "2026.11.02-pilot.3"
         },
         "chapterTactics": {
           "primaryId": "killteam:tactic:aggressive",
@@ -648,7 +648,7 @@
           "formatId": "selected-team",
           "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
           "rulesetId": "2026-10-angels-of-death",
-          "datasetVersion": "2026.11.02-pilot.2"
+          "datasetVersion": "2026.11.02-pilot.3"
         },
         "chapterTactics": {
           "primaryId": "killteam:tactic:aggressive",
@@ -701,7 +701,7 @@
           "formatId": "selected-team",
           "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
           "rulesetId": "2026-10-angels-of-death",
-          "datasetVersion": "2026.11.02-pilot.2"
+          "datasetVersion": "2026.11.02-pilot.3"
         },
         "chapterTactics": {
           "primaryId": "killteam:tactic:aggressive",
@@ -755,7 +755,7 @@
           "formatId": "selected-team",
           "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
           "rulesetId": "2026-10-angels-of-death",
-          "datasetVersion": "2026.11.02-pilot.2"
+          "datasetVersion": "2026.11.02-pilot.3"
         },
         "chapterTactics": {
           "primaryId": "killteam:tactic:aggressive",
@@ -808,7 +808,7 @@
           "formatId": "selected-team",
           "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
           "rulesetId": "2026-10-angels-of-death",
-          "datasetVersion": "2026.11.02-pilot.2"
+          "datasetVersion": "2026.11.02-pilot.3"
         },
         "chapterTactics": {
           "primaryId": "killteam:tactic:aggressive",
@@ -861,7 +861,7 @@
           "formatId": "selected-team",
           "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
           "rulesetId": "2026-10-angels-of-death",
-          "datasetVersion": "2026.11.02-pilot.2"
+          "datasetVersion": "2026.11.02-pilot.3"
         },
         "chapterTactics": {
           "primaryId": "killteam:tactic:aggressive",
@@ -914,7 +914,7 @@
           "formatId": "selected-team",
           "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
           "rulesetId": "2026-10-angels-of-death",
-          "datasetVersion": "2026.11.02-pilot.2"
+          "datasetVersion": "2026.11.02-pilot.3"
         },
         "chapterTactics": {
           "primaryId": "killteam:tactic:invented",
@@ -1020,7 +1020,7 @@
           "formatId": "selected-team",
           "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
           "rulesetId": "2026-10-angels-of-death",
-          "datasetVersion": "2026.11.02-pilot.2"
+          "datasetVersion": "2026.11.02-pilot.3"
         },
         "chapterTactics": {
           "primaryId": "killteam:tactic:aggressive",
@@ -1077,7 +1077,7 @@
           "formatId": "selected-team",
           "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
           "rulesetId": "2026-10-angels-of-death",
-          "datasetVersion": "2026.11.02-pilot.2"
+          "datasetVersion": "2026.11.02-pilot.3"
         },
         "chapterTactics": {
           "primaryId": "killteam:tactic:aggressive",

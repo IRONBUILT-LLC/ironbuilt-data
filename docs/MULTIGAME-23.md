@@ -2,7 +2,8 @@
 
 Status: real dev reference packs, complete Angels of Death operative/loadout
 selection data, and unverified Stormcast source inventory, 2026-11-02.
-See `docs/pilots/TEAM-MILESTONE.md` and `pilots/manifest.dev.json` for current coverage.
+See `docs/pilots/FOUNDATION-HANDOFF.md` and `pilots/manifest.dev.json` for current
+coverage, support-rule references, developer preview and remaining verification.
 The public manifest and every existing 40K bundle are unchanged. Synthetic test
 fixtures remain separately labelled; they are not counted as real coverage.
 Rules-use permission is recorded from the user's explicit statement. Original

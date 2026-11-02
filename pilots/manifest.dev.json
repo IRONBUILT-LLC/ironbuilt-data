@@ -31,11 +31,11 @@
       "kind": "selected-team",
       "systemId": "killteam",
       "editionId": "2024",
-      "version": "2026.11.02-pilot.2",
+      "version": "2026.11.02-pilot.3",
       "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
       "file": "killteam-angels-team.json",
-      "bytes": 70290,
-      "sha256": "b823e35c0b57c571cdd297ae62289389595060a5989d654d9af36bc8a2a1b1be"
+      "bytes": 122619,
+      "sha256": "8654c4ed2b4e9fee2e33af5df97d859a3cfff192ad639f40f1fffc59f371f7af"
     },
     {
       "id": "aos:stormcast-inventory",

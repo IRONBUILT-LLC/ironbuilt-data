@@ -7,7 +7,7 @@ test('all valid and invalid composition fixtures have the expected result',()=>{
   for(const f of fixtures.cases){const r=validateTeamSelection(p,f.roster);assert.equal(r.compositionValid,f.expectedCompositionValid,f.name+': '+r.errors);for(const code of f.expectedErrors||[])assert.ok(r.errors.includes(code),f.name+': missing '+code);if(r.compositionValid)assert.equal(r.status,'unverified','Composition does not certify complete gameplay legality');}
 });
 test('all nine operative types and all 35 reviewed loadouts can form a valid selected team',()=>{
-  assert.equal(p.operatives.length,9);assert.equal(p.weapons.length,27);assert.equal(p.operatives.reduce((n,o)=>n+o.loadouts.length,0),35);
+  assert.equal(p.operatives.length,9);assert.equal(p.weapons.filter(w=>w.scope!=='universal-equipment').length,27);assert.equal(p.operatives.reduce((n,o)=>n+o.loadouts.length,0),35);
   const base=fixtures.cases.find(c=>c.name==='Captain and five Intercessor Warriors').roster;
   for(const o of p.operatives)for(const l of o.loadouts){const d=structuredClone(base),i=o.leader?0:1;d.lines[i]={instanceId:'reviewed-'+i,operativeId:o.id,loadoutId:l.id};if(o.additionalChapterTactics)d.lines[i].additionalTacticId=p.tactics[0].id;assert.equal(validateTeamSelection(p,d).compositionValid,true,o.name+' / '+l.name);}
 });
@@ -25,7 +25,7 @@ test('all basic profiles and loadout restrictions match the reviewed official ca
   const a=p.operatives.find(o=>o.name==='Assault Intercessor Sergeant');assert.equal(a.loadouts.length,9);
   for(const l of a.loadouts){if(l.sourceEntryIds.includes('187a-3d95-c7db-7496'))assert.deepEqual(l.sourceEntryIds,['187a-3d95-c7db-7496','c81d-2f29-2203-ce5b']);}
   assert.equal(p.operatives.find(o=>o.name==='Intercessor Sergeant').loadouts.length,15);
-  assert.ok(p.operatives.every(o=>o.officialLocation&&o.sourceRefs.includes(1)&&o.basicSourceId));assert.ok(p.weapons.every(w=>w.officialLocation&&w.sourceId&&w.sourceRefs.includes(1)));
+  assert.ok(p.operatives.every(o=>o.officialLocation&&o.sourceRefs.includes(1)&&o.basicSourceId));assert.ok(p.weapons.every(w=>w.officialLocation&&w.sourceId&&w.sourceRefs.includes(w.scope==='universal-equipment'?2:1)));
 });
 test('pack import checks dev host, bytes, source links and namespaced references',()=>{
   const entry=JSON.parse(fs.readFileSync(path.join(root,'pilots/manifest.dev.json'),'utf8')).entries.find(e=>e.kind==='selected-team');
