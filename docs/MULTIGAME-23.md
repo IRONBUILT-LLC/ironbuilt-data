@@ -24,8 +24,10 @@ The repository's own proposed licence expressly excludes third-party IP.
 [GW download terms](https://www.warhammer-community.com/en-gb/terms-of-use/) grant personal
 use and restrict redistribution and business use. Free availability is not permission
 to republish. No official PDFs, full rules prose, images or community catalogues are
-vendored by this change. Record an applicable source grant/permission and attribution
-before importing real content; a community licence cannot grant GW rights.
+vendored by this change. Review applicable terms and field-level scope before publishing
+real content; a community licence cannot grant GW rights. A missing licence does not
+establish that every mechanical value is prohibited. See `SOURCE-DUE-DILIGENCE-23.md`
+for the narrower numerical pilot and the exact outstanding publication decision.
 
 ## Architecture audit
 
@@ -77,6 +79,7 @@ Reproduce:
 
 ```powershell
 node --test tests/multigame.test.cjs
+node --test tests/numeric-profile.test.cjs
 ./tests/audit-catalogue.test.ps1
 ./tools/audit-catalogue.ps1 -Repository <local-source-checkout> -Catalogue 'Stormcast Eternals.cat'
 ./tools/audit-catalogue.ps1 -Repository <local-source-checkout> -Catalogue '2024 - Angels of Death.cat'
@@ -88,7 +91,7 @@ node tools/multigame.cjs tests/fixtures/aos-synthetic.json $hash
 
 1. Done: architecture/source audit, pinned pilot dependency reports, normalized import
    contract, integrity/rights gates and synthetic import-to-draft validation tests.
-2. Resolve source permission and select licensed scope. Cross-check exact pilot
+2. Review source terms and select a justified field-level scope. Cross-check exact pilot
    profiles and restrictions against current official updates; retain publication,
    page/section, effective date and per-record upstream IDs. The catalogue snapshot
    being current on GitHub does not prove it matches the October update.
