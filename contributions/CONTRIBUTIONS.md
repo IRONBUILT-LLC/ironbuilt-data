@@ -62,3 +62,7 @@ elsewhere. Both outcomes are contributions.
 ## 2026-10-31 — Imperial Agents Artemis current profile
 
 Anonymous community report verified against the supplied current datasheet screenshot and the explicitly titled 11e Imperial Agents reference. Corrected T5, melee S6, Hellfire A3, 75 points, Sustained Hits 1 and the three-wound return. Only this Agents entry changed; current Daily scoring and other variants remain fixed. App source: [d4060f60](https://github.com/IRONBUILT-LLC/ironbuilt/commit/d4060f60). Reference: https://wahapedia.ru/wh40k11ed/factions/imperial-agents/Watch-Captain-Artemis.
+
+## 2026-11-02 - Agents shared marine profiles
+
+Anonymous community report. Ported only the reviewed five-unit correction from data `04ccd71`, matching app source `6a99b0c5`: Deathwatch Kill Team, Aquila Kill Team, Watch Master, Corvus Blackstar and Grey Knights Terminator Squad. The 81-profile parity audit checks the approved current marine counterparts; Agents points, identity, equipment restrictions and faction rules remain independent. Existing stable Artemis correction and all other factions are preserved. Frozen current Daily puzzles, catalogues and scores are unchanged. See the app audit `docs/agents-marine-parity-20261101.md` for sources, aliases and unresolved exceptions.
