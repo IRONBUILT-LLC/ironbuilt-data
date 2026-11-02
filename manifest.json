@@ -99,6 +99,35 @@
       "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@459b07c813423b03c599fccca06778769d151256/datasets/trench-crusade-living.json"
     },
     {
+      "id": "aos-4",
+      "version": "2026.11.02-6909c140",
+      "bytes": 2417419,
+      "sha256": "c8659111d2125c5078120086c4afec9a8d7c150a8158cc74a6b60e06667b4ff4",
+      "encoding": "gzip",
+      "name": "Age of Sigmar",
+      "game": "aos",
+      "edition": "4",
+      "schema": 1,
+      "kind": "catalogue-system",
+      "devOnly": true,
+      "provenance": "Unofficial community-derived Warhammer Age of Sigmar (4th edition) data. 98 armies with regiments, auxiliaries, Regiments of Renown and General's Handbook battle packs. Army builder only; play tools are not supported.",
+      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@73861a64d19b39ff672d2e989021e7c7bd6a2189/datasets/aos-4.json.gz"
+    },
+    {
+      "id": "killteam-2024",
+      "version": "2026.11.02-30c48ce2",
+      "bytes": 5972610,
+      "sha256": "755ea6b7b7e876ffd4744cb60022b856a4d738503173fbf0af3cf7471e989316",
+      "name": "Kill Team",
+      "game": "killteam",
+      "edition": "2024",
+      "schema": 1,
+      "kind": "catalogue-system",
+      "devOnly": true,
+      "provenance": "Unofficial community-derived Kill Team (2024) data. 49 kill teams with operatives, weapons and team composition. Team builder only; play tools are not supported.",
+      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@d9d11d8cd2759873de21d3231a99eaa057154f47/datasets/killteam-2024.json"
+    },
+    {
       "id": "wh40k-11e-context",
       "name": "Warhammer 40,000 - 11th Edition - Mathhammer context",
       "game": "wh40k",
