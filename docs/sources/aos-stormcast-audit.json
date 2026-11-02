@@ -1,0 +1,516 @@
+{
+  "schema": "ironbuilt-source-audit/1",
+  "sourceRevision": "6909c1401ee52c63b5187a7c2d00fb34190479bd",
+  "catalogue": "Stormcast Eternals.cat",
+  "licenseFiles": [],
+  "rulesCopied": false,
+  "files": [
+    {
+      "path": "Stormcast Eternals.cat",
+      "sha256": "3f24a8d26ccfaf31cf3e2ee2c259821016d46231e0697b89232bedea7bcf0aec",
+      "bytes": 395305,
+      "revision": "45",
+      "selectionEntries": 33,
+      "entryLinks": 538,
+      "modifiers": 388,
+      "constraints": 74,
+      "profileTypes": [],
+      "dependencies": [
+        "Stormcast Eternals - Library.cat",
+        "Path to Glory - Ravaged Coast.cat",
+        "Lores.cat",
+        "Path to Glory - Ascension.cat",
+        "Path to Glory - Blighted Wilds.cat",
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Stormcast Eternals - Library.cat",
+      "sha256": "9693e6b0054ff1d50e917da570f1e50f025e123de5764dc3160733ce0b80989d",
+      "bytes": 929799,
+      "revision": "52",
+      "selectionEntries": 465,
+      "entryLinks": 86,
+      "modifiers": 256,
+      "constraints": 803,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Path to Glory - Ravaged Coast.cat",
+      "sha256": "78baaaea8bb5027a0eab511dd4766d450a5a7cf8791265955c630b415bd30420",
+      "bytes": 357435,
+      "revision": "40",
+      "selectionEntries": 205,
+      "entryLinks": 0,
+      "modifiers": 114,
+      "constraints": 230,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Lores.cat",
+      "sha256": "80656888c6bbf8d2b3ae8aadf7a24b8a2f95374d170739f1ebb247567e27e1a5",
+      "bytes": 2134656,
+      "revision": "85",
+      "selectionEntries": 432,
+      "entryLinks": 783,
+      "modifiers": 1423,
+      "constraints": 1103,
+      "profileTypes": [],
+      "dependencies": [
+        "Ossiarch Bonereapers - Library.cat",
+        "Nighthaunt - Library.cat",
+        "Beasts of Chaos - Library.cat",
+        "Blades of Khorne - Library.cat",
+        "Bonesplitterz - Library.cat",
+        "Cities of Sigmar - Library.cat",
+        "Daughters of Khaine - Library.cat",
+        "Disciples of Tzeentch - Library.cat",
+        "Flesh-eater Courts - Library.cat",
+        "Fyreslayers - Library.cat",
+        "Gloomspite Gitz - Library.cat",
+        "Hedonites of Slaanesh - Library.cat",
+        "Idoneth Deepkin - Library.cat",
+        "Ironjawz - Library.cat",
+        "Kharadron Overlords - Library.cat",
+        "Kruleboyz - Library.cat",
+        "Lumineth Realm-lords - Library.cat",
+        "Maggotkin of Nurgle - Library.cat",
+        "Ogor Mawtribes - Library.cat",
+        "Orruk Warclans - Library.cat",
+        "Seraphon - Library.cat",
+        "Sons of Behemat - Library.cat",
+        "Skaven - Library.cat",
+        "Slaves to Darkness - Library.cat",
+        "Stormcast Eternals - Library.cat",
+        "Sylvaneth - Library.cat",
+        "Soulblight Gravelords - Library.cat",
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Path to Glory - Ascension.cat",
+      "sha256": "8688c458454eac84035315118a6d0b766ee19851e2d05c0f7969190dd90046e2",
+      "bytes": 119036,
+      "revision": "22",
+      "selectionEntries": 63,
+      "entryLinks": 0,
+      "modifiers": 36,
+      "constraints": 76,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Path to Glory - Blighted Wilds.cat",
+      "sha256": "cc32bde5e4a2d1f5518a708e8d08f1710f510e7f8ea2497b0d66f3145a01a8fa",
+      "bytes": 819151,
+      "revision": "48",
+      "selectionEntries": 422,
+      "entryLinks": 19,
+      "modifiers": 924,
+      "constraints": 267,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Age of Sigmar 4.0.gst",
+      "sha256": "ba418a7f2bbae9189cb963e55393e99a213d8f65c3c061b7e6d034800dc07d8a",
+      "bytes": 1267438,
+      "revision": "105",
+      "selectionEntries": 56,
+      "entryLinks": 0,
+      "modifiers": 213,
+      "constraints": 162,
+      "profileTypes": [
+        "Melee Weapon",
+        "Ranged Weapon",
+        "Ability (Passive)",
+        "Ability (Spell)",
+        "Ability (Prayer)",
+        "Ability (Command)",
+        "Ability (Activated)",
+        "Unit",
+        "Manifestation",
+        "Battle Tactic Card",
+        "Ability (Blood Tithe)",
+        "Ability (Fate)"
+      ],
+      "dependencies": []
+    },
+    {
+      "path": "Ossiarch Bonereapers - Library.cat",
+      "sha256": "f0082cb045eaa236ba429e6f80be5778a99c2a4fbb1d60de943c6ab189c18ebf",
+      "bytes": 413017,
+      "revision": "40",
+      "selectionEntries": 191,
+      "entryLinks": 25,
+      "modifiers": 146,
+      "constraints": 281,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Nighthaunt - Library.cat",
+      "sha256": "ffbcdf0afc38839a45cc6caf912f5c7ca2a20773f56d9479d0284b1721374dcd",
+      "bytes": 409168,
+      "revision": "65",
+      "selectionEntries": 204,
+      "entryLinks": 24,
+      "modifiers": 101,
+      "constraints": 304,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Beasts of Chaos - Library.cat",
+      "sha256": "b4e8655e99b9bb177751b34ddda6c399da2af9599a2fa18f0d1ae8c77fa487d8",
+      "bytes": 197766,
+      "revision": "13",
+      "selectionEntries": 99,
+      "entryLinks": 23,
+      "modifiers": 50,
+      "constraints": 192,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Blades of Khorne - Library.cat",
+      "sha256": "3884b37e3f023f017f2dc580545214c48b5a470e33f008102f909147d87fd1d4",
+      "bytes": 484499,
+      "revision": "49",
+      "selectionEntries": 234,
+      "entryLinks": 56,
+      "modifiers": 148,
+      "constraints": 397,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Bonesplitterz - Library.cat",
+      "sha256": "c841bef7c52bfb1460ba39fd00a0c8cb3155cba4b21e394326b5595460a85e27",
+      "bytes": 106967,
+      "revision": "14",
+      "selectionEntries": 49,
+      "entryLinks": 21,
+      "modifiers": 34,
+      "constraints": 110,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Cities of Sigmar - Library.cat",
+      "sha256": "bd72700485dbf0b4d798f6d589952febea361ba105e8e01a196e9d5f133dcaed",
+      "bytes": 884150,
+      "revision": "45",
+      "selectionEntries": 438,
+      "entryLinks": 93,
+      "modifiers": 235,
+      "constraints": 750,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Daughters of Khaine - Library.cat",
+      "sha256": "ff312df8db7fa6d0c95a1709cd68169b5f71aead3a14139f07b167e731f83408",
+      "bytes": 418515,
+      "revision": "35",
+      "selectionEntries": 209,
+      "entryLinks": 36,
+      "modifiers": 130,
+      "constraints": 344,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Disciples of Tzeentch - Library.cat",
+      "sha256": "c3d10ee986b119a8be4579733a2ca782494a29138cf1ad2b20916a955db33f5f",
+      "bytes": 457040,
+      "revision": "43",
+      "selectionEntries": 231,
+      "entryLinks": 35,
+      "modifiers": 119,
+      "constraints": 353,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Flesh-eater Courts - Library.cat",
+      "sha256": "79bafab39bdaaec9b41031ed0cde096e0389c3b6aedcaaa25b31973a8f28a1e9",
+      "bytes": 443970,
+      "revision": "45",
+      "selectionEntries": 235,
+      "entryLinks": 34,
+      "modifiers": 172,
+      "constraints": 307,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Fyreslayers - Library.cat",
+      "sha256": "ddf3ad74ff0829ff77e12a1cf2ac91f1dfb246db29213ae5001279974b584107",
+      "bytes": 212917,
+      "revision": "16",
+      "selectionEntries": 102,
+      "entryLinks": 24,
+      "modifiers": 33,
+      "constraints": 180,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Gloomspite Gitz - Library.cat",
+      "sha256": "8bd445fddf3c4e055d54d06461b76d1d2956ef4dae1368eea0a0cd95d6eee052",
+      "bytes": 662919,
+      "revision": "58",
+      "selectionEntries": 352,
+      "entryLinks": 43,
+      "modifiers": 188,
+      "constraints": 546,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Hedonites of Slaanesh - Library.cat",
+      "sha256": "4fe4dd25661d2aadae33a0b75c3ee7ec071f07a2c545a2a56e3a2f4195c6747d",
+      "bytes": 476985,
+      "revision": "30",
+      "selectionEntries": 226,
+      "entryLinks": 42,
+      "modifiers": 127,
+      "constraints": 349,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Idoneth Deepkin - Library.cat",
+      "sha256": "52961aaf0f388cdaa498bfb4a94aa602c80899c46e0a2dd004fae7ff8aa1e13f",
+      "bytes": 355945,
+      "revision": "27",
+      "selectionEntries": 181,
+      "entryLinks": 27,
+      "modifiers": 121,
+      "constraints": 273,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Ironjawz - Library.cat",
+      "sha256": "c4c9ae555b6221259784e0b05a22230f141929c78053d0c8063a064d4a80a364",
+      "bytes": 286991,
+      "revision": "39",
+      "selectionEntries": 157,
+      "entryLinks": 19,
+      "modifiers": 93,
+      "constraints": 223,
+      "profileTypes": [],
+      "dependencies": [
+        "Orruk Warclans - Library.cat",
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Kharadron Overlords - Library.cat",
+      "sha256": "810d3c7f54c049f18ff606b375186029720b1d9e96ef1be6bff500786bebf9e5",
+      "bytes": 399188,
+      "revision": "48",
+      "selectionEntries": 196,
+      "entryLinks": 20,
+      "modifiers": 117,
+      "constraints": 308,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Kruleboyz - Library.cat",
+      "sha256": "9d83fef15b34d0c0c18a9a1aaa32b41d368913ccb1e9f8917f55703e39713956",
+      "bytes": 308957,
+      "revision": "48",
+      "selectionEntries": 161,
+      "entryLinks": 27,
+      "modifiers": 78,
+      "constraints": 238,
+      "profileTypes": [],
+      "dependencies": [
+        "Orruk Warclans - Library.cat",
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Lumineth Realm-lords - Library.cat",
+      "sha256": "3c1a1a761e5389e363496661533942322fe0475c1f316132f05d4165b4961192",
+      "bytes": 463423,
+      "revision": "35",
+      "selectionEntries": 217,
+      "entryLinks": 32,
+      "modifiers": 166,
+      "constraints": 323,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Maggotkin of Nurgle - Library.cat",
+      "sha256": "9b1dc07dcfdb583513f8d31974cc60c9da6882b6e587ddc94bdcea6ffa5e9443",
+      "bytes": 480568,
+      "revision": "41",
+      "selectionEntries": 224,
+      "entryLinks": 49,
+      "modifiers": 155,
+      "constraints": 373,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Ogor Mawtribes - Library.cat",
+      "sha256": "a5f72babbc4cf6380a2686bf3f1d7cd14b61a7131a23ff1d0f0c90051006070e",
+      "bytes": 477767,
+      "revision": "24",
+      "selectionEntries": 230,
+      "entryLinks": 36,
+      "modifiers": 142,
+      "constraints": 354,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Orruk Warclans - Library.cat",
+      "sha256": "1485f01796e0d9961f77a960034e5c9fe3d5e142c8557b95d97e2ff288a5065b",
+      "bytes": 24873,
+      "revision": "11",
+      "selectionEntries": 8,
+      "entryLinks": 1,
+      "modifiers": 0,
+      "constraints": 9,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Seraphon - Library.cat",
+      "sha256": "927866df8ec2419424334bf2cd0c0d0a95da90c0784d1072fb31a75329d49709",
+      "bytes": 360789,
+      "revision": "28",
+      "selectionEntries": 173,
+      "entryLinks": 41,
+      "modifiers": 74,
+      "constraints": 331,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Sons of Behemat - Library.cat",
+      "sha256": "d4694f007948e25cd68ee8e6b58099f51228640f189e990dd10ab87e6012a02b",
+      "bytes": 271249,
+      "revision": "23",
+      "selectionEntries": 136,
+      "entryLinks": 11,
+      "modifiers": 47,
+      "constraints": 177,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Skaven - Library.cat",
+      "sha256": "5a1e34eab7436c9aaedb886835c9b857e2c82463a70e731b4dccadbafaef7c7c",
+      "bytes": 625190,
+      "revision": "58",
+      "selectionEntries": 331,
+      "entryLinks": 40,
+      "modifiers": 157,
+      "constraints": 517,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Slaves to Darkness - Library.cat",
+      "sha256": "e78e37e66045d6a186aad247020c4e895e8afff178fcaceccb4cff34d822aa4c",
+      "bytes": 669036,
+      "revision": "56",
+      "selectionEntries": 335,
+      "entryLinks": 66,
+      "modifiers": 183,
+      "constraints": 586,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Sylvaneth - Library.cat",
+      "sha256": "a51585ab64d65b5c48f75a6a375be5b2a36a5a846dd157f2ac7a659ebd1385fc",
+      "bytes": 481868,
+      "revision": "42",
+      "selectionEntries": 237,
+      "entryLinks": 39,
+      "modifiers": 143,
+      "constraints": 388,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    },
+    {
+      "path": "Soulblight Gravelords - Library.cat",
+      "sha256": "813f9bd7dbe922f33032cce07da339f3f439e95e1302f9be4989ad09197c4ca6",
+      "bytes": 648299,
+      "revision": "77",
+      "selectionEntries": 321,
+      "entryLinks": 53,
+      "modifiers": 146,
+      "constraints": 498,
+      "profileTypes": [],
+      "dependencies": [
+        "Age of Sigmar 4.0.gst"
+      ]
+    }
+  ]
+}

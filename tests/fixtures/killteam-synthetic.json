@@ -1,0 +1,60 @@
+{
+  "schema": "ironbuilt-multigame-preview/1",
+  "releaseChannel": "dev",
+  "synthetic": true,
+  "context": {
+    "systemId": "killteam",
+    "editionId": "2024",
+    "formatId": "selected-team-draft",
+    "rulesetId": "synthetic-contract-test",
+    "sourceRevision": "fixture-v1"
+  },
+  "checkedAt": "2026-11-02",
+  "coverage": {
+    "complete": false,
+    "fullValidation": false
+  },
+  "provenance": {
+    "url": "https://example.invalid/ironbuilt-synthetic-fixture",
+    "sha256": "4971309207c620d3e070ce54c39ce5be0f891bbe17b6ba33841c31b2e0e9d64d",
+    "rightsStatus": "synthetic",
+    "rightsEvidence": "Original invented test values; no game rules represented."
+  },
+  "operatives": [
+    {
+      "id": "killteam:test-leader",
+      "name": "Synthetic Leader",
+      "maxSelections": 1,
+      "loadouts": [
+        "standard"
+      ],
+      "weapons": [],
+      "actionRefs": [],
+      "abilityRefs": []
+    },
+    {
+      "id": "killteam:test-operative",
+      "name": "Synthetic Operative",
+      "maxSelections": 2,
+      "loadouts": [
+        "standard",
+        "alternate"
+      ],
+      "weapons": [],
+      "actionRefs": [],
+      "abilityRefs": []
+    }
+  ],
+  "teams": [
+    {
+      "id": "killteam:test-team",
+      "name": "Synthetic Team",
+      "minOperatives": 2,
+      "maxOperatives": 3,
+      "operativeIds": [
+        "killteam:test-leader",
+        "killteam:test-operative"
+      ]
+    }
+  ]
+}

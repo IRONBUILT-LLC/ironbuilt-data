@@ -1,0 +1,44 @@
+{
+  "schema": "ironbuilt-source-audit/1",
+  "sourceRevision": "30c48ce2bdcabc0cb6516f813283086cc2d78fab",
+  "catalogue": "2024 - Angels of Death.cat",
+  "licenseFiles": [],
+  "rulesCopied": false,
+  "files": [
+    {
+      "path": "2024 - Angels of Death.cat",
+      "sha256": "bda35a8cf01e48616cce82b4439a25d937c7cecbb6b38f4889c09b3f475b7f00",
+      "bytes": 75705,
+      "revision": "9",
+      "selectionEntries": 38,
+      "entryLinks": 34,
+      "modifiers": 11,
+      "constraints": 67,
+      "profileTypes": [
+        "Chapter Tactics"
+      ],
+      "dependencies": [
+        "2024 - Kill Team.gst"
+      ]
+    },
+    {
+      "path": "2024 - Kill Team.gst",
+      "sha256": "2104b89f49e82ec508c69e4a768ac37a27d0679e0731d99c848a3be84c92b29f",
+      "bytes": 33343,
+      "revision": "9",
+      "selectionEntries": 17,
+      "entryLinks": 1,
+      "modifiers": 0,
+      "constraints": 16,
+      "profileTypes": [
+        "Abilities",
+        "Equipment",
+        "Operative",
+        "Psychic Power",
+        "Unique Actions",
+        "Weapons"
+      ],
+      "dependencies": []
+    }
+  ]
+}
