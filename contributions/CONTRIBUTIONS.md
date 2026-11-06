@@ -66,3 +66,9 @@ Anonymous community report verified against the supplied current datasheet scree
 ## 2026-11-02 - Agents shared marine profiles
 
 Anonymous community report. Ported only the reviewed five-unit correction from data `04ccd71`, matching app source `6a99b0c5`: Deathwatch Kill Team, Aquila Kill Team, Watch Master, Corvus Blackstar and Grey Knights Terminator Squad. The 81-profile parity audit checks the approved current marine counterparts; Agents points, identity, equipment restrictions and faction rules remain independent. Existing stable Artemis correction and all other factions are preserved. Frozen current Daily puzzles, catalogues and scores are unchanged. See the app audit `docs/agents-marine-parity-20261101.md` for sources, aliases and unresolved exceptions.
+
+## 2026-11-05 — reviewed production data corrections
+
+- Anonymous community reporter: A replacement for two weapons must remove both. Release of the reviewed offWith corrections from BSData wh40k-11e; app source dbabd6be and its regression test.
+- Anonymous community reporter: Exaction Squad shows a Feel No Pain rule it does not have. Release of the correction verified against Wahapedia 11e and BSData wh40k-11e bf57faf; app source e42e5f2e. The medi-kit returns models and grants no Feel No Pain.
+- Anonymous community reporter: E-COG model profiles must use one wound. Release of the reviewed explicit W1 plasma torch and manipulator-arm profiles; app source ccf56555, already ported to production source in b9baba80.
