@@ -58,3 +58,9 @@ elsewhere. Both outcomes are contributions.
 Anonymous community report: Iron Daily displayed the older melee Strength 5 profile. The supplied current datasheet screenshot and the 11th-edition Imperial Agents reference agree on T5, melee S6, Hellfire A3, 75 points, Sustained Hits 1 and a three-wound return. Corrected those fields only; retained the Agents identity and all other units. Source correction: [354fb0f5](https://github.com/IRONBUILT-LLC/ironbuilt/commit/354fb0f5). Reference: https://wahapedia.ru/wh40k11ed/factions/imperial-agents/Watch-Captain-Artemis. No change to played Daily rounds.
 
 - 2026-11-01 — Anonymous community reporter: Agents shared Deathwatch/Grey Knights profile audit, Corvus weapons/default equipment. Reviewed source and exceptions: [app audit](https://github.com/IRONBUILT-LLC/ironbuilt/blob/6a99b0c5/docs/agents-marine-parity-20261101.md). Dev only; points, faction-specific rules and Legends preserved.
+
+## 2026-11-05 — reviewed production data corrections
+
+- Anonymous community reporter: A replacement for two weapons must remove both. Release of the reviewed offWith corrections from BSData wh40k-11e; app source dbabd6be and its regression test.
+- Anonymous community reporter: Exaction Squad shows a Feel No Pain rule it does not have. Release of the correction verified against Wahapedia 11e and BSData wh40k-11e bf57faf; app source e42e5f2e. The medi-kit returns models and grants no Feel No Pain.
+- Anonymous community reporter: E-COG model profiles must use one wound. Release of the reviewed explicit W1 plasma torch and manipulator-arm profiles; app source ccf56555, already ported to production source in b9baba80.
