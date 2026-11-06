@@ -133,10 +133,10 @@
       "game": "wh40k",
       "edition": "11e",
       "schema": 1,
-      "version": "2026.11.06-1312-28a321cd",
+      "version": "2026.11.06-1549-a1c98ed7",
       "provenance": "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@e85a5539b3c47dc99bc4b3bf220083ae734f8c9f/datasets/wh40k-11e.json",
-      "sha256": "64bd2835fe3e317c5cb20d7a5b1556b59ddc446125904a2501b88e8674323f0a",
+      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@59f509d05e8d00b2ce6da499146467afc425912c/datasets/wh40k-11e.json",
+      "sha256": "cc860c12832c6efea9fdd899b89b3eaebeca23abc55b564b4655bbc51d05d550",
       "bytes": 4963585
     },
     {
@@ -145,11 +145,11 @@
       "game": "wh40k",
       "edition": "11e",
       "schema": 1,
-      "version": "2026.11.06-1312-28a321cd",
+      "version": "2026.11.06-1549-a1c98ed7",
       "provenance": "Reviewed Warhammer Legends datasheets for 11th edition and the Crucible of Champions builder graph. Add-on to the 11th Edition dataset.",
       "extends": "wh40k-11e",
-      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@e85a5539b3c47dc99bc4b3bf220083ae734f8c9f/datasets/wh40k-11e-legends.json",
-      "sha256": "783648f13ef34b634a09b7a51415abaab83adabcfcf0e695e0255e5219f69101",
+      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@59f509d05e8d00b2ce6da499146467afc425912c/datasets/wh40k-11e-legends.json",
+      "sha256": "d2bb343acbe4f408589eae1ed0f5f4add72c0e983d289c9786eec3673bb49c4b",
       "bytes": 11812931,
       "auditUrl": "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/e85a5539b3c47dc99bc4b3bf220083ae734f8c9f/datasets/wh40k-11e-legends-audit.json"
     },
@@ -159,11 +159,11 @@
       "game": "wh40k",
       "edition": "11e",
       "schema": 1,
-      "version": "2026.11.06-1312-28a321cd",
+      "version": "2026.11.06-1549-a1c98ed7",
       "provenance": "Titan datasheets for 11th edition (Adeptus Titanicus and Titanicus Traitoris). Add-on to the 11th Edition dataset, loaded only when Titans are switched on in Settings.",
       "extends": "wh40k-11e",
-      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@e85a5539b3c47dc99bc4b3bf220083ae734f8c9f/datasets/wh40k-11e-titans.json",
-      "sha256": "0dbeaee4aa5e5ec568c2ededfaacd189c0fe165335b57c0e1c1aec50932bf901",
+      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@59f509d05e8d00b2ce6da499146467afc425912c/datasets/wh40k-11e-titans.json",
+      "sha256": "a93ccb5b5aa84859ddf20a99c239a08529fba2eef07ae8b905e0586537d0d938",
       "bytes": 55534
     },
     {
