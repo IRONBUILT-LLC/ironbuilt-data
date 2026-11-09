@@ -133,11 +133,11 @@
       "game": "wh40k",
       "edition": "11e",
       "schema": 1,
-      "version": "2026.11.06-1700-6cb9870b",
+      "version": "2026.11.09-0904-fe67b295",
       "provenance": "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@e9f7ba5cbd7d82a3b9d2e1531cbf40b319e9206a/datasets/wh40k-11e.json",
-      "sha256": "530b67801fbf6b6d67d2fd6c50171ae4583318c1c8bae25dff4896f298e62056",
-      "bytes": 4963586
+      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@fd3c86d2da20f3c9f9d44bcf840554d6d9a86c95/datasets/wh40k-11e.json",
+      "sha256": "d6b044194902fade772fe0e2c253b157c42803ef95478d9180d1ed3444ecfabf",
+      "bytes": 4963783
     },
     {
       "id": "wh40k-11e-legends",
