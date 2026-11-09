@@ -133,11 +133,11 @@
       "game": "wh40k",
       "edition": "11e",
       "schema": 1,
-      "version": "2026.11.09-0904-fe67b295",
+      "version": "2026.11.09-acts-of-faith",
       "provenance": "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@fd3c86d2da20f3c9f9d44bcf840554d6d9a86c95/datasets/wh40k-11e.json",
-      "sha256": "d6b044194902fade772fe0e2c253b157c42803ef95478d9180d1ed3444ecfabf",
-      "bytes": 4963783
+      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@5fd347c6491ea356cc9512558f5c905ee5efc439/datasets/wh40k-11e.json",
+      "sha256": "7350c3a5d9d224022485815bcc45516efc9b44829939559c3724d12f17dcc102",
+      "bytes": 4963775
     },
     {
       "id": "wh40k-11e-legends",
