@@ -146,11 +146,11 @@
       "game": "wh40k",
       "edition": "11e",
       "schema": 1,
-      "version": "2026.11.10-legends-review",
+      "version": "2026.11.10-legends-leaders",
       "provenance": "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@fb7b1c3870dc5dd568e075e09ca29db2a025bf02/datasets/wh40k-11e.json",
-      "sha256": "f375f29efdb247a557467e84fd1fb2bac398f3c86c0ca5d7fa054b21bde03ec8",
-      "bytes": 4966500
+      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@fe3b609f2bbc819d11005a7fa1f53f31e9c68787/datasets/wh40k-11e.json",
+      "sha256": "832a7f22983a9b16ca534d768d09f39d563cc49f96abd4486befdf32d08f30a8",
+      "bytes": 4966699
     },
     {
       "id": "wh40k-11e-legends",
@@ -164,7 +164,7 @@
       "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@fb7b1c3870dc5dd568e075e09ca29db2a025bf02/datasets/wh40k-11e-legends.json",
       "sha256": "83586219e3413477c2451246f4570c7ffb475b37c509c880c3d0edddc681fa25",
       "bytes": 11838069,
-      "auditUrl": "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/d936ee85737bf743018fcc944f4000454787078a/datasets/wh40k-11e-legends-audit.json"
+      "auditUrl": "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/166b04d1e9fe2a210298737d618d93c09450d4b1/datasets/wh40k-11e-legends-audit.json"
     },
     {
       "id": "wh40k-11e-titans",
