@@ -158,13 +158,13 @@
       "game": "wh40k",
       "edition": "11e",
       "schema": 1,
-      "version": "2026.11.10-legends-abilities-complete",
+      "version": "2026.11.10-legends-completion",
       "provenance": "Reviewed Warhammer Legends datasheets for 11th edition and the Crucible of Champions builder graph. Add-on to the 11th Edition dataset.",
       "extends": "wh40k-11e",
-      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@e410b321ea25b5e3748c57a10a54a4dfdb043291/datasets/wh40k-11e-legends.json",
-      "sha256": "dbefaa3f2a48e11b192c672b16c821bdfa98f2809a70830f2cc2203bc9bc5873",
-      "bytes": 11837209,
-      "auditUrl": "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/e410b321ea25b5e3748c57a10a54a4dfdb043291/datasets/wh40k-11e-legends-audit.json"
+      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@16de9477327bd949f25771860dc34f5233f192eb/datasets/wh40k-11e-legends.json",
+      "sha256": "eac673c2ec6bec2f74c86492899eb5e464d74a7e1f94d4a7d7212cb0c9b20db6",
+      "bytes": 11837265,
+      "auditUrl": "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/16de9477327bd949f25771860dc34f5233f192eb/datasets/wh40k-11e-legends-audit.json"
     },
     {
       "id": "wh40k-11e-titans",
