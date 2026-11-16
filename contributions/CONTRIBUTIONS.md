@@ -64,3 +64,5 @@ Anonymous community report: Iron Daily displayed the older melee Strength 5 prof
 - Anonymous community reporter: A replacement for two weapons must remove both. Release of the reviewed offWith corrections from BSData wh40k-11e; app source dbabd6be and its regression test.
 - Anonymous community reporter: Exaction Squad shows a Feel No Pain rule it does not have. Release of the correction verified against Wahapedia 11e and BSData wh40k-11e bf57faf; app source e42e5f2e. The medi-kit returns models and grants no Feel No Pain.
 - Anonymous community reporter: E-COG model profiles must use one wound. Release of the reviewed explicit W1 plasma torch and manipulator-arm profiles; app source ccf56555, already ported to production source in b9baba80.
+
+- 2026-11-16 — Anonymous community report: Monstrous Nemesis enhancement markup joined Monster/or and Vehicle/unit. Restored the two spaces in maintained 10e/11e source and bundles; no rule or points change. Source correction: IRONBUILT app a4a06d42.
