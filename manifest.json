@@ -38,7 +38,7 @@
     },
     {
       "id": "wh40k-11e-mfm15",
-      "name": "Warhammer 40,000 - 11th Edition · MFM v1.5 (30 Sep 2026)",
+      "name": "Warhammer 40,000 - 11th Edition Â· MFM v1.5 (30 Sep 2026)",
       "game": "wh40k",
       "edition": "11e",
       "schema": 1,
@@ -50,7 +50,7 @@
     },
     {
       "id": "wh40k-11e-mfm14",
-      "name": "Warhammer 40,000 - 11th Edition · Early Sept MFM",
+      "name": "Warhammer 40,000 - 11th Edition Â· Early Sept MFM",
       "game": "wh40k",
       "edition": "11e",
       "schema": 1,
@@ -62,7 +62,7 @@
     },
     {
       "id": "wh40k-11e-mfm13",
-      "name": "Warhammer 40,000 - 11th Edition · Aug 26 MFM",
+      "name": "Warhammer 40,000 - 11th Edition Â· Aug 26 MFM",
       "game": "wh40k",
       "edition": "11e",
       "schema": 1,
@@ -146,11 +146,11 @@
       "game": "wh40k",
       "edition": "11e",
       "schema": 1,
-      "version": "2026.11.16-nemesis-a4a06d42",
+      "version": "2026.11.15-2231-bb4b1a3a",
       "provenance": "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-      "url": "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/1877ebc202e454386dcd7c3079c951951613c846/datasets/wh40k-11e.json",
-      "sha256": "9a631e92a07bf1cb93bb9bea240b938597aacaa510c43c14fe63cfa6b503f9e4",
-      "bytes": 4966774
+      "url": "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/0f0ec4012c9380bd795832f9e14d2d66f03975b8/datasets/wh40k-11e.json",
+      "sha256": "f1fe64e3406f4a2e09b401e0b2819c29dae88fce097dc90e2fffd6f8a3ea0035",
+      "bytes": 4966860
     },
     {
       "id": "wh40k-11e-legends",
