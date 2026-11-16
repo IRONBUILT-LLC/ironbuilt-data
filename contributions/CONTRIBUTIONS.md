@@ -72,3 +72,5 @@ Anonymous community report. Ported only the reviewed five-unit correction from d
 - Anonymous community reporter: A replacement for two weapons must remove both. Release of the reviewed offWith corrections from BSData wh40k-11e; app source dbabd6be and its regression test.
 - Anonymous community reporter: Exaction Squad shows a Feel No Pain rule it does not have. Release of the correction verified against Wahapedia 11e and BSData wh40k-11e bf57faf; app source e42e5f2e. The medi-kit returns models and grants no Feel No Pain.
 - Anonymous community reporter: E-COG model profiles must use one wound. Release of the reviewed explicit W1 plasma torch and manipulator-arm profiles; app source ccf56555, already ported to production source in b9baba80.
+
+- 2026-11-16 - Anonymous community reports: release reviewed Tarantula 1-3 models/30 points each/BS3+, Goremonger dual pistols, Hearthfyre eligibility and Wazdakka/Vanguard bases; restore Monstrous Nemesis word spaces without changing its rule. App source and scoped release evidence: bb4b1a3a, docs/releases/2026-11-16-normal.md.
