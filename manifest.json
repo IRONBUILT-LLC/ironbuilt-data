@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "name": "IRONBUILT community datasets",
-  "updated": "2026-11-14",
+  "updated": "2026-11-16",
   "datasets": [
     {
       "id": "gdf-2025",
@@ -78,11 +78,11 @@
       "game": "wh40k",
       "edition": "10e",
       "schema": 1,
-      "version": "2026.10.07-1155-a16e3341",
+      "version": "2026.11.16-nemesis-a4a06d42",
       "provenance": "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-      "url": "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@20289739a20919ef670344c85f07f646109e1262/datasets/wh40k-10e.json",
-      "sha256": "218e1d97decce433741f659b62985b42bd324d0b8db980cf6335f943e794d464",
-      "bytes": 3828034
+      "url": "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/1877ebc202e454386dcd7c3079c951951613c846/datasets/wh40k-10e.json",
+      "sha256": "a83df56538d6fb3d6023f1859e815317a54334bcb1662c50132c2f2c7c3fb39c",
+      "bytes": 3708892
     },
     {
       "id": "trench-crusade-living",
@@ -146,11 +146,11 @@
       "game": "wh40k",
       "edition": "11e",
       "schema": 1,
-      "version": "2026.11.14-1123-20fda0e9",
+      "version": "2026.11.16-nemesis-a4a06d42",
       "provenance": "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-      "url": "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/6e40867e8720034ddcb929789dc879c6b2c9ad5d/datasets/wh40k-11e.json",
-      "sha256": "ad6aab943b387b2f4ab7b301076ca643f47ca6f2b1b5e3b0e506525847d9830e",
-      "bytes": 4966766
+      "url": "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/1877ebc202e454386dcd7c3079c951951613c846/datasets/wh40k-11e.json",
+      "sha256": "9a631e92a07bf1cb93bb9bea240b938597aacaa510c43c14fe63cfa6b503f9e4",
+      "bytes": 4966774
     },
     {
       "id": "wh40k-11e-legends",
