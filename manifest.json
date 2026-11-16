@@ -128,7 +128,7 @@
       "name": "Warhammer 40,000 - 11th Edition - Mathhammer context",
       "game": "wh40k",
       "edition": "11e",
-      "version": "2026.11.12-1613-a305b546",
+      "version": "2026.11.15-2231-bb4b1a3a",
       "provenance": "Mathhammer context table for IronTable: the detachment rules, army rules, auras, stratagem and enhancement effects IRONBUILT Mathhammer offers, as data. Not a game dataset; IRONBUILT does not offer or install it. Rules names and text are the intellectual property of Games Workshop; unofficial and not endorsed by Games Workshop.",
       "hidden": true,
       "extends": "wh40k-11e",
