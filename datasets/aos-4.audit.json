@@ -1,6 +1,6 @@
 {
   "id": "aos-4",
-  "version": "2026.11.02-6909c140",
+  "version": "2026.11.17-6909c140-oct28",
   "sourceRevision": "6909c1401ee52c63b5187a7c2d00fb34190479bd",
   "armies": [
     "Beasts of Chaos [LEGENDS]",
@@ -103,10 +103,126 @@
     "Sylvaneth - The Evergreen Hunt"
   ],
   "files": 135,
-  "bytes": 28059960,
-  "sha256": "7cf950d5a203430574ecd54b64c7547adc09e4c7a65e07e33c234938235980d6",
+  "bytes": 28073030,
+  "sha256": "422868570826ae3059b23531fb435c8ad672b78ea91841efc03d0fde9f44e580",
   "gzip": {
-    "bytes": 2417419,
-    "sha256": "c8659111d2125c5078120086c4afec9a8d7c150a8158cc74a6b60e06667b4ff4"
-  }
+    "bytes": 2419145,
+    "sha256": "0a8c986b90ae70dbc397f6d60153ebd5826e9d03a20a5b5d159d5e20aaa21868"
+  },
+  "officialCorrections": {
+    "id": "aos-october-2026",
+    "date": "2026-10-28",
+    "checked": "2026-11-17",
+    "specSha256": "6c8bd50ebec27c0a80c31ee9b472d2a4fb57b2b7a8b93698c31611234243bad8",
+    "sources": {
+      "profiles": {
+        "url": "https://assets.warhammer-community.com/eng_28-10_aos_core_rules_and_key_downloads_battle_profiles-vg9lopzmfl-isgqhhvp10.pdf",
+        "published": "2026-10-28",
+        "sha256": "04211671fa23be5467277f90fbafb39a67b9c5b56e2f4a118ff3d46003ce0b67",
+        "bytes": 962660
+      },
+      "rules": {
+        "url": "https://assets.warhammer-community.com/eng_28-10_aos_core_rules_and_key_downloads_rules_updates-aghvsvstmk-u8wyh173fe.pdf",
+        "published": "2026-10-28",
+        "sha256": "3c422789b278cc4fbfe60ab46a0f92e4ce055501a71c34c298e3f0b6cc5ccfbe",
+        "bytes": 14954630
+      }
+    },
+    "limitations": [
+      "Khazalite Holds battletome and Lofnir conversion are not represented by this Fyreslayers faction-pack dataset. Rules Updates page 26 explicitly exempts Faction Pack: Fyreslayers from those conversions.",
+      "Full independent warscroll/FAQ reconciliation, Path to Glory, combat tools and unsupported weighted local conditions remain outside this correction."
+    ]
+  },
+  "changes": [
+    {
+      "reason": "Standard Khainite Shadowstalkers: 100 to 130 points; Scourge variant remains 120.",
+      "source": "profiles",
+      "page": 8,
+      "edits": 3
+    },
+    {
+      "reason": "Standard Verminlord Corruptor: 310 to 260 points; Scourge variant remains 290.",
+      "source": "profiles",
+      "page": 36,
+      "edits": 1
+    },
+    {
+      "reason": "General's Handbook 2026-27 is the published current matched-play pack, not a preview; retain older pack choices.",
+      "source": "profiles",
+      "page": 4,
+      "edits": 1
+    },
+    {
+      "reason": "Pyrofane Cult duplicate current-library entries: Curseling 150 to 170; Gaunt Summoner on Disc 230 to 190; Magister 110 to 140; Magister on Disc 130 to 150; Ogroid Thaumaturge 130 to 120.",
+      "source": "profiles",
+      "page": 28,
+      "edits": 5
+    },
+    {
+      "reason": "Roving Maw duplicate current-library heroes: Butcher 150 to 170; Slaughtermaster 150 to 160; Tyrant 130 to 150.",
+      "source": "profiles",
+      "page": 55,
+      "edits": 3
+    },
+    {
+      "reason": "Ironsunz Legends duplicate current-library Tyrant: 130 to 150; the army remains Legends.",
+      "source": "profiles",
+      "page": 55,
+      "edits": 1
+    },
+    {
+      "reason": "Roving Maw duplicate current-library units: Gluttons 220 to 210; Ironblaster 160 to 180; Ironguts 210 to 200; Leadbelchers 120 to 140.",
+      "source": "profiles",
+      "page": 56,
+      "edits": 4
+    },
+    {
+      "reason": "Pyregheists: champion allowance is one per eight models.",
+      "source": "rules",
+      "page": 59,
+      "edits": 2
+    },
+    {
+      "reason": "The Twistweald: champion allowance is one per eight models.",
+      "source": "rules",
+      "page": 75,
+      "edits": 2
+    },
+    {
+      "reason": "Frostlord on Thundertusk (Scourge of Aqshy): Beastclaw keyword.",
+      "source": "rules",
+      "page": 33,
+      "edits": 2
+    },
+    {
+      "reason": "Huskard on Thundertusk (Scourge of Aqshy): Beastclaw keyword.",
+      "source": "rules",
+      "page": 33,
+      "edits": 2
+    },
+    {
+      "reason": "Eat 'Em Alive: attacking a manifestation alone does not qualify.",
+      "source": "rules",
+      "page": 61,
+      "edits": 1
+    },
+    {
+      "reason": "Feed the Maw: attacks directed at the occupying Head Butcher target the Mawpit.",
+      "source": "rules",
+      "page": 61,
+      "edits": 1
+    },
+    {
+      "reason": "Matriarch's Mob and Stomper Tribe: Mancrusher-led regiments allow Little units.",
+      "source": "rules",
+      "page": 72,
+      "edits": 11
+    }
+  ],
+  "alreadyCorrect": [
+    {
+      "page": 56,
+      "subject": "Ydrilan Riverblades already have CHAMPION (1/10)."
+    }
+  ]
 }
