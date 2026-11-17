@@ -1,7 +1,7 @@
 {
     "schema":  1,
     "name":  "IRONBUILT community datasets",
-    "updated":  "2026-11-16",
+    "updated":  "2026-11-17",
     "datasets":  [
                      {
                          "id":  "gdf-2025",
@@ -100,9 +100,9 @@
                      },
                      {
                          "id":  "aos-4",
-                         "version":  "2026.11.02-6909c140",
-                         "bytes":  2417419,
-                         "sha256":  "c8659111d2125c5078120086c4afec9a8d7c150a8158cc74a6b60e06667b4ff4",
+                         "version":  "2026.11.17-6909c140-oct28",
+                         "bytes":  2419145,
+                         "sha256":  "0a8c986b90ae70dbc397f6d60153ebd5826e9d03a20a5b5d159d5e20aaa21868",
                          "encoding":  "gzip",
                          "name":  "Age of Sigmar",
                          "game":  "aos",
@@ -110,8 +110,8 @@
                          "schema":  1,
                          "kind":  "catalogue-system",
                          "devOnly":  true,
-                         "provenance":  "Unofficial community-derived Warhammer Age of Sigmar (4th edition) data. 98 armies with regiments, auxiliaries, Regiments of Renown and General\u0027s Handbook battle packs. Army builder only; play tools are not supported.",
-                         "url":  "https://cdn.jsdelivr.net/gh/IRONBUILT-LLC/ironbuilt-data@73861a64d19b39ff672d2e989021e7c7bd6a2189/datasets/aos-4.json.gz"
+                         "provenance":  "Unofficial community-derived Warhammer Age of Sigmar (4th edition) data. 98 armies with regiments, auxiliaries, Regiments of Renown and General's Handbook battle packs. Army builder only; play tools are not supported. Official October 28, 2026 profiles and selected errata reconciled; Fyreslayers faction pack retained, Khazalite Holds and some White Dwarf additions not implemented.",
+                         "url":  "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/f4ae5f2943341a79475933f7955bdd928a414b9c/datasets/aos-4.json.gz"
                      },
                      {
                          "id":  "killteam-2024",

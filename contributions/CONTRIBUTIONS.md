@@ -66,3 +66,7 @@ Anonymous community report: Iron Daily displayed the older melee Strength 5 prof
 - Anonymous community reporter: E-COG model profiles must use one wound. Release of the reviewed explicit W1 plasma torch and manipulator-arm profiles; app source ccf56555, already ported to production source in b9baba80.
 
 - 2026-11-16 — Anonymous community report: Monstrous Nemesis enhancement markup joined Monster/or and Vehicle/unit. Restored the two spaces in maintained 10e/11e source and bundles; no rule or points change. Source correction: IRONBUILT app a4a06d42.
+
+## 2026-11-17 - Age of Sigmar October reconciliation (Dev only)
+
+Anonymous community request: align existing AoS builder data with the official October 28, 2026 Battle Profiles and Rules Updates. Corrected 17 point entries across 14 unit types, selected champion/keyword/Ogor references, current Handbook labelling, and Mancrusher-led regiments for Matriarch's Mob/Stomper Tribe. [Data correction f4ae5f2](https://github.com/IRONBUILT-LLC/ironbuilt-data/commit/f4ae5f2943341a79475933f7955bdd928a414b9c); exact official URLs, hashes, pages and limits are in `datasets/aos-4.audit.json`. The pinned BSData baseline remains 6909c140; this is an explicit official-source overlay. Khazalite Holds, absent White Dwarf additions, full legality and play tools are not claimed. Production unchanged.
