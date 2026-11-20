@@ -100,9 +100,9 @@
                      },
                      {
                          "id":  "aos-4",
-                         "version":  "2026.11.20-6909c140-nov18",
-                         "bytes":  2421500,
-                         "sha256":  "6f1517d508633832c2a5fe385ef3a307e0c896f668894f0661572a5ce84bb202",
+                         "version":  "2026.11.20-6909c140-nov18-audit1",
+                         "bytes":  2425433,
+                         "sha256":  "97e653a64aaff474e36fb6e6f40352d977e0022dcf3cffdd43dbf33d50d1c230",
                          "encoding":  "gzip",
                          "name":  "Age of Sigmar",
                          "game":  "aos",
@@ -110,8 +110,8 @@
                          "schema":  1,
                          "kind":  "catalogue-system",
                          "devOnly":  true,
-                         "provenance":  "Unofficial community-derived Age of Sigmar 4th edition. Uses the preserved 98-catalogue source with selected official November 18, 2026 general matched-play changes. Khazalite Holds profiles are available as a reference. Full Khazalite roster building, missing White Dwarf options and play tools are outside this catalogue.",
-                         "url":  "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/28edb3aa30b5623c2aba8ccf4a8dc188842f1f18/datasets/aos-4.json.gz"
+                         "provenance":  "Unofficial community-derived Age of Sigmar 4th edition. Uses the preserved 98-catalogue source with selected official November 18, 2026 general matched-play changes. Khazalite Holds profiles are available as a reference. Adds scoped White Dwarf and Path to Glory reference records. Native Khazalite roster building and campaign progression remain outside this catalogue.",
+                         "url":  "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/fa98a5bb05eb4776f3abd8d3d280574c1a49a321/datasets/aos-4.json.gz"
                      },
                      {
                          "id":  "killteam-2024",
