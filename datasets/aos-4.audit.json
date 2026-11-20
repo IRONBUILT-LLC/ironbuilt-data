@@ -1,7 +1,8 @@
 {
   "id": "aos-4",
-  "version": "2026.11.17-6909c140-oct28",
+  "version": "2026.11.20-6909c140-nov18",
   "sourceRevision": "6909c1401ee52c63b5187a7c2d00fb34190479bd",
+  "documents": 135,
   "armies": [
     "Beasts of Chaos [LEGENDS]",
     "Blades of Khorne",
@@ -102,12 +103,11 @@
     "Sylvaneth - Soulpod Guardians",
     "Sylvaneth - The Evergreen Hunt"
   ],
-  "files": 135,
-  "bytes": 28073030,
-  "sha256": "422868570826ae3059b23531fb435c8ad672b78ea91841efc03d0fde9f44e580",
+  "bytes": 28084569,
+  "sha256": "d515fbd1919d442b8ebd9b93228da4436cd6a7fe2d48f9b475701e6f1cc07532",
   "gzip": {
-    "bytes": 2419145,
-    "sha256": "0a8c986b90ae70dbc397f6d60153ebd5826e9d03a20a5b5d159d5e20aaa21868"
+    "bytes": 2421500,
+    "sha256": "6f1517d508633832c2a5fe385ef3a307e0c896f668894f0661572a5ce84bb202"
   },
   "officialCorrections": {
     "id": "aos-october-2026",
@@ -131,98 +131,55 @@
     "limitations": [
       "Khazalite Holds battletome and Lofnir conversion are not represented by this Fyreslayers faction-pack dataset. Rules Updates page 26 explicitly exempts Faction Pack: Fyreslayers from those conversions.",
       "Full independent warscroll/FAQ reconciliation, Path to Glory, combat tools and unsupported weighted local conditions remain outside this correction."
-    ]
-  },
-  "changes": [
-    {
-      "reason": "Standard Khainite Shadowstalkers: 100 to 130 points; Scourge variant remains 120.",
-      "source": "profiles",
-      "page": 8,
-      "edits": 3
-    },
-    {
-      "reason": "Standard Verminlord Corruptor: 310 to 260 points; Scourge variant remains 290.",
-      "source": "profiles",
-      "page": 36,
-      "edits": 1
-    },
-    {
-      "reason": "General's Handbook 2026-27 is the published current matched-play pack, not a preview; retain older pack choices.",
-      "source": "profiles",
-      "page": 4,
-      "edits": 1
-    },
-    {
-      "reason": "Pyrofane Cult duplicate current-library entries: Curseling 150 to 170; Gaunt Summoner on Disc 230 to 190; Magister 110 to 140; Magister on Disc 130 to 150; Ogroid Thaumaturge 130 to 120.",
-      "source": "profiles",
-      "page": 28,
-      "edits": 5
-    },
-    {
-      "reason": "Roving Maw duplicate current-library heroes: Butcher 150 to 170; Slaughtermaster 150 to 160; Tyrant 130 to 150.",
-      "source": "profiles",
-      "page": 55,
-      "edits": 3
-    },
-    {
-      "reason": "Ironsunz Legends duplicate current-library Tyrant: 130 to 150; the army remains Legends.",
-      "source": "profiles",
-      "page": 55,
-      "edits": 1
-    },
-    {
-      "reason": "Roving Maw duplicate current-library units: Gluttons 220 to 210; Ironblaster 160 to 180; Ironguts 210 to 200; Leadbelchers 120 to 140.",
-      "source": "profiles",
-      "page": 56,
-      "edits": 4
-    },
-    {
-      "reason": "Pyregheists: champion allowance is one per eight models.",
-      "source": "rules",
-      "page": 59,
-      "edits": 2
-    },
-    {
-      "reason": "The Twistweald: champion allowance is one per eight models.",
-      "source": "rules",
-      "page": 75,
-      "edits": 2
-    },
-    {
-      "reason": "Frostlord on Thundertusk (Scourge of Aqshy): Beastclaw keyword.",
-      "source": "rules",
-      "page": 33,
-      "edits": 2
-    },
-    {
-      "reason": "Huskard on Thundertusk (Scourge of Aqshy): Beastclaw keyword.",
-      "source": "rules",
-      "page": 33,
-      "edits": 2
-    },
-    {
-      "reason": "Eat 'Em Alive: attacking a manifestation alone does not qualify.",
-      "source": "rules",
-      "page": 61,
-      "edits": 1
-    },
-    {
-      "reason": "Feed the Maw: attacks directed at the occupying Head Butcher target the Mawpit.",
-      "source": "rules",
-      "page": 61,
-      "edits": 1
-    },
-    {
-      "reason": "Matriarch's Mob and Stomper Tribe: Mancrusher-led regiments allow Little units.",
-      "source": "rules",
-      "page": 72,
-      "edits": 11
+    ],
+    "latest": {
+      "date": "2026-11-18",
+      "sources": {
+        "profiles": {
+          "url": "https://assets.warhammer-community.com/eng_18-11_aos_core%26key_battle_profiles-zkklb3imsv-mdlgxppjam.pdf",
+          "sha256": "9665dfb25e893ea49706ecf5670e037f8c5836445b6fe8a97ec4c4bc6945a469"
+        },
+        "rules": {
+          "url": "https://assets.warhammer-community.com/eng_18-11_aos_core%26key_rules_updates-rpedzeoxhy-dfkljutao4.pdf",
+          "sha256": "d78cb5c2bf1bdbd72a04804f3f7872bdf3a307a910ee1b0e51bea93ba9673fda"
+        }
+      },
+      "scope": "General rules only. Gotrek Regiment of Renown cost and four Lance of Ossia effects executable. Khazalite Holds battle profiles reference only; missing warscrolls and full regiment validation are not inferred. Barcelona event rules excluded.",
+      "forceEntries": {
+        "87fd-66c5-ec8c-557b": {
+          "file": "Regiments of Renown.cat",
+          "entry": "f7b9-8b8f-b47e-7c9e",
+          "factions": [
+            "42ad-8ca7-4b48-7df1",
+            "5201-f4ef-5e24-cbd1",
+            "6f76-e1bd-5241-3f4e",
+            "5232-3bab-5562-3172",
+            "7dbe-5372-591a-6c7e",
+            "205-60d5-d221-d158",
+            "b104-3deb-fd22-9998",
+            "40a4-1c1c-8a00-bb65",
+            "e821-9778-03c4-66c6",
+            "0473-cd8f-7161-ac72",
+            "1100-a22f-15c6-bdea",
+            "b4bd-d94d-281f-afef",
+            "28bf-c667-bb7e-770e",
+            "e441-1f62-6bdb-7dc1",
+            "efc5-b8d-894c-67c6",
+            "a0dd-008d-3908-dbe2",
+            "cd36-4c06-7576-9025",
+            "4e3-e1a7-a8d4-8719",
+            "1bd9-ad7d-68ee-3b53",
+            "874b-f2c3-6829-7c1c",
+            "4631-7997-6da0-7a32",
+            "c9d1-f1c0-84d1-a75d",
+            "bb7e-b0da-5c2-a980",
+            "7c15-bf52-be12-a4db",
+            "b0b9-ece2-dec7-9e78",
+            "b3cb-53fb-b710-87f5"
+          ],
+          "points": 270
+        }
+      }
     }
-  ],
-  "alreadyCorrect": [
-    {
-      "page": 56,
-      "subject": "Ydrilan Riverblades already have CHAMPION (1/10)."
-    }
-  ]
+  }
 }
