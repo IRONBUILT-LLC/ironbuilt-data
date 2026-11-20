@@ -1,6 +1,6 @@
 {
   "id": "aos-4",
-  "version": "2026.11.20-6909c140-nov18",
+  "version": "2026.11.20-6909c140-nov18-audit1",
   "sourceRevision": "6909c1401ee52c63b5187a7c2d00fb34190479bd",
   "documents": 135,
   "armies": [
@@ -103,11 +103,11 @@
     "Sylvaneth - Soulpod Guardians",
     "Sylvaneth - The Evergreen Hunt"
   ],
-  "bytes": 28084569,
-  "sha256": "d515fbd1919d442b8ebd9b93228da4436cd6a7fe2d48f9b475701e6f1cc07532",
+  "bytes": 28100885,
+  "sha256": "d9dfad852d8280aa8e53acf342c39530ae345ddd7402c996099444242d5c9164",
   "gzip": {
-    "bytes": 2421500,
-    "sha256": "6f1517d508633832c2a5fe385ef3a307e0c896f668894f0661572a5ce84bb202"
+    "bytes": 2425433,
+    "sha256": "97e653a64aaff474e36fb6e6f40352d977e0022dcf3cffdd43dbf33d50d1c230"
   },
   "officialCorrections": {
     "id": "aos-october-2026",
