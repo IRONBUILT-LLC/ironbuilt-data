@@ -74,3 +74,9 @@ Anonymous community report. Ported only the reviewed five-unit correction from d
 - Anonymous community reporter: E-COG model profiles must use one wound. Release of the reviewed explicit W1 plasma torch and manipulator-arm profiles; app source ccf56555, already ported to production source in b9baba80.
 
 - 2026-11-16 - Anonymous community reports: release reviewed Tarantula 1-3 models/30 points each/BS3+, Goremonger dual pistols, Hearthfyre eligibility and Wazdakka/Vanguard bases; restore Monstrous Nemesis word spaces without changing its rule. App source and scoped release evidence: bb4b1a3a, docs/releases/2026-11-16-normal.md.
+
+
+## 2026-11-21 selective stable release
+
+- Anonymous community reports and the reviewed MFM v1.6 audit: Space Marine Leader/Support target descriptions now match the current official MFM, including Techmarine exclusions and preserved Cato/Calgar conditions. Only reviewed descriptions changed; core roles, stats, points and other feeds are unchanged. Evidence: [official MFM](https://mfm.warhammer-community.com/en/space-marines), app review commits `bf3bf178` and `8e41daa2`, including chapter-specific source records.
+- Anonymous community report: Tempered in Battle in Tacticus Firestorm Force remains a TACTICUS model enhancement rather than a unit Upgrade. Its text, cost and eligibility are unchanged; only the incorrect Upgrade flag is removed. Reviewed app change `4f403141`; the superseded Tactical/Devastator carry-forward edits from that commit are excluded.
