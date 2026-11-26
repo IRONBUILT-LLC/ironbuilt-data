@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "name": "IRONBUILT community datasets",
-  "updated": "2026-11-21",
+  "updated": "2026-11-26",
   "datasets": [
     {
       "id": "gdf-2025",
@@ -90,11 +90,11 @@
       "game": "wh40k",
       "edition": "11e",
       "schema": 1,
-      "version": "2026.11.24-stable-iro104-106",
+      "version": "2026.11.26-stable-iro132",
       "provenance": "Community-derived dataset, compiled and quality-checked by the community and provided for personal use. Warhammer 40,000 and all unit/faction names, rules, and points values are the intellectual property of Games Workshop. This is an unofficial, fan-made compilation - not affiliated with, licensed by, or endorsed by Games Workshop.",
-      "url": "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/3999077c4e0808dd7170ce9625849edb796eb8a7/datasets/wh40k-11e.json",
-      "sha256": "19235831c8551cb928e541eb288c5adba8b58404bddb26eac14df8ee97cef033",
-      "bytes": 4964236
+      "url": "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/a249be181dd714e4ab3082695e727df3eae3a318/datasets/wh40k-11e.json",
+      "sha256": "2d801b26e94665d535e935cc99d15f01603888e00af563902fbf862654430dd1",
+      "bytes": 4964490
     },
     {
       "id": "wh40k-11e-legends",
@@ -102,13 +102,13 @@
       "game": "wh40k",
       "edition": "11e",
       "schema": 1,
-      "version": "2026.11.23-stable-wulfen-tinboy",
+      "version": "2026.11.26-stable-squigmobile",
       "provenance": "Reviewed Warhammer Legends datasheets for 11th edition and the Crucible of Champions builder graph. Add-on to the 11th Edition dataset.",
       "extends": "wh40k-11e",
-      "url": "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/56466c49207791fe05e1a4d633425fbfbd5ec56a/datasets/wh40k-11e-legends.json",
-      "sha256": "789f8a70cb7411ad774b69247a08af0ebde072390d1cc2df427d5abc49838ce4",
-      "bytes": 11884166,
-      "auditUrl": "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/56466c49207791fe05e1a4d633425fbfbd5ec56a/datasets/wh40k-11e-legends-audit.json"
+      "url": "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/a249be181dd714e4ab3082695e727df3eae3a318/datasets/wh40k-11e-legends.json",
+      "sha256": "22b876993eed1c8d56857cc476bcda5fb4c814b7aa07b26e6423d993f07f702d",
+      "bytes": 11886526,
+      "auditUrl": "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/a249be181dd714e4ab3082695e727df3eae3a318/datasets/wh40k-11e-legends-audit.json"
     },
     {
       "id": "wh40k-11e-titans",
