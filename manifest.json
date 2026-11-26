@@ -108,7 +108,7 @@
       "url": "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/a249be181dd714e4ab3082695e727df3eae3a318/datasets/wh40k-11e-legends.json",
       "sha256": "22b876993eed1c8d56857cc476bcda5fb4c814b7aa07b26e6423d993f07f702d",
       "bytes": 11886526,
-      "auditUrl": "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/a249be181dd714e4ab3082695e727df3eae3a318/datasets/wh40k-11e-legends-audit.json"
+      "auditUrl": "https://raw.githubusercontent.com/IRONBUILT-LLC/ironbuilt-data/aefbc4ea0a647010c132732573c186e34a5fc40c/datasets/wh40k-11e-legends-audit.json"
     },
     {
       "id": "wh40k-11e-titans",
